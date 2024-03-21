@@ -11,17 +11,19 @@ Description:
 
 
 
-## I. Installation
+
+
+## I. Getting Started
 ...
 
-## II. Getting Started
+## II. Features at a Glance
 ...
 
-## III. Features at a Glance
+## III. Contribution Guidelines
 ...
 
-## IV. Contribution Guidelines
+## IV. Acknowledgements
 ...
 
-## III. Acknowledgements
+## V. License
 ...
