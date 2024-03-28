@@ -1,10 +1,17 @@
-# Project-1
+# TimeCapsule: Unveiling Your Birthday Wonders
 
-Description:
+## Description
+-The goal of this app is to be fun and functional
+-We built this app to display facts about the birthday or year of the user
+-lol what problem did this solve
+
+
+-
 ...
 
 > ### Requirements:
 > In order to run this app properly, you'll need the following:
+the internet
 
 ---
 ## Table of Contents
