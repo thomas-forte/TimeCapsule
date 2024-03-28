@@ -8,3 +8,11 @@ GET /:1991/:june/:19
   "startDate": "(first day on chart, in UTC)",
   "endDate": "(last day on chart, in UTC)"
 }
+
+function dynamicColors() { // Returns a date-based color scheme
+  element.style.color = "";
+}
+//function changeColor() {
+  //var gfg = document.getElementById("gfg");
+ //gfg.style.color = "green";
+//}
