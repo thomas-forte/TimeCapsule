@@ -16,7 +16,7 @@
 
 
 ## Possible APIS
--https://github.com/jaydenwindle/billboard100api
+-https://github.com/jaydenwindle/billboard100api --- not active, try this instead https://www.discogs.com/developers
 -https://api.wikimedia.org/wiki/Feed_API/Reference/On_this_day
 
 
@@ -31,6 +31,11 @@
 -HMTL: Brendan
 -CSS-BULMA: Brendan
 -JAVASCRIPT: Tess/Rachel
+    -fetch function -- Tess/Rachel
+    -dynamically created cards -- Avery
+    -event listener for the modal
+    ****-event listener on the drop down choices (we recently did a thing like this...)
+        ****---or we can pull from all of them and only show the ones chosen
 -README: Avery/Tess 
 
 
