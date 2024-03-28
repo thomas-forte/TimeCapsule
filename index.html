@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=..."
-      rel="stylesheet"
-    />
+      rel="stylesheet">
     <!-- Font Awesome Icons -->
     <script 
         src="https://kit.fontawesome.com/64e53fb2c3.js" 
@@ -30,13 +28,63 @@
     <script
         src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
         integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
-        crossorigin="anonymous"
-    ></script>
+        crossorigin="anonymous">
+    </script>
+    <!-- Bulma -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 
 <body>
-    
+    <header>
+        <section class="hero">
+            <div class="hero-body">
+              <p class="title">TimeCapsule:</p>
+              <p class="subtitle">Unveiling your birthday wonders!</p>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Button -->
+        <button class="button">Choose a date!</button>
+        <!-- Modal -->
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <p>
+                    <strong>Select a date!</strong>
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+        <!-- Dropdown -->
+        <div class="dropdown">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                <span>Pick a category!</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-item"> Movies </a>
+                <a href="#" class="dropdown-item"> Music </a>
+                <a href="#" class="dropdown-item"> News </a>
+                <hr class="dropdown-divider" />
+                <a href="#" class="dropdown-item"> All </a>
+              </div>
+            </div>
+          </div>
+    </main>
+
+
     <script src="script.js"></script>
 </body>
 </html>
