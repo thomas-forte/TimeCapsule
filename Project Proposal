@@ -16,7 +16,7 @@
 
 
 ## Possible APIS
--https://github.com/jaydenwindle/billboard100api --- not active, try this instead https://www.discogs.com/developers
+-https://github.com/jaydenwindle/billboard100api --- not active, try this instead https://developer.apple.com/documentation/applemusicapi/get_catalog_charts 
 -https://api.wikimedia.org/wiki/Feed_API/Reference/On_this_day
 
 
