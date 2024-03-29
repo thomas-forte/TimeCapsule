@@ -1,14 +1,25 @@
+const cardContainer = document.getElementById('#card-container')
+// let Movie = {
+//     title: ,
+//     description:
+// }
+//     let Book = {
+//     title: ,
+//     description:
+// }
+//     let News = 
+//     
 
 // Get the #1 song for a given day
-GET /:1991/:june/:19
+// GET /:1991/:june/:19
 
-// Returns:
-{
-  "name": "Name of hit song",
-  "artist": "Name of Artist",
-  "startDate": "(first day on chart, in UTC)",
-  "endDate": "(last day on chart, in UTC)"
-}
+// // Returns:
+// {
+//   "name": "Name of hit song",
+//   "artist": "Name of Artist",
+//   "startDate": "(first day on chart, in UTC)",
+//   "endDate": "(last day on chart, in UTC)"
+// }
 
 function dynamicColors() { // Returns a date-based color scheme
   element.style.color = "";
@@ -33,37 +44,41 @@ fetch(articleRequestURL) {
 fetch(bookRequestURL) {
   const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
 }
-=======
-function createMovieCard() {
+
+function createMovieCard(Movie) {
     const movieCard = $("<div>").addclass("movieCard");
     const movieCardBody = $("<div>").addClass("card-body");
-    const movieTitle = $("<h4>").addClass("movieTitle");
+    const movieTitle = $("<h4>").addClass("movieTitle").text(Movie.title);
     movieCardBody.append(movieTitle);
-    const movieDescription = $("<p>").addClass("movieDesc");
+    const movieDescription = $("<p>").addClass("movieDesc").text(Movie.description);
     movieCardBody.append(movieDescription);
     movieCard.append(movieCardBody);
+    cardContainer.append(movieCard);
     return movieCard;
 }
 
-function createMovieCard() {
-    const musicCard = $("<div>").addclass("musicCard");
-    const musicCardBody = $("<div>").addClass("card-body");
-    const musicTitle = $("<h4>").addClass("musicTitle");
-    musicCardBody.append(musicTitle);
-    const musicDescription = $("<p>").addClass("musicDesc");
-    musicCardBody.append(musicDescription);
-    musicCard.append(musicCardBody);
-    return musicCard;
+
+
+function createBookCard(Book) {
+    const bookCard = $("<div>").addclass("bookCard");
+    const bookCardBody = $("<div>").addClass("card-body");
+    const bookTitle = $("<h4>").addClass("bookTitle").text(Book.title);
+    bookCardBody.append(bookTitle);
+    const bookDescription = $("<p>").addClass("bookDesc").text(Book.description);
+    bookCardBody.append(bookDescription);
+    bookCard.append(bookCardBody);
+    cardContainer.append(bookCard);
+    return bookCard;
 }
 
-function createNewsCard() {
+
+function createNewsCard(News) {
     const newsCard = $("<div>").addclass("newsCard");
     const newsCardBody = $("<div>").addClass("card-body");
-    const newsTitle = $("<h4>").addClass("newsTitle");
+    const newsTitle = $("<h4>").addClass("newsTitle").text(News);
     newsCardBody.append(newsTitle);
-    const newsDescription = $("<p>").addClass("newsDesc");
-    newsCardBody.append(newsDescription);
     newsCard.append(newsCardBody);
+    cardContainer.append(newsCard);
     return newsCard;
 }
 
