@@ -30,3 +30,19 @@ function createNewsCard() {
     newsCard.append(newsCardBody);
     return newsCard;
 }
+
+
+const button = document.querySelector('#dropdown-button');
+button.addEventListener('click', function(){
+    document.querySelector('#activator').classList.add('is-active')
+    console.log (button);
+}  
+);
+
+
+
+button.addEventListener('blur', function(){
+    document.querySelector('#activator').classList.remove('is-active')
+    console.log (button);
+}  
+);
