@@ -14,3 +14,26 @@
     font-family: "Montserrat", serif;
     font-size: 12px;
 }
+
+/* Movie Card */
+.movieTitle {
+    font-family: var(--heading);
+}
+
+.movieDesc {
+    font-family: var(--body);
+}
+
+/* Book Card */
+.bookTitle {
+    font-family: var(--heading);
+}
+
+.bookDesc {
+    font-family: var(--body);
+}
+
+/* News Card */
+.newsTitle {
+    font-family: var(--heading);
+}
