@@ -120,11 +120,26 @@ articleRequestURL = "https://api.nytimes.com/svc/archive/v1/{year}/{month}.json"
 bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json"
 const nytimesAPIkey = anAU8Yk0RQpGTel7ZLCurFyigefJRTo3
 
-fetch(articleRequestURL)
-  const articles = await fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
 
-fetch(bookRequestURL) 
-  const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+fetch(articleRequestURL) {
+  const articles = await fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=pub_date=${birthday}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+  fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+    .then(response => response.json())
+    .then(data => {
+      const atricles = data.list
+    });
+};
+
+fetch(bookRequestURL) {
+  const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?published_date=${birthday}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+  fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=1997-03-09&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+  .then(response => response.json())
+  .then(data => {
+    const books = data.list
+  })
+}
+
+
 
 function createMovieCard(Movie) {
     const movieCard = $("<div>").addclass("movieCard");
