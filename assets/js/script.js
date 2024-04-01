@@ -1,4 +1,88 @@
-const cardContainer = document.getElementById('#card-container')
+const cardContainer = document.getElementById('#card-container');
+
+// Colors and font selection
+function renderStyles() {
+    if (year >= 1950 && year < 1960) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});
+    }
+
+    if (year >= 1960 && year < 1970) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});
+    }
+
+    if (year >= 1970 && year < 1980) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});
+    }
+
+    if (year >= 1980 && year < 1990) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});
+    }
+
+    if (year >= 1990 && year < 2000) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});    
+    }
+
+    if (year >= 2000 && year < 2010) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});    
+    }
+
+    if (year >= 2010 && year < 2020) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});    
+    }
+
+    if (year >= 2020) {
+        $(':root').css({'--primary-color': '#F8F8F8', 
+                        '--secondary-color': '#080808', 
+                        '--accent-color': '#D0D0D0',
+                        '--text-color': '#D0D0D0',
+                        '--background-color': '#D0D0D0',
+                        '--heading': '#D0D0D0',
+                        '--body': '#A9A9A9'});    
+    }
+};
+
 // let Movie = {
 //     title: ,
 //     description:
@@ -23,7 +107,7 @@ const cardContainer = document.getElementById('#card-container')
 
 function dynamicColors() { // Returns a date-based color scheme
   element.style.color = "";
-}
+};
 //function changeColor() {
   //var gfg = document.getElementById("gfg");
  //gfg.style.color = "green";
@@ -35,6 +119,7 @@ https://api.nytimes.com/svc/archive/v1/{year}/{month}.json
 articleRequestURL = "https://api.nytimes.com/svc/archive/v1/{year}/{month}.json"
 bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json"
 const nytimesAPIkey = anAU8Yk0RQpGTel7ZLCurFyigefJRTo3
+
 
 fetch(articleRequestURL) {
   const articles = await fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=pub_date=${birthday}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
@@ -54,6 +139,8 @@ fetch(bookRequestURL) {
   })
 }
 
+
+
 function createMovieCard(Movie) {
     const movieCard = $("<div>").addclass("movieCard");
     const movieCardBody = $("<div>").addClass("card-body");
@@ -64,7 +151,7 @@ function createMovieCard(Movie) {
     movieCard.append(movieCardBody);
     cardContainer.append(movieCard);
     return movieCard;
-}
+};
 
 
 
@@ -78,7 +165,7 @@ function createBookCard(Book) {
     bookCard.append(bookCardBody);
     cardContainer.append(bookCard);
     return bookCard;
-}
+};
 
 
 function createNewsCard(News) {
@@ -89,7 +176,7 @@ function createNewsCard(News) {
     newsCard.append(newsCardBody);
     cardContainer.append(newsCard);
     return newsCard;
-}
+};
 
 
 const button = document.querySelector('#dropdown-button');
