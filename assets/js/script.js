@@ -111,9 +111,9 @@ function dynamicColors() { // Returns a date-based color scheme
 
 }
 //API URLs
-articleRequestURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3"
-bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=1997-03-09&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3"
-movieRequestURL = "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=1997&sort_by=revenue.desc"
+articleRequestURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${birthday}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3"
+bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${birthday}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3"
+movieRequestURL = "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${birthyear}&sort_by=revenue.desc"
 //Movie API Key
 movieAPIKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNjYyNjI4N2M2ZGU3Yzk4ODUwNjVlNTBjN2MyNzY1NCIsInN1YiI6IjY2MDYxN2JmYTg5NGQ2MDE3YzYyNDkxYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.B1Lq6M9BipX3yYlMkNkluP9ljFAU7rklKjW2B6_X0_A"
 
