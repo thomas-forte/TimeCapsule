@@ -1,5 +1,5 @@
 
-const cardContainer = document.getElementById('#card-container');
+const cardContainer = $('#card-container')
 
 // Colors and font selection
 function renderStyles() {
@@ -84,17 +84,6 @@ function renderStyles() {
     }
 };
 
-// let Movie = {
-//     title: ,
-//     description:
-// }
-//     let Book = {
-//     title: ,
-//     description:
-// }
-//     let News = 
-//     
-
 // Get the #1 song for a given day
 // GET /:1991/:june/:19
 
@@ -116,6 +105,7 @@ bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json?bests
 movieRequestURL = "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${birthyear}&sort_by=revenue.desc"
 //Movie API Key
 movieAPIKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNjYyNjI4N2M2ZGU3Yzk4ODUwNjVlNTBjN2MyNzY1NCIsInN1YiI6IjY2MDYxN2JmYTg5NGQ2MDE3YzYyNDkxYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.B1Lq6M9BipX3yYlMkNkluP9ljFAU7rklKjW2B6_X0_A"
+
 
 //once birthday is submitted this function will run
 async function birthdaySubmission() {
@@ -142,48 +132,69 @@ async function birthdaySubmission() {
 
 }
 
+const movie = {
+  title: "Example Movie",
+  description: "Example Description Example Description Example Description Example Description Example Description Example Description"
+};
+function createMovieCard(movie) {
+  
+    const movieCard = $("<div>").addClass("card").attr('id', 'movieCard');
+    const movieCardBody = $("<div>").addClass("cardBody");
+    const movieHeader = $("<h3>").addClass("movieHeader").text('Top Movie The Year You Were Born:');
+    const movieTitle = $("<h4>").addClass("movieTitle").text(movie.title);
+    const movieDescription = $("<p>").addClass("movieDesc").text(movie.description);
 
+    movieCardBody.append(movieHeader, movieTitle, movieDescription);
 
-function createMovieCard(Movie) {
-
-    const movieCard = $("<div>").addclass("movieCard");
-    const movieCardBody = $("<div>").addClass("card-body");
-    const movieTitle = $("<h4>").addClass("movieTitle").text(Movie.title);
-    movieCardBody.append(movieTitle);
-    const movieDescription = $("<p>").addClass("movieDesc").text(Movie.description);
-    movieCardBody.append(movieDescription);
     movieCard.append(movieCardBody);
     cardContainer.append(movieCard);
+
     return movieCard;
-};
+}
+createMovieCard(movie);
 
+    const book = {
+    title: "Example Book" ,
+    description: "Example Description Example Description Example Description Example Description Example Description Example Description"
 
-function createBookCard(Book) {
-    const bookCard = $("<div>").addclass("bookCard");
-    const bookCardBody = $("<div>").addClass("card-body");
-    const bookTitle = $("<h4>").addClass("bookTitle").text(Book.title);
-    bookCardBody.append(bookTitle);
-    const bookDescription = $("<p>").addClass("bookDesc").text(Book.description);
-    bookCardBody.append(bookDescription);
+}
+function createBookCard(book) {
+    const bookCard = $("<div>").addClass("card").attr('id', 'bookCard');
+    const bookCardBody = $("<div>").addClass("cardBody");
+    const bookHeader = $("<h3>").addClass("bookHeader").text('Top Book The Year You Were Born:');
+    const bookTitle = $("<h4>").addClass("bookTitle").text(book.title);
+    const bookDescription = $("<p>").addClass("bookDesc").text(book.description);
+
+    bookCardBody.append(bookHeader, bookTitle, bookDescription);
     bookCard.append(bookCardBody);
     cardContainer.append(bookCard);
-    return bookCard;
-};
 
+    return bookCard;
+}
+createBookCard(book)
+
+
+let News = "Example News Headline"
 
 function createNewsCard(News) {
-    const newsCard = $("<div>").addclass("newsCard");
-    const newsCardBody = $("<div>").addClass("card-body");
+    const newsCard = $("<div>").addClass("newsCard");
+    const newsCardBody = $("<div>").addClass("cardBody");
+    const newsHeader = $("<h3>").addClass("newsHeader").text('Headline From The Day You Were Born:');
     const newsTitle = $("<h4>").addClass("newsTitle").text(News);
-    newsCardBody.append(newsTitle);
+
+    newsCardBody.append(newsHeader, newsTitle);
     newsCard.append(newsCardBody);
     cardContainer.append(newsCard);
     return newsCard;
-};
+
+}
+createNewsCard(News)
+
 
 
 
 // If questions about below, see Tess :)
+
 
 //DROPDOWN:
 
