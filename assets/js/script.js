@@ -1,35 +1,35 @@
 const cardContainer = document.getElementById('#card-container')
-// let Movie = {
-//     title: ,
-//     description:
-// }
-//     let Book = {
-//     title: ,
-//     description:
-// }
-//     let News = 
-//     
+ let Movie = {
+     title: ,
+     description:
+ }
+     let Book = {
+     title: ,
+     description:
+ }
+     let News = 
+    
 
-// Get the #1 song for a given day
-// GET /:1991/:june/:19
+ Get the #1 song for a given day
+ GET /:1991/:june/:19
 
-// // Returns:
-// {
-//   "name": "Name of hit song",
-//   "artist": "Name of Artist",
-//   "startDate": "(first day on chart, in UTC)",
-//   "endDate": "(last day on chart, in UTC)"
-// }
+ // Returns:
+ {
+   "name": "Name of hit song",
+  "artist": "Name of Artist",
+  "startDate": "(first day on chart, in UTC)",
+  "endDate": "(last day on chart, in UTC)"
+ }
 
 function dynamicColors() { // Returns a date-based color scheme
   element.style.color = "";
 }
-//function changeColor() {
-  //var gfg = document.getElementById("gfg");
- //gfg.style.color = "green";
-//}
+function changeColor() {
+var gfg = document.getElementById("gfg");
+gfg.style.color = "green";
+}
 
-//Articles API
+Articles API
 https://api.nytimes.com/svc/archive/v1/{year}/{month}.json
 
 articleRequestURL = "https://api.nytimes.com/svc/archive/v1/{year}/{month}.json"
@@ -42,7 +42,7 @@ fetch(articleRequestURL) {
 };
 
 fetch(bookRequestURL) {
-  const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+ const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
 }
 
 function createMovieCard(Movie) {
@@ -56,7 +56,6 @@ function createMovieCard(Movie) {
     cardContainer.append(movieCard);
     return movieCard;
 }
-
 
 
 function createBookCard(Book) {
@@ -83,18 +82,86 @@ function createNewsCard(News) {
 }
 
 
-const button = document.querySelector('#dropdown-button');
+
+// If questions about below, see Tess :)
+
+//DROPDOWN:
+
+//Toggle dropdown on and off
+var button = document.querySelector('#dropdown-button');
 button.addEventListener('click', function(){
     document.querySelector('#activator').classList.add('is-active')
     console.log (button);
-}  
-);
+   
+
+//     document.querySelector('#activator').classList.remove('is-active')
+//     console.log (button);
+
+// }  
+});
 
 
-
-button.addEventListener('blur', function(){
+button.addEventListener('click', function(){
     document.querySelector('#activator').classList.remove('is-active')
     console.log (button);
 }  
 );
+
+
+
+
+//MODAL:
+// Modal open
+var modal = document.querySelector('#js-modal-trigger');
+modal.addEventListener('click', function(){
+    document.querySelector('.modal').classList.add('is-active');
+    event.preventDefault();
+
+});
+    
+    
+const formEl = document.querySelector('#birthdate-form');
+const dateInputEl = document.querySelector('#datepicker');
+submitButton = document.querySelector('#submit-date');
+const handleFormSubmit = function (event) {
+    event.preventDefault();
+    var firstGetItem = JSON.parse(localStorage.getItem('birthdates'));
+    if (!Array.isArray(firstGetItem))  {
+        firstGetItem = [];
+
+
+    
+
+    }
+
+    const dateInput = dateInputEl.value;
+    console.log(dateInput);
+    firstGetItem.push(dateInput);
+    localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
+    return;
+
+   
+    }
+    
+    formEl.addEventListener('submit', handleFormSubmit);  
+
+ 
+
+
+
+$(function () {
+    $('#datepicker').datepicker({
+      changeMonth: true,
+      changeYear: true,
+    });
+  });
+
+
+// To close modal by means of the X in upper-right corner
+var modalClose = document.querySelector(".modal-close")
+modalClose.addEventListener('click', function(){
+    document.querySelector('.modal').classList.remove('is-active');
+    
+})
+
 
