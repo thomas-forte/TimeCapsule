@@ -15,6 +15,7 @@
     font-size: 12px;
 }
 
+
 /* Movie Card */
 .movieTitle {
     font-family: var(--heading);
@@ -37,3 +38,4 @@
 .newsTitle {
     font-family: var(--heading);
 }
+

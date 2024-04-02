@@ -1,3 +1,4 @@
+
 const cardContainer = document.getElementById('#card-container');
 
 // Colors and font selection
@@ -113,7 +114,7 @@ function dynamicColors() { // Returns a date-based color scheme
  //gfg.style.color = "green";
 //}
 
-//Articles API
+Articles API
 https://api.nytimes.com/svc/archive/v1/{year}/{month}.json
 
 articleRequestURL = "https://api.nytimes.com/svc/archive/v1/{year}/{month}.json"
@@ -154,7 +155,6 @@ function createMovieCard(Movie) {
 };
 
 
-
 function createBookCard(Book) {
     const bookCard = $("<div>").addclass("bookCard");
     const bookCardBody = $("<div>").addClass("card-body");
@@ -179,18 +179,86 @@ function createNewsCard(News) {
 };
 
 
-const button = document.querySelector('#dropdown-button');
+
+// If questions about below, see Tess :)
+
+//DROPDOWN:
+
+//Toggle dropdown on and off
+var button = document.querySelector('#dropdown-button');
 button.addEventListener('click', function(){
     document.querySelector('#activator').classList.add('is-active')
     console.log (button);
-}  
-);
+   
+
+//     document.querySelector('#activator').classList.remove('is-active')
+//     console.log (button);
+
+// }  
+});
 
 
-
-button.addEventListener('blur', function(){
+button.addEventListener('click', function(){
     document.querySelector('#activator').classList.remove('is-active')
     console.log (button);
 }  
 );
+
+
+
+
+//MODAL:
+// Modal open
+var modal = document.querySelector('#js-modal-trigger');
+modal.addEventListener('click', function(){
+    document.querySelector('.modal').classList.add('is-active');
+    event.preventDefault();
+
+});
+    
+    
+const formEl = document.querySelector('#birthdate-form');
+const dateInputEl = document.querySelector('#datepicker');
+submitButton = document.querySelector('#submit-date');
+const handleFormSubmit = function (event) {
+    event.preventDefault();
+    var firstGetItem = JSON.parse(localStorage.getItem('birthdates'));
+    if (!Array.isArray(firstGetItem))  {
+        firstGetItem = [];
+
+
+    
+
+    }
+
+    const dateInput = dateInputEl.value;
+    console.log(dateInput);
+    firstGetItem.push(dateInput);
+    localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
+    return;
+
+   
+    }
+    
+    formEl.addEventListener('submit', handleFormSubmit);  
+
+ 
+
+
+
+$(function () {
+    $('#datepicker').datepicker({
+      changeMonth: true,
+      changeYear: true,
+    });
+  });
+
+
+// To close modal by means of the X in upper-right corner
+var modalClose = document.querySelector(".modal-close")
+modalClose.addEventListener('click', function(){
+    document.querySelector('.modal').classList.remove('is-active');
+    
+})
+
 
