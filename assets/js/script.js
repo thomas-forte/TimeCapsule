@@ -108,41 +108,44 @@ function renderStyles() {
 
 function dynamicColors() { // Returns a date-based color scheme
   element.style.color = "";
-};
-//function changeColor() {
-  //var gfg = document.getElementById("gfg");
- //gfg.style.color = "green";
-//}
 
-Articles API
-https://api.nytimes.com/svc/archive/v1/{year}/{month}.json
+}
+//API URLs
+articleRequestURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3"
+bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=1997-03-09&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3"
+movieRequestURL = "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=1997&sort_by=revenue.desc"
+//Movie API Key
+movieAPIKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNjYyNjI4N2M2ZGU3Yzk4ODUwNjVlNTBjN2MyNzY1NCIsInN1YiI6IjY2MDYxN2JmYTg5NGQ2MDE3YzYyNDkxYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.B1Lq6M9BipX3yYlMkNkluP9ljFAU7rklKjW2B6_X0_A"
 
-articleRequestURL = "https://api.nytimes.com/svc/archive/v1/{year}/{month}.json"
-bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json"
-const nytimesAPIkey = anAU8Yk0RQpGTel7ZLCurFyigefJRTo3
+//once birthday is submitted this function will run
+async function birthdaySubmission() {
+  fetch(articleRequestURL)
 
-
-fetch(articleRequestURL) {
-  const articles = await fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=pub_date=${birthday}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
-  fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
     .then(response => response.json())
     .then(data => {
       const atricles = data.list
+      console.log(data.list)
     });
-};
 
-fetch(bookRequestURL) {
-  const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?published_date=${birthday}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
-  fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=1997-03-09&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
-  .then(response => response.json())
-  .then(data => {
-    const books = data.list
-  })
+  fetch(bookRequestURL)
+    .then(response => response.json())
+    .then(data => {
+      const books = data.list
+      console.log(data.list)
+    });
+  fetch(moviesRequestURL, movieAPIKey)
+    .then(response => response.json())
+    .then(data => {
+      const movies = data.list
+      console.log(data.list)
+    });
+
 }
 
 
 
 function createMovieCard(Movie) {
+
     const movieCard = $("<div>").addclass("movieCard");
     const movieCardBody = $("<div>").addClass("card-body");
     const movieTitle = $("<h4>").addClass("movieTitle").text(Movie.title);
@@ -194,14 +197,17 @@ button.addEventListener('click', function(){
 //     document.querySelector('#activator').classList.remove('is-active')
 //     console.log (button);
 
+
 // }  
 });
 
 
-button.addEventListener('click', function(){
-    document.querySelector('#activator').classList.remove('is-active')
-    console.log (button);
-}  
+
+button.addEventListener('blur', function () {
+  document.querySelector('#activator').classList.remove('is-active')
+  console.log(button);
+}
+
 );
 
 
