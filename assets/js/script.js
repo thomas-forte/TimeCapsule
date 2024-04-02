@@ -84,17 +84,6 @@ function renderStyles() {
     }
 };
 
-// Get the #1 song for a given day
-// GET /:1991/:june/:19
-
-// // Returns:
-// {
-//   "name": "Name of hit song",
-//   "artist": "Name of Artist",
-//   "startDate": "(first day on chart, in UTC)",
-//   "endDate": "(last day on chart, in UTC)"
-// }
-
 function dynamicColors() { // Returns a date-based color scheme
   element.style.color = "";
 
@@ -192,7 +181,6 @@ createNewsCard(News)
 
 
 
-
 // If questions about below, see Tess :)
 
 
@@ -242,10 +230,6 @@ const handleFormSubmit = function (event) {
     var firstGetItem = JSON.parse(localStorage.getItem('birthdates'));
     if (!Array.isArray(firstGetItem))  {
         firstGetItem = [];
-
-
-    
-
     }
 
     const dateInput = dateInputEl.value;
@@ -253,22 +237,35 @@ const handleFormSubmit = function (event) {
     firstGetItem.push(dateInput);
     localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
     return;
-
-   
-    }
     
-    formEl.addEventListener('submit', handleFormSubmit);  
+    }
 
- 
+// Closes Modal on Submit
+submitButton.addEventListener('click', function(){
+    document.querySelector('.modal').classList.remove('is-active');
+
+});
+
+    
+formEl.addEventListener('submit', handleFormSubmit);  
 
 
+//Closes Modal on Cancel
+const cancelButton = document.querySelector('#cancel-button');
+cancelButton.addEventListener('click', function(){
+    document.querySelector('.modal').classList.remove('is-active'); 
+
+});
 
 $(function () {
     $('#datepicker').datepicker({
       changeMonth: true,
       changeYear: true,
+      minDate: 0,
     });
   });
+
+  
 
 
 // To close modal by means of the X in upper-right corner
