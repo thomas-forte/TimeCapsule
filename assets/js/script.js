@@ -1,14 +1,7 @@
-const cardContainer = document.getElementById('#card-container')
-// let Movie = {
-//     title: ,
-//     description:
-// }
-//     let Book = {
-//     title: ,
-//     description:
-// }
-//     let News = 
-//     
+const cardContainer = $('#card-container')
+
+    
+    
 
 // Get the #1 song for a given day
 // GET /:1991/:june/:19
@@ -34,54 +27,71 @@ https://api.nytimes.com/svc/archive/v1/{year}/{month}.json
 
 articleRequestURL = "https://api.nytimes.com/svc/archive/v1/{year}/{month}.json"
 bookRequestURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json"
-const nytimesAPIkey = anAU8Yk0RQpGTel7ZLCurFyigefJRTo3
+// const nytimesAPIkey = anAU8Yk0RQpGTel7ZLCurFyigefJRTo3
 
-fetch(articleRequestURL) {
-  const articles = await fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+// fetch(articleRequestURL) {
+//   const articles = await fetch ("https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
 
+// };
+
+// fetch(bookRequestURL) {
+//   const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
+// }
+const movie = {
+  title: "Example Movie",
+  description: "Example Description Example Description Example Description Example Description Example Description Example Description"
 };
+function createMovieCard(movie) {
+  
+    const movieCard = $("<div>").addClass("card").attr('id', 'movieCard');
+    const movieCardBody = $("<div>").addClass("cardBody");
+    const movieHeader = $("<h3>").addClass("movieHeader").text('Top Movie The Year You Were Born:');
+    const movieTitle = $("<h4>").addClass("movieTitle").text(movie.title);
+    const movieDescription = $("<p>").addClass("movieDesc").text(movie.description);
 
-fetch(bookRequestURL) {
-  const books = await fetch ("https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3")
-}
-
-function createMovieCard(Movie) {
-    const movieCard = $("<div>").addclass("movieCard");
-    const movieCardBody = $("<div>").addClass("card-body");
-    const movieTitle = $("<h4>").addClass("movieTitle").text(Movie.title);
-    movieCardBody.append(movieTitle);
-    const movieDescription = $("<p>").addClass("movieDesc").text(Movie.description);
-    movieCardBody.append(movieDescription);
+    movieCardBody.append(movieHeader, movieTitle, movieDescription);
     movieCard.append(movieCardBody);
     cardContainer.append(movieCard);
+
     return movieCard;
 }
+createMovieCard(movie);
 
 
+    const book = {
+    title: "Example Book" ,
+    description: "Example Description Example Description Example Description Example Description Example Description Example Description"
 
-function createBookCard(Book) {
-    const bookCard = $("<div>").addclass("bookCard");
-    const bookCardBody = $("<div>").addClass("card-body");
-    const bookTitle = $("<h4>").addClass("bookTitle").text(Book.title);
-    bookCardBody.append(bookTitle);
-    const bookDescription = $("<p>").addClass("bookDesc").text(Book.description);
-    bookCardBody.append(bookDescription);
+}
+function createBookCard(book) {
+    const bookCard = $("<div>").addClass("card").attr('id', 'bookCard');
+    const bookCardBody = $("<div>").addClass("cardBody");
+    const bookHeader = $("<h3>").addClass("bookHeader").text('Top Book The Year You Were Born:');
+    const bookTitle = $("<h4>").addClass("bookTitle").text(book.title);
+    const bookDescription = $("<p>").addClass("bookDesc").text(book.description);
+
+    bookCardBody.append(bookHeader, bookTitle, bookDescription);
     bookCard.append(bookCardBody);
     cardContainer.append(bookCard);
+
     return bookCard;
 }
+createBookCard(book)
 
+let News = "Example News Headline"
 
 function createNewsCard(News) {
-    const newsCard = $("<div>").addclass("newsCard");
-    const newsCardBody = $("<div>").addClass("card-body");
+    const newsCard = $("<div>").addClass("newsCard");
+    const newsCardBody = $("<div>").addClass("cardBody");
+    const newsHeader = $("<h3>").addClass("newsHeader").text('Headline From The Day You Were Born:');
     const newsTitle = $("<h4>").addClass("newsTitle").text(News);
-    newsCardBody.append(newsTitle);
+
+    newsCardBody.append(newsHeader, newsTitle);
     newsCard.append(newsCardBody);
     cardContainer.append(newsCard);
     return newsCard;
 }
-
+createNewsCard(News)
 
 const button = document.querySelector('#dropdown-button');
 button.addEventListener('click', function(){
