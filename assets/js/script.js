@@ -283,13 +283,20 @@ const cancelButton = document.querySelector('#cancel-button');
         document.querySelector('.modal').classList.remove('is-active');
 });
 
-$(function () {
-  $('#datepicker').datepicker({
-    changeMonth: true,
-    changeYear: true,
-    minDate: 0,
-  });
-});
+
+
+
+
+     $('#datepicker').datepicker({startDate:'1960-01-01', 
+     showOtherMonths: true, 
+     changeMonth: true, 
+     changeYear: true, });
+    
+  
+
+
+  
+
 
 
 // To close modal by means of the X in upper-right corner
@@ -298,15 +305,4 @@ modalClose.addEventListener('click', function () {
   document.querySelector('.modal').classList.remove('is-active');
 
 })
- // Example birthdate string
-const birthdateString = "1991-05-15";
-
-// Split the string by "-" delimiter
-const parts = birthdateString.split("-");
-
-// Extract the year (assuming it's the first part after splitting)
-const year = birthdateString[0];
-
-
-console.log(year); // Output: "1990"
 
