@@ -115,38 +115,37 @@ const options = {
 };
 //once birthday is submitted this function will run
 async function birthdaySubmission() {
-  //API URLs
-  articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
-  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
-  movieRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${dateInput}&sort_by=revenue.desc`
-
   const birthdates = JSON.parse(localStorage.getItem('birthdates'));
   console.log(birthdates)
 
-  let recentInput = birthdates.birthdates.reverse()[0]
-  console.long(recentInput)
+  let recentInput = birthdates.reverse()[0]
+  console.log(recentInput)
 
   const reformatDate = dayjs(recentInput).format('YYYY-DD-MM');
   $('#3a').text(reformatDate);
   console.log(reformatDate)
 
-  const parts = reformatDate.spilt("-")
-  const year = parts[0]
+  const year = dayjs(recentInput).format('YYYY')
   console.log(year)
+  
+  //API URLs
+  articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
   fetch(articleRequestURL)
 
     .then(response => response.json())
     .then(data => {
       const atricles = data.list
-      console.log(data.list)
+      console.log(data.response.docs[0])
     });
 
   fetch(bookRequestURL)
     .then(response => response.json())
     .then(data => {
       const books = data.list
-      console.log(data.list)
+      console.log(data.results.lists[0].books[0])
     });
 
 
@@ -154,7 +153,7 @@ async function birthdaySubmission() {
     .then(response => response.json())
     .then(data => {
       const movies = data.list
-      console.log(data.list)
+      console.log(data.results[0])
     });
 
 }
@@ -253,19 +252,13 @@ const dateInputEl = document.querySelector('#datepicker');
 submitButton = document.querySelector('#submit-date');
 const handleFormSubmit = function (event) {
 
-    event.preventDefault();
-    var firstGetItem = JSON.parse(localStorage.getItem('birthdates'));
-    if (!Array.isArray(firstGetItem))  {
-        firstGetItem = [];
-    }
 
-    const dateInput = dateInputEl.value;
-    console.log(dateInput);
-    firstGetItem.push(dateInput);
-    localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
-    console.log(dateInput.length);
-    return;
-    }
+  const dateInput = dateInputEl.value;
+  console.log(dateInput);
+  firstGetItem.push(dateInput);
+  localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
+  birthdaySubmission();
+
 
 
 formEl.addEventListener('submit', handleFormSubmit);     
