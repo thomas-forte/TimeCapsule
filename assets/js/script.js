@@ -188,7 +188,7 @@ createNewsCard(News)
 
 
 
-// If questions about below, see Tess :)
+
 
 
 //DROPDOWN:
@@ -196,15 +196,9 @@ createNewsCard(News)
 //Toggle dropdown on and off
 var button = document.querySelector('#dropdown-button');
 button.addEventListener('click', function(){
-    document.querySelector('#activator').classList.add('is-active')
-    console.log (button);
-   
+const dropdown = document.querySelector('#activator');
+dropdown.classList.toggle('is-active');
 
-//     document.querySelector('#activator').classList.remove('is-active')
-//     console.log (button);
-
-
-// }  
 });
 
 
@@ -243,25 +237,43 @@ const handleFormSubmit = function (event) {
     localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
     console.log(dateInput.length);
     return;
-    
     }
+
+formEl.addEventListener('submit', handleFormSubmit);     
 
 // Closes Modal on Submit
 submitButton.addEventListener('click', function(){
     document.querySelector('.modal').classList.remove('is-active');
-
 });
-
-    
-formEl.addEventListener('submit', handleFormSubmit);  
-
+   
 
 //Closes Modal on Cancel
-const cancelButton = document.querySelector('#cancel-button');
-cancelButton.addEventListener('click', function(){
-    document.querySelector('.modal').classList.remove('is-active'); 
 
+const cancelButton = document.querySelector('#cancel-button');
+    cancelButton.addEventListener('click', function(){
+        event.preventDefault();
+        document.querySelector('.modal').classList.remove('is-active');
 });
+
+// let cancelClicked = false;
+
+
+// function runScript ()
+// for (let i = 0; i < 10000; i++) {
+//     if cancelClicked) {
+//         updateOutput('Maybe Next Time!');
+//         return;
+//     }
+// }
+
+// function cancelScript(){
+//     cancelClicked = true;
+// }
+
+// function(){
+//     document.querySelector('.modal').classList.remove('is-active'); 
+
+
 
 $(function () {
     $('#datepicker').datepicker({
