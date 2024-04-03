@@ -1,40 +1,41 @@
 :root {
-    /* 50s Colors */
-    --fifties-main: ;
-    --fifties-secondary: ;
-    --fifties-accent: ;
-    /* 60s Colors */
-    --sixties-main: ;
-    --sixties-secondary: ;
-    --sixties-accent: ;
-    /* 70s Colors */
-    --seventies-main: ;
-    --seventies-secondary: ;
-    --seventies-accent: ;
-    /* 80s Colors */
-    --eighties-main: ;
-    --eighties-secondary: ;
-    --eighties-accent: ;
-    /* 90s Colors */
-    --nineties-main: ;
-    --nineties-secondary: ;
-    --nineties-accent: ;
-    /* 2000s Colors */
-    --thousands-main: ;
-    --thousands-secondary: ;
-    --thousands-accent: ;
-    /* 2010s Colors */
-    --tens-main: ;
-    --tens-secondary: ;
-    --tens-accent: ;
-    /* 2020s Colors */
-    --twenties-main: ;
-    --twenties-secondary: ;
-    --twenties-accent: ;
+    /* Colors */
+    --primary-color: ;
+    --secondary-color: ;
+    --accent-color: ;
+    --text-color: ;
+    --background-color: ;
+    /* Fonts */
+    --heading: ;
+    --body: ;
 }
 
 #slogan {
     font-family: "Montserrat", serif;
     font-size: 12px;
+}
+
+
+/* Movie Card */
+.movieTitle {
+    font-family: var(--heading);
+}
+
+.movieDesc {
+    font-family: var(--body);
+}
+
+/* Book Card */
+.bookTitle {
+    font-family: var(--heading);
+}
+
+.bookDesc {
+    font-family: var(--body);
+}
+
+/* News Card */
+.newsTitle {
+    font-family: var(--heading);
 }
 
