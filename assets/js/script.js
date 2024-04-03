@@ -283,7 +283,6 @@ const cancelButton = document.querySelector('#cancel-button');
         document.querySelector('.modal').classList.remove('is-active');
 });
 
-
 $(function () {
   $('#datepicker').datepicker({
     changeMonth: true,
@@ -293,26 +292,21 @@ $(function () {
 });
 
 
-
-
 // To close modal by means of the X in upper-right corner
 var modalClose = document.querySelector(".modal-close")
 modalClose.addEventListener('click', function () {
   document.querySelector('.modal').classList.remove('is-active');
 
 })
+ // Example birthdate string
+const birthdateString = "1991-05-15";
+
+// Split the string by "-" delimiter
+const parts = birthdateString.split("-");
+
+// Extract the year (assuming it's the first part after splitting)
+const year = birthdateString[0];
 
 
-//DROPDOWN
-//Toggle dropdown on and off by clicking button
-var button = document.querySelector('#dropdown-button');
-
-button.addEventListener('click', function(){
-    const dropdown = document.querySelector('#activator');
-    dropdown.classList.toggle('is-active');
-
-});
-
-
-
+console.log(year); // Output: "1990"
 
