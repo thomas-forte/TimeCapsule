@@ -181,6 +181,7 @@ createNewsCard(News)
 
 
 
+
 // If questions about below, see Tess :)
 
 
@@ -208,18 +209,16 @@ button.addEventListener('blur', function () {
 }
 
 );
-
-
-
-
 //MODAL:
+
 // Modal open
 var modal = document.querySelector('#js-modal-trigger');
 modal.addEventListener('click', function(){
     document.querySelector('.modal').classList.add('is-active');
-    event.preventDefault();
+    
 
 });
+//
     
     
 const formEl = document.querySelector('#birthdate-form');
@@ -236,6 +235,7 @@ const handleFormSubmit = function (event) {
     console.log(dateInput);
     firstGetItem.push(dateInput);
     localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
+    console.log(dateInput.length);
     return;
     
     }
@@ -274,5 +274,18 @@ modalClose.addEventListener('click', function(){
     document.querySelector('.modal').classList.remove('is-active');
     
 })
+
+
+//DROPDOWN
+//Toggle dropdown on and off by clicking button
+var button = document.querySelector('#dropdown-button');
+
+button.addEventListener('click', function(){
+    const dropdown = document.querySelector('#activator');
+    dropdown.classList.toggle('is-active');
+
+});
+
+
 
 
