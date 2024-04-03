@@ -218,23 +218,17 @@ createNewsCard(News)
 
 
 
-// If questions about below, see Tess :)
+
+
 
 
 //DROPDOWN:
 
 //Toggle dropdown on and off
 var button = document.querySelector('#dropdown-button');
-button.addEventListener('click', function () {
-  document.querySelector('#activator').classList.add('is-active')
-  console.log(button);
-
-
-  //     document.querySelector('#activator').classList.remove('is-active')
-  //     console.log (button);
-
-
-  // }  
+button.addEventListener('click', function(){
+const dropdown = document.querySelector('#activator');
+dropdown.classList.toggle('is-active');
 });
 
 
@@ -242,32 +236,22 @@ button.addEventListener('click', function () {
 button.addEventListener('blur', function () {
   document.querySelector('#activator').classList.remove('is-active')
   console.log(button);
-}
-
-);
-
-
-
-
-//MODAL:
-// Modal open
-var modal = document.querySelector('#js-modal-trigger');
-modal.addEventListener('click', function () {
-  document.querySelector('.modal').classList.add('is-active');
-  event.preventDefault();
-
 });
 
+//MODAL:
 
+// Modal open
+var modal = document.querySelector('#js-modal-trigger');
+modal.addEventListener('click', function(){
+    document.querySelector('.modal').classList.add('is-active');
+});
+//
+    
 const formEl = document.querySelector('#birthdate-form');
 const dateInputEl = document.querySelector('#datepicker');
 submitButton = document.querySelector('#submit-date');
 const handleFormSubmit = function (event) {
-  event.preventDefault();
-  var firstGetItem = JSON.parse(localStorage.getItem('birthdates'));
-  if (!Array.isArray(firstGetItem)) {
-    firstGetItem = [];
-  }
+
 
   const dateInput = dateInputEl.value;
   console.log(dateInput);
@@ -275,33 +259,36 @@ const handleFormSubmit = function (event) {
   localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
   birthdaySubmission();
 
-}
+
+
+formEl.addEventListener('submit', handleFormSubmit);     
 
 // Closes Modal on Submit
-submitButton.addEventListener('click', function () {
-  document.querySelector('.modal').classList.remove('is-active');
-
+submitButton.addEventListener('click', function(){
+    document.querySelector('.modal').classList.remove('is-active');
 });
-
-
-formEl.addEventListener('submit', handleFormSubmit);
-
+   
 
 //Closes Modal on Cancel
 const cancelButton = document.querySelector('#cancel-button');
-cancelButton.addEventListener('click', function () {
-  document.querySelector('.modal').classList.remove('is-active');
-
+    cancelButton.addEventListener('click', function(){
+        event.preventDefault();
+        document.querySelector('.modal').classList.remove('is-active');
 });
 
-$(function () {
-  $('#datepicker').datepicker({
-    changeMonth: true,
-    changeYear: true,
-    minDate: 0,
-  });
-});
 
+
+
+
+     $('#datepicker').datepicker({startDate:'1960-01-01', 
+     showOtherMonths: true, 
+     changeMonth: true, 
+     changeYear: true, });
+    
+  
+
+
+  
 
 
 
@@ -311,5 +298,4 @@ modalClose.addEventListener('click', function () {
   document.querySelector('.modal').classList.remove('is-active');
 
 })
-
 
