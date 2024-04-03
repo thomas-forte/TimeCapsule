@@ -141,33 +141,15 @@ const cancelButton = document.querySelector('#cancel-button');
         document.querySelector('.modal').classList.remove('is-active');
 });
 
-// let cancelClicked = false;
-
-
-// function runScript ()
-// for (let i = 0; i < 10000; i++) {
-//     if cancelClicked) {
-//         updateOutput('Maybe Next Time!');
-//         return;
-//     }
-// }
-
-// function cancelScript(){
-//     cancelClicked = true;
-// }
-
-// function(){
-//     document.querySelector('.modal').classList.remove('is-active'); 
-
 
 
 $(function () {
-    $('#datepicker').datepicker({
-      changeMonth: true,
-      changeYear: true,
-      minDate: 0,
+     $('#datepicker').datepicker({startDate:'1960-01-01'});
+    //   showOtherMonths: true
+    //   changeYear: true,
+    //   minDate: 1960-01-01,
     });
-  });
+  
 
   
 
@@ -178,5 +160,13 @@ modalClose.addEventListener('click', function(){
     document.querySelector('.modal').classList.remove('is-active');
     
 })
+ // Example birthdate string
+const birthdateString = "1991-05-15";
 
+// Split the string by "-" delimiter
+const parts = birthdateString.split("-");
 
+// Extract the year (assuming it's the first part after splitting)
+const year = birthdateString[0];
+
+console.log(year); // Output: "1990"
