@@ -133,7 +133,7 @@ async function birthdaySubmission() {
   bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
-if (mediaChoice === articles) {
+if (mediaChoice === 'articles') {
   fetch(articleRequestURL)
 
   .then(response => response.json())
@@ -142,7 +142,7 @@ if (mediaChoice === articles) {
     console.log(data.response.docs[0])
   });
 }
-else if (mediaChoice === movies){
+else if (mediaChoice === 'movies'){
   fetch(moviesRequestURL, options)
   .then(response => response.json())
   .then(data => {
@@ -150,7 +150,7 @@ else if (mediaChoice === movies){
     console.log(data.results[0])
   });
 }
-else if (mediaChoice === books) {
+else if (mediaChoice === 'books') {
   fetch(bookRequestURL)
     .then(response => response.json())
     .then(data => {
@@ -158,7 +158,6 @@ else if (mediaChoice === books) {
       console.log(data.results.lists[0].books[0])
     });
 }
-
 else {
   fetch(articleRequestURL)
 
