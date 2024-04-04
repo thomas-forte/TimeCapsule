@@ -95,7 +95,14 @@ dropdown.classList.toggle('is-active');
 
 });
 
+//Select and Store a Category 
 
+const dropdownMenu = document.querySelector('#dropdown-menu3');
+dropdownMenu.addEventListener('click', function(e){
+    const userChoice = e.target.value;
+    console.log('userChoice', userChoice);
+    localStorage.setItem('userChoice', userChoice);
+})
 
 
 //MODAL:
@@ -144,16 +151,12 @@ const cancelButton = document.querySelector('#cancel-button');
 
 
 
-     $('#datepicker').datepicker({startDate:'1960-01-01', 
+$('#datepicker').datepicker({startDate:'1960-01-01', 
      showOtherMonths: true, 
      changeMonth: true, 
      changeYear: true, });
     
   
-
-
-  
-
 
 // To close modal by means of the X in upper-right corner
 var modalClose = document.querySelector(".modal-close")
