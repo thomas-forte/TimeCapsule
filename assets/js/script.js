@@ -292,9 +292,10 @@ const cancelButton = document.querySelector('#cancel-button');
 $('#datepicker').datepicker({startDate:'1960-01-01', 
      showOtherMonths: true, 
      changeMonth: true, 
-     changeYear: true, });
-
-
+     changeYear: true,
+     yearRange: "-74:+0",});
+    
+  
 
 // To close modal by means of the X in upper-right corner
 var modalClose = document.querySelector(".modal-close")
