@@ -221,7 +221,6 @@ createNewsCard(News)
 
 
 
-
 //DROPDOWN:
 
 //Toggle dropdown on and off
@@ -301,4 +300,4 @@ modalClose.addEventListener('click', function () {
   document.querySelector('.modal').classList.remove('is-active');
 
 })
-
+}
