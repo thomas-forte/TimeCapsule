@@ -127,15 +127,16 @@ async function birthdaySubmission() {
 
   const year = dayjs(recentInput).format('YYYY')
   console.log(year)
+
+  const mediaChoice = document.getElementById("media").value
   
   //API URLs
   articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
-if (mediaChoice === 'articles') {
+if (mediaChoice === 'news') {
   fetch(articleRequestURL)
-
   .then(response => response.json())
   .then(data => {
     const atricles = data.list
