@@ -133,28 +133,56 @@ async function birthdaySubmission() {
   bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
+if (mediaChoice === articles) {
   fetch(articleRequestURL)
 
-    .then(response => response.json())
-    .then(data => {
-      const atricles = data.list
-      console.log(data.response.docs[0])
-    });
-
+  .then(response => response.json())
+  .then(data => {
+    const atricles = data.list
+    console.log(data.response.docs[0])
+  });
+}
+else if (mediaChoice === movies){
+  fetch(moviesRequestURL, options)
+  .then(response => response.json())
+  .then(data => {
+    const movies = data.list
+    console.log(data.results[0])
+  });
+}
+else if (mediaChoice === books) {
   fetch(bookRequestURL)
     .then(response => response.json())
     .then(data => {
       const books = data.list
       console.log(data.results.lists[0].books[0])
     });
+}
+
+else {
+  fetch(articleRequestURL)
+
+  .then(response => response.json())
+  .then(data => {
+    const atricles = data.list
+    console.log(data.response.docs[0])
+  });
+
+fetch(bookRequestURL)
+  .then(response => response.json())
+  .then(data => {
+    const books = data.list
+    console.log(data.results.lists[0].books[0])
+  });
 
 
-  fetch(moviesRequestURL, options)
-    .then(response => response.json())
-    .then(data => {
-      const movies = data.list
-      console.log(data.results[0])
-    });
+fetch(moviesRequestURL, options)
+  .then(response => response.json())
+  .then(data => {
+    const movies = data.list
+    console.log(data.results[0])
+  });
+}
 
 }
 
