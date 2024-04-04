@@ -303,4 +303,4 @@ modalClose.addEventListener('click', function () {
   document.querySelector('.modal').classList.remove('is-active');
 
 })
-}
+
