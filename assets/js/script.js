@@ -221,7 +221,6 @@ createNewsCard(News)
 
 
 
-
 //DROPDOWN:
 
 //Toggle dropdown on and off
@@ -289,17 +288,12 @@ const cancelButton = document.querySelector('#cancel-button');
 
 
 
+
 $('#datepicker').datepicker({startDate:'1960-01-01', 
      showOtherMonths: true, 
      changeMonth: true, 
      changeYear: true, });
 
-
-  
-
-
-    
-  
 
 
 // To close modal by means of the X in upper-right corner
@@ -308,4 +302,4 @@ modalClose.addEventListener('click', function () {
   document.querySelector('.modal').classList.remove('is-active');
 
 })
-
+}
