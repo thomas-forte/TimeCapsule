@@ -250,21 +250,23 @@ button.addEventListener('blur', function () {
 var modal = document.querySelector('#js-modal-trigger');
 modal.addEventListener('click', function(){
     document.querySelector('.modal').classList.add('is-active');
-});
+    });
 //
     
 const formEl = document.querySelector('#birthdate-form');
 const dateInputEl = document.querySelector('#datepicker');
 submitButton = document.querySelector('#submit-date');
 const handleFormSubmit = function (event) {
-
-
+event.preventDefault();
+var firstGetItem = JSON.parse(localStorage.getItem("birthdates"));
+if (!Array.isArray(firstGetItem)) {
+  firstGetItem = [];}
   const dateInput = dateInputEl.value;
   console.log(dateInput);
   firstGetItem.push(dateInput);
   localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
   birthdaySubmission();
-
+}
 
 
 formEl.addEventListener('submit', handleFormSubmit);     
@@ -291,8 +293,7 @@ $('#datepicker').datepicker({startDate:'1960-01-01',
      showOtherMonths: true, 
      changeMonth: true, 
      changeYear: true, });
-    
-  
+
 
 
 // To close modal by means of the X in upper-right corner
