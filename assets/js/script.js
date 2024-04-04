@@ -286,6 +286,7 @@ const cancelButton = document.querySelector('#cancel-button');
 
 
 
+
 $('#datepicker').datepicker({startDate:'1960-01-01', 
      showOtherMonths: true, 
      changeMonth: true, 
