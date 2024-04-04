@@ -294,6 +294,7 @@ cancelButton.addEventListener('click', function () {
 
 });
 
+
 $(function () {
   $('#datepicker').datepicker({
     changeMonth: true,
