@@ -115,106 +115,176 @@ const options = {
 };
 //once birthday is submitted this function will run
 async function birthdaySubmission() {
-    const birthdates = JSON.parse(localStorage.getItem('birthdates'));
-    console.log(birthdates)
+  const birthdates = JSON.parse(localStorage.getItem('birthdates'));
+  console.log(birthdates)
 
-    let recentInput = birthdates.reverse()[0]
-    console.log(recentInput)
+  let recentInput = birthdates.reverse()[0]
+  console.log(recentInput)
 
-    const reformatDate = dayjs(recentInput).format('YYYY-DD-MM');
-    $('#3a').text(reformatDate);
-    console.log(reformatDate)
+  const reformatDate = dayjs(recentInput).format('YYYY-DD-MM');
+  $('#3a').text(reformatDate);
+  console.log(reformatDate)
 
-    const year = dayjs(recentInput).format('YYYY')
-    console.log(year)
+  const year = dayjs(recentInput).format('YYYY')
+  console.log(year)
 
-    //API URLs
-    articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
-    bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
-    moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
+  const mediaChoice = document.getElementById("media").value
+  
+  //API URLs
+  articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
-    fetch(articleRequestURL)
+if (mediaChoice === 'news') {
+  fetch(articleRequestURL)
 
-        .then(response => response.json())
-        .then(data => {
-            const atricles = data.list
-            console.log(data.response.docs[0])
-        });
+  .then(response => response.json())
+  .then(data => {
+    const articles = data.list
+    console.log(data.response.docs[0])
+    const article = {
+        headline: data.response.docs[0].headline.main,
+        author: data.response.docs[0].byline.original,
+        description: data.response.docs[0].snippet,
+        image: data.response.docs[0].multimedia[0].url,
+      }
+      console.log(article);
+      createArticleCard(article);
+  });
+}
+else if (mediaChoice === 'movies'){
+  fetch(moviesRequestURL, options)
+  .then(response => response.json())
+  .then(data => {
+    const movies = data.list
+    console.log(data.results[0])
+    const movie = {
+        title: data.results[0].title,
+        description: data.results[0].overview,
+        poster: data.results[0].poster_path,
+      };
+      console.log(movie);
+      createMovieCard(movie);
+  });
+}
+else if (mediaChoice === 'books') {
 
-    fetch(bookRequestURL)
-        .then(response => response.json())
-        .then(data => {
-            const books = data.list
-            console.log(data.results.lists[0].books[0])
-        });
+  fetch(bookRequestURL)
+    .then(response => response.json())
+    .then(data => {
+      const books = data.list
 
+      // console.log(data.results.lists[0].books[0])
+      const book = {
+        title: data.results.lists[0].books[0].title,
+        author: data.results.lists[0].books[0].author,
+        description: data.results.lists[0].books[0].description,
+        bookImage: data.results.lists[0].books[0].book_image,
+      };
+      console.log(book);
+      createBookCard(book);
+    });
+}
+else {
+  fetch(moviesRequestURL, options)
+  .then(response => response.json())
+  .then(data => {
+    const movies = data.list
+    console.log(data.results[0])
+    const movie = {
+        title: data.results[0].title,
+        description: data.results[0].overview,
+        poster: data.results[0].poster_path,
+      };
+      console.log(movie);
+      createMovieCard(movie);
+  });
 
-    fetch(moviesRequestURL, options)
-        .then(response => response.json())
-        .then(data => {
-            const movies = data.list
-            console.log(data.results[0])
-        });
+fetch(bookRequestURL)
+    .then(response => response.json())
+    .then(data => {
+      const books = data.list
+      // console.log(data.results.lists[0].books[0])
+      const book = {
+        title: data.results.lists[0].books[0].title,
+        author: data.results.lists[0].books[0].author,
+        description: data.results.lists[0].books[0].description,
+        bookImage: data.results.lists[0].books[0].book_image,
+      };
+      console.log(book);
+      createBookCard(book);
+    });
+
+  fetch(moviesRequestURL, options)
+    .then(response => response.json())
+    .then(data => {
+      const movies = data.list
+      console.log(data.results[0])
+      const movie = {
+        title: data.results[0].title,
+        description: data.results[0].overview,
+        poster: data.results[0].poster_path,
+      };
+      console.log(movie);
+      createMovieCard(movie);
+    });
 
 }
 
-const movie = {
-    title: "Example Movie",
-    description: "Example Description Example Description Example Description Example Description Example Description Example Description"
-};
 function createMovieCard(movie) {
 
-    const movieCard = $("<div>").addClass("card").attr('id', 'movieCard');
-    const movieCardBody = $("<div>").addClass("cardBody");
-    const movieHeader = $("<h3>").addClass("movieHeader").text('Top Movie The Year You Were Born:');
-    const movieTitle = $("<h4>").addClass("movieTitle").text(movie.title);
-    const movieDescription = $("<p>").addClass("movieDesc").text(movie.description);
+  const movieCard = $("<div>").addClass("card").attr('id', 'movieCard');
+  const movieCardBody = $("<div>").addClass("cardBody");
+  const movieHeader = $("<h3>").addClass("movieHeader").text('Top Movie The Year You Were Born:');
+  const movieTitle = $("<h4>").addClass("movieTitle").text(movie.title);
+  const movieDescription = $("<p>").addClass("movieDesc").text(movie.description);
+  const moviePoster = $("<img>").addClass("moviePoster").attr('src','https://media.themoviedb.org/t/p/w500/'+movie.poster, 'max-width', '100px', 'max-height', '100px');
 
-    movieCardBody.append(movieHeader, movieTitle, movieDescription);
+  movieCardBody.append(movieHeader, movieTitle, movieDescription, moviePoster);
 
     movieCard.append(movieCardBody);
     cardContainer.append(movieCard);
 
     return movieCard;
 }
-createMovieCard(movie);
 
-const book = {
-    title: "Example Book",
-    description: "Example Description Example Description Example Description Example Description Example Description Example Description"
 
-}
 function createBookCard(book) {
-    const bookCard = $("<div>").addClass("card").attr('id', 'bookCard');
-    const bookCardBody = $("<div>").addClass("cardBody");
-    const bookHeader = $("<h3>").addClass("bookHeader").text('Top Book The Year You Were Born:');
-    const bookTitle = $("<h4>").addClass("bookTitle").text(book.title);
-    const bookDescription = $("<p>").addClass("bookDesc").text(book.description);
 
-    bookCardBody.append(bookHeader, bookTitle, bookDescription);
-    bookCard.append(bookCardBody);
-    cardContainer.append(bookCard);
+  const bookCard = $("<div>").addClass("card").attr('id', 'bookCard');
+  const bookCardBody = $("<div>").addClass("cardBody");
+  const bookHeader = $("<h3>").addClass("bookHeader").text('Top Book The Year You Were Born:');
+  const bookTitle = $("<h4>").addClass("bookTitle").text(book.title);
+  const bookAuthor = $("<p>").addClass("bookAuthor").text(book.author);
+  const bookDescription = $("<p>").addClass("bookDesc").text(book.description);
+  const bookImage = $("<img>").addClass("bookImage").attr('src', book.bookImage)
+
+  bookCardBody.append(bookHeader, bookTitle, bookAuthor, bookDescription, bookImage);
+  bookCard.append(bookCardBody);
+  cardContainer.append(bookCard);
 
     return bookCard;
 }
-createBookCard(book)
+
+function createArticleCard(article) {
+  const articleCard = $("<div>").addClass("articleCard");
+  const articleCardBody = $("<div>").addClass("cardBody");
+  const articleHeader = $("<h3>").addClass("articleHeader").text('Top News From The Day You Were Born:');
+  const articleTitle = $("<h4>").addClass("articleTitle").text(article.headline);
+  const articleAuthor = $("<p>").addClass("articleAuthor").text(article.author);
+  const articleDescription = $("<p>").addClass("articleDesc").text(article.description);
+  const articleImage = $("<img>").addClass("articleImage").attr('src','https://static01.nyt.com/'+article.image);
 
 
-let News = "Example News Headline"
 
-function createNewsCard(News) {
-    const newsCard = $("<div>").addClass("newsCard");
-    const newsCardBody = $("<div>").addClass("cardBody");
-    const newsHeader = $("<h3>").addClass("newsHeader").text('Headline From The Day You Were Born:');
-    const newsTitle = $("<h4>").addClass("newsTitle").text(News);
+  articleCardBody.append(articleHeader, articleTitle, articleAuthor, articleDescription, articleImage);
+  articleCard.append(articleCardBody);
+  cardContainer.append(articleCard);
+  return articleCard;
 
-    newsCardBody.append(newsHeader, newsTitle);
-    newsCard.append(newsCardBody);
-    cardContainer.append(newsCard);
-    return newsCard;
 
 }
-createNewsCard(News)
+
 
 
 
