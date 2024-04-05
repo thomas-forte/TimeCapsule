@@ -135,8 +135,8 @@ async function birthdaySubmission() {
   const mediaChoice = document.getElementById("media").value
   
   //API URLs
-  articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=${formatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
-  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=${formatDate}&sort=oldest&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?list=hardcover-fiction&published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
 if (mediaChoice === 'news') {
@@ -177,12 +177,12 @@ else if (mediaChoice === 'books') {
     .then(response => response.json())
     .then(data => {
       const books = data.list
-      // console.log(data.results.lists[0].books[0])
+      console.log(data.results[0])
       const book = {
-        title: data.results.lists[0].books[0].title,
-        author: data.results.lists[0].books[0].author,
-        description: data.results.lists[0].books[0].description,
-        bookImage: data.results.lists[0].books[0].book_image,
+        title: data.results?.lists[0].books[0].title,
+        author: data.results?.lists[0].books[0].author,
+        description: data.results?.lists[0].books[0].description,
+        bookImage: data.results?.lists[0].books[0].book_image,
       };
       console.log(book);
       createBookCard(book);
@@ -193,12 +193,12 @@ else {
   .then(response => response.json())
   .then(data => {
     const articles = data.list
-    console.log(data.response.docs[0])
+    console.log(data.response?.docs[0])
     const article = {
-        headline: data.response.docs[0].headline.main,
-        author: data.response.docs[0].byline.original,
-        description: data.response.docs[0].snippet,
-        image: data.response.docs[0].multimedia[0].url,
+        headline: data.response?.docs[0].headline.main,
+        author: data.response?.docs[0].byline.original,
+        description: data.response?.docs[0].snippet,
+        image: data.response?.docs[0].multimedia[0].url,
       }
       console.log(article);
       createArticleCard(article);
@@ -222,12 +222,12 @@ else {
     .then(response => response.json())
     .then(data => {
       const books = data.list
-      // console.log(data.results.lists[0].books[0])
+      console.log(data.results)
       const book = {
-        title: data.results.lists[0].books[0].title,
-        author: data.results.lists[0].books[0].author,
-        description: data.results.lists[0].books[0].description,
-        bookImage: data.results.lists[0].books[0].book_image,
+        title: data.results?.lists[0].books[0].title,
+        author: data.results?.lists[0].books[0].author,
+        description: data.results?.lists[0].books[0].description,
+        bookImage: data.results?.lists[0].books[0].book_image,
       };
       console.log(book);
       createBookCard(book);
