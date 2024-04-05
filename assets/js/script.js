@@ -121,6 +121,10 @@ async function birthdaySubmission() {
   let recentInput = birthdates.reverse()[0]
   console.log(recentInput)
 
+  const formatDate = dayjs(recentInput).format('YYYYDDMM');
+  $('#3a').text(formatDate);
+  console.log(formatDate)
+
   const reformatDate = dayjs(recentInput).format('YYYY-DD-MM');
   $('#3a').text(reformatDate);
   console.log(reformatDate)
@@ -131,7 +135,7 @@ async function birthdaySubmission() {
   const mediaChoice = document.getElementById("media").value
   
   //API URLs
-  articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=${formatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
