@@ -11,7 +11,8 @@ function renderStyles() {
             '--text-color': '#031C26',
             '--background-color': '#FFF7EF',
             '--heading': 'Carter One',
-            '--body': 'Truculenta'
+            '--body': 'Truculenta',
+            '--background-image': 'src=./assets/images/1950sbg.svg'
         });
     }
 
@@ -23,7 +24,8 @@ function renderStyles() {
             '--text-color': '#310C0B',
             '--background-color': '#FFE101',
             '--heading': 'Spicy Rice',
-            '--body': 'Life Savers'
+            '--body': 'Life Savers',
+            '--background-image': 'src=./assets/images/1960sbg.svg'
         });
     }
 
@@ -35,7 +37,8 @@ function renderStyles() {
             '--text-color': '#3C2000',
             '--background-color': '#E2C6A7',
             '--heading': 'Bungee Shade',
-            '--body': 'Michroma'
+            '--body': 'Michroma',
+            '--background-image': 'src=./assets/images/1970sbg.svg'
         });
     }
 
@@ -47,7 +50,8 @@ function renderStyles() {
             '--text-color': '#8CA9FD',
             '--background-color': '#2B0D29',
             '--heading': 'Monoton',
-            '--body': 'Orbitron'
+            '--body': 'Orbitron',
+            '--background-image': 'src=./assets/images/1980sbg.svg'
         });
     }
 
@@ -59,7 +63,8 @@ function renderStyles() {
             '--text-color': '#FDB64C',
             '--background-color': '#161616',
             '--heading': 'Yuji Boku',
-            '--body': 'Special Elite'
+            '--body': 'Special Elite',
+            '--background-image': 'src=./assets/images/1990sbg.svg'
         });
     }
 
@@ -71,7 +76,8 @@ function renderStyles() {
             '--text-color': '#112236',
             '--background-color': '#FCFBFC',
             '--heading': 'Cute Font',
-            '--body': 'Jura'
+            '--body': 'Jura',
+            '--background-image': 'src=./assets/images/2000sbg.svg'
         });
     }
 
@@ -83,7 +89,8 @@ function renderStyles() {
             '--text-color': '#',
             '--background-color': '#',
             '--heading': '',
-            '--body': ''
+            '--body': '',
+            '--background-image': 'src=./assets/images/2020sbg.svg'
         });
     }
 
@@ -95,7 +102,8 @@ function renderStyles() {
             '--text-color': '#',
             '--background-color': '#',
             '--heading': '',
-            '--body': ''
+            '--body': '',
+            '--background-image': 'src=./assets/images/2020sbg.svg'
         });
     }
 };
