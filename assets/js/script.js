@@ -132,7 +132,7 @@ async function birthdaySubmission() {
   
   //API URLs
   articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
-  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
 if (mediaChoice === 'news') {
@@ -173,7 +173,6 @@ else if (mediaChoice === 'books') {
     .then(response => response.json())
     .then(data => {
       const books = data.list
-
       // console.log(data.results.lists[0].books[0])
       const book = {
         title: data.results.lists[0].books[0].title,
@@ -186,34 +185,7 @@ else if (mediaChoice === 'books') {
     });
 }
 else {
-  fetch(moviesRequestURL, options)
-  .then(response => response.json())
-  .then(data => {
-    const movies = data.list
-    console.log(data.results[0])
-    const movie = {
-        title: data.results[0].title,
-        description: data.results[0].overview,
-        poster: data.results[0].poster_path,
-      };
-      console.log(movie);
-      createMovieCard(movie);
-  });
-
-fetch(bookRequestURL)
-    .then(response => response.json())
-    .then(data => {
-      const books = data.list
-      // console.log(data.results.lists[0].books[0])
-      const book = {
-        title: data.results.lists[0].books[0].title,
-        author: data.results.lists[0].books[0].author,
-        description: data.results.lists[0].books[0].description,
-        bookImage: data.results.lists[0].books[0].book_image,
-      };
-      console.log(book);
-      createBookCard(book);
-    });
+  fetch(articleRequestURL)
 
   fetch(moviesRequestURL, options)
     .then(response => response.json())
@@ -274,7 +246,6 @@ function createArticleCard(article) {
   const articleAuthor = $("<p>").addClass("articleAuthor").text(article.author);
   const articleDescription = $("<p>").addClass("articleDesc").text(article.description);
   const articleImage = $("<img>").addClass("articleImage").attr('src','https://static01.nyt.com/'+article.image);
-
 
 
   articleCardBody.append(articleHeader, articleTitle, articleAuthor, articleDescription, articleImage);
