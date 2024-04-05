@@ -228,6 +228,7 @@ function createBookCard(book) {
 createBookCard(book)
 
 
+
 let News = "Example News Headline"
 
 function createNewsCard(News) {
