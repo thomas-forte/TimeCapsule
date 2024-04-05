@@ -132,7 +132,7 @@ async function birthdaySubmission() {
   
   //API URLs
   articleRequestURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?pub_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
-  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?bestsellers_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
+  bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
 if (mediaChoice === 'news') {
@@ -186,6 +186,19 @@ else if (mediaChoice === 'books') {
 }
 else {
   fetch(articleRequestURL)
+  .then(response => response.json())
+  .then(data => {
+    const articles = data.list
+    console.log(data.response.docs[0])
+    const article = {
+        headline: data.response.docs[0].headline.main,
+        author: data.response.docs[0].byline.original,
+        description: data.response.docs[0].snippet,
+        image: data.response.docs[0].multimedia[0].url,
+      }
+      console.log(article);
+      createArticleCard(article);
+  });
 
   fetch(moviesRequestURL, options)
     .then(response => response.json())
@@ -201,6 +214,22 @@ else {
       createMovieCard(movie);
     });
 
+    fetch(bookRequestURL)
+    .then(response => response.json())
+    .then(data => {
+      const books = data.list
+      // console.log(data.results.lists[0].books[0])
+      const book = {
+        title: data.results.lists[0].books[0].title,
+        author: data.results.lists[0].books[0].author,
+        description: data.results.lists[0].books[0].description,
+        bookImage: data.results.lists[0].books[0].book_image,
+      };
+      console.log(book);
+      createBookCard(book);
+    });
+
+}
 }
 
 function createMovieCard(movie) {
