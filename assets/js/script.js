@@ -139,13 +139,29 @@ async function birthdaySubmission() {
     .then(data => {
       const atricles = data.list
       console.log(data.response.docs[0])
+      const article = {
+        headline: data.response.docs[0].headline.main,
+        author: data.response.docs[0].byline.original,
+        description: data.response.docs[0].snippet,
+        image: data.response.docs[0].multimedia[0].url,
+      }
+      console.log(article);
+      createArticleCard(article);
     });
 
   fetch(bookRequestURL)
     .then(response => response.json())
     .then(data => {
       const books = data.list
-      console.log(data.results.lists[0].books[0])
+      // console.log(data.results.lists[0].books[0])
+      const book = {
+        title: data.results.lists[0].books[0].title,
+        author: data.results.lists[0].books[0].author,
+        description: data.results.lists[0].books[0].description,
+        bookImage: data.results.lists[0].books[0].book_image,
+      };
+      console.log(book);
+      createBookCard(book);
     });
 
 
@@ -154,14 +170,17 @@ async function birthdaySubmission() {
     .then(data => {
       const movies = data.list
       console.log(data.results[0])
+      const movie = {
+        title: data.results[0].title,
+        description: data.results[0].overview,
+        poster: data.results[0].poster_path,
+      };
+      console.log(movie);
+      createMovieCard(movie);
     });
 
 }
 
-const movie = {
-  title: "Example Movie",
-  description: "Example Description Example Description Example Description Example Description Example Description Example Description"
-};
 function createMovieCard(movie) {
 
   const movieCard = $("<div>").addClass("card").attr('id', 'movieCard');
@@ -169,52 +188,48 @@ function createMovieCard(movie) {
   const movieHeader = $("<h3>").addClass("movieHeader").text('Top Movie The Year You Were Born:');
   const movieTitle = $("<h4>").addClass("movieTitle").text(movie.title);
   const movieDescription = $("<p>").addClass("movieDesc").text(movie.description);
+  const moviePoster = $("<img>").addClass("moviePoster").attr('src','https://media.themoviedb.org/t/p/w500/'+movie.poster, 'max-width', '100px', 'max-height', '100px');
 
-  movieCardBody.append(movieHeader, movieTitle, movieDescription);
+  movieCardBody.append(movieHeader, movieTitle, movieDescription, moviePoster);
 
   movieCard.append(movieCardBody);
   cardContainer.append(movieCard);
 
   return movieCard;
 }
-createMovieCard(movie);
 
-const book = {
-  title: "Example Book",
-  description: "Example Description Example Description Example Description Example Description Example Description Example Description"
-
-}
 function createBookCard(book) {
   const bookCard = $("<div>").addClass("card").attr('id', 'bookCard');
   const bookCardBody = $("<div>").addClass("cardBody");
   const bookHeader = $("<h3>").addClass("bookHeader").text('Top Book The Year You Were Born:');
   const bookTitle = $("<h4>").addClass("bookTitle").text(book.title);
+  const bookAuthor = $("<p>").addClass("bookAuthor").text(book.author);
   const bookDescription = $("<p>").addClass("bookDesc").text(book.description);
+  const bookImage = $("<img>").addClass("bookImage").attr('src', book.bookImage)
 
-  bookCardBody.append(bookHeader, bookTitle, bookDescription);
+  bookCardBody.append(bookHeader, bookTitle, bookAuthor, bookDescription, bookImage);
   bookCard.append(bookCardBody);
   cardContainer.append(bookCard);
 
   return bookCard;
 }
-createBookCard(book)
 
+function createArticleCard(article) {
+  const articleCard = $("<div>").addClass("articleCard");
+  const articleCardBody = $("<div>").addClass("cardBody");
+  const articleHeader = $("<h3>").addClass("articleHeader").text('Top News From The Day You Were Born:');
+  const articleTitle = $("<h4>").addClass("articleTitle").text(article.headline);
+  const articleAuthor = $("<p>").addClass("articleAuthor").text(article.author);
+  const articleDescription = $("<p>").addClass("articleDesc").text(article.description);
+  const articleImage = $("<img>").addClass("articleImage").attr('src','https://static01.nyt.com/'+article.image);
 
-let News = "Example News Headline"
-
-function createNewsCard(News) {
-  const newsCard = $("<div>").addClass("newsCard");
-  const newsCardBody = $("<div>").addClass("cardBody");
-  const newsHeader = $("<h3>").addClass("newsHeader").text('Headline From The Day You Were Born:');
-  const newsTitle = $("<h4>").addClass("newsTitle").text(News);
-
-  newsCardBody.append(newsHeader, newsTitle);
-  newsCard.append(newsCardBody);
-  cardContainer.append(newsCard);
-  return newsCard;
+  articleCardBody.append(articleHeader, articleTitle, articleAuthor, articleDescription, articleImage);
+  articleCard.append(articleCardBody);
+  cardContainer.append(articleCard);
+  return articleCard;
 
 }
-createNewsCard(News)
+
 
 
 
