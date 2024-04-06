@@ -2,82 +2,76 @@
 const cardContainer = $('#card-container')
 
 // Colors and font selection
-function renderStyles() {
+function renderStyles(year) {
     if (year >= 1950 && year < 1960) {
         $(':root').css({
             '--primary-color': '#3EADD2',
-            '--secondary-color': '#F2CB05',
-            '--accent-color': '#F28157',
+            '--secondary-color': '#031C26',
+            '--accent-color': '#031C26',
             '--text-color': '#031C26',
-            '--background-color': '#FFF7EF',
             '--heading': 'Carter One',
             '--body': 'Truculenta',
-            '--background-image': 'src=./assets/images/1950sbg.svg'
+            '--background-image': 'url("/assets/images/1950sbg.svg")'
         });
     }
 
     if (year >= 1960 && year < 1970) {
         $(':root').css({
-            '--primary-color': '#FF8636',
-            '--secondary-color': '#54BCD6',
-            '--accent-color': '#9BBD25',
+            '--primary-color': '#FFE101',
+            '--secondary-color': '#310C0B',
+            '--accent-color': '#310C0B',
             '--text-color': '#310C0B',
-            '--background-color': '#FFE101',
             '--heading': 'Spicy Rice',
             '--body': 'Life Savers',
-            '--background-image': 'src=./assets/images/1960sbg.svg'
+            '--background-image': 'url("/assets/images/1960sbg.svg")'
         });
     }
 
     if (year >= 1970 && year < 1980) {
         $(':root').css({
-            '--primary-color': '#E59F23',
-            '--secondary-color': '#7E9636',
-            '--accent-color': '#633B07',
+            '--primary-color': '#EF9F20',
+            '--secondary-color': '#3C2000',
+            '--accent-color': '#3C2000',
             '--text-color': '#3C2000',
-            '--background-color': '#E2C6A7',
             '--heading': 'Bungee Shade',
             '--body': 'Michroma',
-            '--background-image': 'src=./assets/images/1970sbg.svg'
+            '--background-image': 'url("/assets/images/1970sbg.svg")'
         });
     }
 
     if (year >= 1980 && year < 1990) {
         $(':root').css({
-            '--primary-color': '#FA8057',
-            '--secondary-color': '#E754B0',
-            '--accent-color': '#F3D751',
+            '--primary-color': '#2B0D29',
+            '--secondary-color': '#FA8057',
+            '--accent-color': '#8CA9FD',
             '--text-color': '#8CA9FD',
-            '--background-color': '#2B0D29',
             '--heading': 'Monoton',
             '--body': 'Orbitron',
-            '--background-image': 'src=./assets/images/1980sbg.svg'
+            '--background-image': 'url("/assets/images/1980sbg.svg")'
         });
     }
 
     if (year >= 1990 && year < 2000) {
         $(':root').css({
             '--primary-color': '#5ABFAD',
-            '--secondary-color': '#D93682',
-            '--accent-color': '#5D3B8C',
+            '--secondary-color': '#5D3B8C',
+            '--accent-color': '#161616',
             '--text-color': '#FDB64C',
-            '--background-color': '#161616',
             '--heading': 'Yuji Boku',
             '--body': 'Special Elite',
-            '--background-image': 'src=./assets/images/1990sbg.svg'
+            '--background-image': 'url("/assets/images/1990sbg.svg")'
         });
     }
 
     if (year >= 2000 && year < 2010) {
         $(':root').css({
-            '--primary-color': '#5E88BA',
-            '--secondary-color': '#B4CBE4',
-            '--accent-color': '#D6D6D6',
+            '--primary-color': '#B4CBE4',
+            '--secondary-color': '#5E88BA',
+            '--accent-color': '#112236',
             '--text-color': '#112236',
-            '--background-color': '#FCFBFC',
             '--heading': 'Cute Font',
             '--body': 'Jura',
-            '--background-image': 'src=./assets/images/2000sbg.svg'
+            '--background-image': 'url("/assets/images/2000sbg.svg")'
         });
     }
 
@@ -209,6 +203,7 @@ else {
         image: data.response?.docs[0].multimedia[0].url,
       }
       console.log(article);
+      console.log('Hi Michael');
       createArticleCard(article);
   });
 
@@ -242,6 +237,8 @@ else {
     });
 
 }
+
+renderStyles(year);
 }
 
 function createMovieCard(movie) {
@@ -280,7 +277,7 @@ function createBookCard(book) {
 }
 
 function createArticleCard(article) {
-  const articleCard = $("<div>").addClass("articleCard");
+  const articleCard = $("<div>").addClass("articleCard", "card");
   const articleCardBody = $("<div>").addClass("cardBody");
   const articleHeader = $("<h3>").addClass("articleHeader").text('Top News From The Day You Were Born:');
   const articleTitle = $("<h4>").addClass("articleTitle").text(article.headline);
