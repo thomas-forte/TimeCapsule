@@ -4,7 +4,6 @@
     --secondary-color: ;
     --accent-color: ;
     --text-color: ;
-    --background-color: ;
     /* Fonts */
     --heading: ;
     --body: ;
@@ -12,32 +11,173 @@
     --background-image: ;
 }
 
-#slogan {
-    font-family: "Montserrat", serif;
-    font-size: 12px;
+/* Header and buttons */
+
+header {
+    width: 100%;
+    height: auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-bottom: 5px solid black;
 }
 
+#logo {
+ width: 40vw;
+ height: auto;
+}
 
+#slogan {
+    font-family: "Montserrat", serif;
+    font-size: 12px;   
+    /* height: auto; */
+}
+
+#js-modal-trigger {
+    border: 1px solid black;
+}
+
+#datepicker {
+    font-size: x-large;
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+#datepicker:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.dropdown-item {
+    font-size: xx-large;
+    margin: 5px;
+}
+
+/* Cards */
+#card-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-image: var(--background-image);
+ background-size: cover;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 3%;
+    margin: 3%;
+    background-color: var(--primary-color);
+    border: 5px solid var(--secondary-color);
+}
+
+.cardBody {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* Movie Card */
+
+.movieHeader {
+    font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    text-align: center;
+}
+
 .movieTitle {
     font-family: var(--heading);
+    color: var(--text-color);
+    font-size: 12vh;
+    text-align: center;
 }
 
 .movieDesc {
     font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    padding-bottom: 3%;
+    text-indent: 5%;
+}
+
+.moviePoster {
+    display: flex;
+    justify-content: center;
+    border: 5px solid var(--text-color);
 }
 
 /* Book Card */
+.bookHeader {
+    font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    text-align: center;
+}
+
 .bookTitle {
     font-family: var(--heading);
+    color: var(--text-color);
+    font-size: 12vh;
+    text-align: center;
+}
+
+.bookAuthor {
+    font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    text-align: center;
 }
 
 .bookDesc {
     font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    padding-bottom: 3%;
+    text-indent: 5%;
+}
+
+.bookImage {
+    display: flex;
+    justify-content: center;
+    border: 5px solid var(--text-color);
 }
 
 /* News Card */
-.newsTitle {
+.articleHeader {
+    font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    text-align: center;
+}
+
+.articleTitle {
     font-family: var(--heading);
+    color: var(--text-color);
+    font-size: 12vh;
+    text-align: center;
+}
+
+.articleAuthor {
+    font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    text-align: center;
+}
+
+.articleDesc {
+    font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 4vh;
+    padding-bottom: 3%;
+    text-indent: 5%;
+}
+
+.articleImage {
+    display: flex;
+    justify-content: center;
+    border: 5px solid var(--text-color);
 }
 
