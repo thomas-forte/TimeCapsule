@@ -11,7 +11,9 @@ function renderStyles(year) {
             '--text-color': '#031C26',
             '--heading': 'Carter One',
             '--body': 'Truculenta',
-            '--background-image': 'url("/assets/images/1950sbg.svg")'
+            '--background-image': 'url("/assets/images/1950sbg.svg")',
+            '--spacing': '1px',
+            '--opacity': '100%'
         });
     }
 
@@ -23,7 +25,8 @@ function renderStyles(year) {
             '--text-color': '#310C0B',
             '--heading': 'Spicy Rice',
             '--body': 'Life Savers',
-            '--background-image': 'url("/assets/images/1960sbg.svg")'
+            '--background-image': 'url("/assets/images/1960sbg.svg")',
+            '--spacing': '1px'
         });
     }
 
@@ -35,7 +38,9 @@ function renderStyles(year) {
             '--text-color': '#3C2000',
             '--heading': 'Bungee Shade',
             '--body': 'Michroma',
-            '--background-image': 'url("/assets/images/1970sbg.svg")'
+            '--background-image': 'url("/assets/images/1970sbg.svg")',
+            '--stroke': '2px',
+            '--spacing': '2px'
         });
     }
 
@@ -47,7 +52,8 @@ function renderStyles(year) {
             '--text-color': '#8CA9FD',
             '--heading': 'Monoton',
             '--body': 'Orbitron',
-            '--background-image': 'url("/assets/images/1980sbg.svg")'
+            '--background-image': 'url("/assets/images/1980sbg.svg")',
+            '--spacing': '2px'
         });
     }
 
@@ -57,9 +63,10 @@ function renderStyles(year) {
             '--secondary-color': '#5D3B8C',
             '--accent-color': '#161616',
             '--text-color': '#FDB64C',
-            '--heading': 'Yuji Boku',
-            '--body': 'Special Elite',
-            '--background-image': 'url("/assets/images/1990sbg.svg")'
+            '--heading': 'Gluten',
+            '--body': 'Comic Neue',
+            '--background-image': 'url("/assets/images/1990sbg.svg")',
+            '--spacing': '1px'
         });
     }
 
@@ -237,8 +244,21 @@ else {
     });
 
 }
-
+createDateCard(recentInput, year);
 renderStyles(year);
+}
+
+function createDateCard(recentInput, year) {
+  let dayMonth = dayjs(recentInput).format('MMMM D,');
+  
+  const dateCard = $("<div>").addClass("dateCard");
+  const dateCardBody = $("<div>").addClass("cardBody");
+  const dateHeader = $("<div>").addClass("dateHeader").text(dayMonth);
+  const dateTitle = $("<div>").addClass("dateTitle").text(year);
+
+  dateCardBody.append(dateHeader, dateTitle);
+  dateCard.append(dateCardBody);
+  cardContainer.append(dateCard);
 }
 
 function createMovieCard(movie) {
@@ -313,6 +333,7 @@ const dateInputEl = document.querySelector('#datepicker');
 submitButton = document.querySelector('#submit-date');
 const handleFormSubmit = function (event) {
     event.preventDefault();
+    document.getElementById('card-container').innerHTML = "";
 
     var firstGetItem = JSON.parse(localStorage.getItem("birthdates"));
     if (!Array.isArray(firstGetItem)) {
@@ -323,6 +344,7 @@ const handleFormSubmit = function (event) {
     firstGetItem.push(dateInput);
     localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
     birthdaySubmission();
+    document.getElementById('datepicker').value = "Select a date!";
 };
 
 
