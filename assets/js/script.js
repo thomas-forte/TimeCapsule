@@ -290,23 +290,16 @@ function createArticleCard(article) {
   articleCard.append(articleCardBody);
   cardContainer.append(articleCard);
   return articleCard;
-
-
 }
 
 
 
-
-
 //MODAL:
-
 // Modal open
 var modal = document.querySelector('#js-modal-trigger');
 modal.addEventListener('click', function () {
     document.querySelector('.modal').classList.add('is-active');
 });
-//
-
 
 const formEl = document.querySelector('#birthdate-form');
 const dateInputEl = document.querySelector('#datepicker');
@@ -324,7 +317,6 @@ const handleFormSubmit = function (event) {
     localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
     birthdaySubmission();
 };
-
 
 
 formEl.addEventListener('submit', handleFormSubmit);
@@ -350,8 +342,3 @@ $('#datepicker').datepicker({
     yearRange: "-74:+0",
 });
 
-// To close modal by means of the X in upper-right corner
-var modalClose = document.querySelector(".modal-close")
-modalClose.addEventListener('click', function () {
-    document.querySelector('.modal').classList.remove('is-active');
-})

@@ -36,6 +36,26 @@ header {
     border: 1px solid black;
 }
 
+.custom-modal {
+    border-radius: 30px;
+}
+
+.modal-card {
+    border-radius: 30px;
+}
+
+.modal-card-head {
+    border-bottom: 1px solid black;
+}
+
+.modal-card-title {
+    font-size: 50px;
+}
+
+#datepicker-instructions {
+    font-size: x-large;
+}
+
 #datepicker {
     font-size: x-large;
     width: 40%;
@@ -44,13 +64,25 @@ header {
 }
 
 #datepicker:hover {
-    background-color: whitesmoke;
+    background-color: rgb(211, 231, 170);
     cursor: pointer;
 }
+
+#choose-topic {
+    font-size: x-large;
+}
+
 
 .dropdown-item {
     font-size: xx-large;
     margin: 5px;
+}
+#media {
+    border: 2px solid black;
+}
+
+#media:hover {
+    background-color: rgb(211, 231, 170);
 }
 
 /* Cards */
