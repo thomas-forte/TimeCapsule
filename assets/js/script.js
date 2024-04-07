@@ -9,11 +9,13 @@ function renderStyles(year) {
             '--secondary-color': '#031C26',
             '--accent-color': '#031C26',
             '--text-color': '#031C26',
-            '--heading': 'Carter One',
-            '--body': 'Truculenta',
-            '--background-image': 'url("/assets/images/1950sbg.svg")',
-            '--spacing': '1px',
-            '--opacity': '100%'
+            '--heading-font': 'Carter One',
+            '--body-font': 'Truculenta',
+            '--header-size': '4.5vw',
+            '--title-size': '8vw',
+            '--body-size': '4vw',
+            '--background-image': 'url("../images/1950sbg.svg")',
+            '--spacing': '.25vw',
         });
     }
 
@@ -23,10 +25,14 @@ function renderStyles(year) {
             '--secondary-color': '#310C0B',
             '--accent-color': '#310C0B',
             '--text-color': '#310C0B',
-            '--heading': 'Spicy Rice',
-            '--body': 'Life Savers',
-            '--background-image': 'url("/assets/images/1960sbg.svg")',
-            '--spacing': '1px'
+            '--heading-font': 'Spicy Rice',
+            '--body-font': 'Life Savers',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--weight': 'bold', 
+            '--background-image': 'url("../images/1960sbg.svg")',
+            '--spacing': '.25vw'
         });
     }
 
@@ -36,11 +42,14 @@ function renderStyles(year) {
             '--secondary-color': '#3C2000',
             '--accent-color': '#3C2000',
             '--text-color': '#3C2000',
-            '--heading': 'Bungee Shade',
-            '--body': 'Michroma',
-            '--background-image': 'url("/assets/images/1970sbg.svg")',
-            '--stroke': '2px',
-            '--spacing': '2px'
+            '--heading-font': 'Bungee Shade',
+            '--body-font': 'Michroma',
+            '--header-size': '2.5vw',
+            '--title-size': '7vw',
+            '--body-size': '2vw',
+            '--background-image': 'url("../images/1970sbg.svg")',
+            '--stroke': '.25vw',
+            '--spacing': '.25vw'
         });
     }
 
@@ -50,10 +59,14 @@ function renderStyles(year) {
             '--secondary-color': '#FA8057',
             '--accent-color': '#8CA9FD',
             '--text-color': '#8CA9FD',
-            '--heading': 'Monoton',
-            '--body': 'Orbitron',
-            '--background-image': 'url("/assets/images/1980sbg.svg")',
-            '--spacing': '2px'
+            '--heading-font': 'Monoton',
+            '--body-font': 'Orbitron',
+            '--header-size': '3vw',
+            '--title-size': '8vw',
+            '--body-size': '2.5vw',
+            '--background-image': 'url("../images/1980sbg.svg")',
+            '--spacing': '.3vw',
+            '--stroke': '.15vw',
         });
     }
 
@@ -63,10 +76,13 @@ function renderStyles(year) {
             '--secondary-color': '#5D3B8C',
             '--accent-color': '#161616',
             '--text-color': '#FDB64C',
-            '--heading': 'Gluten',
-            '--body': 'Comic Neue',
-            '--background-image': 'url("/assets/images/1990sbg.svg")',
-            '--spacing': '1px'
+            '--heading-font': 'Gluten',
+            '--body-font': 'Comic Neue',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--background-image': 'url("../images/1990sbg.svg")',
+            '--spacing': '.25vw'
         });
     }
 
@@ -76,35 +92,44 @@ function renderStyles(year) {
             '--secondary-color': '#5E88BA',
             '--accent-color': '#112236',
             '--text-color': '#112236',
-            '--heading': 'Cute Font',
-            '--body': 'Jura',
-            '--background-image': 'url("/assets/images/2000sbg.svg")'
+            '--heading-font': 'Cute Font',
+            '--body-font': 'Jura',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--background-image': 'url("../images/2000sbg.svg")',
+            '--spacing': '.25vw'
         });
     }
 
     if (year >= 2010 && year < 2020) {
         $(':root').css({
-            '--primary-color': '#',
-            '--secondary-color': '#',
-            '--accent-color': '#',
-            '--text-color': '#',
-            '--background-color': '#',
-            '--heading': '',
-            '--body': '',
-            '--background-image': 'src=./assets/images/2020sbg.svg'
+            '--primary-color': '#D3D4D9',
+            '--secondary-color': '#D3D4D9',
+            '--text-color': '#191919',
+            '--heading-font': 'DM Sans',
+            '--body-font': 'Lato',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--weight': 'bold',
+            '--box-shadow': '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
+            '--background-image': 'radial-gradient(#DBD2CB 40%, #CCBDB6 60%)'
         });
     }
 
     if (year >= 2020) {
         $(':root').css({
-            '--primary-color': '#',
-            '--secondary-color': '#',
-            '--accent-color': '#',
-            '--text-color': '#',
-            '--background-color': '#',
-            '--heading': '',
-            '--body': '',
-            '--background-image': 'src=./assets/images/2020sbg.svg'
+            '--primary-color': '#998A6B',
+            '--secondary-color': '#998A6B',
+            '--accent-color': '#33270F',
+            '--text-color': '#CCC5B7',
+            '--heading-font': 'Poppins',
+            '--body-font': 'Montserrat',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--background-image': 'linear-gradient(#665533, #665533)'
         });
     }
 };

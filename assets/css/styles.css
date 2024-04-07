@@ -5,14 +5,18 @@
     --accent-color: ;
     --text-color: ;
     /* Fonts */
-    --heading: ;
-    --body: ;
-    /* Background Image */
-    --background-image: ;
-    /* General Formatting */
+    --heading-font: ;
+    --body-font: ;
+    --header-size: ;
+    --title-size: ;
+    --body-size: ;
+    --weight: ;
     --stroke: ;
     --spacing: ;
-    --opacity: 0%;
+    --line-height: ;
+    /* Background Image */
+    --background-image: ;
+    --box-shadow: ;
 }
 
 html {
@@ -35,29 +39,58 @@ html {
 header {
     width: 100%;
     height: auto;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    border-bottom: 5px solid black;
+    border-bottom: 0.5vw solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#header-section {
+    width: 100%;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#logo-slogan {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #logo {
- width: 40vw;
- height: auto;
+    width: 40vw;
+    height: auto;
 }
 
 #slogan {
     font-family: "Montserrat", serif;
-    font-size: 12px;   
-    /* height: auto; */
+    font-size: 2.5vw;  
+}
+
+#button-container {
+    width: 50%;
+    padding-right: 2vw;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #js-modal-trigger {
-    border: 1px solid black;
+    width: 25vw;
+    height: 6vw;
+    border-radius: 1vw;
+    font-size: 3vw;
+    border: 0.15vw solid #525252;
 }
+
 #modal-form-container {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #datepicker {
@@ -82,29 +115,34 @@ justify-content: space-evenly;
 
 /*General Cards */
 #card-container {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- background-image: var(--background-image);
- background-size: cover;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: var(--background-image);
+    background-size: cover;
 }
 
 .card {
     display: flex;
     justify-content: center;
-    width: 65%;
-    padding: 3%;
-    margin: 3%;
+    width: 80%;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    margin: 5vw;
     background-color: var(--primary-color);
-    border: 5px solid var(--secondary-color);
-    border-radius: 20px;
+    border: 0.5vw solid var(--secondary-color);
+    border-radius: 2vw;
+    box-shadow: var(--box-shadow);
 }
 
 .cardBody {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
 /* Date Card */
@@ -112,132 +150,185 @@ justify-content: space-evenly;
 .dateCard {
     display: flex;
     justify-content: center;
-    width: 30%;
-    padding-top: 1%;
-    margin: 3%;
+    width: 40%;
+    padding-top: 0.5vw;
+    margin: 3vw;
     background-color: var(--primary-color);
-    border: 5px solid var(--secondary-color);
-    border-radius: 20px;
+    border: 0.5vw solid var(--secondary-color);
+    border-radius: 2vw;
+    box-shadow: var(--box-shadow);
 }
 
 .dateHeader {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 6vh;
+    font-size: var(--header-size);
     text-align: center;
+    font-weight: var(--weight);
     letter-spacing: var(--spacing);
+    margin-bottom: -2vw;
 }
 
 .dateTitle {
-    font-family: var(--heading);
+    font-family: var(--heading-font);
     color: var(--text-color);
-    font-size: 14vh;
+    width: 100%;
+    font-size: var(--title-size);
     text-align: center;
+    font-weight: var(--weight);
     -webkit-text-stroke: var(--stroke);
 }
 
 /* Movie Card */
 
 .movieHeader {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 6vh;
+    font-size: var(--header-size);
     text-align: center;
+    font-weight: var(--weight);
     letter-spacing: var(--spacing);
+    width: 100%;
 }
 
 .movieTitle {
-    font-family: var(--heading);
+    font-family: var(--heading-font);
     color: var(--text-color);
-    font-size: 12vh;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 95%;
+    font-size: var(--title-size);
+    font-weight: var(--weight);
     text-align: center;
+    line-height: 7vw;
     -webkit-text-stroke: var(--stroke);
 }
 
 .movieDesc {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 4vh;
-    padding-bottom: 3%;
-    text-indent: 5%;
+    width: 85%;
+    font-size: var(--body-size);
+    text-indent: 5vw;
+    text-align: start;
+    font-weight: var(--weight);
     letter-spacing: var(--spacing);
 }
 
 .moviePoster {
     display: flex;
     justify-content: center;
-    border: 5px solid var(--text-color);
+    border: 0.5vw solid var(--secondary-color);
+    width: 85%;
+    height: auto;
+    margin-top: 8vw;
 }
 
 /* Book Card */
 .bookHeader {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 4vh;
+    font-size: var(--header-size);
     text-align: center;
+    font-weight: var(--weight);
+    letter-spacing: var(--spacing);
+    width: 100%;
 }
 
 .bookTitle {
-    font-family: var(--heading);
+    font-family: var(--heading-font);
     color: var(--text-color);
-    font-size: 12vh;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 95%;
+    font-size: var(--title-size);
+    font-weight: var(--weight);
     text-align: center;
+    line-height: 7vw;
+    -webkit-text-stroke: var(--stroke);
 }
 
 .bookAuthor {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 4vh;
+    font-size: var(--header-size);
     text-align: center;
+    font-weight: var(--weight);
+    letter-spacing: var(--spacing);
+    width: 100%;
 }
 
 .bookDesc {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 4vh;
-    padding-bottom: 3%;
-    text-indent: 5%;
+    width: 85%;
+    font-size: var(--body-size);
+    text-indent: 5vw;
+    text-align: start;
+    font-weight: var(--weight);
+    letter-spacing: var(--spacing);
 }
 
 .bookImage {
     display: flex;
     justify-content: center;
-    border: 5px solid var(--text-color);
+    border: 0.5vw solid var(--secondary-color);
+    width: 85%;
+    height: auto;
+    margin-top: 8vw;
 }
 
 /* News Card */
 .articleHeader {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 4vh;
+    font-size: var(--header-size);
     text-align: center;
+    font-weight: var(--weight);
+    letter-spacing: var(--spacing);
+    width: 100%;
 }
 
 .articleTitle {
-    font-family: var(--heading);
+    font-family: var(--heading-font);
     color: var(--text-color);
-    font-size: 12vh;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 95%;
+    font-size: var(--title-size);
+    font-weight: var(--weight);
     text-align: center;
+    line-height: 7vw;
+    -webkit-text-stroke: var(--stroke);
 }
 
 .articleAuthor {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 4vh;
+    font-size: var(--header-size);
     text-align: center;
+    font-weight: var(--weight);
+    letter-spacing: var(--spacing);
+    width: 100%;
 }
 
 .articleDesc {
-    font-family: var(--body);
+    font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: 4vh;
-    padding-bottom: 3%;
-    text-indent: 5%;
+    width: 85%;
+    font-size: var(--body-size);
+    text-indent: 5vw;
+    text-align: start;
+    font-weight: var(--weight);
+    letter-spacing: var(--spacing);
 }
 
 .articleImage {
     display: flex;
     justify-content: center;
-    border: 5px solid var(--text-color);
+    border: 0.5vw solid var(--secondary-color);
+    width: 85%;
+    height: auto;
+    margin-top: 8vw;
 }
 
