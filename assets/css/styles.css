@@ -6,11 +6,12 @@
     --text-color: ;
     /* Fonts */
     --heading-font: ;
+    --heading-size: ;
+    --heading-weight: ;
     --body-font: ;
-    --header-size: ;
-    --title-size: ;
     --body-size: ;
-    --weight: ;
+    --body-weight: ;
+    --title-size: ;
     --stroke: ;
     --spacing: ;
     --line-height: ;
@@ -194,9 +195,9 @@ header {
 .dateHeader {
     font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: var(--header-size);
+    font-size: var(--heading-size);
     text-align: center;
-    font-weight: var(--weight);
+    font-weight: var(--body-weight);
     letter-spacing: var(--spacing);
     margin-bottom: -2vw;
 }
@@ -207,7 +208,7 @@ header {
     width: 100%;
     font-size: var(--title-size);
     text-align: center;
-    font-weight: var(--weight);
+    font-weight: var(--heading-weight);
     -webkit-text-stroke: var(--stroke);
 }
 
@@ -216,9 +217,9 @@ header {
 .movieHeader {
     font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: var(--header-size);
+    font-size: var(--heading-size);
     text-align: center;
-    font-weight: var(--weight);
+    font-weight: var(--body-weight);
     letter-spacing: var(--spacing);
     width: 100%;
 }
@@ -230,7 +231,7 @@ header {
     margin-bottom: 5vw;
     width: 95%;
     font-size: var(--title-size);
-    font-weight: var(--weight);
+    font-weight: var(--heading-weight);
     text-align: center;
     line-height: 7vw;
     -webkit-text-stroke: var(--stroke);
@@ -243,7 +244,7 @@ header {
     font-size: var(--body-size);
     text-indent: 5vw;
     text-align: start;
-    font-weight: var(--weight);
+    font-weight: var(--body-weight);
     letter-spacing: var(--spacing);
 }
 
@@ -260,9 +261,9 @@ header {
 .bookHeader {
     font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: var(--header-size);
+    font-size: var(--heading-size);
     text-align: center;
-    font-weight: var(--weight);
+    font-weight: var(--body-weight);
     letter-spacing: var(--spacing);
     width: 100%;
 }
@@ -274,7 +275,7 @@ header {
     margin-bottom: 5vw;
     width: 95%;
     font-size: var(--title-size);
-    font-weight: var(--weight);
+    font-weight: var(--heading-weight);
     text-align: center;
     line-height: 7vw;
     -webkit-text-stroke: var(--stroke);
@@ -283,9 +284,10 @@ header {
 .bookAuthor {
     font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: var(--header-size);
+    font-size: var(--heading-size);
     text-align: center;
-    font-weight: var(--weight);
+    font-weight: bold;
+    margin-bottom: 5vw;
     letter-spacing: var(--spacing);
     width: 100%;
 }
@@ -297,7 +299,7 @@ header {
     font-size: var(--body-size);
     text-indent: 5vw;
     text-align: start;
-    font-weight: var(--weight);
+    font-weight: var(--body-weight);
     letter-spacing: var(--spacing);
 }
 
@@ -314,9 +316,9 @@ header {
 .articleHeader {
     font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: var(--header-size);
+    font-size: var(--heading-size);
     text-align: center;
-    font-weight: var(--weight);
+    font-weight: var(--body-weight);
     letter-spacing: var(--spacing);
     width: 100%;
 }
@@ -328,18 +330,19 @@ header {
     margin-bottom: 5vw;
     width: 95%;
     font-size: var(--title-size);
-    font-weight: var(--weight);
+    font-weight: var(--heading-weight);
     text-align: center;
-    line-height: 7vw;
+    line-height: 8vw;
     -webkit-text-stroke: var(--stroke);
 }
 
 .articleAuthor {
     font-family: var(--body-font);
     color: var(--accent-color);
-    font-size: var(--header-size);
+    font-size: var(--heading-size);
     text-align: center;
-    font-weight: var(--weight);
+    font-weight: bold;
+    margin-bottom: 5vw;
     letter-spacing: var(--spacing);
     width: 100%;
 }
@@ -351,7 +354,7 @@ header {
     font-size: var(--body-size);
     text-indent: 5vw;
     text-align: start;
-    font-weight: var(--weight);
+    font-weight: var(--body-weight);
     letter-spacing: var(--spacing);
 }
 
