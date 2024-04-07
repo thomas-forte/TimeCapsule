@@ -43,45 +43,59 @@
       </div>
       <div class="" id="button-container">
         <!-- Button -->
-        <button class="button is-light" id="js-modal-trigger" data target="modal-js-datepicker">Begin!</button>
+        <button class="button is-light" id="js-modal-trigger" data target="modal-js-datepicker">Start Here!</button>
       </div>
     </section>
- <!-- Modal -->
+    <!-- Modal -->
     <section>
-      <div class="modal">
+      <div class="modal custom-modal">
         <div class="modal-background"></div>
-        <div class="modal-content has-background-white py-5 px-5">
-          <div class="box box-radius">
-            <form id="birthdate-form">
-              <div class="" id="modal-form-container">
-                <input type="button" value="Select a date!" id="datepicker" name="birthdate" class="column form-control" auto-complete="off">
+        <div class="modal-card has-background-white py-5 px-5">
+          <!-- <div class="box box-radius"> -->
+          <header class="modal-card-head">
+            <p class="modal-card-title has-text-centered"><strong>Birthdate Form</strong></p>
+          </header>
+          <br>
+          <section class="modal-card-body">
+            <div class="container">
+              <!-- <div class="columns"> -->
+              <form id="birthdate-form">
+                <div class="has-text-centered">
+                  <p id="datepicker-instructions"><strong>Use the button below to choose your birthdate:</strong></p>
+                </div>
+                <div class="control column is-flex is-justify-content-center">
+                  <input type="button" value="Select a date!" id="datepicker" name="birthdate"
+                    class="column form-control" auto-complete="off">
+                </div>
+                <br>
                 <br>
                 <!-- Dropdown -->
-                <div class="field is-grouped is-grouped-centered" id="dropdown"></div>
-                  <div class="control is-flex is-justify-content-center">
-                    <div class="select is-medium">
-                      <select id="media">
-                        <option class="dropdown-item" data-category="movies" value="movies">Movies</option>
-                        <option class="dropdown-item" data-category="books" value="books">Books</option>
-                        <option class="dropdown-item" data-category="news" value="news">News</option>
-                        <option class="dropdown-item" data-category="all">All</option>
-                      </select>
-                    </div>
+                <div class="has-text-centered">
+                  <p id="choose-topic"><strong>Choose a topic to see what was happening on your birthday!</strong></p>
+                </div>
+                <div class="control column is-flex is-justify-content-center">
+                  <div class="select is-large">
+                    <select id="media">
+                      <option class="dropdown-item" data-category="movies" value="movies">Movies</option>
+                      <option class="dropdown-item" data-category="books" value="books">Books</option>
+                      <option class="dropdown-item" data-category="news" value="news">News</option>
+                      <option class="dropdown-item" data-category="all">All</option>
+                    </select>
                   </div>
                 </div>
-              </div> 
-              <div class="field is-grouped is-grouped-centered">
-                <div class="control">
-                  <button class="button is-link is-large" id="submit-date" type="submit">Submit</button>
-                </div>
-                <div class="control">
-                  <button class="button is-link is-light is-large" id="cancel-button">Cancel</button>
+            </div>
+            <br>
+          </section>
+          <div class="field is-grouped is-grouped-centered">
+            <div class="control">
+              <button class="button is-link is-large" id="submit-date" type="submit">Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-link is-light is-large" id="cancel-button">Cancel</button>
+            </div>
             </form>
+            <!-- </div> -->
           </div>
-        </div>
-      </div>
-      <button class="modal-close is-large" aria-label="close"></button>
-      </div>
     </section>
   </header>
   <main>
