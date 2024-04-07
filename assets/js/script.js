@@ -9,9 +9,13 @@ function renderStyles(year) {
             '--secondary-color': '#031C26',
             '--accent-color': '#031C26',
             '--text-color': '#031C26',
-            '--heading': 'Carter One',
-            '--body': 'Truculenta',
-            '--background-image': 'url("/assets/images/1950sbg.svg")'
+            '--heading-font': 'Carter One',
+            '--body-font': 'Truculenta',
+            '--header-size': '4.5vw',
+            '--title-size': '8vw',
+            '--body-size': '4vw',
+            '--background-image': 'url("../images/1950sbg.svg")',
+            '--spacing': '.25vw',
         });
     }
 
@@ -21,9 +25,14 @@ function renderStyles(year) {
             '--secondary-color': '#310C0B',
             '--accent-color': '#310C0B',
             '--text-color': '#310C0B',
-            '--heading': 'Spicy Rice',
-            '--body': 'Life Savers',
-            '--background-image': 'url("/assets/images/1960sbg.svg")'
+            '--heading-font': 'Spicy Rice',
+            '--body-font': 'Life Savers',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--weight': 'bold', 
+            '--background-image': 'url("../images/1960sbg.svg")',
+            '--spacing': '.25vw'
         });
     }
 
@@ -33,9 +42,14 @@ function renderStyles(year) {
             '--secondary-color': '#3C2000',
             '--accent-color': '#3C2000',
             '--text-color': '#3C2000',
-            '--heading': 'Bungee Shade',
-            '--body': 'Michroma',
-            '--background-image': 'url("/assets/images/1970sbg.svg")'
+            '--heading-font': 'Bungee Shade',
+            '--body-font': 'Michroma',
+            '--header-size': '2.5vw',
+            '--title-size': '7vw',
+            '--body-size': '2vw',
+            '--background-image': 'url("../images/1970sbg.svg")',
+            '--stroke': '.25vw',
+            '--spacing': '.25vw'
         });
     }
 
@@ -45,9 +59,14 @@ function renderStyles(year) {
             '--secondary-color': '#FA8057',
             '--accent-color': '#8CA9FD',
             '--text-color': '#8CA9FD',
-            '--heading': 'Monoton',
-            '--body': 'Orbitron',
-            '--background-image': 'url("/assets/images/1980sbg.svg")'
+            '--heading-font': 'Monoton',
+            '--body-font': 'Orbitron',
+            '--header-size': '3vw',
+            '--title-size': '8vw',
+            '--body-size': '2.5vw',
+            '--background-image': 'url("../images/1980sbg.svg")',
+            '--spacing': '.3vw',
+            '--stroke': '.15vw',
         });
     }
 
@@ -57,9 +76,13 @@ function renderStyles(year) {
             '--secondary-color': '#5D3B8C',
             '--accent-color': '#161616',
             '--text-color': '#FDB64C',
-            '--heading': 'Yuji Boku',
-            '--body': 'Special Elite',
-            '--background-image': 'url("/assets/images/1990sbg.svg")'
+            '--heading-font': 'Gluten',
+            '--body-font': 'Comic Neue',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--background-image': 'url("../images/1990sbg.svg")',
+            '--spacing': '.25vw'
         });
     }
 
@@ -69,35 +92,44 @@ function renderStyles(year) {
             '--secondary-color': '#5E88BA',
             '--accent-color': '#112236',
             '--text-color': '#112236',
-            '--heading': 'Cute Font',
-            '--body': 'Jura',
-            '--background-image': 'url("/assets/images/2000sbg.svg")'
+            '--heading-font': 'Cute Font',
+            '--body-font': 'Jura',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--background-image': 'url("../images/2000sbg.svg")',
+            '--spacing': '.25vw'
         });
     }
 
     if (year >= 2010 && year < 2020) {
         $(':root').css({
-            '--primary-color': '#',
-            '--secondary-color': '#',
-            '--accent-color': '#',
-            '--text-color': '#',
-            '--background-color': '#',
-            '--heading': '',
-            '--body': '',
-            '--background-image': 'src=./assets/images/2020sbg.svg'
+            '--primary-color': '#D3D4D9',
+            '--secondary-color': '#D3D4D9',
+            '--text-color': '#191919',
+            '--heading-font': 'DM Sans',
+            '--body-font': 'Lato',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--weight': 'bold',
+            '--box-shadow': '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
+            '--background-image': 'radial-gradient(#DBD2CB 40%, #CCBDB6 60%)'
         });
     }
 
     if (year >= 2020) {
         $(':root').css({
-            '--primary-color': '#',
-            '--secondary-color': '#',
-            '--accent-color': '#',
-            '--text-color': '#',
-            '--background-color': '#',
-            '--heading': '',
-            '--body': '',
-            '--background-image': 'src=./assets/images/2020sbg.svg'
+            '--primary-color': '#998A6B',
+            '--secondary-color': '#998A6B',
+            '--accent-color': '#33270F',
+            '--text-color': '#CCC5B7',
+            '--heading-font': 'Poppins',
+            '--body-font': 'Montserrat',
+            '--header-size': '3.5vw',
+            '--title-size': '8vw',
+            '--body-size': '3vw',
+            '--background-image': 'linear-gradient(#665533, #665533)'
         });
     }
 };
@@ -237,8 +269,21 @@ else {
     });
 
 }
-
+createDateCard(recentInput, year);
 renderStyles(year);
+}
+
+function createDateCard(recentInput, year) {
+  let dayMonth = dayjs(recentInput).format('MMMM D,');
+  
+  const dateCard = $("<div>").addClass("dateCard");
+  const dateCardBody = $("<div>").addClass("cardBody");
+  const dateHeader = $("<div>").addClass("dateHeader").text(dayMonth);
+  const dateTitle = $("<div>").addClass("dateTitle").text(year);
+
+  dateCardBody.append(dateHeader, dateTitle);
+  dateCard.append(dateCardBody);
+  cardContainer.append(dateCard);
 }
 
 function createMovieCard(movie) {
@@ -306,6 +351,7 @@ const dateInputEl = document.querySelector('#datepicker');
 submitButton = document.querySelector('#submit-date');
 const handleFormSubmit = function (event) {
     event.preventDefault();
+    document.getElementById('card-container').innerHTML = "";
 
     var firstGetItem = JSON.parse(localStorage.getItem("birthdates"));
     if (!Array.isArray(firstGetItem)) {
@@ -316,6 +362,7 @@ const handleFormSubmit = function (event) {
     firstGetItem.push(dateInput);
     localStorage.setItem('birthdates', JSON.stringify(firstGetItem));
     birthdaySubmission();
+    document.getElementById('datepicker').value = "Select a date!";
 };
 
 
