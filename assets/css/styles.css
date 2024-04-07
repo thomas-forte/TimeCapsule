@@ -9,6 +9,25 @@
     --body: ;
     /* Background Image */
     --background-image: ;
+    /* General Formatting */
+    --stroke: ;
+    --spacing: ;
+    --opacity: 0%;
+}
+
+html {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fadeIn {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
 }
 
 /* Header and buttons */
@@ -35,12 +54,20 @@ header {
 #js-modal-trigger {
     border: 1px solid black;
 }
+#modal-form-container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
 
 #datepicker {
-    font-size: x-large;
-    width: 40%;
-    height: 20%;
+    font-size: 100%;
     border-radius: 10px;
+    margin: 10px;
+}
+
+#media {
+    margin: 10px;
 }
 
 #datepicker:hover {
@@ -53,7 +80,7 @@ header {
     margin: 5px;
 }
 
-/* Cards */
+/*General Cards */
 #card-container {
  display: flex;
  flex-direction: column;
@@ -66,26 +93,57 @@ header {
 .card {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 65%;
     padding: 3%;
     margin: 3%;
     background-color: var(--primary-color);
     border: 5px solid var(--secondary-color);
+    border-radius: 20px;
 }
 
 .cardBody {
-    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/* Date Card */
+
+.dateCard {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding-top: 1%;
+    margin: 3%;
+    background-color: var(--primary-color);
+    border: 5px solid var(--secondary-color);
+    border-radius: 20px;
+}
+
+.dateHeader {
+    font-family: var(--body);
+    color: var(--accent-color);
+    font-size: 6vh;
+    text-align: center;
+    letter-spacing: var(--spacing);
+}
+
+.dateTitle {
+    font-family: var(--heading);
+    color: var(--text-color);
+    font-size: 14vh;
+    text-align: center;
+    -webkit-text-stroke: var(--stroke);
+}
+
 /* Movie Card */
 
 .movieHeader {
     font-family: var(--body);
     color: var(--accent-color);
-    font-size: 4vh;
+    font-size: 6vh;
     text-align: center;
+    letter-spacing: var(--spacing);
 }
 
 .movieTitle {
@@ -93,6 +151,7 @@ header {
     color: var(--text-color);
     font-size: 12vh;
     text-align: center;
+    -webkit-text-stroke: var(--stroke);
 }
 
 .movieDesc {
@@ -101,6 +160,7 @@ header {
     font-size: 4vh;
     padding-bottom: 3%;
     text-indent: 5%;
+    letter-spacing: var(--spacing);
 }
 
 .moviePoster {
