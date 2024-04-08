@@ -11,7 +11,7 @@ function renderStyles(year) {
             '--text-color': '#031C26',
             '--heading-font': 'Carter One',
             '--body-font': 'Truculenta',
-            '--header-size': '4.5vw',
+            '--heading-size': '4.5vw',
             '--title-size': '8vw',
             '--body-size': '4vw',
             '--background-image': 'url("../images/1950sbg.svg")',
@@ -27,10 +27,10 @@ function renderStyles(year) {
             '--text-color': '#310C0B',
             '--heading-font': 'Spicy Rice',
             '--body-font': 'Life Savers',
-            '--header-size': '3.5vw',
+            '--heading-size': '3.5vw',
             '--title-size': '8vw',
             '--body-size': '3vw',
-            '--weight': 'bold', 
+            '--body-weight': 'bold', 
             '--background-image': 'url("../images/1960sbg.svg")',
             '--spacing': '.25vw'
         });
@@ -44,7 +44,7 @@ function renderStyles(year) {
             '--text-color': '#3C2000',
             '--heading-font': 'Bungee Shade',
             '--body-font': 'Michroma',
-            '--header-size': '2.5vw',
+            '--heading-size': '2.5vw',
             '--title-size': '7vw',
             '--body-size': '2vw',
             '--background-image': 'url("../images/1970sbg.svg")',
@@ -61,7 +61,7 @@ function renderStyles(year) {
             '--text-color': '#8CA9FD',
             '--heading-font': 'Monoton',
             '--body-font': 'Orbitron',
-            '--header-size': '3vw',
+            '--heading-size': '3vw',
             '--title-size': '8vw',
             '--body-size': '2.5vw',
             '--background-image': 'url("../images/1980sbg.svg")',
@@ -78,7 +78,7 @@ function renderStyles(year) {
             '--text-color': '#FDB64C',
             '--heading-font': 'Gluten',
             '--body-font': 'Comic Neue',
-            '--header-size': '3.5vw',
+            '--heading-size': '3.5vw',
             '--title-size': '8vw',
             '--body-size': '3vw',
             '--background-image': 'url("../images/1990sbg.svg")',
@@ -94,7 +94,7 @@ function renderStyles(year) {
             '--text-color': '#112236',
             '--heading-font': 'Cute Font',
             '--body-font': 'Jura',
-            '--header-size': '3.5vw',
+            '--heading-size': '3.5vw',
             '--title-size': '8vw',
             '--body-size': '3vw',
             '--background-image': 'url("../images/2000sbg.svg")',
@@ -109,10 +109,10 @@ function renderStyles(year) {
             '--text-color': '#191919',
             '--heading-font': 'DM Sans',
             '--body-font': 'Lato',
-            '--header-size': '3.5vw',
+            '--heading-size': '3.5vw',
             '--title-size': '8vw',
             '--body-size': '3vw',
-            '--weight': 'bold',
+            '--heading-weight': 'bold',
             '--box-shadow': '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
             '--background-image': 'radial-gradient(#DBD2CB 40%, #CCBDB6 60%)'
         });
@@ -126,7 +126,7 @@ function renderStyles(year) {
             '--text-color': '#CCC5B7',
             '--heading-font': 'Poppins',
             '--body-font': 'Montserrat',
-            '--header-size': '3.5vw',
+            '--heading-size': '3.5vw',
             '--title-size': '8vw',
             '--body-size': '3vw',
             '--background-image': 'linear-gradient(#665533, #665533)'
@@ -322,7 +322,7 @@ function createBookCard(book) {
 }
 
 function createArticleCard(article) {
-  const articleCard = $("<div>").addClass("articleCard", "card");
+  const articleCard = $("<div>").addClass("card");
   const articleCardBody = $("<div>").addClass("cardBody");
   const articleHeader = $("<h3>").addClass("articleHeader").text('Top News From The Day You Were Born:');
   const articleTitle = $("<h4>").addClass("articleTitle").text(article.headline);
