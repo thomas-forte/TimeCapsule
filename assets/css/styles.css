@@ -149,7 +149,7 @@ header {
 }
 
 #datepicker-instructions {
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 #datepicker {
@@ -157,7 +157,7 @@ header {
     border-radius: 10px;
     margin: 10px;
     height: auto;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 #media {
