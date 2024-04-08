@@ -35,8 +35,11 @@ To view results for another page, simply scroll back to the top and repeat the p
 
 
 ## II. Features at a Glance
--The modal
--The cards
+  This app is comprised of a couple very customized features, as can be seen in the GIF above.
+  - Users click a **Start Here** button in the upper right-hand corner which opens a **modal** containing a datepicker and a select dropdown allowing users to choose a topic.
+  - Upon clicking **Submit**, the script reaches out to our chosen **APIS** and dynamically creates **Top Movie/Book/Headline cards**
+  - As the cards are being created, the **site theme** is also coded to change in correspondance to the user's birthday decade.
+
 
 ## III. Contribution Guidelines
   If you would like to contribute to the project, we ask that you adhere to the project vision described above, keep fonts, colors, and background images consistent with the existing styles on the site, and give credit to the original creators.
