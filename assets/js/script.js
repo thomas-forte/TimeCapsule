@@ -173,18 +173,19 @@ async function birthdaySubmission() {
   bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?list=hardcover-fiction&published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
+
   //Fetching requests based on the media choice chosen
   if (mediaChoice === 'news') {
     fetch(articleRequestURL)
       .then(response => response.json())
       .then(data => {
-        const articles = data.list
         const article = {
           headline: data.response.docs[0].headline.main,
           author: data.response.docs[0].byline.original,
           description: data.response.docs[0].snippet,
           image: data.response.docs[0].multimedia[0].url,
         }
+
         createArticleCard(article);
       });
   }
@@ -192,13 +193,12 @@ async function birthdaySubmission() {
     fetch(moviesRequestURL, options)
       .then(response => response.json())
       .then(data => {
-        const movies = data.list
-        console.log(data.results[0])
         const movie = {
           title: data.results[0].title,
           description: data.results[0].overview,
           poster: data.results[0].poster_path,
         };
+
         createMovieCard(movie);
       });
   }
@@ -207,14 +207,13 @@ async function birthdaySubmission() {
     fetch(bookRequestURL)
       .then(response => response.json())
       .then(data => {
-        const books = data.list
-        console.log(data.results[0])
         const book = {
           title: data.results?.lists[0].books[0].title,
           author: data.results?.lists[0].books[0].author,
           description: data.results?.lists[0].books[0].description,
           bookImage: data.results?.lists[0].books[0].book_image,
         };
+
         createBookCard(book);
       });
   }
@@ -222,22 +221,27 @@ async function birthdaySubmission() {
     fetch(articleRequestURL)
       .then(response => response.json())
       .then(data => {
-        const articles = data.list
-        console.log(data.response?.docs[0])
         const article = {
           headline: data.response?.docs[0].headline.main,
           author: data.response?.docs[0].byline.original,
           description: data.response?.docs[0].snippet,
-          image: data.response?.docs[0].multimedia[0].url,
+          image: data.response?.docs[0].multimedia && data.response?.docs[0].multimedia.length > 0
+            ? data.response?.docs[0].multimedia[0].url
+            : null,
         }
-        createArticleCard(article);
+        if (!article.image) {
+          console.log('Hello! There is no corresponding image before 2008 for this API. Have a 404 cat instead!');
+          createArticleNoImageCard(article);
+        } else {
+          console.log('Hi Michael');
+          createArticleCard(article);
+        }
+
       });
 
     fetch(moviesRequestURL, options)
       .then(response => response.json())
       .then(data => {
-        const movies = data.list
-        console.log(data.results[0])
         const movie = {
           title: data.results[0].title,
           description: data.results[0].overview,
@@ -249,15 +253,19 @@ async function birthdaySubmission() {
     fetch(bookRequestURL)
       .then(response => response.json())
       .then(data => {
-        const books = data.list
-        console.log(data.results)
-        const book = {
-          title: data.results?.lists[0].books[0].title,
-          author: data.results?.lists[0].books[0].author,
-          description: data.results?.lists[0].books[0].description,
-          bookImage: data.results?.lists[0].books[0].book_image,
-        };
-        createBookCard(book);
+        if (books && books.length > 0) {
+          const book = {
+            title: data.results?.lists[0].books[0].title,
+            author: data.results?.lists[0].books[0].author,
+            description: data.results?.lists[0].books[0].description,
+            bookImage: data.results?.lists[0].books[0].book_image,
+          };
+          createBookCard(book);
+        } else {
+          console.log("There are no Bestseller book results for this year 😿 The NYT API we used only goes back to 2008")
+          createEmptyResultsCard();
+        }
+
       });
 
   }
@@ -326,6 +334,40 @@ function createArticleCard(article) {
   articleCard.append(articleCardBody);
   cardContainer.append(articleCard);
   return articleCard;
+}
+
+// If image not found:
+function createArticleNoImageCard(article) {
+  const articleNoImageCard = $("<div>").addClass("card");
+  const articleNoImageCardBody = $("<div>").addClass("cardBody");
+  const articleNoImageHeader = $("<h3>").addClass("articleHeader").text('Top News From The Day You Were Born:');
+  const articleNoImageTitle = $("<h4>").addClass("articleTitle").text(article.headline);
+  const articleNoImageAuthor = $("<p>").addClass("articleAuthor").text(article.author);
+  const articleNoImageDescription = $("<p>").addClass("articleDesc").text(article.description);
+  const articleNoImage = $("<img>").addClass("articleImage").attr({'src': 'assets/images/404notfoundcat.jpg', 'alt': 'image of a cat hiding its head under scattered papers'});
+  const articleNoImageCaption = $("<caption>").addClass("articleAuthor").text("Image Not Found");
+  //re-used .articleAuthor here to keep styling/css easy and consistent
+  articleNoImageCardBody.append(articleNoImageHeader, articleNoImageTitle, articleNoImageAuthor, articleNoImageDescription, articleNoImage, articleNoImageCaption);
+  articleNoImageCard.append(articleNoImageCardBody);
+  cardContainer.append(articleNoImageCard);
+  return articleNoImageCard;
+}
+
+
+// If no Bestseller:
+function createEmptyResultsCard() {
+  const emptyResultsCard = $("<div>").addClass("card");
+  const emptyResultsCardBody = $("<div>").addClass("cardBody");
+  const emptyResultsCardHeader = $("<h4>").addClass("emptyResultsHeader").text("We're sorry!");
+  const emptyResultsCardTitle = $("<h3>").addClass("emptyResultsTitle").text('The API we are using only shows Bestsellers back to 2008!');
+  const emptyResultsCardImage = $("<img>").addClass("emptyResultsImage").attr({ 'src': 'assets/images/204-no-content.jpg', 'alt': 'two cats in front of an empty bowl with the caption "no content"'});
+  //at one point I had my cat as a kitten here instead of the httpcats. the transparent is still in the images
+  //her name is Daphne and we've only begun to scratch the surface of her vast intelligence
+  emptyResultsCardBody.append(emptyResultsCardHeader, emptyResultsCardTitle, emptyResultsCardImage);
+  emptyResultsCard.append(emptyResultsCardBody);
+  cardContainer.append(emptyResultsCard);
+
+  return emptyResultsCard;
 }
 
 
