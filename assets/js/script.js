@@ -389,3 +389,7 @@ $('#datepicker').datepicker({
     yearRange: "-74:+0",
 });
 
+const birthdayhat = document.querySelector('#modal-hat');
+birthdayhat.addEventListener('click', function(){
+  console.log('Easter 🥚')
+});

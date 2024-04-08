@@ -2,6 +2,7 @@
 ![Screenshot 2024-04-07 192233](https://github.com/BeeCeeTee/Project-1/assets/117789057/c353c705-a665-4c4e-9867-daaffbcd286c)
 
 ## Description <br>
+
 The goal of this project was to create a fun and functional web app. In learning new skills we wanted to make something our friends would be excited to test drive as well! The site is built to display facts about the birthday of the user, including  the top headline of the day, book of the year, and/or movie of the year. When the user opens the modal, enters their birthdate, and chooses a category, then the site displays cards that contain the facts from the day the user chose. Each category has its own card and each decade is styled to mirror the aesthetic of the era. This was our first time working in a group this semester, so there was a lot to learn about collaboration and Github merging. It was genuinely a joy to collaborate with the team and share the workload of the project. We hope you have as much fun using the site as we had making it!
 
 >### Requirements: <br>
@@ -33,8 +34,8 @@ To view results for another page, simply scroll back to the top and repeat the p
 <br>
 ![Recording2024-04-07191928-ezgif com-video-to-gif-converter](https://github.com/BeeCeeTee/Project-1/assets/117789057/b69d7a09-c710-4198-aae1-cb6440d22c4f)
 
-
 ## II. Features at a Glance
+
   This app is comprised of a couple very customized features, as can be seen in the GIF above.
   - Users click a **Start Here** button in the upper right-hand corner which opens a **modal** containing a datepicker and a select dropdown allowing users to choose a topic.
   - Upon clicking **Submit**, the script reaches out to our chosen **APIS** and dynamically creates **Top Movie/Book/Headline cards**

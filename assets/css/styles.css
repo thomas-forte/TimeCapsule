@@ -27,12 +27,13 @@ html {
 }
 
 @keyframes fadeIn {
-0% {
-    opacity: 0;
-}
-100% {
-    opacity: 1;
-}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Header and buttons */
@@ -70,7 +71,7 @@ header {
 
 #slogan {
     font-family: "Montserrat", serif;
-    font-size: 2.5vw;  
+    font-size: 2.5vw;
 }
 
 #button-container {
@@ -88,26 +89,44 @@ header {
     border: 0.15vw solid #525252;
 }
 
+#hat-container {
+    position: relative;
+}
+
+.modal {
+    border-color: ;
+}
+
+#modal-hat {
+    position: absolute;
+    max-width: 120%;
+    max-height: 120%;
+    top: -70px;
+    right: 48px;
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
 #modal-form-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.custom-modal {
-    border-radius: 30px;
-}
-
 .modal-card {
     border-radius: 30px;
+    overflow: visible;
 }
 
 .modal-card-head {
     border-bottom: 1px solid black;
+    background-color: rgb(142, 142, 205);
 }
 
 .modal-card-title {
     font-size: 50px;
+    color: coral;
+    text-shadow: -1px 0 rgb(160, 157, 157), 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 }
 
 #datepicker-instructions {
@@ -125,7 +144,7 @@ header {
 }
 
 #datepicker:hover {
-    background-color: rgb(211, 231, 170);
+    background-color: #FCF7AD;
     cursor: pointer;
 }
 
@@ -138,12 +157,13 @@ header {
     font-size: xx-large;
     margin: 5px;
 }
+
 #media {
     border: 2px solid black;
 }
 
 #media:hover {
-    background-color: rgb(211, 231, 170);
+    background-color: #FCF7AD;
 }
 
 /*General Cards */
@@ -366,4 +386,3 @@ header {
     height: auto;
     margin-top: 8vw;
 }
-
