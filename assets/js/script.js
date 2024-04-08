@@ -150,21 +150,21 @@ const options = {
 //once birthday is submitted this function will run
 async function birthdaySubmission() {
   const birthdates = JSON.parse(localStorage.getItem('birthdates'));
-  console.log(birthdates)
+
 
   let recentInput = birthdates.reverse()[0]
-  console.log(recentInput)
+
 
   const formatDate = dayjs(recentInput).format('YYYYDDMM');
   $('#3a').text(formatDate);
-  console.log(formatDate)
+
 
   const reformatDate = dayjs(recentInput).format('YYYY-DD-MM');
   $('#3a').text(reformatDate);
-  console.log(reformatDate)
+
 
   const year = dayjs(recentInput).format('YYYY')
-  console.log(year)
+
 
   const mediaChoice = document.getElementById("media").value
 
@@ -173,20 +173,19 @@ async function birthdaySubmission() {
   bookRequestURL = `https://api.nytimes.com/svc/books/v3/lists/overview.json?list=hardcover-fiction&published_date=${reformatDate}&api-key=anAU8Yk0RQpGTel7ZLCurFyigefJRTo3`
   moviesRequestURL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&primary_release_year=${year}&sort_by=revenue.desc`
 
+
+  //Fetching requests based on the media choice chosen
   if (mediaChoice === 'news') {
     fetch(articleRequestURL)
-
       .then(response => response.json())
       .then(data => {
-        const articles = data.list
-        console.log(data.response.docs[0])
         const article = {
           headline: data.response.docs[0].headline.main,
           author: data.response.docs[0].byline.original,
           description: data.response.docs[0].snippet,
           image: data.response.docs[0].multimedia[0].url,
         }
-        console.log(article);
+
         createArticleCard(article);
       });
   }
@@ -194,14 +193,12 @@ async function birthdaySubmission() {
     fetch(moviesRequestURL, options)
       .then(response => response.json())
       .then(data => {
-        const movies = data.list
-        console.log(data.results[0])
         const movie = {
           title: data.results[0].title,
           description: data.results[0].overview,
           poster: data.results[0].poster_path,
         };
-        console.log(movie);
+
         createMovieCard(movie);
       });
   }
@@ -210,15 +207,13 @@ async function birthdaySubmission() {
     fetch(bookRequestURL)
       .then(response => response.json())
       .then(data => {
-        const books = data.list
-        console.log(data.results[0])
         const book = {
           title: data.results?.lists[0].books[0].title,
           author: data.results?.lists[0].books[0].author,
           description: data.results?.lists[0].books[0].description,
           bookImage: data.results?.lists[0].books[0].book_image,
         };
-        console.log(book);
+
         createBookCard(book);
       });
   }
@@ -226,8 +221,6 @@ async function birthdaySubmission() {
     fetch(articleRequestURL)
       .then(response => response.json())
       .then(data => {
-        const articles = data.list
-        console.log(data.response?.docs[0])
         const article = {
           headline: data.response?.docs[0].headline.main,
           author: data.response?.docs[0].byline.original,
@@ -240,31 +233,26 @@ async function birthdaySubmission() {
           console.log('Hello! There is no corresponding image before 2008 for this API. Have a 404 cat instead!');
           createArticleNoImageCard(article);
         } else {
-          console.log(article);
           console.log('Hi Michael');
           createArticleCard(article);
         }
+
       });
 
     fetch(moviesRequestURL, options)
       .then(response => response.json())
       .then(data => {
-        const movies = data.list
-        console.log(data.results[0])
         const movie = {
           title: data.results[0].title,
           description: data.results[0].overview,
           poster: data.results[0].poster_path,
         };
-        console.log(movie);
         createMovieCard(movie);
       });
 
     fetch(bookRequestURL)
       .then(response => response.json())
       .then(data => {
-        const books = data.list
-        console.log(data.results)
         if (books && books.length > 0) {
           const book = {
             title: data.results?.lists[0].books[0].title,
@@ -272,12 +260,12 @@ async function birthdaySubmission() {
             description: data.results?.lists[0].books[0].description,
             bookImage: data.results?.lists[0].books[0].book_image,
           };
-          console.log(book);
           createBookCard(book);
         } else {
           console.log("There are no Bestseller book results for this year 😿 The NYT API we used only goes back to 2008")
           createEmptyResultsCard();
         }
+
       });
 
   }
@@ -314,7 +302,6 @@ function createMovieCard(movie) {
 
   return movieCard;
 }
-
 
 function createBookCard(book) {
 
