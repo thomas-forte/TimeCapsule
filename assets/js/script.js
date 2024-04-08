@@ -438,5 +438,4 @@ $('#datepicker').datepicker({
 const birthdayhat = document.querySelector('#modal-hat');
 birthdayhat.addEventListener('click', function () {
   console.log('Easter 🥚')
-  // document.querySelector('.modal').classList.remove('is-active');
 });
