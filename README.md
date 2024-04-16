@@ -1,5 +1,5 @@
 # 
-![Screenshot 2024-04-07 192233](https://github.com/BeeCeeTee/Project-1/assets/117789057/c353c705-a665-4c4e-9867-daaffbcd286c)
+![Screenshot 2024-04-07 192233](https://github.com/BeeCeeTee/TimeCapsule/assets/117789057/c353c705-a665-4c4e-9867-daaffbcd286c)
 
 ## Description <br>
 
@@ -22,11 +22,12 @@ The goal of this project was to create a fun and functional web app. In learning
 ## I. Getting Started
 To use this site, first click on the link below or type it into your browser's address bar:  
 <br>
-https://beeceetee.github.io/Project-1/
-![Screenshot 2024-04-07 184458](https://github.com/BeeCeeTee/Project-1/assets/117789057/2193cfa1-7147-4867-a0a0-477970315f23)
+https://beeceetee.github.io/TimeCapsule/
+![Screenshot 2024-04-15 210622](https://github.com/BeeCeeTee/TimeCapsule/assets/117789057/3f6f3767-bc13-46f8-bfe2-ca75ac6c25b9)
 
-Next, click the <img src="https://github.com/BeeCeeTee/Project-1/assets/117789057/46766e23-759c-40d9-b55c-34d6ab1e7559" height="25"> (Start Here)
- button in the upper right, click <img src="https://github.com/BeeCeeTee/Project-1/assets/117789057/53025a00-ef64-41fe-964e-4b00ee68eac4" height="25"> (Select a date), select a date from the calendar, select an option from the dropdown, and click the <img src="https://github.com/BeeCeeTee/Project-1/assets/117789057/398c7c36-20a0-4d46-980f-ac25e9664208" height="25">
+
+Next, click the <img src="https://github.com/BeeCeeTee/TimeCapsule/assets/117789057/46766e23-759c-40d9-b55c-34d6ab1e7559" height="25"> (Start Here)
+ button in the upper right, click <img src="https://github.com/BeeCeeTee/TimeCapsule/assets/117789057/53025a00-ef64-41fe-964e-4b00ee68eac4" height="25"> (Select a date), select a date from the calendar, select an option from the dropdown, and click the <img src="https://github.com/BeeCeeTee/Project-1/assets/117789057/398c7c36-20a0-4d46-980f-ac25e9664208" height="25">
 (submit) button, or click <img src="https://github.com/BeeCeeTee/Project-1/assets/117789057/1b8dacec-7379-4fc0-8985-16558bc2dbc3" height="25">
 (cancel) to cancel. Now just scroll down the page and view the results!  
 
@@ -68,6 +69,6 @@ Credits:
 
 ## V. License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-  This project is provided under an MIT license. For more information, see the [License](https://github.com/BeeCeeTee/Project-1/blob/main/LICENSE) file above.
+  This project is provided under an MIT license. For more information, see the [License](https://github.com/BeeCeeTee/TimeCapsule/blob/main/LICENSE) file above.
   
   © Copyright © 2024 Brendan Trepal, Rachel Vanetta, Avery Gallagan, Tess McGovern
