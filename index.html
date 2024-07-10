@@ -1,110 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+  lang="en"
+  class="h-full"
+>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content="Unveiling your birthday wonders"
+  />
+  <meta
+    name="keywords"
+    content="time capsule birthday decades years"
+  />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
   <link
     href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Carter+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cute+Font&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gluten:wght@100..900&family=Jura:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Life+Savers:wght@400;700;800&family=Michroma&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
-    rel="stylesheet">
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
-    </script>
-  <!-- jQuery UI -->
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
-    integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous">
-    </script>
-  <!-- Day.js -->
-  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous">
-    </script>
-  <!-- Bulma -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
-  <!-- Style Sheet -->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+    rel="stylesheet"
+  />
+  <link
+    rel="icon"
+    type="image/svg"
+    href="/favicon.svg"
+  />
   <title>TimeCapsule</title>
-  <link rel="icon" type="image/svg" href="./assets/images/TimeCapsuleFavicon.svg">
-
-
 </head>
 
-<body>
-  <header class="has-background-white">
-    <section class="" id="header-section">
-      <div class="" id="logo-slogan">
-        <img class="" src="./assets/images/TimeCapsulelogo2.svg"
-          alt="Time Capsule logo" id="logo"> 
-        <p class="has-text-centered" id="slogan">Unveiling your birthday wonders!</p>
-      </div>
-      <div class="" id="button-container">
-        <!-- Button -->
-        <button class="button is-light" id="js-modal-trigger" data target="modal-js-datepicker">Start Here!</button>
-      </div>
-    </section>
-    <!-- Modal -->
-    <section>
-      <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-card has-background-white py-5 px-5">
-          <header class="modal-card-head">
-            <p class="modal-card-title has-text-centered" id="hat-container"><strong>Birthdate Form</strong></p>
-            <img id="modal-hat" src="assets/images/birthdayhat-Photoroom.png-Photoroom.png"
-             alt="birthday hat on the corner of the modal"> <!--credit for the hat to the free version of canva-->
-            </header>
-          <br>
-          <section class="modal-card-body">
-            <div class="container">
-              <!-- <div class="columns"> -->
-              <form id="birthdate-form">
-                <div class="has-text-centered">
-                  <p id="datepicker-instructions"><strong>Use the button below to choose your birthdate:</strong></p>
-                </div>
-                <div class="control column is-flex is-justify-content-center">
-                  <input type="button" value="Select a date!" id="datepicker" name="birthdate"
-                    class="column form-control" auto-complete="off">
-                </div>
-                <br>
-                <!-- Dropdown -->
-                <div class="has-text-centered">
-                  <p id="choose-topic"><strong>Choose a topic to see what was happening on your birthday!</strong></p>
-                </div>
-                <div class="control column is-flex is-justify-content-center">
-                  <div class="select is-large">
-                    <select id="media">
-                      <option class="dropdown-item" data-category="movies" value="movies">Movies</option>
-                      <option class="dropdown-item" data-category="books" value="books">Books</option>
-                      <option class="dropdown-item" data-category="news" value="news">News</option>
-                      <option class="dropdown-item" data-category="all">All</option>
-                    </select>
-                  </div>
-                </div>
-            </div>
-            <br>
-          </section>
-          <div class="field is-grouped is-grouped-centered">
-            <div class="control">
-              <button class="button is-link is-large" id="submit-date" type="submit">Submit</button>
-            </div>
-            <div class="control">
-              <button class="button is-link is-light is-large" id="cancel-button">Cancel</button>
-            </div>
-            </form>
-          </div>
-    </section>
-  </header>
-  <main>
-    <div id="card-container"></div>
-  </main>
-
-
-  <script src="./assets/js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  
+<body class="h-full">
+  <div
+    id="root"
+    class="h-full"
+  ></div>
+  <script
+    type="module"
+    src="/src/main.tsx"
+  ></script>
+</body>
 
 </html>
