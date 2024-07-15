@@ -4,7 +4,13 @@ export default {
   theme: {
     extend: {
       borderWidth: {
-        'standard': "0.5vw",
+        DEFAULT: "0.5vw",
+        thin: "0.15vw",
+      },
+      borderRadius: {
+        DEFAULT: "2vw",
+        small: "1vw",
+      },
       },
     },
   },
