@@ -1,5 +1,5 @@
 import { DateCard } from "./DateCard";
-// import { MovieCard } from "./MovieCard";
+import { MovieCard } from "./MovieCard";
 
 interface DateViewerProps {
   date: Date;
@@ -16,7 +16,7 @@ export const DateViewer = ({ date }: DateViewerProps) => {
         style={{ backgroundImage: `url(/images/${decade}bg.svg)` }}
       >
         <DateCard date={date} decade={decade} />
-        {/* <MovieCard date={date} /> */}
+        <MovieCard date={date} decade={decade} />
       </div>
     </>
   );
