@@ -5,9 +5,7 @@ import { Initial } from "./components/Initial";
 import { DateViewer } from "./components/DateViewer";
 
 export const App = () => {
-  const [dateEntered, setDateEntered] = useState<Date | null>(
-    new Date(1991, 9, 8)
-  );
+  const [dateEntered, setDateEntered] = useState<Date | null>(null);
 
   function dateSelected(value?: Date) {
     setDateEntered(value ?? null);
