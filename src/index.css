@@ -17,3 +17,163 @@ html {
   animation-duration: 3s;
   animation-timing-function: ease-in;
 }
+
+@layer components {
+  .card {
+    @apply m-[5vw] w-4/5;
+    @apply border-solid border border-black rounded;
+    @apply p-[5vw];
+
+    .movie-poster {
+      @apply border-solid border border-black w-[85%] mt-[9vw] mx-auto;
+    }
+  }
+
+  .dateCard {
+    @apply m-[3vw] w-2/5;
+    @apply pt-[0.5vw] pb-0;
+    @apply select-none;
+  }
+}
+
+/* outside classes */
+.bg-1950s {
+  @apply bg-p1950s;
+}
+.bg-1960s {
+  @apply bg-p1960s;
+}
+.bg-1970s {
+  @apply bg-p1970s;
+}
+.bg-1980s {
+  @apply bg-p1980s;
+}
+.bg-1990s {
+  @apply bg-p1990s;
+}
+.bg-2000s {
+  @apply bg-p2000s;
+}
+.bg-2010s {
+  @apply bg-p2010s;
+}
+.bg-2020s {
+  @apply bg-p2020s;
+}
+
+
+.bd-1950s {
+  @apply border-s1950s;
+}
+.bd-1960s {
+  @apply border-s1960s;
+}
+.bd-1970s {
+  @apply border-s1970s;
+}
+.bd-1980s {
+  @apply border-s1980s;
+}
+.bd-1990s {
+  @apply border-s1990s;
+}
+.bd-2000s {
+  @apply border-s2000s;
+}
+.bd-2010s {
+  @apply border-s2010s;
+}
+.bd-2020s {
+  @apply border-s2020s;
+}
+
+.bf-1950s {
+  @apply font-b1950s;
+  @apply text-a1950s text-[4.5vw] tracking-[0.25vw];
+  &.body {
+    @apply text-[4vw];
+  }
+}
+.bf-1960s {
+  @apply font-b1960s;
+  @apply text-a1960s text-[3.5vw] font-bold tracking-[0.25vw];
+  &.body {
+    @apply text-[3vw];
+  }
+}
+.bf-1970s {
+  @apply font-b1970s;
+  @apply text-a1970s text-[2.5vw] tracking-[0.25vw];
+  &.body {
+    @apply text-[2vw];
+  }
+}
+.bf-1980s {
+  @apply font-b1980s;
+  @apply text-a1980s text-[3vw] tracking-[0.3vw];
+  &.body {
+    @apply text-[2.5vw];
+  }
+}
+.bf-1990s {
+  @apply font-b1990s;
+  @apply text-a1990s text-[3.5vw] tracking-[0.25vw];
+  &.body {
+    @apply text-[3vw];
+  }
+}
+.bf-2000s {
+  @apply font-b2000s;
+  @apply text-a2000s text-[3.5vw] tracking-[0.25vw];
+  &.body {
+    @apply text-[3vw];
+  }
+}
+.bf-2010s {
+  @apply font-b2010s;
+  @apply text-a2010s text-[3.5vw]; /* no tracking spec */
+  &.body {
+    @apply text-[3vw];
+  }
+}
+.bf-2020s {
+  @apply font-b2020s;
+  @apply text-a2020s text-[3.5vw]; /* no tracking spec */
+  &.body {
+    @apply text-[3vw];
+  }
+}
+
+.hf-1950s {
+  @apply font-h1950s;
+  @apply text-t1950s text-[8vw] tracking-[0.25vw];
+}
+.hf-1960s {
+  @apply font-h1960s;
+  @apply text-t1960s text-[8vw] tracking-[0.25vw];
+}
+.hf-1970s {
+  @apply font-h1970s;
+  @apply text-t1970s text-[7vw] tracking-[0.25vw];
+}
+.hf-1980s {
+  @apply font-h1980s;
+  @apply text-t1980s text-[8vw] tracking-[0.25vw];
+}
+.hf-1990s {
+  @apply font-h1990s;
+  @apply text-t1990s text-[8vw] tracking-[0.25vw];
+}
+.hf-2000s {
+  @apply font-h2000s;
+  @apply text-t2000s text-[8vw] tracking-[0.25vw];
+}
+.hf-2010s {
+  @apply font-h2010s;
+  @apply text-t2010s text-[8vw] font-bold tracking-[0.25vw];
+}
+.hf-2020s {
+  @apply font-h2020s;
+  @apply text-t2020s text-[8vw] tracking-[0.25vw];
+}
