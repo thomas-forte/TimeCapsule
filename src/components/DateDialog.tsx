@@ -19,6 +19,9 @@ export const DateDialog = ({
   closeModal,
   closeModalWithValue,
 }: DateDialogProps) => {
+  const minimum = "1950-01-01";
+  const today = new Date().toISOString().split("T")[0];
+
   function handleSubmit(e: FormEvent) {
     // Prevent the browser from reloading the page
     e.preventDefault();
@@ -66,6 +69,8 @@ export const DateDialog = ({
                 <Input
                   name="date"
                   type="date"
+                  min={minimum}
+                  max={today}
                   className="block w-full rounded-md border-0 py-1.5 px-7 text-neutral-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
