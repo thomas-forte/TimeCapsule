@@ -24,7 +24,8 @@ html {
     @apply border-solid border border-black rounded;
     @apply p-[5vw];
 
-    .movie-poster {
+    .movie-poster,
+    .book-cover {
       @apply border-solid border border-black w-[85%] mt-[9vw] mx-auto;
     }
   }
@@ -61,7 +62,6 @@ html {
 .bg-2020s {
   @apply bg-p2020s;
 }
-
 
 .bd-1950s {
   @apply border-s1950s;
