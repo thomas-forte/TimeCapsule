@@ -32,7 +32,7 @@ export const DateDialog = ({
     const enteredDate = formData.get("date");
     let processedDate;
     if (enteredDate) {
-      processedDate = new Date(enteredDate.toString());
+      processedDate = new Date(`${enteredDate.toString()}T00:00:00`);
     }
 
     closeModalWithValue(processedDate);
