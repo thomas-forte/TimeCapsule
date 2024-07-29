@@ -25,7 +25,8 @@ html {
     @apply p-[5vw];
 
     .movie-poster,
-    .book-cover {
+    .book-cover,
+    .newspaper {
       @apply border-solid border border-black w-[85%] mt-[9vw] mx-auto;
     }
   }
