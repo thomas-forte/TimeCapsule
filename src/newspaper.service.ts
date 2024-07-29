@@ -9,7 +9,9 @@ export const checkForNewspaper = async (
   const url =
     "https://timecapsule.brendantrepal.com/images/newspapers" +
     `/${decade}/${date.getFullYear()}` +
-    `/${date.getMonth() + 1}-${date.toLocaleString("default", {
+    `/${(date.getMonth() + 1)
+      .toString()
+      .padStart(2, "0")}-${date.toLocaleString("default", {
       month: "long",
     })}` +
     `/${formattedDate}.jpg`;
