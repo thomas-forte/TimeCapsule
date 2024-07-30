@@ -6,10 +6,9 @@ export const checkForNewspaper = async (
   date: Date,
   decade: string
 ): Promise<string | null> => {
-  const formattedDate = date.toISOString().substring(0, 10);
-
+  let formattedDate = date.toISOString().substring(0, 10);
   if (date < UNDERSCORE_DATES) {
-    formattedDate.replace("-", "_");
+    formattedDate = formattedDate.replace(/-/g, "_");
   }
 
   const url =
