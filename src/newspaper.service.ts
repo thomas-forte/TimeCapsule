@@ -1,10 +1,16 @@
 import axios from "axios";
 
+const UNDERSCORE_DATES = new Date(1950, 6, 1);
+
 export const checkForNewspaper = async (
   date: Date,
   decade: string
 ): Promise<string | null> => {
   const formattedDate = date.toISOString().substring(0, 10);
+
+  if (date < UNDERSCORE_DATES) {
+    formattedDate.replace("-", "_");
+  }
 
   const url =
     "https://timecapsule.brendantrepal.com/images/newspapers" +
