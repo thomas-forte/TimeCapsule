@@ -2,6 +2,7 @@ import { DateCard } from "./DateCard";
 import { MovieCard } from "./MovieCard";
 import { BookCard } from "./BookCard";
 import { NewsCard } from "./NewsCard";
+import { VideoGameCard } from "./VideoGameCard";
 
 interface DateViewerProps {
   date: Date;
@@ -21,6 +22,7 @@ export const DateViewer = ({ date }: DateViewerProps) => {
         <MovieCard date={date} decade={decade} />
         <BookCard date={date} decade={decade} />
         <NewsCard date={date} decade={decade} />
+        <VideoGameCard date={date} decade={decade} />
       </div>
     </>
   );
