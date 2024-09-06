@@ -4,6 +4,8 @@ on:
   push:
     branches: phase-1-linear
 
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
@@ -21,8 +23,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    environment: development
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,6 +32,12 @@ jobs:
         with:
           node-version: lts/iron
           cache: "npm"
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+        with:
+          static_site_generator: gatsby
 
       - name: Check Cache
         id: cache-node-modules
