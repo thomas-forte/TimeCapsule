@@ -40,6 +40,16 @@ export const DateDialog = ({
     closeModalWithValue(processedDate);
   }
 
+  let defaultDate: Date;
+  if (initialDate) {
+    defaultDate = initialDate;
+  } else {
+    defaultDate = new Date();
+    defaultDate.setFullYear(
+      Math.floor(Math.random() * (defaultDate.getFullYear() - 1950 + 1) + 1950)
+    );
+  }
+
   return (
     <Dialog
       open={show}
@@ -73,7 +83,7 @@ export const DateDialog = ({
                   type="date"
                   min={minimum}
                   max={today}
-                  defaultValue={initialDate?.toISOString().split("T")[0]}
+                  defaultValue={defaultDate.toISOString().split("T")[0]}
                   className="block w-full rounded-md border-0 py-1.5 px-7 text-neutral-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
