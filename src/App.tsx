@@ -13,7 +13,7 @@ export const App = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <Header dateSelected={dateSelected} />
+      <Header dateSelected={dateSelected} date={dateEntered} />
       <main className="flex-grow">
         {dateEntered ? <DateViewer date={dateEntered} /> : <Initial />}
       </main>

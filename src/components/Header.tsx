@@ -6,9 +6,10 @@ import { useState } from "react";
 
 interface HeaderProps {
   dateSelected: (value?: Date) => void;
+  date: Date | null;
 }
 
-export const Header = ({ dateSelected }: HeaderProps) => {
+export const Header = ({ dateSelected, date }: HeaderProps) => {
   const [showModal, setShowModal] = useState(false);
 
   function openModal() {
@@ -44,6 +45,7 @@ export const Header = ({ dateSelected }: HeaderProps) => {
       </Button>
       <DateDialog
         show={showModal}
+        initialDate={date}
         closeModal={closeModal}
         closeModalWithValue={closeModalWithValue}
       />
