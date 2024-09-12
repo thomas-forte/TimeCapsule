@@ -45,7 +45,7 @@ export const VideoGameCard = ({ date, decade }: VideoGameCardProps) => {
       </p>
       <img
         className="game-cover"
-        src={videoGame.image}
+        src={"https://timecapsule.brendantrepal.com" + videoGame.image}
         alt="video game cover"
       />
     </Card>

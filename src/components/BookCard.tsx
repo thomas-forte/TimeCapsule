@@ -34,7 +34,11 @@ export const BookCard = ({ date, decade }: BookCardProps) => {
       <p className={`text-center px-[7.5%] indent-[5vw] bf-${decade} body`}>
         By {book.author}
       </p>
-      <img className="book-cover" src={book.image} alt="book cover" />
+      <img
+        className="book-cover"
+        src={"https://timecapsule.brendantrepal.com" + book.image}
+        alt="book cover"
+      />
     </Card>
   ) : (
     <></>
