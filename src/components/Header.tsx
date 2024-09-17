@@ -1,8 +1,8 @@
+import { useState } from "react";
 import { Button } from "@headlessui/react";
 
-import timeCapsuleLogo from "../assets/logo.svg";
 import { DateDialog } from "./DateDialog";
-import { useState } from "react";
+import { Logo } from "./Logo";
 
 interface HeaderProps {
   dateSelected: (value?: Date) => void;
@@ -28,11 +28,7 @@ export const Header = ({ dateSelected, date }: HeaderProps) => {
   return (
     <header className="flex justify-between items-center bg-neutral-100 p-[3vw] border-solid border-black border-b">
       <div className="w-1/2 flex flex-col items-center">
-        <img
-          className="w-[40vw]"
-          src={timeCapsuleLogo}
-          alt="Time Capsule Logo"
-        />
+        <Logo />
         <p className="font-montserrat font-light text-[2.5vw] text-coldGray">
           Unveiling your birthday wonders!
         </p>
