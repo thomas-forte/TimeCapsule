@@ -12,20 +12,10 @@
   }
 }
 
-html {
+main {
   animation-name: fadeIn;
   animation-duration: 3s;
   animation-timing-function: ease-in;
-}
-
-.rotate-screen {
-  display: none;
-}
-
-@media screen and (max-aspect-ratio: 1/1) {
-  .rotate-screen {
-    display: block;
-  }
 }
 
 @layer components {
