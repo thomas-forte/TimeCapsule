@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Header } from "./components/Header";
 import { Initial } from "./components/Initial";
 import { DateViewer } from "./components/DateViewer";
+import { RotateScreenPopup } from "./components/RotateScreenPopup";
 
 export const App = () => {
   const [dateEntered, setDateEntered] = useState<Date | null>(null);
