@@ -6,12 +6,13 @@ import "./index.css";
 
 import { App } from "./App.tsx";
 import { DatePage } from "./pages/DatePage.tsx";
+import { ErrorPage } from "./pages/ErrorPage.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <div>Not Found</div>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: ":year/:month/:day",
