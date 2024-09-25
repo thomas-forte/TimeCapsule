@@ -1,0 +1,19 @@
+.ULScrew {
+    background-image: conic-gradient(from 19grad, #E5F0F3 0grad, 65grad, #757D89 88grad, 101grad, #535A68 117grad, 154grad, #3D4559 220grad, 273grad, #5F6B7D 296grad, 309grad, #6E7C92 322grad, 346grad, #E5F0F3 400grad);
+    filter: drop-shadow(-.25rem .9rem .2rem #00000080);
+}
+
+.URScrew {
+    background-image: conic-gradient(from 398grad, #E5F0F3 0grad, 65grad, #757D89 88grad, 101grad, #535A68 117grad, 154grad, #3D4559 220grad, 260grad, #5F6B7D 276grad, 292grad, #6E7C92 307grad, 340grad, #E5F0F3 400grad);
+    filter: drop-shadow(.15rem .9rem .2rem #00000080);
+}
+
+.LLScrew {
+    background-image: conic-gradient(from 8grad, #A8BBC0 0grad, 46grad, #757D89 73grad, 87grad, #3D414A 104grad, 127grad, #292E3A 220grad, 277grad, #4E5662 292grad, 311grad, #6E7C92 330grad, 359grad, #A8BBC0 400grad);
+    filter: drop-shadow(0 1rem .3rem #00000099);
+}
+
+.LRScrew {
+    background-image: conic-gradient(from 398grad, #A8BBC0 0grad, 65grad, #757D89 88grad, 101grad, #3D414A 117grad, 154grad, #292E3A 220grad, 270grad, #4E5662 292grad, 304grad, #6E7C92 317grad, 345grad, #A8BBC0 400grad);
+    filter: drop-shadow(0 1rem .3rem #00000099);
+}
