@@ -1,16 +1,13 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@headlessui/react";
 
 import { DateDialog } from "./DateDialog";
 import { Logo } from "./Logo";
 
-interface HeaderProps {
-  dateSelected: (value?: Date) => void;
-  date: Date | null;
-}
-
-export const Header = ({ dateSelected, date }: HeaderProps) => {
+export const Header = () => {
   const [showModal, setShowModal] = useState(false);
+  const navigate = useNavigate();
 
   function openModal() {
     setShowModal(true);
@@ -20,8 +17,8 @@ export const Header = ({ dateSelected, date }: HeaderProps) => {
     setShowModal(false);
   }
 
-  function closeModalWithValue(value?: Date) {
-    dateSelected(value);
+  function closeModalWithValue(value: Date) {
+    navigate(value.toISOString().slice(0, 10).replace(/-/g, "/"));
     setShowModal(false);
   }
 
@@ -41,7 +38,7 @@ export const Header = ({ dateSelected, date }: HeaderProps) => {
       </Button>
       <DateDialog
         show={showModal}
-        initialDate={date}
+        initialDate={new Date()}
         closeModal={closeModal}
         closeModalWithValue={closeModalWithValue}
       />

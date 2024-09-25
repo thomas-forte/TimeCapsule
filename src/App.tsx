@@ -1,24 +1,18 @@
-import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 import { Header } from "./components/Header";
-import { Initial } from "./components/Initial";
-import { DateViewer } from "./components/DateViewer";
-import { RotateScreenPopup } from "./components/RotateScreenPopup";
+// import { RotateScreenPopup } from "./components/RotateScreenPopup";
+// import { HelpScreenPopup } from "./components/HelpPopup";
 
 export const App = () => {
-  const [dateEntered, setDateEntered] = useState<Date | null>(null);
-
-  function dateSelected(value?: Date) {
-    setDateEntered(value ?? null);
-  }
-
   return (
     <div className="h-full flex flex-col">
-      <Header dateSelected={dateSelected} date={dateEntered} />
+      <Header />
       <main className="flex-grow">
-        {dateEntered ? <DateViewer date={dateEntered} /> : <Initial />}
+        <Outlet />
       </main>
-      <RotateScreenPopup />
+      {/* <RotateScreenPopup /> */}
+      {/* <HelpScreenPopup date={dateEntered} /> */}
     </div>
   );
 };

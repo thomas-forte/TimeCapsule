@@ -12,7 +12,7 @@ interface DateDialogProps {
   show: boolean;
   initialDate: Date | null;
   closeModal: () => void;
-  closeModalWithValue: (value?: Date) => void;
+  closeModalWithValue: (value: Date) => void;
 }
 
 export const DateDialog = ({
@@ -37,7 +37,11 @@ export const DateDialog = ({
       processedDate = new Date(`${enteredDate.toString()}T00:00:00`);
     }
 
-    closeModalWithValue(processedDate);
+    if (processedDate) {
+      closeModalWithValue(processedDate);
+    } else {
+      closeModal();
+    }
   }
 
   let defaultDate: Date;
@@ -70,6 +74,7 @@ export const DateDialog = ({
             >
               Time Entry Form (Draft: 29c-442)
             </DialogTitle>
+
             <form method="post" onSubmit={handleSubmit}>
               <label
                 htmlFor="date"
