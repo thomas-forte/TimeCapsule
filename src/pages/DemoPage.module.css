@@ -27,9 +27,4 @@ div.container {
     overflow: hidden;
     
     display: flex;
-
-    > :first-child {
-        background-color: green;
-        width: 22.5%;
-    }
 }
