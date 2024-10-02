@@ -1,0 +1,7 @@
+.hover {
+    cursor: pointer;
+    fill: #1e1e1e;
+}
+.hover:hover {
+    fill: #8bf8ff;
+}

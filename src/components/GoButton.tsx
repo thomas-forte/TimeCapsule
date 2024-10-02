@@ -1,3 +1,5 @@
+import styles from "./GoButton.module.css";
+
 interface GoButtonProps {
   onClick?: () => void;
 }
@@ -16,6 +18,7 @@ export const GoButton = ({ onClick }: GoButtonProps) => (
     strokeLinejoin="round"
     strokeMiterlimit="2"
     onClick={onClick}
+    className={styles.hover}
   >
     <circle
       id="Outer-Gradient-Layer"
@@ -36,7 +39,7 @@ export const GoButton = ({ onClick }: GoButtonProps) => (
     <path
       id="Arrow"
       d="M34,69L34,49L65,49L65,39L84,59L65,79L65,69L34,69Z"
-      fill="#1e1e1e"
+      // fill="#1e1e1e"
     />
     <defs>
       <linearGradient
