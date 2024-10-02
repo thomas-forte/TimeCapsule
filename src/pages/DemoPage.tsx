@@ -26,8 +26,8 @@ export const DemoPage = () => {
             </div>
           </div>
         </div>
-        <Door />
       </div>
+      <Door className={styles.doorPanelBackground} />
       <ControlPanelBackground className={styles.controlPanelBackground} />
     </>
   );
