@@ -24,7 +24,51 @@ div.container {
     height: 100dvh;
     width: 100dvw;
 
+    background-color: black;
+
     overflow: hidden;
     
     display: flex;
+    
+    > div.controlPanel {
+        width: 20%;
+        z-index: 10;
+    
+        
+        > div.controlPanelFlex {
+            margin-right: 21.875%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            > * {
+                max-width: 70%;
+            }
+
+            > div.namePlate {
+                margin-top: 32px;
+            }
+            > div.goButton {
+                max-width: 120px;
+            }
+
+            > div.datePicker {
+                margin-top: 32px;
+                max-width: 175px;
+            }
+
+            > div.randomButton {
+                margin-top: 32px;
+                max-width: 90px;
+            }
+        }
+    }
+}
+
+svg.controlPanelBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    z-index: 0;
 }
