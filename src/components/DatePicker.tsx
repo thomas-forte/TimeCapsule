@@ -1,4 +1,9 @@
+import { useState } from "react";
+import styles from "./DatePicker.module.css";
+
 export const DatePicker = () => {
+  const [date, setDate] = useState(new Date(1955, 10, 5));
+
   return (
     <svg
       width="100%"
@@ -47,7 +52,7 @@ export const DatePicker = () => {
         fontSize="34"
         fill="#8bf8ff"
       >
-        1955
+        {date.getFullYear()}
       </text>
       <rect x="57.976" y="247.553" width="84" height="42.894" fill="none" />
       <text
@@ -57,7 +62,7 @@ export const DatePicker = () => {
         fontSize="34"
         fill="#8bf8ff"
       >
-        05
+        {date.getDate().toString().padStart(2, "0")}
       </text>
       <rect x="57.976" y="122" width="84" height="42.894" fill="none" />
       <text
@@ -67,33 +72,87 @@ export const DatePicker = () => {
         fontSize="34"
         fill="#8bf8ff"
       >
-        NOV
+        {date.toLocaleDateString("en-US", { month: "short" }).toUpperCase()}
       </text>
       <g>
         <g>
           <path
             d="M99.976,451L67.976,436L131.976,436L99.976,451Z"
-            fill="#8bf8ff"
+            className={styles.hover}
+            onClick={() =>
+              setDate(
+                new Date(
+                  date.getFullYear() - 1,
+                  date.getMonth(),
+                  date.getDate()
+                )
+              )
+            }
           />
           <path
             d="M99.976,358L131.976,373L67.976,373L99.976,358Z"
-            fill="#8bf8ff"
+            className={styles.hover}
+            onClick={() =>
+              setDate(
+                new Date(
+                  date.getFullYear() + 1,
+                  date.getMonth(),
+                  date.getDate()
+                )
+              )
+            }
           />
           <path
             d="M99.976,316L67.976,301L131.976,301L99.976,316Z"
-            fill="#8bf8ff"
+            className={styles.hover}
+            onClick={() =>
+              setDate(
+                new Date(
+                  date.getFullYear(),
+                  date.getMonth(),
+                  date.getDate() - 1
+                )
+              )
+            }
           />
           <path
             d="M99.976,222L131.976,237L67.976,237L99.976,222Z"
-            fill="#8bf8ff"
+            className={styles.hover}
+            onClick={() =>
+              setDate(
+                new Date(
+                  date.getFullYear(),
+                  date.getMonth(),
+                  date.getDate() + 1
+                )
+              )
+            }
           />
           <path
             d="M99.976,190L67.976,175L131.976,175L99.976,190Z"
-            fill="#8bf8ff"
+            className={styles.hover}
+            onClick={() =>
+              setDate(
+                new Date(
+                  date.getFullYear(),
+                  date.getMonth() - 1,
+                  date.getDate()
+                )
+              )
+            }
           />
           <path
             d="M99.976,97L131.976,112L67.976,112L99.976,97Z"
-            fill="#8bf8ff"
+            className={styles.hover}
+            onClick={() =>
+              setDate(
+                new Date(
+                  date.getFullYear(),
+                  date.getMonth() + 1,
+                  date.getDate()
+                )
+              )
+            }
           />
         </g>
       </g>
