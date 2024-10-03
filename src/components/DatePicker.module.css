@@ -1,10 +1,9 @@
 .hover {
     cursor: pointer;
-    fill: #8bf8ff;;
+    fill: #8bf8ff;
 }
 .hover:hover {
-    fill: #8bf8ffaa;
-    stroke: snow;
+    fill: #2bf1ff;
 }
 .disabled {
     fill: #8bf8ff55;;
