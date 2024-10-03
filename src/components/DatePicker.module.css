@@ -6,3 +6,6 @@
     fill: #8bf8ffaa;
     stroke: snow;
 }
+.disabled {
+    fill: #8bf8ff55;;
+}

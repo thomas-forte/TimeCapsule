@@ -78,8 +78,11 @@ export const DatePicker = () => {
         <g>
           <path
             d="M99.976,451L67.976,436L131.976,436L99.976,451Z"
-            className={styles.hover}
+            className={
+              date.getFullYear() <= 1950 ? styles.disabled : styles.hover
+            }
             onClick={() =>
+              date.getFullYear() > 1950 &&
               setDate(
                 new Date(
                   date.getFullYear() - 1,
@@ -91,8 +94,11 @@ export const DatePicker = () => {
           />
           <path
             d="M99.976,358L131.976,373L67.976,373L99.976,358Z"
-            className={styles.hover}
+            className={
+              date.getFullYear() >= 2024 ? styles.disabled : styles.hover
+            }
             onClick={() =>
+              date.getFullYear() < 2024 &&
               setDate(
                 new Date(
                   date.getFullYear() + 1,
@@ -130,8 +136,9 @@ export const DatePicker = () => {
           />
           <path
             d="M99.976,190L67.976,175L131.976,175L99.976,190Z"
-            className={styles.hover}
+            className={date.getMonth() === 0 ? styles.disabled : styles.hover}
             onClick={() =>
+              date.getMonth() !== 0 &&
               setDate(
                 new Date(
                   date.getFullYear(),
@@ -143,8 +150,9 @@ export const DatePicker = () => {
           />
           <path
             d="M99.976,97L131.976,112L67.976,112L99.976,97Z"
-            className={styles.hover}
+            className={date.getMonth() === 11 ? styles.disabled : styles.hover}
             onClick={() =>
+              date.getMonth() !== 11 &&
               setDate(
                 new Date(
                   date.getFullYear(),
