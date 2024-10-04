@@ -7,16 +7,25 @@ import styles from "./DemoPage.module.css";
 import { ControlPanelBackground } from "../components/ControlPanelBackground";
 import { DatePicker } from "../components/DatePicker";
 import { Door } from "../components/Door";
-import { GoButton } from "../components/GoButton";
+import { GoButton } from "../components/buttons/GoButton";
 import { NamePlate } from "../components/NamePlate";
-import { RandomButton } from "../components/RandomButton";
+import { RandomButton } from "../components/buttons/RandomButton";
 import { useNavigate } from "react-router-dom";
+
+// buttons
+import { AllButton } from "../components/buttons/AllButton";
+import { NewsButton } from "../components/buttons/NewsButton";
+import { MoviesButton } from "../components/buttons/MoviesButton";
+import { GamesButton } from "../components/buttons/GamesButton";
+import { MusicButton } from "../components/buttons/MusicButton";
+import { BooksButton } from "../components/buttons/BooksButton";
 
 const MIN_DATE = new Date(1950, 0, 1);
 const MAX_DATE = new Date();
 
 export const DemoPage = () => {
   const [date, setDate] = useState(new Date(1955, 10, 5));
+  const [filterSelection, setFilterSelection] = useState("all");
   const navigate = useNavigate();
 
   const updateDate = (date: Date) => {
@@ -58,6 +67,44 @@ export const DemoPage = () => {
             </div>
             <div className={styles.randomButton}>
               <RandomButton onClick={() => pickRandomDate()} />
+            </div>
+          </div>
+          <div className={styles.controlPanelButtons}>
+            <div>
+              <AllButton
+                onClick={() => setFilterSelection("all")}
+                active={filterSelection === "all"}
+              />
+            </div>
+            <div>
+              <MoviesButton
+                onClick={() => setFilterSelection("movies")}
+                active={filterSelection === "movies"}
+              />
+            </div>
+            <div>
+              <BooksButton
+                onClick={() => setFilterSelection("books")}
+                active={filterSelection === "books"}
+              />
+            </div>
+            <div>
+              <NewsButton
+                onClick={() => setFilterSelection("news")}
+                active={filterSelection === "news"}
+              />
+            </div>
+            <div>
+              <GamesButton
+                onClick={() => setFilterSelection("games")}
+                active={filterSelection === "games"}
+              />
+            </div>
+            <div>
+              <MusicButton
+                onClick={() => setFilterSelection("music")}
+                active={filterSelection === "music"}
+              />
             </div>
           </div>
         </div>
