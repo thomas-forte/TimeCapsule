@@ -1,9 +1,11 @@
-import { useState } from "react";
 import styles from "./DatePicker.module.css";
 
-export const DatePicker = () => {
-  const [date, setDate] = useState(new Date(1955, 10, 5));
+interface DatePickerProps {
+  date: Date;
+  updateDate: (date: Date) => void;
+}
 
+export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
   return (
     <svg
       width="100%"
@@ -46,31 +48,34 @@ export const DatePicker = () => {
       </g>
       <rect x="57.976" y="383.106" width="84" height="42.894" fill="none" />
       <text
-        x={57.976}
-        y={383.106 + 34}
-        fontWeight="600"
-        fontSize="34"
-        fill="#8bf8ff"
+        x={57.976 + 84 / 2}
+        y={383.106 + 42.894 / 2}
+        dy={2}
+        dominantBaseline="middle"
+        textAnchor="middle"
+        className={styles.dateText}
       >
         {date.getFullYear()}
       </text>
       <rect x="57.976" y="247.553" width="84" height="42.894" fill="none" />
       <text
-        x={57.976 + 20}
-        y={247.553 + 34}
-        fontWeight="600"
-        fontSize="34"
-        fill="#8bf8ff"
+        x={57.976 + 84 / 2}
+        y={247.553 + 42.894 / 2}
+        dy={2}
+        dominantBaseline="middle"
+        textAnchor="middle"
+        className={styles.dateText}
       >
         {date.getDate().toString().padStart(2, "0")}
       </text>
       <rect x="57.976" y="122" width="84" height="42.894" fill="none" />
       <text
-        x={57.976 + 6}
-        y={122 + 34}
-        fontWeight="600"
-        fontSize="34"
-        fill="#8bf8ff"
+        x={57.976 + 84 / 2}
+        y={122 + 42.894 / 2}
+        dy={2}
+        dominantBaseline="middle"
+        textAnchor="middle"
+        className={styles.dateText}
       >
         {date.toLocaleDateString("en-US", { month: "short" }).toUpperCase()}
       </text>
@@ -83,7 +88,7 @@ export const DatePicker = () => {
             }
             onClick={() =>
               date.getFullYear() > 1950 &&
-              setDate(
+              updateDate(
                 new Date(
                   date.getFullYear() - 1,
                   date.getMonth(),
@@ -99,7 +104,7 @@ export const DatePicker = () => {
             }
             onClick={() =>
               date.getFullYear() < 2024 &&
-              setDate(
+              updateDate(
                 new Date(
                   date.getFullYear() + 1,
                   date.getMonth(),
@@ -112,7 +117,7 @@ export const DatePicker = () => {
             d="M99.976,316L67.976,301L131.976,301L99.976,316Z"
             className={styles.hover}
             onClick={() =>
-              setDate(
+              updateDate(
                 new Date(
                   date.getFullYear(),
                   date.getMonth(),
@@ -125,7 +130,7 @@ export const DatePicker = () => {
             d="M99.976,222L131.976,237L67.976,237L99.976,222Z"
             className={styles.hover}
             onClick={() =>
-              setDate(
+              updateDate(
                 new Date(
                   date.getFullYear(),
                   date.getMonth(),
@@ -139,7 +144,7 @@ export const DatePicker = () => {
             className={date.getMonth() === 0 ? styles.disabled : styles.hover}
             onClick={() =>
               date.getMonth() !== 0 &&
-              setDate(
+              updateDate(
                 new Date(
                   date.getFullYear(),
                   date.getMonth() - 1,
@@ -153,7 +158,7 @@ export const DatePicker = () => {
             className={date.getMonth() === 11 ? styles.disabled : styles.hover}
             onClick={() =>
               date.getMonth() !== 11 &&
-              setDate(
+              updateDate(
                 new Date(
                   date.getFullYear(),
                   date.getMonth() + 1,

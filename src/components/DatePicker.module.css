@@ -1,3 +1,11 @@
+.dateText {
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    fill: #8bf8ff;
+    font-size: 34px;
+}
+
 .hover {
     cursor: pointer;
     fill: #8bf8ff;

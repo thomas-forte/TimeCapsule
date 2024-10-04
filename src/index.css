@@ -12,6 +12,11 @@
   }
 }
 
+.oxanium-400 {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+}
+
 main {
   animation-name: fadeIn;
   animation-duration: 3s;
