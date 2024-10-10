@@ -1,0 +1,47 @@
+.controlPanel {
+    display: flex;
+
+    > .mainPanel {
+        width: 78.125%;
+        
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+        padding: 2dvh;
+
+        > .namePlate {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        > .goButton {
+            max-width: 50%;
+            margin: 0 auto;
+        }
+
+        > .datePicker {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        > .randomButton {
+            max-width: 35%;
+            margin: 0 auto;
+        }
+
+    }
+
+    > .buttonPanel {
+        width: 21.875%;
+        height: 100dvh;
+
+        padding: 10dvh 1dvh 10dvh 0.8dvh;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}

@@ -5,19 +5,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import "@fontsource/oxanium/400.css";
 
-import { App } from "./App.tsx";
+import { Layout } from "./components/Layout.tsx";
 import { DatePage } from "./pages/DatePage.tsx";
 import { ErrorPage } from "./pages/ErrorPage.tsx";
-import { DemoPage } from "./pages/DemoPage.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/demo",
-    element: <DemoPage />,
-  },
-  {
     path: "/",
-    element: <App />,
+    element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
       {

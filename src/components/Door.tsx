@@ -1,11 +1,7 @@
-interface ControlPanelBackgroundProps {
-  className?: string;
-}
-
-export const Door = ({ className }: ControlPanelBackgroundProps) => (
+export const Door = () => (
   <svg
     width="100%"
-    height="100%"
+    height="100dvh"
     viewBox="0 0 1776 1080"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +12,6 @@ export const Door = ({ className }: ControlPanelBackgroundProps) => (
     strokeLinejoin="round"
     strokeMiterlimit="2"
     preserveAspectRatio="none"
-    className={className}
   >
     <rect x="0" y="0" width="1776" height="1080" fill="url(#_Door_Linear1)" />
     <rect x="0" y="0" width="1776" height="1080" fill="url(#_Door_Linear2)" />

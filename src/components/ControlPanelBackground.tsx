@@ -1,14 +1,10 @@
-interface ControlPanelBackgroundProps {
-  className?: string;
-}
+import styles from "./ControlPanelBackground.module.css";
 
-export const ControlPanelBackground = ({
-  className,
-}: ControlPanelBackgroundProps) => (
+export const ControlPanelBackground = () => (
   <svg
-    className={className}
+    className={styles.controlPanelBackground}
     width="100%"
-    height="100%"
+    height="100dvh"
     viewBox="0 0 384 1080"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
