@@ -34,14 +34,6 @@
 
     > .buttonPanel {
         width: 21.875%;
-        height: 100dvh;
-
-        padding: 10dvh 1dvh 10dvh 0.8dvh;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
     }
 
 }
