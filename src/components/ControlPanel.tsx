@@ -19,7 +19,7 @@ const MAX_DATE = new Date();
 
 export const ControlPanel = () => {
   const [date, setDate] = useState(new Date(1955, 10, 5));
-  const [filterSelection, setFilterSelection] = useState("all");
+  // const [filterSelection, setFilterSelection] = useState("all");
   const navigate = useNavigate();
 
   const updateDate = (date: Date) => {
