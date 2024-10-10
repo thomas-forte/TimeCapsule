@@ -16,6 +16,7 @@ import { ButtonPanel } from "./ButtonPanel";
 
 const MIN_DATE = new Date(1950, 0, 1);
 const MAX_DATE = new Date();
+const doorChime = new Audio("/doorbell.wav");
 
 export const ControlPanel = () => {
   const [date, setDate] = useState(new Date(1955, 10, 5));
@@ -42,8 +43,6 @@ export const ControlPanel = () => {
       Math.random() * (MAX_DATE.getTime() - MIN_DATE.getTime());
     updateDate(new Date(randomTime));
   };
-
-  const doorChime = new Audio("doorbell.wav");
 
   return (
     <>
