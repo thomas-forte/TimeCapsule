@@ -11,7 +11,7 @@ export const DatePage = () => {
   const decade = `${Math.trunc(date.getFullYear() / 10) * 10}s`;
   return (
     <div
-      className="flex flex-col items-center bg-cover min-h-full"
+      className="flex flex-col items-center min-h-full bg-top"
       style={{ backgroundImage: `url(/images/${decade}bg.svg)` }}
     >
       <DateCard date={date} decade={decade} />
