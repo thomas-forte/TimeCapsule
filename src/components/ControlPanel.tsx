@@ -20,7 +20,7 @@ const doorChime = new Audio("/doorbell.wav");
 
 export const ControlPanel = () => {
   const [date, setDate] = useState(new Date(1955, 10, 5));
-  // const [filterSelection, setFilterSelection] = useState("all");
+  const [filterSelection, setFilterSelection] = useState<string[]>([]);
   const navigate = useNavigate();
 
   const updateDate = (date: Date) => {
@@ -34,7 +34,15 @@ export const ControlPanel = () => {
   };
 
   const generatePath = (date: Date) => {
-    return `/${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
+    const params = new URLSearchParams();
+    if (filterSelection.length) {
+      for (const filter of filterSelection) {
+        params.append("filters", filter);
+      }
+    }
+    return `/${date.getFullYear()}/${
+      date.getMonth() + 1
+    }/${date.getDate()}?${params.toString()}`;
   };
 
   const pickRandomDate = () => {
@@ -62,7 +70,10 @@ export const ControlPanel = () => {
           </div>
         </div>
         <div className={styles.buttonPanel}>
-          <ButtonPanel />
+          <ButtonPanel
+            filters={filterSelection}
+            onChange={setFilterSelection}
+          />
         </div>
       </div>
       <ControlPanelBackground />

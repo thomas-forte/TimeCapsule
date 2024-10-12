@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 // styles
 import styles from "./ButtonPanel.module.css";
 
@@ -11,51 +9,61 @@ import { GamesButton } from "../components/buttons/GamesButton";
 import { MusicButton } from "../components/buttons/MusicButton";
 import { BooksButton } from "../components/buttons/BooksButton";
 
-export const ButtonPanel = () => {
-  const [filterSelection, setFilterSelection] = useState<string[]>([]);
+interface ButtonPanelProps {
+  filters: string[];
+  onChange: (filters: string[]) => void;
+}
 
+export const ButtonPanel = ({ filters, onChange }: ButtonPanelProps) => {
   const addFilterSelection = (filter: string) => {
-    if (!filterSelection.includes(filter)) {
-      setFilterSelection([...filterSelection, filter]);
+    onChange([...filters, filter]);
+  };
+
+  const removeFilterSelection = (filter: string) => {
+    onChange(filters.filter((item) => item !== filter));
+  };
+
+  const toggleFilterSelection = (filter: string) => {
+    if (filters.includes(filter)) {
+      removeFilterSelection(filter);
+    } else {
+      addFilterSelection(filter);
     }
   };
 
   return (
     <div className={styles.buttonPanel}>
       <div>
-        <AllButton
-          onClick={() => setFilterSelection([])}
-          active={!filterSelection.length}
-        />
+        <AllButton onClick={() => onChange([])} active={!filters.length} />
       </div>
       <div>
         <MoviesButton
-          onClick={() => addFilterSelection("movies")}
-          active={filterSelection.includes("movies")}
+          onClick={() => toggleFilterSelection("movies")}
+          active={filters.includes("movies")}
         />
       </div>
       <div>
         <BooksButton
-          onClick={() => addFilterSelection("books")}
-          active={filterSelection.includes("books")}
+          onClick={() => toggleFilterSelection("books")}
+          active={filters.includes("books")}
         />
       </div>
       <div>
         <NewsButton
-          onClick={() => addFilterSelection("news")}
-          active={filterSelection.includes("news")}
+          onClick={() => toggleFilterSelection("news")}
+          active={filters.includes("news")}
         />
       </div>
       <div>
         <GamesButton
-          onClick={() => addFilterSelection("games")}
-          active={filterSelection.includes("games")}
+          onClick={() => toggleFilterSelection("games")}
+          active={filters.includes("games")}
         />
       </div>
       <div>
         <MusicButton
-          onClick={() => addFilterSelection("music")}
-          active={filterSelection.includes("music")}
+          onClick={() => toggleFilterSelection("music")}
+          active={filters.includes("music")}
         />
       </div>
     </div>
