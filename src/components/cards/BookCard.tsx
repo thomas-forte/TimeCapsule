@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { Card } from "./Card";
-import novels from "../assets/novels.json";
+import novels from "../../assets/novels.json";
 
 interface BookCardProps {
   date: Date;

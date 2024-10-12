@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { Card } from "./Card";
-import { getTopMovie, Movie } from "../tmdb.service";
+import { getTopMovie, Movie } from "../../tmdb.service";
 
 interface MovieCardProps {
   date: Date;

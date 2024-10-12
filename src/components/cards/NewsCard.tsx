@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { Card } from "./Card";
-import { checkForNewspaper } from "../newspaper.service";
+import { checkForNewspaper } from "../../newspaper.service";
 
 interface NewsCardProps {
   date: Date;

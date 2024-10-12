@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { Card } from "./Card";
-import videoGames from "../assets/video_games.json";
+import videoGames from "../../assets/video_games.json";
 
 interface VideoGameCardProps {
   date: Date;
