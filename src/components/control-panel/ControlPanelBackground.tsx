@@ -1,8 +1,5 @@
-import styles from "./ControlPanelBackground.module.css";
-
 export const ControlPanelBackground = () => (
   <svg
-    className={styles.controlPanelBackground}
     width="100%"
     height="100dvh"
     viewBox="0 0 384 1080"
@@ -15,6 +12,12 @@ export const ControlPanelBackground = () => (
     strokeLinejoin="round"
     strokeMiterlimit="2"
     preserveAspectRatio="none"
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      zIndex: -1,
+    }}
   >
     <g id="Background">
       <rect

@@ -1,0 +1,8 @@
+.namePlate {
+  cursor: pointer;
+  fill: #84919a;
+
+  &:hover {
+    fill: #a7dfe3;
+  }
+}

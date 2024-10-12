@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import styles from "./DatePicker.module.css";
 
 interface DatePickerProps {
@@ -83,9 +84,9 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
         <g>
           <path
             d="M99.976,451L67.976,436L131.976,436L99.976,451Z"
-            className={
-              date.getFullYear() <= 1950 ? styles.disabled : styles.hover
-            }
+            className={classNames(styles.arrows, {
+              [styles.disabled]: date.getFullYear() <= 1950,
+            })}
             onClick={() =>
               date.getFullYear() > 1950 &&
               updateDate(
@@ -99,9 +100,9 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,358L131.976,373L67.976,373L99.976,358Z"
-            className={
-              date.getFullYear() >= 2024 ? styles.disabled : styles.hover
-            }
+            className={classNames(styles.arrows, {
+              [styles.disabled]: date.getFullYear() >= 2024,
+            })}
             onClick={() =>
               date.getFullYear() < 2024 &&
               updateDate(
@@ -115,7 +116,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,316L67.976,301L131.976,301L99.976,316Z"
-            className={styles.hover}
+            className={styles.arrows}
             onClick={() =>
               updateDate(
                 new Date(
@@ -128,7 +129,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,222L131.976,237L67.976,237L99.976,222Z"
-            className={styles.hover}
+            className={styles.arrows}
             onClick={() =>
               updateDate(
                 new Date(
@@ -141,7 +142,9 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,190L67.976,175L131.976,175L99.976,190Z"
-            className={date.getMonth() === 0 ? styles.disabled : styles.hover}
+            className={classNames(styles.arrows, {
+              [styles.disabled]: date.getMonth() === 0,
+            })}
             onClick={() =>
               date.getMonth() !== 0 &&
               updateDate(
@@ -155,7 +158,9 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,97L131.976,112L67.976,112L99.976,97Z"
-            className={date.getMonth() === 11 ? styles.disabled : styles.hover}
+            className={classNames(styles.arrows, {
+              [styles.disabled]: date.getMonth() === 11,
+            })}
             onClick={() =>
               date.getMonth() !== 11 &&
               updateDate(

@@ -4,7 +4,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import styles from "./Layout.module.css";
 
 // components
-import { ControlPanel } from "./ControlPanel";
+import { ControlPanel } from "./control-panel/ControlPanel";
 import { Door } from "../components/Door";
 
 export const Layout = () => {

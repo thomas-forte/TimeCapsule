@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 import styles from "./NamePlate.module.css";
 
-export const NamePlate = () => {
-  const navigate = useNavigate();
+interface NamePlateProps {
+  onClick?: () => void;
+}
 
+export const NamePlate = ({ onClick }: NamePlateProps) => {
+  // maintain angles for clock hands every second
   const initial = new Date();
   const [angles, setAngles] = useState({
     minuteAngle: initial.getMinutes() * 6,
@@ -41,14 +43,18 @@ export const NamePlate = () => {
       clipRule="evenodd"
       strokeLinejoin="round"
       strokeMiterlimit="2"
-      className={styles.hover}
-      onClick={() => navigate("/")}
+      className={styles.namePlate}
+      onClick={onClick}
     >
       <path
         d="M203.999,29.938L203.999,68.938C203.999,79.701 195.261,88.438 184.499,88.438L19.5,88.438C8.738,88.438 0,79.701 0,68.938L0,29.938C0,19.176 8.738,10.438 19.5,10.438L184.499,10.438C195.261,10.438 203.999,19.176 203.999,29.938Z"
         fill="url(#_nameplate_Linear1)"
       />
-      <path d="M200.999,31.438L200.999,67.438C200.999,77.373 192.933,85.438 182.999,85.438L20.999,85.438C11.064,85.438 2.999,77.373 2.999,67.438L2.999,31.438C2.999,21.504 11.064,13.438 20.999,13.438L182.999,13.438C192.933,13.438 200.999,21.504 200.999,31.438Z" />
+      <path
+        d="M200.999,31.438L200.999,67.438C200.999,77.373 192.933,85.438 182.999,85.438L20.999,85.438C11.064,85.438 2.999,77.373 2.999,67.438L2.999,31.438C2.999,21.504 11.064,13.438 20.999,13.438L182.999,13.438C192.933,13.438 200.999,21.504 200.999,31.438Z"
+        // Original values
+        // fill="#84919a"
+      />
       <path
         d="M200.999,31.438L200.999,67.438C200.999,77.373 192.933,85.438 182.999,85.438L20.999,85.438C11.064,85.438 2.999,77.373 2.999,67.438L2.999,31.438C2.999,21.504 11.064,13.438 20.999,13.438L182.999,13.438C192.933,13.438 200.999,21.504 200.999,31.438Z"
         fill="url(#_nameplate_Linear2)"

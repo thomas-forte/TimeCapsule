@@ -1,38 +1,39 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 // styles
 import styles from "./ControlPanel.module.css";
 
 // components
 import { ControlPanelBackground } from "./ControlPanelBackground";
-import { DatePicker } from "../components/DatePicker";
-import { GoButton } from "../components/buttons/GoButton";
-import { NamePlate } from "../components/NamePlate";
-import { RandomButton } from "../components/buttons/RandomButton";
-import { useNavigate } from "react-router-dom";
-
-// buttons
+import { DatePicker } from "./DatePicker";
+import { NamePlate } from "./NamePlate";
 import { ButtonPanel } from "./ButtonPanel";
+import { GoButton } from "./buttons/GoButton";
+import { RandomButton } from "./buttons/RandomButton";
 
 const MIN_DATE = new Date(1950, 0, 1);
 const MAX_DATE = new Date();
 const doorChime = new Audio("/doorbell.wav");
 
 export const ControlPanel = () => {
-  const [date, setDate] = useState(new Date(1955, 10, 5));
+  // filter selection state
   const [filterSelection, setFilterSelection] = useState<string[]>([]);
+
+  // selected date state
+  const [date, setDate] = useState(new Date(1955, 10, 5));
+
+  // navigation provider hook
   const navigate = useNavigate();
 
-  const updateDate = (date: Date) => {
-    setDate(date);
-  };
-
+  // play chime and navigate to selected date
   const goToSelectedDate = () => {
     doorChime.play().then(() => {
       navigate(generatePath(date));
     });
   };
 
+  // generate path with selected date and filters
   const generatePath = (date: Date) => {
     const params = new URLSearchParams();
     if (filterSelection.length) {
@@ -45,11 +46,13 @@ export const ControlPanel = () => {
     }/${date.getDate()}?${params.toString()}`;
   };
 
+  // pick a random date between min and max
   const pickRandomDate = () => {
-    const randomTime =
+    const randomTime = new Date(
       MIN_DATE.getTime() +
-      Math.random() * (MAX_DATE.getTime() - MIN_DATE.getTime());
-    updateDate(new Date(randomTime));
+        Math.random() * (MAX_DATE.getTime() - MIN_DATE.getTime())
+    );
+    setDate(randomTime);
   };
 
   return (
@@ -57,13 +60,13 @@ export const ControlPanel = () => {
       <div className={styles.controlPanel}>
         <div className={styles.mainPanel}>
           <div className={styles.namePlate}>
-            <NamePlate />
+            <NamePlate onClick={() => navigate("/")} />
           </div>
           <div className={styles.goButton}>
             <GoButton onClick={() => goToSelectedDate()} />
           </div>
           <div className={styles.datePicker}>
-            <DatePicker date={date} updateDate={updateDate} />
+            <DatePicker date={date} updateDate={setDate} />
           </div>
           <div className={styles.randomButton}>
             <RandomButton onClick={() => pickRandomDate()} />
