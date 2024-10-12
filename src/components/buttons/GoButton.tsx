@@ -18,27 +18,15 @@ export const GoButton = ({ onClick }: GoButtonProps) => (
     strokeLinejoin="round"
     strokeMiterlimit="2"
     onClick={onClick}
-    className={styles.hover}
+    className={styles.goButton}
   >
-    <circle
-      id="Outer-Gradient-Layer"
-      cx="59"
-      cy="59"
-      r="59"
-      fill="url(#_gobutton_Linear1)"
-    />
+    <circle cx="59" cy="59" r="59" fill="url(#_gobutton_Linear1)" />
     <circle id="Shadow-Layer" cx="59" cy="59" r="55" fill="#181c25" />
-    <circle
-      id="Inner-Gradient-Layer"
-      cx="59"
-      cy="59"
-      r="53"
-      fill="url(#_gobutton_Linear2)"
-    />
-    <circle id="Conical-Gradient-Layer" cx="59" cy="59" r="45" fill="#e5f0f3" />
+    <circle cx="59" cy="59" r="53" fill="url(#_gobutton_Linear2)" />
+    <circle cx="59" cy="59" r="45" fill="#e5f0f3" />
     <path
-      id="Arrow"
       d="M34,69L34,49L65,49L65,39L84,59L65,79L65,69L34,69Z"
+      // Original values
       // fill="#1e1e1e"
     />
     <defs>

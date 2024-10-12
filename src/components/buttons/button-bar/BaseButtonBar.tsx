@@ -1,24 +1,24 @@
 import { PropsWithChildren } from "react";
-import styles from "./BaseButton.module.css";
+import styles from "./BaseButtonBar.module.css";
 import classNames from "classnames";
 
-interface BaseButtonProps extends PropsWithChildren {
+interface BaseButtonBarProps extends PropsWithChildren {
   key: string;
   active: boolean;
   onClick?: () => void;
 }
 
-export interface BaseButtonChildProps {
+export interface BaseButtonBarChildProps {
   onClick?: () => void;
   active: boolean;
 }
 
-export const BaseButton = ({
+export const BaseButtonBar = ({
   key,
   active,
   onClick,
   children,
-}: BaseButtonProps) => (
+}: BaseButtonBarProps) => (
   <svg
     width="100%"
     height="100%"
@@ -32,7 +32,7 @@ export const BaseButton = ({
     strokeLinejoin="round"
     strokeMiterlimit="2"
     onClick={onClick}
-    className={classNames({ [styles.active]: active, [styles.hover]: !active })}
+    className={classNames(styles.baseButton, { [styles.active]: active })}
   >
     <path
       d="M62,15.5L62,46.5C62,55.055 55.055,62 46.5,62L15.5,62C6.945,62 -0,55.055 -0,46.5L-0,15.5C-0,6.945 6.945,0 15.5,0L46.5,0C55.055,0 62,6.945 62,15.5Z"

@@ -2,12 +2,12 @@
 import styles from "./ButtonPanel.module.css";
 
 // buttons
-import { AllButton } from "../components/buttons/AllButton";
-import { NewsButton } from "../components/buttons/NewsButton";
-import { MoviesButton } from "../components/buttons/MoviesButton";
-import { GamesButton } from "../components/buttons/GamesButton";
-import { MusicButton } from "../components/buttons/MusicButton";
-import { BooksButton } from "../components/buttons/BooksButton";
+import { AllButton } from "./buttons/button-bar/AllButton";
+import { NewsButton } from "./buttons/button-bar/NewsButton";
+import { MoviesButton } from "./buttons/button-bar/MoviesButton";
+import { GamesButton } from "./buttons/button-bar/GamesButton";
+import { MusicButton } from "./buttons/button-bar/MusicButton";
+import { BooksButton } from "./buttons/button-bar/BooksButton";
 
 interface ButtonPanelProps {
   filters: string[];
