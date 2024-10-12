@@ -1,20 +1,20 @@
 .dateText {
-    font-family: 'Oxanium', sans-serif;
-    font-weight: 400;
-    text-align: right;
-    fill: #8bf8ff;
-    font-size: 34px;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 400;
+  text-align: right;
+  fill: #8bf8ff;
+  font-size: 34px;
 }
 
 .arrows {
-    cursor: pointer;
-    fill: #8bf8ff;
+  cursor: pointer;
+  fill: #8bf8ff;
 
-    &:hover {
-        fill: #00cddb;
-    }
+  &:hover {
+    fill: #00cddb;
+  }
 
-    &.disabled {
-        fill: #8bf8ff55;
-    }
+  &.disabled {
+    fill: #8bf8ff55;
+  }
 }

@@ -1,41 +1,41 @@
 .controlPanel {
+  display: flex;
+
+  > .mainPanel {
+    /* first section of the control panel, leading edge till gradient */
+    width: 78.125%;
+
+    /* centerized column */
     display: flex;
+    flex-direction: column;
+    align-content: center;
 
-    > .mainPanel {
-        /* first section of the control panel, leading edge till gradient */
-        width: 78.125%;
-        
-        /* centerized column */
-        display: flex;
-        flex-direction: column;
-        align-content: center;
+    padding: 2dvh;
 
-        padding: 2dvh;
-
-        /* components max widths */
-        > .namePlate {
-            max-width: 80%;
-            margin: 0 auto;
-        }
-
-        > .goButton {
-            max-width: 50%;
-            margin: 0 auto;
-        }
-
-        > .datePicker {
-            max-width: 80%;
-            margin: 0 auto;
-        }
-
-        > .randomButton {
-            max-width: 35%;
-            margin: 0 auto;
-        }
+    /* components max widths */
+    > .namePlate {
+      max-width: 80%;
+      margin: 0 auto;
     }
 
-    > .buttonPanel {
-        /* second section of the control panel, gradient till trailing edge */
-        width: 21.875%;
+    > .goButton {
+      max-width: 50%;
+      margin: 0 auto;
     }
+
+    > .datePicker {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    > .randomButton {
+      max-width: 35%;
+      margin: 0 auto;
+    }
+  }
+
+  > .buttonPanel {
+    /* second section of the control panel, gradient till trailing edge */
+    width: 21.875%;
+  }
 }

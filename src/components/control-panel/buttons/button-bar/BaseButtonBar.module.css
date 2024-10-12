@@ -1,13 +1,12 @@
 .baseButton {
-    &.active {
-        fill: #c0fbff;
-    }
+  &.active {
+    fill: #c0fbff;
+  }
 
-    cursor: pointer;
-    fill: #1e2023;
-    
-    
-    &:hover {
-        fill: #8bf8ff;
-    }
+  cursor: pointer;
+  fill: #1e2023;
+
+  &:hover {
+    fill: #8bf8ff;
+  }
 }

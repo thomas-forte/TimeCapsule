@@ -2,25 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 .oxanium-400 {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Oxanium", sans-serif;
   font-weight: 400;
-}
-
-main {
-  animation-name: fadeIn;
-  animation-duration: 3s;
-  animation-timing-function: ease-in;
 }
 
 @layer components {
