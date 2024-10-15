@@ -5,6 +5,7 @@
 
   &:hover {
     fill: #8bf8ff;
+    animation: none;
   }
 }
 
