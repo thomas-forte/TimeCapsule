@@ -18,3 +18,18 @@
     fill: #8bf8ff55;
   }
 }
+
+.lineGroup {
+  fill: #c0fbff;
+  animation: detailPulse 3s ease-in-out infinite;
+}
+
+@keyframes detailPulse {
+  0%,
+  100% {
+    fill: #c0fbff;
+  }
+  50% {
+    fill: #8bf8ff;
+  }
+}

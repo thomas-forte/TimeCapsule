@@ -174,27 +174,27 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
         </g>
       </g>
-      <g opacity="0.75">
-        <rect x="78" y="53" width="4" height="24" fill="#c0fbff" />
-        <rect x="88" y="53" width="4" height="24" fill="#c0fbff" />
-        <rect x="98" y="53" width="4" height="24" fill="#c0fbff" />
-        <rect x="108" y="53" width="4" height="24" fill="#c0fbff" />
-        <rect x="118" y="53" width="4" height="24" fill="#c0fbff" />
-        <rect x="128" y="63" width="4" height="24" fill="#c0fbff" />
-        <rect x="138" y="73" width="4" height="24" fill="#c0fbff" />
-        <rect x="68" y="63" width="4" height="24" fill="#c0fbff" />
-        <rect x="58" y="73" width="4" height="24" fill="#c0fbff" />
-        <rect x="48" y="83" width="4" height="382" fill="#c0fbff" />
-        <rect x="58" y="451" width="4" height="24" fill="#c0fbff" />
-        <rect x="68" y="461" width="4" height="24" fill="#c0fbff" />
-        <rect x="78" y="471" width="4" height="24" fill="#c0fbff" />
-        <rect x="88" y="471" width="4" height="24" fill="#c0fbff" />
-        <rect x="98" y="471" width="4" height="24" fill="#c0fbff" />
-        <rect x="108" y="471" width="4" height="24" fill="#c0fbff" />
-        <rect x="118" y="471" width="4" height="24" fill="#c0fbff" />
-        <rect x="128" y="461" width="4" height="24" fill="#c0fbff" />
-        <rect x="138" y="451" width="4" height="24" fill="#c0fbff" />
-        <rect x="148" y="83" width="4" height="382" fill="#c0fbff" />
+      <g opacity="0.75" className={styles.lineGroup}>
+        <rect x="78" y="53" width="4" height="24" />
+        <rect x="88" y="53" width="4" height="24" />
+        <rect x="98" y="53" width="4" height="24" />
+        <rect x="108" y="53" width="4" height="24" />
+        <rect x="118" y="53" width="4" height="24" />
+        <rect x="128" y="63" width="4" height="24" />
+        <rect x="138" y="73" width="4" height="24" />
+        <rect x="68" y="63" width="4" height="24" />
+        <rect x="58" y="73" width="4" height="24" />
+        <rect x="48" y="83" width="4" height="382" />
+        <rect x="58" y="451" width="4" height="24" />
+        <rect x="68" y="461" width="4" height="24" />
+        <rect x="78" y="471" width="4" height="24" />
+        <rect x="88" y="471" width="4" height="24" />
+        <rect x="98" y="471" width="4" height="24" />
+        <rect x="108" y="471" width="4" height="24" />
+        <rect x="118" y="471" width="4" height="24" />
+        <rect x="128" y="461" width="4" height="24" />
+        <rect x="138" y="451" width="4" height="24" />
+        <rect x="148" y="83" width="4" height="382" />
       </g>
       <defs>
         <linearGradient
