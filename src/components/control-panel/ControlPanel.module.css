@@ -15,21 +15,25 @@
     /* components max widths */
     > .namePlate {
       max-width: 70%;
+      max-height: 8dvh;
       margin: 0 auto;
     }
 
     > .goButton {
       max-width: 40%;
+      max-height: 12dvh;
       margin: 0 auto 1dvh;
     }
 
     > .datePicker {
       max-width: 75%;
+      max-height: 62dvh;
       margin: 0 auto 1dvh;
     }
 
     > .randomButton {
       max-width: 30%;
+      max-height: 8dvh;
       margin: 0 auto;
     }
   }
