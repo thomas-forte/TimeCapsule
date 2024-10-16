@@ -42,4 +42,18 @@
     /* second section of the control panel, gradient till trailing edge */
     width: 21.875%;
   }
+
+  > .topLeftScrew {
+    position: absolute;
+    top: 1dvh;
+    left: 1dvh;
+    width: 2dvh;
+  }
+
+  > .topRightScrew {
+    position: absolute;
+    top: 1dvh;
+    right: calc(21.875% + 1dvh);
+    width: 2dvh;
+  }
 }

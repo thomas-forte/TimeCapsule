@@ -12,6 +12,10 @@ import { ButtonPanel } from "./ButtonPanel";
 import { GoButton } from "./buttons/GoButton";
 import { RandomButton } from "./buttons/RandomButton";
 
+// screws
+import { TopLeftScrew } from "./TopLeftScrew";
+import { TopRightScrew } from "./TopRightScrew";
+
 const MIN_DATE = new Date(1950, 0, 1);
 const MAX_DATE = new Date();
 const doorChime = new Audio("/doorbell.wav");
@@ -77,6 +81,12 @@ export const ControlPanel = () => {
             filters={filterSelection}
             onChange={setFilterSelection}
           />
+        </div>
+        <div className={styles.topLeftScrew}>
+          <TopLeftScrew />
+        </div>
+        <div className={styles.topRightScrew}>
+          <TopRightScrew />
         </div>
       </div>
       <ControlPanelBackground />
