@@ -1,6 +1,7 @@
 .namePlate {
   cursor: pointer;
   fill: #84919a;
+  filter: drop-shadow(0 0.3dvh 0.2dvh #00000099);
 
   &:hover {
     fill: #a7dfe3;
