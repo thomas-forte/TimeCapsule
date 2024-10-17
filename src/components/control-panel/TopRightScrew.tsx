@@ -1,5 +1,3 @@
-import styles from "./screws.module.css";
-
 export const TopRightScrew = () => (
   <svg
     width="100%"
@@ -13,7 +11,6 @@ export const TopRightScrew = () => (
     clipRule="evenodd"
     strokeLinejoin="round"
     strokeMiterlimit="2"
-    className={styles.trScrew}
   >
     <circle cx="15.003" cy="15" r="15" fill="#747c88" />
     <path

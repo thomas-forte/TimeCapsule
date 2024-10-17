@@ -15,6 +15,8 @@ import { RandomButton } from "./buttons/RandomButton";
 // screws
 import { TopLeftScrew } from "./TopLeftScrew";
 import { TopRightScrew } from "./TopRightScrew";
+import { BottomRightScrew } from "./BottomRightScrew";
+import { BottomLeftScrew } from "./BottomLeftScrew";
 
 const MIN_DATE = new Date(1950, 0, 1);
 const MAX_DATE = new Date();
@@ -83,10 +85,20 @@ export const ControlPanel = () => {
           />
         </div>
         <div className={styles.topLeftScrew}>
+          <div className={styles.topLeftGradient}></div>
           <TopLeftScrew />
         </div>
         <div className={styles.topRightScrew}>
+          <div className={styles.topRightGradient}></div>
           <TopRightScrew />
+        </div>
+        <div className={styles.bottomLeftScrew}>
+          <div className={styles.bottomLeftGradient}></div>
+          <BottomLeftScrew />
+        </div>
+        <div className={styles.bottomRightScrew}>
+          <div className={styles.bottomRightGradient}></div>
+          <BottomRightScrew />
         </div>
       </div>
       <ControlPanelBackground />

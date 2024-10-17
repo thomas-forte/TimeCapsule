@@ -43,17 +43,145 @@
     width: 21.875%;
   }
 
+  --top-screw-margin: 1.2dvh;
+  --left-screw-margin: 1.2dvh;
+  --right-screw-margin: calc(21.875% + var(--left-screw-margin));
+  --bottom-screw-margin: 1.2dvh;
+  --screw-diameter: 1.8dvh;
+
   > .topLeftScrew {
     position: absolute;
-    top: 1dvh;
-    left: 1dvh;
-    width: 2dvh;
+    top: var(--top-screw-margin);
+    left: var(--left-screw-margin);
+    width: var(--screw-diameter);
+
+    > .topLeftGradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      background-image: conic-gradient(
+        from 19grad,
+        #e5f0f3 0grad,
+        65grad,
+        #757d89 88grad,
+        101grad,
+        #535a68 117grad,
+        154grad,
+        #3d4559 220grad,
+        273grad,
+        #5f6b7d 296grad,
+        309grad,
+        #6e7c92 322grad,
+        346grad,
+        #e5f0f3 400grad
+      );
+      filter: drop-shadow(-0.25dvh 0.4dvh 0.2dvh #00000080);
+    }
   }
 
   > .topRightScrew {
     position: absolute;
-    top: 1dvh;
-    right: calc(21.875% + 1dvh);
-    width: 2dvh;
+    top: var(--top-screw-margin);
+    right: var(--right-screw-margin);
+    width: var(--screw-diameter);
+
+    > .topRightGradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      background-image: conic-gradient(
+        from 398grad,
+        #e5f0f3 0grad,
+        65grad,
+        #757d89 88grad,
+        101grad,
+        #535a68 117grad,
+        154grad,
+        #3d4559 220grad,
+        260grad,
+        #5f6b7d 276grad,
+        292grad,
+        #6e7c92 307grad,
+        340grad,
+        #e5f0f3 400grad
+      );
+      filter: drop-shadow(0.15dvh 0.4dvh 0.2dvh #00000080);
+    }
+  }
+
+  > .bottomLeftScrew {
+    position: absolute;
+    bottom: var(--bottom-screw-margin);
+    left: var(--left-screw-margin);
+    width: var(--screw-diameter);
+
+    > .bottomLeftGradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      background-image: conic-gradient(
+        from 8grad,
+        #a8bbc0 0grad,
+        46grad,
+        #757d89 73grad,
+        87grad,
+        #3d414a 104grad,
+        127grad,
+        #292e3a 220grad,
+        277grad,
+        #4e5662 292grad,
+        311grad,
+        #6e7c92 330grad,
+        359grad,
+        #a8bbc0 400grad
+      );
+      filter: drop-shadow(0 1dvh 0.3dvh #00000099);
+    }
+  }
+
+  > .bottomRightScrew {
+    position: absolute;
+    bottom: var(--bottom-screw-margin);
+    right: var(--right-screw-margin);
+    width: var(--screw-diameter);
+
+    > .bottomRightGradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      background-image: conic-gradient(
+        from 398grad,
+        #a8bbc0 0grad,
+        65grad,
+        #757d89 88grad,
+        101grad,
+        #3d414a 117grad,
+        154grad,
+        #292e3a 220grad,
+        270grad,
+        #4e5662 292grad,
+        304grad,
+        #6e7c92 317grad,
+        345grad,
+        #a8bbc0 400grad
+      );
+      filter: drop-shadow(0 1dvh 0.9dvh #00000099);
+    }
   }
 }

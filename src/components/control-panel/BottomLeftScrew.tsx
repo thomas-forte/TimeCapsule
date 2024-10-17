@@ -1,4 +1,4 @@
-export const TopLeftScrew = () => (
+export const BottomLeftScrew = () => (
   <svg
     width="100%"
     height="100%"
@@ -14,22 +14,21 @@ export const TopLeftScrew = () => (
   >
     <circle cx="15" cy="15" r="15" fill="#747c88" />
     <path
-      id="Flathead-Slit"
-      d="M0.146,12.902C0.317,11.678 0.637,10.501 1.086,9.389L29.854,17.098C29.683,18.322 29.363,19.499 28.914,20.611L0.146,12.902Z"
-      fill="url(#_tlscrew_Linear1)"
+      d="M5.942,26.958c-0.986,-0.745 -1.859,-1.597 -2.612,-2.53l20.728,-21.386c0.986,0.745 1.859,1.597 2.612,2.53l-20.728,21.386Z"
+      fill="url(#_blscrew_Linear1)"
     />
     <defs>
       <linearGradient
-        id="_tlscrew_Linear1"
+        id="_blscrew_Linear1"
         x1="0"
         y1="0"
         x2="1"
         y2="0"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="matrix(0.94116,-3.51246,0.608815,0.163131,14.5294,16.7562)"
+        gradientTransform="matrix(-3.30559,-2.2654,0.392662,-0.572958,16.3056,16.2654)"
       >
-        <stop offset="0" stopColor="#aab7cb" stopOpacity="1" />
-        <stop offset="0.54" stopColor="#384157" stopOpacity="1" />
+        <stop offset="0" stopColor="#757c88" stopOpacity="1" />
+        <stop offset="0.57" stopColor="#2b3246" stopOpacity="1" />
         <stop offset="1" stopColor="#0b1229" stopOpacity="1" />
       </linearGradient>
     </defs>
