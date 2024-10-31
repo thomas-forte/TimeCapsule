@@ -1,0 +1,377 @@
+{
+  "1950": {
+    "title": "Candy Land",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1950s/1950.jpg"
+  },
+  "1951": {
+    "title": "Clue",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1950s/1951.jpg"
+  },
+  "1952": {
+    "title": "Scrabble",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1950s/1952.jpg"
+  },
+  "1953": {
+    "title": "Peter Pan",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1950s/1953.jpg"
+  },
+  "1954": {
+    "title": "Park and Shop",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1950s/1954.jpg"
+  },
+  "1955": {
+    "title": "Careers",
+    "creator": "Parker Brothers",
+    "image": "/images/games/1950s/1955.jpg"
+  },
+  "1956": {
+    "title": "Yahtzee",
+    "creator": "Lowe Company",
+    "image": "/images/games/1950s/1956.jpg"
+  },
+  "1957": {
+    "title": "Monopoly",
+    "creator": "Parker Brothers",
+    "image": "/images/games/1950s/1957.jpg"
+  },
+  "1958": {
+    "title": "Sorry!",
+    "creator": "Parker Brothers",
+    "image": "/images/games/1950s/1958.jpg"
+  },
+  "1959": {
+    "title": "Risk!",
+    "creator": "Parker Brothers",
+    "image": "/images/games/1950s/1959.jpg"
+  },
+  "1960": {
+    "title": "The Game of Life",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1960.jpg"
+  },
+  "1961": {
+    "title": "Stratego",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1961.jpg"
+  },
+  "1962": {
+    "title": "Password",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1962.jpg"
+  },
+  "1963": {
+    "title": "Mouse Trap Game",
+    "creator": "Ideal Toy Corporation",
+    "image": "/images/games/1960s/1963.jpg"
+  },
+  "1964": {
+    "title": "Let's Make a Deal",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1964.jpg"
+  },
+  "1965": {
+    "title": "Operation",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1965.jpg"
+  },
+  "1966": {
+    "title": "Twister",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1966.jpg"
+  },
+  "1967": {
+    "title": "Battleship",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1967.jpg"
+  },
+  "1968": {
+    "title": "Recall",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1968.jpg"
+  },
+  "1969": {
+    "title": "Beat the Clock",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1960s/1969.jpg"
+  },
+  "1970": {
+    "title": "Concentration",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1970s/1970.jpg"
+  },
+  "1971": {
+    "title": "Jepordy!",
+    "creator": "Milton Bradley",
+    "image": "/images/games/1970s/1971.jpg"
+  },
+  "1972": {
+    "title": "Odyssey: Table Tennis",
+    "creator": "Odyssey",
+    "image": "/images/games/1970s/1972.jpg"
+  },
+  "1973": {
+    "title": "Odyssey: Basketball (Phone Home)",
+    "creator": "Odyssey",
+    "image": "/images/games/1970s/1973.jpg"
+  },
+  "1974": {
+    "title": "Odyssey: Inter-Planetary Voyage",
+    "creator": "Odyssey",
+    "image": "/images/games/1970s/1974.jpg"
+  },
+  "1975": {
+    "title": "Pong",
+    "creator": "Atari",
+    "image": "/images/games/1970s/1975.jpg"
+  },
+  "1976": {
+    "title": "Videocart-2",
+    "creator": "Fairchild",
+    "image": "/images/games/1970s/1976.jpg"
+  },
+  "1977": {
+    "title": "Videocart-5",
+    "creator": "Fairchild",
+    "image": "/images/games/1970s/1977.jpg"
+  },
+  "1978": {
+    "title": "Videocart-16",
+    "creator": "Fairchild",
+    "image": "/images/games/1970s/1978.jpg"
+  },
+  "1979": {
+    "title": "Videocart-21",
+    "creator": "Fairchild",
+    "image": "/images/games/1970s/1979.jpg"
+  },
+  "1980": {
+    "title": "Space Invaders",
+    "creator": "Taito",
+    "image": "/images/games/1980s/1980.jpg"
+  },
+  "1981": {
+    "title": "Asteroids",
+    "creator": "Atari",
+    "image": "/images/games/1980s/1981.jpg"
+  },
+  "1982": {
+    "title": "Pac-Man",
+    "creator": "Namco",
+    "image": "/images/games/1980s/1982.jpg"
+  },
+  "1983": {
+    "title": "Ms. Pac-Man",
+    "creator": "Midway",
+    "image": "/images/games/1980s/1983.jpg"
+  },
+  "1984": {
+    "title": "Pitfall II: Lost Caverns",
+    "creator": "Activision",
+    "image": "/images/games/1980s/1984.jpg"
+  },
+  "1985": {
+    "title": "The Oregon Trail",
+    "creator": "MECC",
+    "image": "/images/games/1980s/1985.jpg"
+  },
+  "1986": {
+    "title": "Super Mario Bros.",
+    "creator": "Nintendo",
+    "image": "/images/games/1980s/1986.svg"
+  },
+  "1987": {
+    "title": "The Legend of Zelda",
+    "creator": "Nintendo",
+    "image": "/images/games/1980s/1987.jpg"
+  },
+  "1988": {
+    "title": "Duck Hunt",
+    "creator": "Nintendo",
+    "image": "/images/games/1980s/1988.jpg"
+  },
+  "1989": {
+    "title": "Ghouls 'n Ghosts",
+    "creator": "Capcom",
+    "image": "/images/games/1980s/1989.jpg"
+  },
+  "1990": {
+    "title": "Strider",
+    "creator": "Capcom",
+    "image": "/images/games/1990s/1990.jpg"
+  },
+  "1991": {
+    "title": "Sonic the Hedgehog",
+    "creator": "Sonic Team",
+    "image": "/images/games/1990s/1991.jpg"
+  },
+  "1992": {
+    "title": "Sonic the Hedgehog 2",
+    "creator": "Sonic Team",
+    "image": "/images/games/1990s/1992.jpg"
+  },
+  "1993": {
+    "title": "Mortal Kombat",
+    "creator": "Midway",
+    "image": "/images/games/1990s/1993.jpg"
+  },
+  "1994": {
+    "title": "Donkey Kong Country",
+    "creator": "Rare",
+    "image": "/images/games/1990s/1994.jpg"
+  },
+  "1995": {
+    "title": "Mortal Kombat 3",
+    "creator": "Midway",
+    "image": "/images/games/1990s/1995.jpg"
+  },
+  "1996": {
+    "title": "Super Mario 64",
+    "creator": "Nintendo",
+    "image": "/images/games/1990s/1996.jpg"
+  },
+  "1997": {
+    "title": "Mario Kart 64",
+    "creator": "Nintendo",
+    "image": "/images/games/1990s/1997.jpg"
+  },
+  "1998": {
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "creator": "Nintendo",
+    "image": "/images/games/1990s/1998.jpg"
+  },
+  "1999": {
+    "title": "Donkey Kong 64",
+    "creator": "Rare",
+    "image": "/images/games/1990s/1999.jpg"
+  },
+  "2000": {
+    "title": "Tony Hawk's Pro Skater 2",
+    "creator": "Neversoft",
+    "image": "/images/games/2000s/2000.png"
+  },
+  "2001": {
+    "title": "Madden NFL 2002",
+    "creator": "EA Sports",
+    "image": "/images/games/2000s/2001.png"
+  },
+  "2002": {
+    "title": "Grand Theft Auto: Vice City",
+    "creator": "Rockstar North",
+    "image": "/images/games/2000s/2002.png"
+  },
+  "2003": {
+    "title": "Madden NFL 2004",
+    "creator": "EA Sports",
+    "image": "/images/games/2000s/2003.png"
+  },
+  "2004": {
+    "title": "Grand Theft Auto: San Andreas",
+    "creator": "Rockstar North",
+    "image": "/images/games/2000s/2004.png"
+  },
+  "2005": {
+    "title": "Star Wars: Battlefront II",
+    "creator": "Pandemic Studios",
+    "image": "/images/games/2000s/2005.png"
+  },
+  "2006": {
+    "title": "Gears of War",
+    "creator": "Epic Games",
+    "image": "/images/games/2000s/2006.png"
+  },
+  "2007": {
+    "title": "Halo 3",
+    "creator": "Bungie",
+    "image": "/images/games/2000s/2007.png"
+  },
+  "2008": {
+    "title": "Grand Theft Auto IV",
+    "creator": "Rockstar North",
+    "image": "/images/games/2000s/2008.png"
+  },
+  "2009": {
+    "title": "Call of Duty: Modern Warfare 2",
+    "creator": "Infinity Ward",
+    "image": "/images/games/2000s/2009.png"
+  },
+  "2010": {
+    "title": "Mass Effect 2",
+    "creator": "BioWare",
+    "image": "/images/games/2010s/2010.png"
+  },
+  "2011": {
+    "title": "The Elder Scrolls V: Skyrim",
+    "creator": "Bethesda Game Studios",
+    "image": "/images/games/2010s/2011.png"
+  },
+  "2012": {
+    "title": "Mass Effect 3",
+    "creator": "BioWare",
+    "image": "/images/games/2010s/2012.png"
+  },
+  "2013": {
+    "title": "Grand Theft Auto V",
+    "creator": "Rockstar North",
+    "image": "/images/games/2010s/2013.png"
+  },
+  "2014": {
+    "title": "The Last of Us Remastered (Remake) [Remix] <Remastered>",
+    "creator": "Naughty Dog",
+    "image": "/images/games/2010s/2014.png"
+  },
+  "2015": {
+    "title": "The Witcher 3: Wild Hunt",
+    "creator": "CD Projekt Red",
+    "image": "/images/games/2010s/2015.png"
+  },
+  "2016": {
+    "title": "Uncharted 4: A Thief's End",
+    "creator": "Naughty Dog",
+    "image": "/images/games/2010s/2016.png"
+  },
+  "2017": {
+    "title": "NBA 2K18",
+    "creator": "Visual Concepts",
+    "image": "/images/games/2010s/2017.png"
+  },
+  "2018": {
+    "title": "Red Dead Redemption 2",
+    "creator": "Rockstar Games",
+    "image": "/images/games/2010s/2018.png"
+  },
+  "2019": {
+    "title": "Borderlands 3",
+    "creator": "Gearbox Software",
+    "image": "/images/games/2010s/2019.png"
+  },
+  "2020": {
+    "title": "The Last of Us Part II (Remastered)",
+    "creator": "Naughty Dog",
+    "image": "/images/games/2020s/2020.png"
+  },
+  "2021": {
+    "title": "It Takes Two",
+    "creator": "Hazelight Studios",
+    "image": "/images/games/2020s/2021.png"
+  },
+  "2022": {
+    "title": "Elden Ring",
+    "creator": "FromSoftware",
+    "image": "/images/games/2020s/2022.png"
+  },
+  "2023": {
+    "title": "Hogwarts Legacy",
+    "creator": "Avalanche Software",
+    "image": "/images/games/2020s/2023.png"
+  },
+  "2024": {
+    "title": "Call of Duty: Black Ops 6",
+    "creator": "Treyarch",
+    "image": "/images/games/2020s/2024.png"
+  }
+}

@@ -4,7 +4,7 @@ import { DateCard } from "../components/cards/DateCard";
 import { MovieCard } from "../components/cards/MovieCard";
 import { BookCard } from "../components/cards/BookCard";
 import { NewsCard } from "../components/cards/NewsCard";
-import { VideoGameCard } from "../components/cards/VideoGameCard";
+import { GameCard } from "../components/cards/GameCard";
 
 export const DatePage = () => {
   const { date } = useLoaderData() as { date: Date };
@@ -20,7 +20,7 @@ export const DatePage = () => {
       <MovieCard date={date} decade={decade} />
       <BookCard date={date} decade={decade} />
       <NewsCard date={date} decade={decade} />
-      <VideoGameCard date={date} decade={decade} />
+      <GameCard date={date} decade={decade} />
     </div>
   );
 };

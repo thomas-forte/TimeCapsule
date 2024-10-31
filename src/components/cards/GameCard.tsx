@@ -1,36 +1,29 @@
 import { useEffect, useState } from "react";
 
 import { Card } from "./Card";
-import videoGames from "../../assets/video_games.json";
+import games from "../../assets/games.json";
 
-interface VideoGameCardProps {
+interface GameCardProps {
   date: Date;
   decade: string;
 }
 
-type VideoGame = {
+type Game = {
   title: string;
-  developer: string;
-  publisher: string;
-  platform: string;
-  sales: number | null;
+  creator: string;
   image: string;
 };
 
-const MIN_DATE = new Date(1980, 0, 1);
-
-export const VideoGameCard = ({ date, decade }: VideoGameCardProps) => {
-  const [videoGame, setVideoGame] = useState<VideoGame | null>(null);
+export const GameCard = ({ date, decade }: GameCardProps) => {
+  const [videoGame, setVideoGame] = useState<Game | null>(null);
   useEffect(() => {
-    if (date >= MIN_DATE) {
-      try {
-        const videoGame = (videoGames as { [key: string]: VideoGame })[
-          date.getFullYear().toString()
-        ];
-        setVideoGame(videoGame);
-      } catch {
-        setVideoGame(null);
-      }
+    try {
+      const videoGame = (games as { [key: string]: Game })[
+        date.getFullYear().toString()
+      ];
+      setVideoGame(videoGame);
+    } catch {
+      setVideoGame(null);
     }
   }, [date]);
 
@@ -41,7 +34,7 @@ export const VideoGameCard = ({ date, decade }: VideoGameCardProps) => {
         {videoGame.title}
       </div>
       <p className={`text-center px-[7.5%] indent-[5vw] bf-${decade} body`}>
-        By {videoGame.developer}
+        By {videoGame.creator}
       </p>
       <img
         className="game-cover"
