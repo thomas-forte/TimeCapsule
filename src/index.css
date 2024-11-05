@@ -8,6 +8,10 @@
 }
 
 @layer components {
+  :root {
+    --control-panel-width: 20%;
+  }
+
   .card {
     @apply m-[5vw] w-4/5;
     @apply border-solid border border-black rounded;

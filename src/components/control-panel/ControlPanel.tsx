@@ -5,21 +5,20 @@ import { useNavigate } from "react-router-dom";
 import styles from "./ControlPanel.module.css";
 
 // components
-import { ControlPanelBackground } from "./ControlPanelBackground";
-import { DatePicker } from "./DatePicker";
 import { NamePlate } from "./NamePlate";
-import { ButtonPanel } from "./ButtonPanel";
 import { GoButton } from "./buttons/GoButton";
+import { DatePicker } from "./DatePicker";
 import { RandomButton } from "./buttons/RandomButton";
+import { ButtonPanel } from "./ButtonPanel";
+import { ControlPanelBackground } from "./ControlPanelBackground";
 
 // screws
-import { TopLeftScrew } from "./TopLeftScrew";
-import { TopRightScrew } from "./TopRightScrew";
-import { BottomRightScrew } from "./BottomRightScrew";
-import { BottomLeftScrew } from "./BottomLeftScrew";
+import { TopLeftScrew } from "./screws/TopLeftScrew";
+import { TopRightScrew } from "./screws/TopRightScrew";
+import { BottomRightScrew } from "./screws/BottomRightScrew";
+import { BottomLeftScrew } from "./screws/BottomLeftScrew";
 
 const MIN_DATE = new Date(1950, 0, 1);
-const MAX_DATE = new Date();
 const doorChime = new Audio("/doorbell.wav");
 
 export const ControlPanel = () => {
@@ -56,7 +55,7 @@ export const ControlPanel = () => {
   const pickRandomDate = () => {
     const randomTime = new Date(
       MIN_DATE.getTime() +
-        Math.random() * (MAX_DATE.getTime() - MIN_DATE.getTime())
+        Math.random() * (new Date().getTime() - MIN_DATE.getTime())
     );
     setDate(randomTime);
   };
@@ -78,12 +77,16 @@ export const ControlPanel = () => {
             <RandomButton onClick={() => pickRandomDate()} />
           </div>
         </div>
+
+        {/* filter buttons */}
         <div className={styles.buttonPanel}>
           <ButtonPanel
             filters={filterSelection}
             onChange={setFilterSelection}
           />
         </div>
+
+        {/* absolute overlays */}
         <div className={styles.topLeftScrew}>
           <div className={styles.topLeftGradient}></div>
           <TopLeftScrew />

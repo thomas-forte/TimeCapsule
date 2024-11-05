@@ -1,14 +1,15 @@
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, useNavigation } from "react-router-dom";
 
 // styles
 import styles from "./Layout.module.css";
 
 // components
 import { ControlPanel } from "./control-panel/ControlPanel";
-import { Door } from "../components/Door";
+import { Door } from "./Door";
 
 export const Layout = () => {
-  const location = useLocation();
+  const navigation = useNavigation();
+
   return (
     <>
       <div className={styles.container}>
@@ -16,7 +17,9 @@ export const Layout = () => {
           <ControlPanel />
         </div>
         <div className={styles.content}>
-          {location.pathname === "/" ? <Door /> : <Outlet />}
+          {navigation.state !== "idle" && <Door />}
+
+          {navigation.state === "idle" && <Outlet />}
         </div>
       </div>
     </>

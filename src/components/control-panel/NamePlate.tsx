@@ -13,6 +13,7 @@ export const NamePlate = ({ onClick }: NamePlateProps) => {
     minuteAngle: initial.getMinutes() * 6,
     hourAngle: initial.getHours() * 30 + initial.getMinutes() * 0.5,
   });
+
   const updateAngles = (now = new Date()) => {
     setAngles({
       minuteAngle: now.getMinutes() * 6,

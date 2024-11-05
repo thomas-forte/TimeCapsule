@@ -3,6 +3,7 @@
 
   > .mainPanel {
     /* first section of the control panel, leading edge till gradient */
+    /* this is fixed and based on the svg */
     width: 78.125%;
 
     /* centerized column */
@@ -40,6 +41,7 @@
 
   > .buttonPanel {
     /* second section of the control panel, gradient till trailing edge */
+    /* this is fixed and based on the svg */
     width: 21.875%;
   }
 
