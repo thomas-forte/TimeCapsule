@@ -1,0 +1,17 @@
+.outOfOrder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > img {
+    width: 300px;
+    transform: rotate(4deg);
+    object-fit: contain;
+  }
+}

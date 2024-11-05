@@ -1,4 +1,4 @@
-import { useLoaderData, useLocation } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 
 import { DateCard } from "../components/cards/DateCard";
 import { MovieCard } from "../components/cards/MovieCard";
@@ -8,8 +8,6 @@ import { GameCard } from "../components/cards/GameCard";
 
 export const DatePage = () => {
   const { date } = useLoaderData() as { date: Date };
-  const location = useLocation();
-  console.log(new URLSearchParams(location.search).getAll("filters"));
   const decade = `${Math.trunc(date.getFullYear() / 10) * 10}s`;
   return (
     <div
