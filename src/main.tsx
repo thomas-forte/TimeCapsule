@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  redirect,
+  RouterProvider,
+} from "react-router-dom";
 
 // styles
 import "./index.css";
@@ -31,25 +35,28 @@ const router = createBrowserRouter([
         path: ":year/:month/:day",
         element: <DatePage />,
         loader: async ({ params }) => {
+          // check if values are present
           if (!params.year || !params.month || !params.day) {
-            throw new Response("Not Found", { status: 404 });
-          } else if (
+            return redirect("/invalid-date");
+          }
+
+          // check if values are numbers
+          if (
             !parseInt(params.year) ||
             !parseInt(params.month) ||
             !parseInt(params.day)
           ) {
-            throw new Response("Not Found", { status: 404 });
-          } else {
-            const date = new Date(
-              `${params.year}/${params.month}/${params.day}`
+            return redirect("/invalid-date");
+          }
+
+          // check if values are a valid date
+          const date = new Date(`${params.year}/${params.month}/${params.day}`);
+          if (!Number.isNaN(date.valueOf())) {
+            return new Promise((resolve) =>
+              setTimeout(() => resolve({ date }), 2000)
             );
-            if (!Number.isNaN(date.valueOf())) {
-              return new Promise((resolve) =>
-                setTimeout(() => resolve({ date }), 2000)
-              );
-            } else {
-              throw new Response("Not Found", { status: 404 });
-            }
+          } else {
+            return redirect("/invalid-date");
           }
         },
       },
