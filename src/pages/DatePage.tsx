@@ -1,5 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 
+import styles from "./DatePage.module.css";
+
 import { DateCard } from "../components/cards/DateCard";
 import { MovieCard } from "../components/cards/MovieCard";
 import { BookCard } from "../components/cards/BookCard";
@@ -11,7 +13,7 @@ export const DatePage = () => {
   const decade = `${Math.trunc(date.getFullYear() / 10) * 10}s`;
   return (
     <div
-      className="flex flex-col items-center min-h-full bg-top"
+      className={styles.container}
       style={{ backgroundImage: `url(/images/${decade}bg.svg)` }}
     >
       <DateCard date={date} decade={decade} />

@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  background-position: top;
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
