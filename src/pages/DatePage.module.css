@@ -4,6 +4,9 @@
   align-items: center;
   min-height: 100dvh;
 
+  padding: 10dvh 0;
+  gap: 10dvh;
+
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;

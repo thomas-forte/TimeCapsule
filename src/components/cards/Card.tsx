@@ -1,18 +1,17 @@
+import { PropsWithChildren } from "react";
 import classNames from "classnames";
 
-import { PropsWithChildren } from "react";
+import styles from "./Card.module.css";
 
 interface CardProps extends PropsWithChildren {
   decade?: string;
-  additionalClasses?: string;
 }
 
-export const Card = ({ decade, additionalClasses, children }: CardProps) => (
+export const Card = ({ decade, children }: CardProps) => (
   <div
     className={classNames(
-      "card",
-      decade ? `bg-${decade} bd-${decade}` : undefined,
-      additionalClasses
+      styles.card,
+      decade ? `bg-${decade} bd-${decade}` : "bg-yellow-300"
     )}
   >
     {children}

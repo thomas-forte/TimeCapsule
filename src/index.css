@@ -11,25 +11,6 @@
   :root {
     --control-panel-width: 20%;
   }
-
-  .card {
-    @apply m-[5vw] w-4/5;
-    @apply border-solid border border-black rounded;
-    @apply p-[5vw];
-
-    .movie-poster,
-    .book-cover,
-    .newspaper,
-    .game-cover {
-      @apply border-solid border border-black w-[85%] mt-[9vw] mx-auto;
-    }
-  }
-
-  .dateCard {
-    @apply m-[3vw] w-2/5;
-    @apply pt-[0.5vw] pb-0;
-    @apply select-none;
-  }
 }
 
 /* ======================== */

@@ -1,0 +1,12 @@
+.card {
+  @apply w-4/5;
+  @apply border-solid border border-black rounded;
+  @apply p-[5vw];
+
+  /* special variation */
+  &.dateCard {
+    @apply w-2/5;
+    @apply pt-[0.5vw] pb-0;
+    @apply select-none;
+  }
+}

@@ -28,7 +28,7 @@ export const BookCard = ({ date, decade }: BookCardProps) => {
   }, [date]);
 
   return book ? (
-    <Card additionalClasses={`bg-${decade} bd-${decade}`}>
+    <Card decade={decade}>
       <div className={`text-center bf-${decade}`}>Most Popular Novel:</div>
       <div className={`text-center my-[5vw] hf-${decade}`}>{book.title}</div>
       <p className={`text-center px-[7.5%] indent-[5vw] bf-${decade} body`}>

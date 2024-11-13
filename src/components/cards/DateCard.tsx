@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-import { Card } from "./Card";
+import styles from "./Card.module.css";
 
 interface DateCardProps {
   date: Date;
@@ -8,7 +8,13 @@ interface DateCardProps {
 }
 
 export const DateCard = ({ date, decade }: DateCardProps) => (
-  <Card decade={decade} additionalClasses="dateCard">
+  <div
+    className={classNames(
+      styles.card,
+      styles.dateCard,
+      decade ? `bg-${decade} bd-${decade}` : undefined
+    )}
+  >
     <div>
       <div className={classNames("text-center -mb-[2vw]", `bf-${decade}`)}>
         {date.toLocaleString("default", { month: "long" })} {date.getDate()},
@@ -17,5 +23,5 @@ export const DateCard = ({ date, decade }: DateCardProps) => (
         {date.getFullYear()}
       </div>
     </div>
-  </Card>
+  </div>
 );
