@@ -28,7 +28,7 @@ export const GameCard = ({ date, decade }: GameCardProps) => {
   }, [date]);
 
   return videoGame ? (
-    <Card additionalClasses={`bg-${decade} bd-${decade}`}>
+    <Card decade={decade}>
       <div className={`text-center bf-${decade}`}>Best Selling Video Game:</div>
       <div className={`text-center my-[5vw] hf-${decade}`}>
         {videoGame.title}

@@ -32,7 +32,11 @@
   }
 }
 
+/* ======================== */
 /* outside classes */
+/* ======================== */
+
+/* background color classes */
 .bg-1950s {
   @apply bg-p1950s;
 }
@@ -58,6 +62,7 @@
   @apply bg-p2020s;
 }
 
+/* border color classes */
 .bd-1950s {
   @apply border-s1950s;
 }
@@ -78,6 +83,7 @@
 }
 .bd-2010s {
   @apply border-s2010s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .bd-2020s {
   @apply border-s2020s;

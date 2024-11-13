@@ -8,7 +8,7 @@ interface DateCardProps {
 }
 
 export const DateCard = ({ date, decade }: DateCardProps) => (
-  <Card additionalClasses={`dateCard bg-${decade} bd-${decade}`}>
+  <Card decade={decade} additionalClasses="dateCard">
     <div>
       <div className={classNames("text-center -mb-[2vw]", `bf-${decade}`)}>
         {date.toLocaleString("default", { month: "long" })} {date.getDate()},

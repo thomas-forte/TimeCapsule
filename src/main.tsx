@@ -52,8 +52,9 @@ const router = createBrowserRouter([
           // check if values are a valid date
           const date = new Date(`${params.year}/${params.month}/${params.day}`);
           if (!Number.isNaN(date.valueOf())) {
+            const decade = `${Math.trunc(date.getFullYear() / 10) * 10}s`;
             return new Promise((resolve) =>
-              setTimeout(() => resolve({ date }), 2000)
+              setTimeout(() => resolve({ date, decade }), 2000)
             );
           } else {
             return redirect("/invalid-date");

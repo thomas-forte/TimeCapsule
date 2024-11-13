@@ -12,7 +12,7 @@ export default {
         small: "1vw",
       },
       colors: {
-        p1950s: "#3EADD2",
+        p1950s: "#3EADD2", // primary colors
         p1960s: "#FFE101",
         p1970s: "#EF9F20",
         p1980s: "#2B0D29",
@@ -21,7 +21,7 @@ export default {
         p2010s: "#D3D4D9",
         p2020s: "#998A6B",
 
-        s1950s: "#031C26",
+        s1950s: "#031C26", // secondary colors
         s1960s: "#310C0B",
         s1970s: "#3C2000",
         s1980s: "#FA8057",
@@ -30,7 +30,7 @@ export default {
         s2010s: "#D3D4D9",
         s2020s: "#998A6B",
 
-        a1950s: "#031C26",
+        a1950s: "#031C26", // accent colors
         a1960s: "#310C0B",
         a1970s: "#3C2000",
         a1980s: "#8CA9FD",
@@ -38,8 +38,8 @@ export default {
         a2000s: "#112236",
         a2010s: "#D3D4D9", // not spec'd
         a2020s: "#33270F",
-        
-        t1950s: "#031C26",
+
+        t1950s: "#031C26", // text colors
         t1960s: "#310C0B",
         t1970s: "#3C2000",
         t1980s: "#8CA9FD",

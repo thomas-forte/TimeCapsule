@@ -21,7 +21,7 @@ export const MovieCard = ({ date, decade }: MovieCardProps) => {
   }, [date]);
 
   return movie ? (
-    <Card additionalClasses={`bg-${decade} bd-${decade}`}>
+    <Card decade={decade}>
       <div className={`text-center bf-${decade}`}>
         Top Movie The Year You Were Born:
       </div>
