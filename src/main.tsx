@@ -34,7 +34,10 @@ const router = createBrowserRouter([
       {
         path: ":year/:month/:day",
         element: <DatePage />,
-        loader: async ({ params }) => {
+        loader: async ({ params, request }) => {
+          const searchParams = new URL(request.url).searchParams;
+          const filters = searchParams.getAll("filters");
+
           // check if values are present
           if (!params.year || !params.month || !params.day) {
             return redirect("/invalid-date");
@@ -54,7 +57,7 @@ const router = createBrowserRouter([
           if (!Number.isNaN(date.valueOf())) {
             const decade = `${Math.trunc(date.getFullYear() / 10) * 10}s`;
             return new Promise((resolve) =>
-              setTimeout(() => resolve({ date, decade }), 2000)
+              setTimeout(() => resolve({ date, decade, filters }), 2000)
             );
           } else {
             return redirect("/invalid-date");

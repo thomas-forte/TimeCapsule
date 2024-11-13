@@ -9,7 +9,11 @@ import { NewsCard } from "../components/cards/NewsCard";
 import { GameCard } from "../components/cards/GameCard";
 
 export const DatePage = () => {
-  const { date, decade } = useLoaderData() as { date: Date; decade: string };
+  const { date, decade, filters } = useLoaderData() as {
+    date: Date;
+    decade: string;
+    filters: string[];
+  };
 
   let backgroundImage = "";
   if (date.getFullYear() < 2010) {
@@ -23,10 +27,18 @@ export const DatePage = () => {
   return (
     <div className={styles.container} style={{ backgroundImage }}>
       <DateCard date={date} decade={decade} />
-      <MovieCard date={date} decade={decade} />
-      <BookCard date={date} decade={decade} />
-      <NewsCard date={date} decade={decade} />
-      <GameCard date={date} decade={decade} />
+      {(!filters.length || filters.includes("movies")) && (
+        <MovieCard date={date} decade={decade} />
+      )}
+      {(!filters.length || filters.includes("books")) && (
+        <BookCard date={date} decade={decade} />
+      )}
+      {(!filters.length || filters.includes("news")) && (
+        <NewsCard date={date} decade={decade} />
+      )}
+      {(!filters.length || filters.includes("games")) && (
+        <GameCard date={date} decade={decade} />
+      )}
     </div>
   );
 };
