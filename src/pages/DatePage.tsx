@@ -7,6 +7,7 @@ import { MovieCard } from "../components/cards/MovieCard";
 import { BookCard } from "../components/cards/BookCard";
 import { NewsCard } from "../components/cards/NewsCard";
 import { GameCard } from "../components/cards/GameCard";
+import { MusicCard } from "../components/cards/MusicCard";
 
 export const DatePage = () => {
   const { date, decade, filters } = useLoaderData() as {
@@ -38,6 +39,9 @@ export const DatePage = () => {
       )}
       {(!filters.length || filters.includes("games")) && (
         <GameCard date={date} decade={decade} />
+      )}
+      {(!filters.length || filters.includes("music")) && (
+        <MusicCard date={date} decade={decade} />
       )}
     </div>
   );
