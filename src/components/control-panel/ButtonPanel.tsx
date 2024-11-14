@@ -9,6 +9,9 @@ import { GamesButton } from "./buttons/button-bar/GamesButton";
 import { MusicButton } from "./buttons/button-bar/MusicButton";
 import { BooksButton } from "./buttons/button-bar/BooksButton";
 
+const buttonClick = new Audio("/click.wav");
+buttonClick.volume = 0.5;
+
 interface ButtonPanelProps {
   filters: string[];
   onChange: (filters: string[]) => void;
@@ -23,18 +26,29 @@ export const ButtonPanel = ({ filters, onChange }: ButtonPanelProps) => {
     onChange(filters.filter((item) => item !== filter));
   };
 
+  const toggleFilterNone = () => {
+    buttonClick.play().then(() => {
+      onChange([]);
+    });
+  };
+
   const toggleFilterSelection = (filter: string) => {
-    if (filters.includes(filter)) {
-      removeFilterSelection(filter);
-    } else {
-      addFilterSelection(filter);
-    }
+    buttonClick.play().then(() => {
+      if (filters.includes(filter)) {
+        removeFilterSelection(filter);
+      } else {
+        addFilterSelection(filter);
+      }
+    });
   };
 
   return (
     <div className={styles.buttonPanel}>
       <div>
-        <AllButton onClick={() => onChange([])} active={!filters.length} />
+        <AllButton
+          onClick={() => toggleFilterNone()}
+          active={!filters.length}
+        />
       </div>
       <div>
         <MoviesButton
