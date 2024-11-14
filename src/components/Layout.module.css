@@ -18,8 +18,8 @@ div.container {
     left: var(--control-panel-width);
     top: 0;
     width: calc(100% - var(--control-panel-width));
-    min-height: 100dvh;
-    overflow-x: hidden;
+    height: 100dvh;
+    overflow-y: hidden;
     z-index: 9;
   }
 }

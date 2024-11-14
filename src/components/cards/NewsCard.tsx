@@ -24,7 +24,9 @@ export const NewsCard = ({ date, decade }: NewsCardProps) => {
 
   return newspaper ? (
     <Card decade={decade}>
-      <div className={`text-center bf-${decade}`}>News of the Day:</div>
+      <div className={`text-center bf-${decade} mb-[1vw]`}>
+        News of the Day:
+      </div>
       <img className="newspaper" src={newspaper} alt="book cover" />
     </Card>
   ) : (

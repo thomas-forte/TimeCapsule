@@ -1,12 +1,11 @@
 .card {
-  @apply w-4/5;
+  @apply min-w-full max-h-[100%];
   @apply border-solid border border-black rounded;
-  @apply p-[5vw];
+  @apply p-[3vw];
 
   /* special variation */
   &.dateCard {
-    @apply w-2/5;
-    @apply pt-[0.5vw] pb-0;
+    @apply py-4;
     @apply select-none;
   }
 }

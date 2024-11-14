@@ -35,11 +35,11 @@ export const MusicCard = ({ date, decade }: MusicCardProps) => {
         Notable Album of the Year:
       </div>
       <div className={`text-center my-[5vw] hf-${decade}`}>{album.title}</div>
-      <p className={`text-center px-[7.5%] indent-[5vw] bf-${decade} body`}>
+      <p className={`text-center indent-[2vw] bf-${decade} body mb-[1vw]`}>
         By {album.artist}
       </p>
       <img
-        className="game-cover"
+        className="album-cover"
         src={"https://timecapsule.brendantrepal.com" + album.image}
         alt="video game cover"
       />

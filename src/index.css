@@ -11,6 +11,18 @@
   :root {
     --control-panel-width: 20%;
   }
+
+  .movie-poster,
+  .book-cover,
+  .game-cover,
+  .album-cover {
+    @apply max-h-[35dvh] mx-auto;
+    @apply border-solid border border-black rounded-sm;
+  }
+
+  .newspaper {
+    @apply max-h-[60dvh] mx-auto;
+  }
 }
 
 /* ======================== */
@@ -72,9 +84,9 @@
 
 .bf-1950s {
   @apply font-b1950s;
-  @apply text-a1950s text-[4.5vw] tracking-[0.25vw];
+  @apply text-a1950s text-[2.5vw] tracking-[0.25vw];
   &.body {
-    @apply text-[4vw];
+    @apply text-[2vw];
   }
 }
 .bf-1960s {
@@ -129,7 +141,7 @@
 
 .hf-1950s {
   @apply font-h1950s;
-  @apply text-t1950s text-[8vw] tracking-[0.25vw];
+  @apply text-t1950s text-[4vw] tracking-[0.25vw];
 }
 .hf-1960s {
   @apply font-h1960s;

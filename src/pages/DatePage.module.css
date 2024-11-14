@@ -1,10 +1,13 @@
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  min-height: 100dvh;
+  height: 100dvh;
 
-  padding: 10dvh 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+
+  padding: 10dvh;
   gap: 10dvh;
 
   background-position: top;

@@ -25,8 +25,8 @@ export const MovieCard = ({ date, decade }: MovieCardProps) => {
       <div className={`text-center bf-${decade}`}>
         Top Movie The Year You Were Born:
       </div>
-      <div className={`text-center my-[5vw] hf-${decade}`}>{movie.title}</div>
-      <p className={`text-center px-[7.5%] indent-[5vw] bf-${decade} body`}>
+      <div className={`text-center my-[1vw] hf-${decade}`}>{movie.title}</div>
+      <p className={`text-justify indent-[5vw] bf-${decade} body mb-[1vw]`}>
         {movie.overview}
       </p>
       <img

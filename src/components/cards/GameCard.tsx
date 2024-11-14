@@ -30,10 +30,10 @@ export const GameCard = ({ date, decade }: GameCardProps) => {
   return videoGame ? (
     <Card decade={decade}>
       <div className={`text-center bf-${decade}`}>Best Selling Video Game:</div>
-      <div className={`text-center my-[5vw] hf-${decade}`}>
+      <div className={`text-center my-[1vw] hf-${decade}`}>
         {videoGame.title}
       </div>
-      <p className={`text-center px-[7.5%] indent-[5vw] bf-${decade} body`}>
+      <p className={`text-center indent-[5vw] bf-${decade} body mb-[1vw]`}>
         By {videoGame.creator}
       </p>
       <img

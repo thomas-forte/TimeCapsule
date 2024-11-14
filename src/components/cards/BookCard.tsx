@@ -30,8 +30,8 @@ export const BookCard = ({ date, decade }: BookCardProps) => {
   return book ? (
     <Card decade={decade}>
       <div className={`text-center bf-${decade}`}>Most Popular Novel:</div>
-      <div className={`text-center my-[5vw] hf-${decade}`}>{book.title}</div>
-      <p className={`text-center px-[7.5%] indent-[5vw] bf-${decade} body`}>
+      <div className={`text-center my-[1vw] hf-${decade}`}>{book.title}</div>
+      <p className={`text-center indent-[5vw] bf-${decade} body mb-[1vw]`}>
         By {book.author}
       </p>
       <img
