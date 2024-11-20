@@ -6,7 +6,16 @@ interface DatePickerProps {
   updateDate: (date: Date) => void;
 }
 
+const buttonClick = new Audio("/click.wav");
+buttonClick.volume = 0.5;
+
 export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
+  // const handleClick = () => {
+  //   buttonClick.play().then(() => {
+  //     onClick ? onClick() : null;
+  //   });
+  // };
+
   return (
     <svg
       width="100%"
@@ -81,7 +90,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
         {date.toLocaleDateString("en-US", { month: "short" }).toUpperCase()}
       </text>
       <g>
-        <g>
+        <g onClick={() => buttonClick.play()}>
           <path
             d="M99.976,451L67.976,436L131.976,436L99.976,451Z"
             className={classNames(styles.arrows, {
