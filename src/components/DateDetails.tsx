@@ -1,10 +1,11 @@
 import styles from "./DateDetails.module.css";
 
-import { MovieCard } from "./cards/MovieCard";
-import { BookCard } from "./cards/BookCard";
-import { NewsCard } from "./cards/NewsCard";
-import { GameCard } from "./cards/GameCard";
-import { MusicCard } from "./cards/MusicCard";
+// import { MovieCard } from "./cards/MovieCard";
+// import { BookCard } from "./cards/BookCard";
+// import { NewsCard } from "./cards/NewsCard";
+// import { GameCard } from "./cards/GameCard";
+// import { MusicCard } from "./cards/MusicCard";
+import { MovieSection } from "./sections/MovieSection";
 
 interface DateDetailsProps {
   date: Date;
@@ -25,6 +26,9 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
   return (
     <div className={styles.container} style={{ backgroundImage }}>
       {(!filters.length || filters.includes("movies")) && (
+        <MovieSection date={date} decade={decade} />
+      )}
+      {/* {(!filters.length || filters.includes("movies")) && (
         <MovieCard date={date} decade={decade} />
       )}
       {(!filters.length || filters.includes("books")) && (
@@ -38,7 +42,7 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
       )}
       {(!filters.length || filters.includes("music")) && (
         <MusicCard date={date} decade={decade} />
-      )}
+      )} */}
     </div>
   );
 };

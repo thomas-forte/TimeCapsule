@@ -7,9 +7,6 @@
   overflow-y: none;
   overflow-x: scroll;
 
-  padding: 10dvh;
-  gap: 10dvh;
-
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100% auto;
