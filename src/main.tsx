@@ -1,75 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  redirect,
-  RouterProvider,
-} from "react-router-dom";
 
 // styles
 import "./index.css";
 import "@fontsource/oxanium/400.css";
 
-// components
-import { Layout } from "./components/Layout.tsx";
-import { Door } from "./components/Door.tsx";
-
-// pages
-import { DatePage } from "./pages/DatePage.tsx";
-import { ErrorPage } from "./pages/ErrorPage.tsx";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        path: "*",
-        element: <ErrorPage />,
-      },
-      {
-        path: "",
-        element: <Door />,
-      },
-      {
-        path: ":year/:month/:day",
-        element: <DatePage />,
-        loader: async ({ params, request }) => {
-          const searchParams = new URL(request.url).searchParams;
-          const filters = searchParams.getAll("filters");
-
-          // check if values are present
-          if (!params.year || !params.month || !params.day) {
-            return redirect("/invalid-date");
-          }
-
-          // check if values are numbers
-          if (
-            !parseInt(params.year) ||
-            !parseInt(params.month) ||
-            !parseInt(params.day)
-          ) {
-            return redirect("/invalid-date");
-          }
-
-          // check if values are a valid date
-          const date = new Date(`${params.year}/${params.month}/${params.day}`);
-          if (!Number.isNaN(date.valueOf())) {
-            const decade = `${Math.trunc(date.getFullYear() / 10) * 10}s`;
-            return new Promise((resolve) =>
-              setTimeout(() => resolve({ date, decade, filters }), 2000)
-            );
-          } else {
-            return redirect("/invalid-date");
-          }
-        },
-      },
-    ],
-  },
-]);
+import { App } from "./App.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 // styles
 import styles from "./ControlPanel.module.css";
@@ -19,37 +18,17 @@ import { BottomRightScrew } from "./screws/BottomRightScrew";
 import { BottomLeftScrew } from "./screws/BottomLeftScrew";
 
 const MIN_DATE = new Date(1950, 0, 1);
-const doorChime = new Audio("/doorbell.wav");
 
-export const ControlPanel = () => {
+interface ControlPanelProps {
+  goToDate: (date: Date, filters: string[]) => void;
+}
+
+export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
   // filter selection state
   const [filterSelection, setFilterSelection] = useState<string[]>([]);
 
   // selected date state
   const [date, setDate] = useState(new Date(1955, 10, 5));
-
-  // navigation provider hook
-  const navigate = useNavigate();
-
-  // play chime and navigate to selected date
-  const goToSelectedDate = () => {
-    doorChime.play().then(() => {
-      navigate(generatePath(date));
-    });
-  };
-
-  // generate path with selected date and filters
-  const generatePath = (date: Date) => {
-    const params = new URLSearchParams();
-    if (filterSelection.length) {
-      for (const filter of filterSelection) {
-        params.append("filters", filter);
-      }
-    }
-    return `/${date.getFullYear()}/${
-      date.getMonth() + 1
-    }/${date.getDate()}?${params.toString()}`;
-  };
 
   // pick a random date between min and max
   const pickRandomDate = () => {
@@ -65,10 +44,10 @@ export const ControlPanel = () => {
       <div className={styles.controlPanel}>
         <div className={styles.mainPanel}>
           <div className={styles.namePlate}>
-            <NamePlate onClick={() => navigate("/")} />
+            <NamePlate onClick={() => /*navigate("/")*/ 1} />
           </div>
           <div className={styles.goButton}>
-            <GoButton onClick={() => goToSelectedDate()} />
+            <GoButton onClick={() => goToDate(date, filterSelection)} />
           </div>
           <div className={styles.datePicker}>
             <DatePicker date={date} updateDate={setDate} />

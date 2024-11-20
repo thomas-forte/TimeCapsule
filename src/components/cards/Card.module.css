@@ -2,10 +2,4 @@
   @apply min-w-full max-h-[100%];
   @apply border-solid border border-black rounded;
   @apply p-[3vw];
-
-  /* special variation */
-  &.dateCard {
-    @apply py-4;
-    @apply select-none;
-  }
 }

@@ -1,21 +1,18 @@
-import { useLoaderData } from "react-router-dom";
+import styles from "./DateDetails.module.css";
 
-import styles from "./DatePage.module.css";
+import { MovieCard } from "./cards/MovieCard";
+import { BookCard } from "./cards/BookCard";
+import { NewsCard } from "./cards/NewsCard";
+import { GameCard } from "./cards/GameCard";
+import { MusicCard } from "./cards/MusicCard";
 
-import { DateCard } from "../components/cards/DateCard";
-import { MovieCard } from "../components/cards/MovieCard";
-import { BookCard } from "../components/cards/BookCard";
-import { NewsCard } from "../components/cards/NewsCard";
-import { GameCard } from "../components/cards/GameCard";
-import { MusicCard } from "../components/cards/MusicCard";
+interface DateDetailsProps {
+  date: Date;
+  decade: string;
+  filters: string[];
+}
 
-export const DatePage = () => {
-  const { date, decade, filters } = useLoaderData() as {
-    date: Date;
-    decade: string;
-    filters: string[];
-  };
-
+export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
   let backgroundImage = "";
   if (date.getFullYear() < 2010) {
     backgroundImage = `url(/images/${decade}bg.svg)`;
@@ -27,7 +24,6 @@ export const DatePage = () => {
 
   return (
     <div className={styles.container} style={{ backgroundImage }}>
-      <DateCard date={date} decade={decade} />
       {(!filters.length || filters.includes("movies")) && (
         <MovieCard date={date} decade={decade} />
       )}

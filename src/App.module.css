@@ -1,0 +1,77 @@
+div.container {
+  height: 100dvh;
+  width: 100dvw;
+
+  > div.controlPanel {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100dvh;
+    overflow: hidden;
+    z-index: 10;
+
+    width: var(--control-panel-width);
+  }
+
+  > div.content {
+    position: absolute;
+    left: var(--control-panel-width);
+    top: 0;
+    width: calc(100% - var(--control-panel-width));
+    height: 100dvh;
+    overflow-y: hidden;
+    z-index: 5;
+
+    > div.doorContainer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+
+      z-index: 9;
+
+      overflow: clip;
+      background-color: none;
+
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+
+      &.open {
+        animation-duration: 2s;
+        animation-name: slideout;
+      }
+
+      &.close {
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+    }
+  }
+}
+
+@keyframes slideout {
+  0% {
+    transform: translateX(0);
+  }
+  99% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(100%);
+    display: none;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateX(100%);
+    display: none;
+  }
+  1% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
