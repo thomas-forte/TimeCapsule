@@ -12,28 +12,37 @@ const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
 
 export const App = () => {
-  const [date, setDate] = useState<Date>(new Date());
+  const [initialLoad, setInitialLoad] = useState(true);
+  const [date, setDate] = useState<Date>();
   const [decade, setDecade] = useState("");
   const [filters, setFilters] = useState<string[]>([]);
   const [doorOpen, setDoorOpen] = useState(false);
 
   const goToDate = (date: Date, filters: string[]) => {
-    // close door if open
-    doorCloseAudio.play().then(() => {
-      // configure decade and filters
+    let initialTimeout = 1;
+
+    // close door if open and not initial load
+    if (!initialLoad) {
+      doorCloseAudio.play();
+      setDoorOpen(false);
+      initialTimeout = 3000;
+    }
+
+    // wait for door to fully close then set date details
+    setTimeout(() => {
       setDate(date);
       setDecade(`${Math.trunc(date.getFullYear() / 10) * 10}s`);
       setFilters(filters);
-      // preload date details
-    });
-    setDoorOpen(false);
+    }, initialTimeout);
 
+    // play sound floor chime then animate door open 2s after door closes
     setTimeout(() => {
-      // play sound then animate door open
-      doorChimeAudio.play().then(() => {
-        setDoorOpen(true);
-      });
-    }, 3000 + 2000);
+      doorChimeAudio.play();
+      setDoorOpen(true);
+      if (initialLoad) {
+        setInitialLoad(false);
+      }
+    }, initialTimeout + 2000);
   };
 
   return (
@@ -46,14 +55,17 @@ export const App = () => {
         <div
           className={classNames(styles.doorContainer, {
             [styles.open]: doorOpen,
-            [styles.close]: !doorOpen,
+            [styles.close]: !doorOpen && !initialLoad,
           })}
         >
-          {/* {doorClosed &&  */}
           <Door />
         </div>
 
-        <DateDetails date={date} decade={decade} filters={filters} />
+        <DateDetails
+          date={date ?? new Date()}
+          decade={decade}
+          filters={filters}
+        />
       </div>
 
       {/* turn yo screen */}
