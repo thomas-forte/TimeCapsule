@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      spacing: {
+        "1/5": "20%",
+      },
+
       borderWidth: {
         DEFAULT: "0.5vw",
         thin: "0.15vw",
@@ -49,6 +53,7 @@ export default {
         t2020s: "#CCC5B7",
       },
       fontFamily: {
+        oxanium: ["Oxanium"],
         montserrat: ["Montserrat", "serif"],
         h1950s: ['"Carter One"'],
         b1950s: ["Truculenta"],

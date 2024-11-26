@@ -1,4 +1,4 @@
-import styles from "./GoButton.module.css";
+import { config } from "../../../config";
 
 interface GoButtonProps {
   onClick?: () => void;
@@ -9,9 +9,10 @@ buttonClick.volume = 0.5;
 
 export const GoButton = ({ onClick }: GoButtonProps) => {
   const handleClick = () => {
-    buttonClick.play().then(() => {
-      onClick ? onClick() : null;
-    });
+    if (onClick) {
+      config.enableAudio && buttonClick.play();
+      onClick();
+    }
   };
 
   return (
@@ -28,10 +29,10 @@ export const GoButton = ({ onClick }: GoButtonProps) => {
       strokeLinejoin="round"
       strokeMiterlimit="2"
       onClick={handleClick}
-      className={styles.goButton}
+      className="control-panel-go-button-svg"
     >
       <circle cx="59" cy="59" r="59" fill="url(#_gobutton_Linear1)" />
-      <circle id="Shadow-Layer" cx="59" cy="59" r="55" fill="#181c25" />
+      <circle cx="59" cy="59" r="55" fill="#181c25" />
       <circle cx="59" cy="59" r="53" fill="url(#_gobutton_Linear2)" />
       <circle cx="59" cy="59" r="45" fill="#e5f0f3" />
       <path

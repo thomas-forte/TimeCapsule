@@ -1,5 +1,5 @@
-// styles
-import styles from "./ButtonPanel.module.css";
+// config
+import { config } from "../../config";
 
 // buttons
 import { AllButton } from "./buttons/button-bar/AllButton";
@@ -27,23 +27,21 @@ export const ButtonPanel = ({ filters, onChange }: ButtonPanelProps) => {
   };
 
   const toggleFilterNone = () => {
-    buttonClick.play().then(() => {
-      onChange([]);
-    });
+    config.enableAudio && buttonClick.play();
+    onChange([]);
   };
 
   const toggleFilterSelection = (filter: string) => {
-    buttonClick.play().then(() => {
-      if (filters.includes(filter)) {
-        removeFilterSelection(filter);
-      } else {
-        addFilterSelection(filter);
-      }
-    });
+    config.enableAudio && buttonClick.play();
+    if (filters.includes(filter)) {
+      removeFilterSelection(filter);
+    } else {
+      addFilterSelection(filter);
+    }
   };
 
   return (
-    <div className={styles.buttonPanel}>
+    <div className="button-panel">
       <div>
         <AllButton
           onClick={() => toggleFilterNone()}

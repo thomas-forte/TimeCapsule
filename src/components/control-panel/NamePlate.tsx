@@ -1,34 +1,31 @@
 import { useEffect, useState } from "react";
 
-import styles from "./NamePlate.module.css";
+// config
+import { config } from "../../config";
 
 interface NamePlateProps {
   onClick?: () => void;
 }
 
+const getAnglesFromTime = (time: Date) => ({
+  minuteAngle: time.getMinutes() * 6,
+  hourAngle: time.getHours() * 30 + time.getMinutes() * 0.5,
+});
+
 export const NamePlate = ({ onClick }: NamePlateProps) => {
   // maintain angles for clock hands every second
-  const initial = new Date();
-  const [angles, setAngles] = useState({
-    minuteAngle: initial.getMinutes() * 6,
-    hourAngle: initial.getHours() * 30 + initial.getMinutes() * 0.5,
-  });
+  const [angles, setAngles] = useState(getAnglesFromTime(new Date()));
 
   const updateAngles = (now = new Date()) => {
-    setAngles({
-      minuteAngle: now.getMinutes() * 6,
-      hourAngle: now.getHours() * 30 + now.getMinutes() * 0.5,
-    });
+    setAngles(getAnglesFromTime(now));
   };
 
   useEffect(() => {
     const interval = setInterval(() => {
       updateAngles();
-    }, 1000);
+    }, config.clockUpdateInterval);
 
-    return () => {
-      clearInterval(interval);
-    };
+    return () => clearInterval(interval);
   });
 
   return (
@@ -44,7 +41,7 @@ export const NamePlate = ({ onClick }: NamePlateProps) => {
       clipRule="evenodd"
       strokeLinejoin="round"
       strokeMiterlimit="2"
-      className={styles.namePlate}
+      className="control-panel-name-plate-svg"
       onClick={onClick}
     >
       <path

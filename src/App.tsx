@@ -1,31 +1,37 @@
-// styles
 import { useState } from "react";
+import classNames from "classnames";
+
+// config
+import { config } from "./config";
+
+// styles
 import styles from "./App.module.css";
 
 // components
 import { ControlPanel } from "./components/control-panel/ControlPanel";
 import { DateDetails } from "./components/DateDetails";
 import { Door } from "./components/Door";
-import classNames from "classnames";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
 
 export const App = () => {
   const [initialLoad, setInitialLoad] = useState(true);
-  const [date, setDate] = useState<Date>();
-  const [decade, setDecade] = useState("");
-  const [filters, setFilters] = useState<string[]>([]);
   const [doorOpen, setDoorOpen] = useState(false);
 
+  const [date, setDate] = useState<Date>(new Date());
+  const [decade, setDecade] = useState("");
+  const [filters, setFilters] = useState<string[]>([]);
+
+  // callback to change the app state to a new date
   const goToDate = (date: Date, filters: string[]) => {
     let initialTimeout = 1;
 
     // close door if open and not initial load
     if (!initialLoad) {
-      doorCloseAudio.play();
+      config.enableAudio && doorCloseAudio.play();
       setDoorOpen(false);
-      initialTimeout = 3000;
+      initialTimeout = config.doorClosingDuration;
     }
 
     // wait for door to fully close then set date details
@@ -37,21 +43,21 @@ export const App = () => {
 
     // play sound floor chime then animate door open 2s after door closes
     setTimeout(() => {
-      doorChimeAudio.play();
+      config.enableAudio && doorChimeAudio.play();
       setDoorOpen(true);
       if (initialLoad) {
         setInitialLoad(false);
       }
-    }, initialTimeout + 2000);
+    }, initialTimeout + config.doorOpeningDuration);
   };
 
   return (
-    <div className={styles.container}>
-      <div className={styles.controlPanel}>
+    <div className="h-dvh w-dvw">
+      <div className="fixed top-0 left-0 h-dvh w-1/5 overflow-hidden z-50">
         <ControlPanel goToDate={goToDate} />
       </div>
 
-      <div className={styles.content}>
+      <div className="fixed top-0 left-1/5 h-dvh w-4/5 overflow-y-hidden z-0">
         <div
           className={classNames(styles.doorContainer, {
             [styles.open]: doorOpen,
@@ -61,11 +67,7 @@ export const App = () => {
           <Door />
         </div>
 
-        <DateDetails
-          date={date ?? new Date()}
-          decade={decade}
-          filters={filters}
-        />
+        <DateDetails date={date} decade={decade} filters={filters} />
       </div>
 
       {/* turn yo screen */}

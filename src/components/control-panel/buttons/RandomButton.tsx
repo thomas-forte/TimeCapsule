@@ -1,4 +1,5 @@
-import styles from "./RandomButton.module.css";
+// config
+import { config } from "../../../config";
 
 interface RandomButtonProps {
   onClick?: () => void;
@@ -9,9 +10,10 @@ buttonClick.volume = 0.5;
 
 export const RandomButton = ({ onClick }: RandomButtonProps) => {
   const handleClick = () => {
-    buttonClick.play().then(() => {
-      onClick ? onClick() : null;
-    });
+    if (onClick) {
+      config.enableAudio && buttonClick.play();
+      onClick();
+    }
   };
 
   return (
@@ -28,7 +30,7 @@ export const RandomButton = ({ onClick }: RandomButtonProps) => {
       strokeLinejoin="round"
       strokeMiterlimit="2"
       onClick={handleClick}
-      className={styles.randomButton}
+      className="control-panel-random-button-svg"
     >
       <path
         d="M118,29.5L118,88.5C118,104.781 104.781,118 88.5,118L29.5,118C13.219,118 0,104.781 0,88.5L0,29.5C0,13.219 13.219,0 29.5,0L88.5,0C104.781,0 118,13.219 118,29.5Z"

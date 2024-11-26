@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+// config
+import { config } from "../../config";
+
 // styles
 import styles from "./ControlPanel.module.css";
 
@@ -17,7 +20,7 @@ import { TopRightScrew } from "./screws/TopRightScrew";
 import { BottomRightScrew } from "./screws/BottomRightScrew";
 import { BottomLeftScrew } from "./screws/BottomLeftScrew";
 
-const MIN_DATE = new Date(1950, 0, 1);
+const MIN_DATE = config.minimumDate;
 
 interface ControlPanelProps {
   goToDate: (date: Date, filters: string[]) => void;
@@ -28,7 +31,7 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
   const [filterSelection, setFilterSelection] = useState<string[]>([]);
 
   // selected date state
-  const [date, setDate] = useState(new Date(1955, 10, 5));
+  const [date, setDate] = useState(config.initialDate);
 
   // pick a random date between min and max
   const pickRandomDate = () => {
@@ -41,24 +44,25 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
 
   return (
     <>
-      <div className={styles.controlPanel}>
-        <div className={styles.mainPanel}>
-          <div className={styles.namePlate}>
+      <div className="flex">
+        {/* controls */}
+        <div className="control-panel-controls-container">
+          <div className="control-panel-name-plate">
             <NamePlate onClick={() => /*navigate("/")*/ 1} />
           </div>
-          <div className={styles.goButton}>
+          <div className="control-panel-go-button">
             <GoButton onClick={() => goToDate(date, filterSelection)} />
           </div>
-          <div className={styles.datePicker}>
+          <div className="control-panel-date-picker">
             <DatePicker date={date} updateDate={setDate} />
           </div>
-          <div className={styles.randomButton}>
+          <div className="control-panel-random-button">
             <RandomButton onClick={() => pickRandomDate()} />
           </div>
         </div>
 
         {/* filter buttons */}
-        <div className={styles.buttonPanel}>
+        <div className="control-panel-buttons-container">
           <ButtonPanel
             filters={filterSelection}
             onChange={setFilterSelection}
@@ -66,21 +70,23 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
         </div>
 
         {/* absolute overlays */}
-        <div className={styles.topLeftScrew}>
-          <div className={styles.topLeftGradient}></div>
-          <TopLeftScrew />
-        </div>
-        <div className={styles.topRightScrew}>
-          <div className={styles.topRightGradient}></div>
-          <TopRightScrew />
-        </div>
-        <div className={styles.bottomLeftScrew}>
-          <div className={styles.bottomLeftGradient}></div>
-          <BottomLeftScrew />
-        </div>
-        <div className={styles.bottomRightScrew}>
-          <div className={styles.bottomRightGradient}></div>
-          <BottomRightScrew />
+        <div className={styles.screws}>
+          <div className={styles.topLeftScrew}>
+            <div className={styles.topLeftGradient}></div>
+            <TopLeftScrew />
+          </div>
+          <div className={styles.topRightScrew}>
+            <div className={styles.topRightGradient}></div>
+            <TopRightScrew />
+          </div>
+          <div className={styles.bottomLeftScrew}>
+            <div className={styles.bottomLeftGradient}></div>
+            <BottomLeftScrew />
+          </div>
+          <div className={styles.bottomRightScrew}>
+            <div className={styles.bottomRightGradient}></div>
+            <BottomRightScrew />
+          </div>
         </div>
       </div>
       <ControlPanelBackground />
