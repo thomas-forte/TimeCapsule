@@ -57,7 +57,7 @@ export const App = () => {
         <ControlPanel goToDate={goToDate} />
       </div>
 
-      <div className="fixed top-0 left-1/5 h-dvh w-4/5 overflow-y-hidden z-0">
+      <div className="fixed top-0 left-1/5 h-dvh w-4/5 overflow-hidden z-0">
         <div
           className={classNames(styles.doorContainer, {
             [styles.open]: doorOpen,

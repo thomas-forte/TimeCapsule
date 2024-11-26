@@ -2,24 +2,31 @@ import { useEffect, useState } from "react";
 import classNames from "classnames";
 
 import { Section, SectionProps } from "./Section";
-import { getTopMovie, Movie } from "../../tmdb.service";
+import novels from "../../assets/novels.json";
 
 import styles from "./Section.module.css";
 
-export const MovieSection = ({ date, decade }: SectionProps) => {
-  const [movie, setMovie] = useState<Movie | null>(null);
+type Book = {
+  author: string;
+  image: string;
+  title: string;
+};
+
+export const BookSection = ({ date, decade }: SectionProps) => {
+  const [book, setBook] = useState<Book | null>(null);
   useEffect(() => {
-    async function fetchData() {
-      const movie = await getTopMovie(date);
-      if (typeof movie !== "string") {
-        setMovie(movie);
-      }
+    try {
+      const book = (novels as { [key: string]: Book })[
+        date.getFullYear().toString()
+      ];
+      setBook(book);
+    } catch {
+      setBook(null);
     }
-    fetchData();
   }, [date]);
 
   return (
-    movie && (
+    book && (
       <Section>
         <div
           className={classNames(
@@ -28,14 +35,12 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             decade ? `bg-${decade} bd-${decade}` : "bg-yellow-300"
           )}
         >
-          <div className={`text-center bf-${decade}`}>
-            Top Movie The Year You Were Born:
-          </div>
+          <div className={`text-center bf-${decade}`}>Most Popular Novel:</div>
           <div className={`text-center my-[1vw] hf-${decade}`}>
-            {movie.title}
+            {book.title}
           </div>
-          <p className={`text-justify indent-[5vw] bf-${decade} body mb-[1vw]`}>
-            {movie.overview}
+          <p className={`text-center indent-[5vw] bf-${decade} body mb-[1vw]`}>
+            By {book.author}
           </p>
         </div>
         <div
@@ -47,7 +52,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
         >
           <img
             className={styles.moviePoster}
-            src={`https://media.themoviedb.org/t/p/w500//${movie.poster_path}`}
+            src={"https://timecapsule.brendantrepal.com" + book.image}
             alt=""
           />
         </div>

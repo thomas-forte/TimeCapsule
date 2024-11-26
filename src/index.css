@@ -92,6 +92,21 @@
   /* ======================== */
   /* section layout           */
   /* ======================== */
+  .content-container {
+    @apply bg-top bg-repeat-y bg-[length:100%_auto];
+    @apply p-[3dvh];
+    @apply gap-[3dvh];
+  }
+
+  .section-container {
+    @apply min-w-full h-full;
+    @apply flex gap-[3dvh];
+
+    .card {
+      @apply border-solid border border-black rounded;
+      @apply p-[1vw];
+    }
+  }
 
   .movie-poster,
   .book-cover,

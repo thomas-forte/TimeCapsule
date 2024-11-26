@@ -1,27 +1,12 @@
-.section {
-  width: 100%;
-  height: 100%;
+.movieOne {
+  flex-basis: 55%;
+}
+.movieTwo {
+  flex-basis: 45%;
 
-  padding: 5dvh;
-
-  display: flex;
-  gap: 5dvh;
-
-  > .sectionCard {
-    @apply border-solid border border-black rounded;
-    @apply p-[1vw];
-  }
-
-  > .movieOne {
-    flex-basis: 55%;
-  }
-  > .movieTwo {
-    flex-basis: 45%;
-
-    > .moviePoster {
-      @apply border-solid border border-black;
-      @apply h-full w-auto;
-      @apply mx-auto;
-    }
+  .moviePoster {
+    @apply border-solid border border-black;
+    @apply h-full w-auto;
+    @apply mx-auto;
   }
 }
