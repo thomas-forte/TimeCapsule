@@ -1,11 +1,8 @@
 import { BookSection } from "./sections/BookSection";
-
-// import { MovieCard } from "./cards/MovieCard";
-// import { BookCard } from "./cards/BookCard";
-// import { NewsCard } from "./cards/NewsCard";
-// import { GameCard } from "./cards/GameCard";
-// import { MusicCard } from "./cards/MusicCard";
 import { MovieSection } from "./sections/MovieSection";
+import { NewsSection } from "./sections/NewsSection";
+import { GamesSection } from "./sections/GamesSection";
+import { MusicSection } from "./sections/MusicSection";
 
 interface DateDetailsProps {
   date: Date;
@@ -28,21 +25,21 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
       className="h-dvh max-w-full overflow-y-hidden content-container flex"
       style={{ backgroundImage }}
     >
-      {(!filters.length || filters.includes("movies")) && (
-        <BookSection date={date} decade={decade} />
-      )}
       {(!filters.length || filters.includes("books")) && (
         <MovieSection date={date} decade={decade} />
       )}
-      {/* {(!filters.length || filters.includes("news")) && ( */}
-      {/* <NewsCard date={date} decade={decade} /> */}
-      {/* )} */}
-      {/* {(!filters.length || filters.includes("games")) && ( */}
-      {/* <GameCard date={date} decade={decade} /> */}
-      {/* )} */}
-      {/* {(!filters.length || filters.includes("music")) && ( */}
-      {/* <MusicCard date={date} decade={decade} /> */}
-      {/* )} */}
+      {(!filters.length || filters.includes("movies")) && (
+        <BookSection date={date} decade={decade} />
+      )}
+      {(!filters.length || filters.includes("news")) && (
+        <NewsSection date={date} decade={decade} />
+      )}
+      {(!filters.length || filters.includes("games")) && (
+        <GamesSection date={date} decade={decade} />
+      )}
+      {(!filters.length || filters.includes("music")) && (
+        <MusicSection date={date} decade={decade} />
+      )}
     </div>
   );
 };

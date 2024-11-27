@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
-import classNames from "classnames";
 
 import { Section, SectionProps } from "./Section";
 import { getTopMovie, Movie } from "../../tmdb.service";
-
-import styles from "./Section.module.css";
 
 export const MovieSection = ({ date, decade }: SectionProps) => {
   const [movie, setMovie] = useState<Movie | null>(null);
@@ -21,13 +18,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
   return (
     movie && (
       <Section>
-        <div
-          className={classNames(
-            "card",
-            styles.movieOne,
-            decade ? `bg-${decade} bd-${decade}` : "bg-yellow-300"
-          )}
-        >
+        <div className={`card one bg-${decade} bd-${decade}`}>
           <div className={`text-center bf-${decade}`}>
             Top Movie The Year You Were Born:
           </div>
@@ -38,15 +29,8 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             {movie.overview}
           </p>
         </div>
-        <div
-          className={classNames(
-            "card",
-            styles.movieTwo,
-            decade ? `bg-${decade} bd-${decade}` : "bg-yellow-300"
-          )}
-        >
+        <div className={`card two poster bg-${decade} bd-${decade}`}>
           <img
-            className={styles.moviePoster}
             src={`https://media.themoviedb.org/t/p/w500//${movie.poster_path}`}
             alt=""
           />

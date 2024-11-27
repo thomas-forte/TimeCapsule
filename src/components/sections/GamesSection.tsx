@@ -1,42 +1,45 @@
 import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
-import novels from "../../assets/novels.json";
+import games from "../../assets/games.json";
 
-type Book = {
-  author: string;
-  image: string;
+type Game = {
   title: string;
+  creator: string;
+  image: string;
 };
 
-export const BookSection = ({ date, decade }: SectionProps) => {
-  const [book, setBook] = useState<Book | null>(null);
+export const GamesSection = ({ date, decade }: SectionProps) => {
+  const [game, setGame] = useState<Game | null>(null);
   useEffect(() => {
     try {
-      const book = (novels as { [key: string]: Book })[
+      const videoGame = (games as { [key: string]: Game })[
         date.getFullYear().toString()
       ];
-      setBook(book);
+      setGame(videoGame);
     } catch {
-      setBook(null);
+      setGame(null);
     }
   }, [date]);
 
   return (
-    book && (
+    game && (
       <Section>
         <div className={`card one bg-${decade} bd-${decade}`}>
-          <div className={`text-center bf-${decade}`}>Most Popular Novel:</div>
+          <div className={`text-center bf-${decade}`}>
+            Best Selling Video Game:
+          </div>
           <div className={`text-center my-[1vw] hf-${decade}`}>
-            {book.title}
+            {game.title}
           </div>
           <p className={`text-center indent-[5vw] bf-${decade} body mb-[1vw]`}>
-            By {book.author}
+            By {game.creator}
           </p>
         </div>
         <div className={`card two poster bg-${decade} bd-${decade}`}>
           <img
-            src={"https://timecapsule.brendantrepal.com" + book.image}
+            className="game-cover"
+            src={"https://timecapsule.brendantrepal.com" + game.image}
             alt=""
           />
         </div>

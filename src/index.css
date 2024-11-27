@@ -100,11 +100,26 @@
 
   .section-container {
     @apply min-w-full h-full;
-    @apply flex gap-[3dvh];
+    @apply flex gap-[3dvh] justify-center;
 
     .card {
       @apply border-solid border border-black rounded;
       @apply p-[1vw];
+
+      &.one {
+        flex-basis: 55%;
+        overflow: hidden;
+      }
+      &.two {
+        flex-basis: 45%;
+      }
+
+      &.poster {
+        > img {
+          @apply border-solid border border-black;
+          @apply mx-auto;
+        }
+      }
     }
   }
 

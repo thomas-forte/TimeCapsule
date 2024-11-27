@@ -1,14 +1,9 @@
 import { useEffect, useState } from "react";
 
-import { Card } from "./Card";
+import { Section, SectionProps } from "./Section";
 import { checkForNewspaper } from "../../newspaper.service";
 
-interface NewsCardProps {
-  date: Date;
-  decade: string;
-}
-
-export const NewsCard = ({ date, decade }: NewsCardProps) => {
+export const NewsSection = ({ date, decade }: SectionProps) => {
   const [newspaper, setNewspaper] = useState<string | null>(null);
   useEffect(() => {
     async function fetchData() {
@@ -22,14 +17,16 @@ export const NewsCard = ({ date, decade }: NewsCardProps) => {
     fetchData();
   }, [date, decade]);
 
-  return newspaper ? (
-    <Card decade={decade}>
-      <div className={`text-center bf-${decade} mb-[1vw]`}>
-        News of the Day:
-      </div>
-      <img className="newspaper" src={newspaper} alt="book cover" />
-    </Card>
-  ) : (
-    <></>
+  return (
+    newspaper && (
+      <Section>
+        <div className={`card one bg-${decade} bd-${decade}`}>
+          <div className={`text-center bf-${decade} mb-[1vw]`}>
+            News of the Day:
+          </div>
+          <img className="poster" src={newspaper} alt="" />
+        </div>
+      </Section>
+    )
   );
 };
