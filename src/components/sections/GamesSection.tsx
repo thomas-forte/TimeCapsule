@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
+import { Card } from "./Card";
+
 import games from "../../assets/games.json";
 
 type Game = {
@@ -25,24 +27,22 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
   return (
     game && (
       <Section>
-        <div className={`card one bg-${decade} bd-${decade}`}>
-          <div className={`text-center bf-${decade}`}>
-            Best Selling Video Game:
-          </div>
+        <Card decade={decade} className="basis-1/2">
+          <div className={`text-center`}>Best Selling Video Game:</div>
           <div className={`text-center my-[1vw] hf-${decade}`}>
             {game.title}
           </div>
-          <p className={`text-center indent-[5vw] bf-${decade} body mb-[1vw]`}>
+          <p className={`text-center indent-[5vw] body mb-[1vw]`}>
             By {game.creator}
           </p>
-        </div>
-        <div className={`card two poster bg-${decade} bd-${decade}`}>
+        </Card>
+        <Card decade={decade} className="basis-1/2 poster">
           <img
             className="game-cover"
             src={"https://timecapsule.brendantrepal.com" + game.image}
-            alt=""
+            alt={`${game.title} cover`}
           />
-        </div>
+        </Card>
       </Section>
     )
   );

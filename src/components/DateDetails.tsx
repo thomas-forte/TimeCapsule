@@ -1,3 +1,5 @@
+import classNames from "classnames";
+
 import { BookSection } from "./sections/BookSection";
 import { MovieSection } from "./sections/MovieSection";
 import { NewsSection } from "./sections/NewsSection";
@@ -22,7 +24,10 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
 
   return (
     <div
-      className="h-dvh max-w-full overflow-y-hidden content-container flex"
+      className={classNames(
+        "h-dvh max-w-full overflow-y-hidden content-container flex",
+        `body-font-${decade}`
+      )}
       style={{ backgroundImage }}
     >
       {(!filters.length || filters.includes("books")) && (

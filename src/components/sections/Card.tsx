@@ -2,9 +2,20 @@ import classNames from "classnames";
 import { PropsWithChildren } from "react";
 
 export interface CardProps extends PropsWithChildren {
+  decade: string;
   className?: string;
 }
 
-export const Card = ({ className, children }: CardProps) => (
-  <div className={classNames("card", className)}>{children}</div>
+export const Card = ({ decade, className, children }: CardProps) => (
+  <div>
+    <div
+      className={classNames(
+        "card",
+        `background-${decade} border-${decade}`,
+        className
+      )}
+    >
+      {children}
+    </div>
+  </div>
 );

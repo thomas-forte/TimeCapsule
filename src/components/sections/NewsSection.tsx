@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
+import { Card } from "./Card";
+
 import { checkForNewspaper } from "../../newspaper.service";
 
 export const NewsSection = ({ date, decade }: SectionProps) => {
@@ -20,12 +22,10 @@ export const NewsSection = ({ date, decade }: SectionProps) => {
   return (
     newspaper && (
       <Section>
-        <div className={`card one bg-${decade} bd-${decade}`}>
-          <div className={`text-center bf-${decade} mb-[1vw]`}>
-            News of the Day:
-          </div>
-          <img className="poster" src={newspaper} alt="" />
-        </div>
+        <Card decade={decade} className="basis-1/2 poster flex flex-col">
+          <div className="text-center mb-[1vw]">News of the Day:</div>
+          <img src={newspaper} alt="" />
+        </Card>
       </Section>
     )
   );

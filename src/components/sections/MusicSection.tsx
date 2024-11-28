@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
+import { Card } from "./Card";
+
 import musics from "../../assets/music.json";
 
 type Album = {
@@ -27,23 +29,21 @@ export const MusicSection = ({ date, decade }: SectionProps) => {
   return (
     album && (
       <Section>
-        <div className={`card one bg-${decade} bd-${decade}`}>
-          <div className={`text-center bf-${decade}`}>
-            Notable Album of the Year:
-          </div>
+        <Card decade={decade} className="basis-1/3">
+          <div className={`text-center`}>Notable Album of the Year:</div>
           <div className={`text-center my-[5vw] hf-${decade}`}>
             {album.title}
           </div>
-          <p className={`text-center indent-[2vw] bf-${decade} body mb-[1vw]`}>
+          <p className={`text-center indent-[2vw] body mb-[1vw]`}>
             By {album.artist}
           </p>
-        </div>
-        <div className={`card two poster bg-${decade} bd-${decade}`}>
+        </Card>
+        <Card decade={decade} className="basis-2/3 poster">
           <img
             src={"https://timecapsule.brendantrepal.com" + album.image}
-            alt=""
+            alt={`${album.title} cover`}
           />
-        </div>
+        </Card>
       </Section>
     )
   );

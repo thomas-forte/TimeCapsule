@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
+import { Card } from "./Card";
+
 import novels from "../../assets/novels.json";
 
 type Book = {
@@ -25,21 +27,21 @@ export const BookSection = ({ date, decade }: SectionProps) => {
   return (
     book && (
       <Section>
-        <div className={`card one bg-${decade} bd-${decade}`}>
-          <div className={`text-center bf-${decade}`}>Most Popular Novel:</div>
+        <Card decade={decade} className="basis-1/2">
+          <div className="text-center">Most Popular Novel:</div>
           <div className={`text-center my-[1vw] hf-${decade}`}>
             {book.title}
           </div>
-          <p className={`text-center indent-[5vw] bf-${decade} body mb-[1vw]`}>
+          <p className="text-center indent-[5vw] body mb-[1vw]">
             By {book.author}
           </p>
-        </div>
-        <div className={`card two poster bg-${decade} bd-${decade}`}>
+        </Card>
+        <Card decade={decade} className="basis-1/2 poster">
           <img
             src={"https://timecapsule.brendantrepal.com" + book.image}
-            alt=""
+            alt={`${book.title} cover`}
           />
-        </div>
+        </Card>
       </Section>
     )
   );
