@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
 
+import { config } from "../../config";
 import games from "../../assets/games.json";
 
 type Game = {
@@ -39,7 +40,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
         <Card decade={decade} className="basis-1/2 poster">
           <img
             className="game-cover"
-            src={"https://timecapsule.brendantrepal.com" + game.image}
+            src={config.assetsRoot + game.image}
             alt={`${game.title} cover`}
           />
         </Card>

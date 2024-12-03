@@ -3,18 +3,31 @@ import { useEffect, useState } from "react";
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
 
-import { getTopMovie, Movie } from "../../tmdb.service";
+import { config } from "../../config";
+import movies from "../../assets/movies.json";
+
+type Movie = {
+  title: string;
+  studio: string[] | string;
+  mpaa: string;
+  runtime: string;
+  director: string | string[];
+  tagline: string;
+  description: string;
+  image: string;
+};
 
 export const MovieSection = ({ date, decade }: SectionProps) => {
   const [movie, setMovie] = useState<Movie | null>(null);
   useEffect(() => {
-    async function fetchData() {
-      const movie = await getTopMovie(date);
-      if (typeof movie !== "string") {
-        setMovie(movie);
-      }
+    try {
+      const movie = (movies as { [key: string]: Movie })[
+        date.getFullYear().toString()
+      ];
+      setMovie(movie);
+    } catch {
+      setMovie(null);
     }
-    fetchData();
   }, [date]);
 
   return (
@@ -26,12 +39,12 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             {movie.title}
           </div>
           <p className="text-justify indent-[5vw] body mb-[1vw]">
-            {movie.overview}
+            {movie.tagline}
           </p>
         </Card>
         <Card decade={decade} className="basis-1/2 poster">
           <img
-            src={`https://media.themoviedb.org/t/p/w500//${movie.poster_path}`}
+            src={config.assetsRoot + movie.image}
             alt={`${movie.title} poster`}
           />
         </Card>

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
 
+import { config } from "../../config";
 import musics from "../../assets/music.json";
 
 type Album = {
@@ -40,7 +41,7 @@ export const MusicSection = ({ date, decade }: SectionProps) => {
         </Card>
         <Card decade={decade} className="basis-2/3 poster">
           <img
-            src={"https://timecapsule.brendantrepal.com" + album.image}
+            src={config.assetsRoot + album.image}
             alt={`${album.title} cover`}
           />
         </Card>

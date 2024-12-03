@@ -7,4 +7,6 @@ export const config = {
 
   minimumDate: new Date(1950, 0, 1), // January 1, 1950
   initialDate: new Date(1955, 10, 5), // November 5, 1955
+
+  assetsRoot: "https://timecapsule.brendantrepal.com/images/",
 };

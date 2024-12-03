@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
 
+import { config } from "../../config";
 import novels from "../../assets/novels.json";
 
 type Book = {
@@ -38,7 +39,7 @@ export const BookSection = ({ date, decade }: SectionProps) => {
         </Card>
         <Card decade={decade} className="basis-1/2 poster">
           <img
-            src={"https://timecapsule.brendantrepal.com" + book.image}
+            src={config.assetsRoot + book.image}
             alt={`${book.title} cover`}
           />
         </Card>

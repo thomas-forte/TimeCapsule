@@ -1,11 +1,14 @@
 import axios from "axios";
 
+import { config } from "./config";
+
 export const checkForNewspaper = async (
   date: Date,
   decade: string
 ): Promise<string | null> => {
   const url =
-    "https://timecapsule.brendantrepal.com/images/newspapers" +
+    config.assetsRoot +
+    "newspapers" +
     `/${decade}/${date.getFullYear()}` +
     `/${(date.getMonth() + 1)
       .toString()
