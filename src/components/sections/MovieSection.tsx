@@ -8,10 +8,10 @@ import movies from "../../assets/movies.json";
 
 type Movie = {
   title: string;
-  studio: string[] | string;
+  studio: string[];
   mpaa: string;
   runtime: string;
-  director: string | string[];
+  director: string[];
   tagline: string;
   description: string;
   image: string;
