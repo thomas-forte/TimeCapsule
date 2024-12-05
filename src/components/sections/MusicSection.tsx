@@ -30,16 +30,14 @@ export const MusicSection = ({ date, decade }: SectionProps) => {
   return (
     album && (
       <Section>
-        <Card decade={decade} className="basis-1/3">
+        <Card decade={decade} className="w-2/5">
           <div className={`text-center`}>Notable Album of the Year:</div>
           <div className={`text-center my-[5vw] hf-${decade}`}>
             {album.title}
           </div>
-          <p className={`text-center indent-[2vw] body mb-[1vw]`}>
-            By {album.artist}
-          </p>
+          <p className={`text-center body mb-[1vw]`}>By {album.artist}</p>
         </Card>
-        <Card decade={decade} className="basis-2/3 poster">
+        <Card decade={decade} className="poster">
           <img
             src={config.assetsRoot + album.image}
             alt={`${album.title} cover`}

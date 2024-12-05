@@ -22,7 +22,7 @@ export const NewsSection = ({ date, decade }: SectionProps) => {
   return (
     newspaper && (
       <Section>
-        <Card decade={decade} className="basis-1/2 poster flex flex-col">
+        <Card decade={decade} className="w-1/2 poster flex flex-col">
           <div className="text-center mb-[1vw]">News of the Day:</div>
           <img src={newspaper} alt="" />
         </Card>

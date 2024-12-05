@@ -28,16 +28,14 @@ export const BookSection = ({ date, decade }: SectionProps) => {
   return (
     book && (
       <Section>
-        <Card decade={decade} className="basis-1/2">
+        <Card decade={decade} className="w-2/5">
           <div className="text-center">Most Popular Novel:</div>
           <div className={`text-center my-[1vw] hf-${decade}`}>
             {book.title}
           </div>
-          <p className="text-center indent-[5vw] body mb-[1vw]">
-            By {book.author}
-          </p>
+          <p className="text-center body mb-[1vw]">By {book.author}</p>
         </Card>
-        <Card decade={decade} className="basis-1/2 poster">
+        <Card decade={decade} className="poster">
           <img
             src={config.assetsRoot + book.image}
             alt={`${book.title} cover`}

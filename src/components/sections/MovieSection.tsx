@@ -33,16 +33,15 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
   return (
     movie && (
       <Section>
-        <Card decade={decade} className="basis-1/2">
-          <div className="text-center">Top Movie The Year You Were Born:</div>
+        <Card decade={decade} className="w-2/5">
+          <div className="text-center">Movie The Year:</div>
           <div className={`text-center my-[1vw] hf-${decade}`}>
             {movie.title}
           </div>
-          <p className="text-justify indent-[5vw] body mb-[1vw]">
-            {movie.tagline}
-          </p>
+          <p className="text-center body mb-[1vw]">{movie.tagline}</p>
+          <p className="text-justify body mb-[1vw]">{movie.description}</p>
         </Card>
-        <Card decade={decade} className="basis-1/2 poster">
+        <Card decade={decade} className="poster">
           <img
             src={config.assetsRoot + movie.image}
             alt={`${movie.title} poster`}

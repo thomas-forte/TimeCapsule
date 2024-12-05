@@ -28,16 +28,14 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
   return (
     game && (
       <Section>
-        <Card decade={decade} className="basis-1/2">
+        <Card decade={decade} className="w-2/5">
           <div className={`text-center`}>Best Selling Video Game:</div>
           <div className={`text-center my-[1vw] hf-${decade}`}>
             {game.title}
           </div>
-          <p className={`text-center indent-[5vw] body mb-[1vw]`}>
-            By {game.creator}
-          </p>
+          <p className={`text-center body mb-[1vw]`}>By {game.creator}</p>
         </Card>
-        <Card decade={decade} className="basis-1/2 poster">
+        <Card decade={decade} className="poster">
           <img
             className="game-cover"
             src={config.assetsRoot + game.image}

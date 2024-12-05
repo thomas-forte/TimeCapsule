@@ -7,15 +7,13 @@ export interface CardProps extends PropsWithChildren {
 }
 
 export const Card = ({ decade, className, children }: CardProps) => (
-  <div>
-    <div
-      className={classNames(
-        "card",
-        `background-${decade} border-${decade}`,
-        className
-      )}
-    >
-      {children}
-    </div>
+  <div
+    className={classNames(
+      "card",
+      `background-${decade} border-${decade}`,
+      className
+    )}
+  >
+    {children}
   </div>
 );

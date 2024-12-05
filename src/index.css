@@ -100,28 +100,21 @@
 
   .section-container {
     @apply min-w-full h-full;
-    @apply flex gap-[3dvh] justify-center items-center;
+    @apply flex gap-[3dvh] justify-around items-center;
 
     .card {
+      @apply max-h-full;
       @apply border-solid border rounded;
       @apply p-[1vw];
 
       &.poster {
+        @apply h-full;
         > img {
+          @apply h-full;
           @apply border-solid border-inherit border-4;
-          @apply h-full object-contain;
-          @apply mx-auto;
         }
       }
     }
-  }
-
-  .movie-poster,
-  .book-cover,
-  .game-cover,
-  .album-cover {
-    @apply max-h-[35dvh] mx-auto;
-    @apply border-solid border border-black rounded-sm;
   }
 
   .newspaper {
