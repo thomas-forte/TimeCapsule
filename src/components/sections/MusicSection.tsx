@@ -36,6 +36,17 @@ export const MusicSection = ({ date, decade }: SectionProps) => {
             {album.title}
           </div>
           <p className="subtitle-text">By {album.artist}</p>
+          <p className="body-text">Genre: {album.genre}</p>
+          <div className="flex flex-wrap justify-center mt-5 gap-[10%]">
+            {album.label.map((labelUrl, index) => (
+              <img
+                className="max-w-[40%] max-h-[15dvh]"
+                key={album.title + index}
+                src={config.assetsRoot + labelUrl}
+                alt="record label icon"
+              />
+            ))}
+          </div>
         </Card>
         <Card decade={decade} className="poster">
           <img
