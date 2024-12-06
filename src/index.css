@@ -107,6 +107,22 @@
       @apply border-solid border rounded;
       @apply p-[1vw];
 
+      .top-text {
+        @apply text-center text-2xl;
+      }
+
+      .title-text {
+        @apply text-center text-7xl my-6 text-pretty;
+      }
+
+      .subtitle-text {
+        @apply text-center text-xl mb-6 italic;
+      }
+
+      .body-text {
+        @apply text-center text-2xl text-pretty;
+      }
+
       &.poster {
         @apply h-full;
         > img {

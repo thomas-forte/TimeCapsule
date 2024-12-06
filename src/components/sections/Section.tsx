@@ -5,6 +5,10 @@ export interface SectionProps extends PropsWithChildren {
   decade: string;
 }
 
-export const Section = ({ children }: PropsWithChildren) => (
-  <div className="section-container">{children}</div>
+interface BaseSectionProps extends PropsWithChildren {
+  name: string;
+}
+
+export const Section = ({ children, name }: BaseSectionProps) => (
+  <div className={"section-container " + name}>{children}</div>
 );

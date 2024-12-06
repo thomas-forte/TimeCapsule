@@ -27,13 +27,11 @@ export const BookSection = ({ date, decade }: SectionProps) => {
 
   return (
     book && (
-      <Section>
+      <Section name="novels">
         <Card decade={decade} className="w-2/5">
-          <div className="text-center">Most Popular Novel:</div>
-          <div className={`text-center my-[1vw] hf-${decade}`}>
-            {book.title}
-          </div>
-          <p className="text-center body mb-[1vw]">By {book.author}</p>
+          <div className="top-text">Most Popular Novel:</div>
+          <div className={`title-text header-font-${decade}`}>{book.title}</div>
+          <p className="body-text">By {book.author}</p>
         </Card>
         <Card decade={decade} className="poster">
           <img

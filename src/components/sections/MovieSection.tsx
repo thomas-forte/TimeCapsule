@@ -32,14 +32,14 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
 
   return (
     movie && (
-      <Section>
+      <Section name="movies">
         <Card decade={decade} className="w-2/5">
-          <div className="text-center">Movie The Year:</div>
-          <div className={`text-center my-[1vw] hf-${decade}`}>
+          <div className="top-text">Movie The Year:</div>
+          <div className={`title-text header-font-${decade}`}>
             {movie.title}
           </div>
-          <p className="text-center body mb-[1vw]">{movie.tagline}</p>
-          <p className="text-justify body mb-[1vw]">{movie.description}</p>
+          <p className="subtitle-text">{movie.tagline}</p>
+          <p className="body-text">{movie.description}</p>
         </Card>
         <Card decade={decade} className="poster">
           <img
