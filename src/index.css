@@ -102,6 +102,20 @@
     @apply min-w-full h-full;
     @apply flex gap-[3dvh] justify-around items-center;
 
+    &.landscape {
+      @apply flex-col;
+
+      .card {
+        @apply max-h-none;
+        @apply flex justify-around items-center gap-[3dvw];
+        @apply min-w-max;
+
+        &.poster {
+          @apply w-auto max-h-[70dvh];
+        }
+      }
+    }
+
     .card {
       @apply max-h-full;
       @apply border-solid border rounded;

@@ -29,7 +29,7 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
     novel && (
       <Section name="novels">
         <Card decade={decade} className="w-2/5">
-          <div className="top-text">Most Popular Novel:</div>
+          <div className="top-text">Novel of {date.getFullYear()}:</div>
           <div className={`title-text header-font-${decade}`}>
             {novel.title}
           </div>

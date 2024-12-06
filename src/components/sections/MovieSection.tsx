@@ -34,7 +34,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
     movie && (
       <Section name="movies">
         <Card decade={decade} className="w-2/5">
-          <div className="top-text">Movie The Year:</div>
+          <div className="top-text">Movie of {date.getFullYear()}:</div>
           <div className={`title-text header-font-${decade}`}>
             {movie.title}
           </div>

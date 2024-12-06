@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { PropsWithChildren } from "react";
 
 export interface SectionProps extends PropsWithChildren {
@@ -7,8 +8,13 @@ export interface SectionProps extends PropsWithChildren {
 
 interface BaseSectionProps extends PropsWithChildren {
   name: string;
+  landscape?: boolean;
 }
 
-export const Section = ({ children, name }: BaseSectionProps) => (
-  <div className={"section-container " + name}>{children}</div>
+export const Section = ({ children, name, landscape }: BaseSectionProps) => (
+  <div
+    className={classNames("section-container", name, landscape && "landscape")}
+  >
+    {children}
+  </div>
 );

@@ -31,7 +31,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
     album && (
       <Section name="albums">
         <Card decade={decade} className="w-2/5">
-          <div className="top-text">Notable Album of the Year:</div>
+          <div className="top-text">Album of {date.getFullYear()}:</div>
           <div className={`title-text header-font-${decade}`}>
             {album.title}
           </div>
