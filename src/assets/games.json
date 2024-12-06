@@ -2,112 +2,134 @@
   "1950": {
     "title": "Candy Land",
     "creator": "Milton Bradley",
-    "image": "games/1950s/1950.jpg"
+    "image": "games/1950s/1950.jpg",
+    "landscape": true
   },
   "1951": {
     "title": "Clue",
     "creator": "Milton Bradley",
-    "image": "games/1950s/1951.jpg"
+    "image": "games/1950s/1951.jpg",
+    "landscape": true
   },
   "1952": {
     "title": "Scrabble",
     "creator": "Milton Bradley",
-    "image": "games/1950s/1952.jpg"
+    "image": "games/1950s/1952.jpg",
+    "landscape": true
   },
   "1953": {
     "title": "Peter Pan",
     "creator": "Milton Bradley",
-    "image": "games/1950s/1953.jpg"
+    "image": "games/1950s/1953.jpg",
+    "landscape": true
   },
   "1954": {
     "title": "Park and Shop",
     "creator": "Milton Bradley",
-    "image": "games/1950s/1954.jpg"
+    "image": "games/1950s/1954.jpg",
+    "landscape": true
   },
   "1955": {
     "title": "Careers",
     "creator": "Parker Brothers",
-    "image": "games/1950s/1955.jpg"
+    "image": "games/1950s/1955.jpg",
+    "landscape": true
   },
   "1956": {
     "title": "Yahtzee",
     "creator": "Lowe Company",
-    "image": "games/1950s/1956.jpg"
+    "image": "games/1950s/1956.jpg",
+    "landscape": true
   },
   "1957": {
     "title": "Monopoly",
     "creator": "Parker Brothers",
-    "image": "games/1950s/1957.jpg"
+    "image": "games/1950s/1957.jpg",
+    "landscape": true
   },
   "1958": {
     "title": "Sorry!",
     "creator": "Parker Brothers",
-    "image": "games/1950s/1958.jpg"
+    "image": "games/1950s/1958.jpg",
+    "landscape": true
   },
   "1959": {
     "title": "Risk!",
     "creator": "Parker Brothers",
-    "image": "games/1950s/1959.jpg"
+    "image": "games/1950s/1959.jpg",
+    "landscape": true
   },
   "1960": {
     "title": "The Game of Life",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1960.jpg"
+    "image": "games/1960s/1960.jpg",
+    "landscape": true
   },
   "1961": {
     "title": "Stratego",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1961.jpg"
+    "image": "games/1960s/1961.jpg",
+    "landscape": true
   },
   "1962": {
     "title": "Password",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1962.jpg"
+    "image": "games/1960s/1962.jpg",
+    "landscape": true
   },
   "1963": {
     "title": "Mouse Trap Game",
     "creator": "Ideal Toy Corporation",
-    "image": "games/1960s/1963.jpg"
+    "image": "games/1960s/1963.jpg",
+    "landscape": true
   },
   "1964": {
     "title": "Let's Make a Deal",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1964.jpg"
+    "image": "games/1960s/1964.jpg",
+    "landscape": true
   },
   "1965": {
     "title": "Operation",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1965.jpg"
+    "image": "games/1960s/1965.jpg",
+    "landscape": true
   },
   "1966": {
     "title": "Twister",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1966.jpg"
+    "image": "games/1960s/1966.jpg",
+    "landscape": true
   },
   "1967": {
     "title": "Battleship",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1967.jpg"
+    "image": "games/1960s/1967.jpg",
+    "landscape": true
   },
   "1968": {
     "title": "Recall",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1968.jpg"
+    "image": "games/1960s/1968.jpg",
+    "landscape": true
   },
   "1969": {
     "title": "Beat the Clock",
     "creator": "Milton Bradley",
-    "image": "games/1960s/1969.jpg"
+    "image": "games/1960s/1969.jpg",
+    "landscape": true
   },
   "1970": {
     "title": "Concentration",
     "creator": "Milton Bradley",
-    "image": "games/1970s/1970.jpg"
+    "image": "games/1970s/1970.jpg",
+    "landscape": true
   },
   "1971": {
     "title": "Jepordy!",
     "creator": "Milton Bradley",
-    "image": "games/1970s/1971.jpg"
+    "image": "games/1970s/1971.jpg",
+    "landscape": true
   },
   "1972": {
     "title": "Odyssey: Table Tennis",

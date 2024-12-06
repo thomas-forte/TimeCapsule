@@ -10,6 +10,7 @@ type Game = {
   title: string;
   creator: string;
   image: string;
+  landscape?: boolean;
 };
 
 export const GamesSection = ({ date, decade }: SectionProps) => {
@@ -27,9 +28,9 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
 
   return (
     game && (
-      <Section name="games">
+      <Section name="games" landscape>
         <Card decade={decade} className="w-2/5">
-          <div className="top-text">Best Selling Video Game:</div>
+          <div className="top-text">Game of {date.getFullYear()}:</div>
           <div className={`title-text header-font-${decade}`}>{game.title}</div>
           <p className="body-text">By {game.creator}</p>
         </Card>
