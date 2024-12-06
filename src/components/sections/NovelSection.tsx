@@ -6,37 +6,39 @@ import { Card } from "./Card";
 import { config } from "../../config";
 import novels from "../../assets/novels.json";
 
-type Book = {
+type Novel = {
   author: string;
   image: string;
   title: string;
 };
 
-export const BookSection = ({ date, decade }: SectionProps) => {
-  const [book, setBook] = useState<Book | null>(null);
+export const NovelSection = ({ date, decade }: SectionProps) => {
+  const [novel, setNovel] = useState<Novel | null>(null);
   useEffect(() => {
     try {
-      const book = (novels as { [key: string]: Book })[
+      const novel = (novels as { [key: string]: Novel })[
         date.getFullYear().toString()
       ];
-      setBook(book);
+      setNovel(novel);
     } catch {
-      setBook(null);
+      setNovel(null);
     }
   }, [date]);
 
   return (
-    book && (
+    novel && (
       <Section name="novels">
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Most Popular Novel:</div>
-          <div className={`title-text header-font-${decade}`}>{book.title}</div>
-          <p className="body-text">By {book.author}</p>
+          <div className={`title-text header-font-${decade}`}>
+            {novel.title}
+          </div>
+          <p className="body-text">By {novel.author}</p>
         </Card>
         <Card decade={decade} className="poster">
           <img
-            src={config.assetsRoot + book.image}
-            alt={`${book.title} cover`}
+            src={config.assetsRoot + novel.image}
+            alt={`${novel.title} cover`}
           />
         </Card>
       </Section>

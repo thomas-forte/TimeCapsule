@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-import { BookSection } from "./sections/BookSection";
+import { NovelSection } from "./sections/NovelSection";
 import { MovieSection } from "./sections/MovieSection";
 import { NewsSection } from "./sections/NewsSection";
 import { GamesSection } from "./sections/GamesSection";
@@ -34,7 +34,7 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
         <MovieSection date={date} decade={decade} />
       )}
       {(!filters.length || filters.includes("movies")) && (
-        <BookSection date={date} decade={decade} />
+        <NovelSection date={date} decade={decade} />
       )}
       {(!filters.length || filters.includes("news")) && (
         <NewsSection date={date} decade={decade} />
