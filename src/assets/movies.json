@@ -408,7 +408,7 @@
   },
   "1988": {
     "title": "Rain Man",
-    "studio": ["movies/studios/ua_1987.svg", "movies/studios/mgm_1980.svg"],
+    "studio": ["movies/studios/ua_1987.svg", "movies/studios/mgm_1986.svg"],
     "mpaa": "R",
     "runtime": "134 minutes",
     "director": ["Barry Levinson"],
@@ -630,7 +630,7 @@
   "2006": {
     "title": "Casino Royale",
     "studio": [
-      "movies/studios/mgm_1992.svg",
+      "movies/studios/mgm_1986.svg",
       "movies/studios/columbia_1993.svg",
       "movies/studios/eon_1961.svg",
       "movies/studios/sony-releasing_2005.svg"
