@@ -4,7 +4,7 @@ import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
 
 import { config } from "../../config";
-import musics from "../../assets/music.json";
+import albums from "../../assets/albums.json";
 
 type Album = {
   title: string;
@@ -14,11 +14,11 @@ type Album = {
   image: string;
 };
 
-export const MusicSection = ({ date, decade }: SectionProps) => {
+export const AlbumSection = ({ date, decade }: SectionProps) => {
   const [album, setAlbum] = useState<Album | null>(null);
   useEffect(() => {
     try {
-      const album = (musics as { [key: string]: Album })[
+      const album = (albums as { [key: string]: Album })[
         date.getFullYear().toString()
       ];
       setAlbum(album);

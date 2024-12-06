@@ -4,7 +4,7 @@ import { NovelSection } from "./sections/NovelSection";
 import { MovieSection } from "./sections/MovieSection";
 import { NewsSection } from "./sections/NewsSection";
 import { GamesSection } from "./sections/GamesSection";
-import { MusicSection } from "./sections/MusicSection";
+import { AlbumSection } from "./sections/AlbumSection";
 
 interface DateDetailsProps {
   date: Date;
@@ -43,7 +43,7 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
         <GamesSection date={date} decade={decade} />
       )}
       {(!filters.length || filters.includes("music")) && (
-        <MusicSection date={date} decade={decade} />
+        <AlbumSection date={date} decade={decade} />
       )}
     </div>
   );
