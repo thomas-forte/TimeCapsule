@@ -274,126 +274,126 @@
   "2000": {
     "title": "Tony Hawk's Pro Skater 2",
     "creator": "Neversoft",
-    "image": "games/2000s/2000.png"
+    "image": "games/2000s/2000.jpg"
   },
   "2001": {
     "title": "Madden NFL 2002",
     "creator": "EA Sports",
-    "image": "games/2000s/2001.png"
+    "image": "games/2000s/2001.jpg"
   },
   "2002": {
     "title": "Grand Theft Auto: Vice City",
     "creator": "Rockstar North",
-    "image": "games/2000s/2002.png"
+    "image": "games/2000s/2002.jpg"
   },
   "2003": {
     "title": "Madden NFL 2004",
     "creator": "EA Sports",
-    "image": "games/2000s/2003.png"
+    "image": "games/2000s/2003.jpg"
   },
   "2004": {
     "title": "Grand Theft Auto: San Andreas",
     "creator": "Rockstar North",
-    "image": "games/2000s/2004.png"
+    "image": "games/2000s/2004.jpg"
   },
   "2005": {
     "title": "Star Wars: Battlefront II",
     "creator": "Pandemic Studios",
-    "image": "games/2000s/2005.png"
+    "image": "games/2000s/2005.jpg"
   },
   "2006": {
     "title": "Gears of War",
     "creator": "Epic Games",
-    "image": "games/2000s/2006.png"
+    "image": "games/2000s/2006.jpg"
   },
   "2007": {
     "title": "Halo 3",
     "creator": "Bungie",
-    "image": "games/2000s/2007.png"
+    "image": "games/2000s/2007.jpg"
   },
   "2008": {
     "title": "Grand Theft Auto IV",
     "creator": "Rockstar North",
-    "image": "games/2000s/2008.png"
+    "image": "games/2000s/2008.jpg"
   },
   "2009": {
     "title": "Call of Duty: Modern Warfare 2",
     "creator": "Infinity Ward",
-    "image": "games/2000s/2009.png"
+    "image": "games/2000s/2009.jpg"
   },
   "2010": {
     "title": "Mass Effect 2",
     "creator": "BioWare",
-    "image": "games/2010s/2010.png"
+    "image": "games/2010s/2010.jpg"
   },
   "2011": {
     "title": "The Elder Scrolls V: Skyrim",
     "creator": "Bethesda Game Studios",
-    "image": "games/2010s/2011.png"
+    "image": "games/2010s/2011.jpg"
   },
   "2012": {
     "title": "Mass Effect 3",
     "creator": "BioWare",
-    "image": "games/2010s/2012.png"
+    "image": "games/2010s/2012.jpg"
   },
   "2013": {
     "title": "Grand Theft Auto V",
     "creator": "Rockstar North",
-    "image": "games/2010s/2013.png"
+    "image": "games/2010s/2013.jpg"
   },
   "2014": {
     "title": "The Last of Us Remastered",
     "creator": "Naughty Dog",
-    "image": "games/2010s/2014.png"
+    "image": "games/2010s/2014.jpg"
   },
   "2015": {
     "title": "The Witcher 3: Wild Hunt",
     "creator": "CD Projekt Red",
-    "image": "games/2010s/2015.png"
+    "image": "games/2010s/2015.jpg"
   },
   "2016": {
     "title": "Uncharted 4: A Thief's End",
     "creator": "Naughty Dog",
-    "image": "games/2010s/2016.png"
+    "image": "games/2010s/2016.jpg"
   },
   "2017": {
     "title": "NBA 2K18",
     "creator": "Visual Concepts",
-    "image": "games/2010s/2017.png"
+    "image": "games/2010s/2017.jpg"
   },
   "2018": {
     "title": "Red Dead Redemption 2",
     "creator": "Rockstar Games",
-    "image": "games/2010s/2018.png"
+    "image": "games/2010s/2018.jpg"
   },
   "2019": {
     "title": "Borderlands 3",
     "creator": "Gearbox Software",
-    "image": "games/2010s/2019.png"
+    "image": "games/2010s/2019.jpg"
   },
   "2020": {
     "title": "The Last of Us Part II (Remastered)",
     "creator": "Naughty Dog",
-    "image": "games/2020s/2020.png"
+    "image": "games/2020s/2020.jpg"
   },
   "2021": {
     "title": "It Takes Two",
     "creator": "Hazelight Studios",
-    "image": "games/2020s/2021.png"
+    "image": "games/2020s/2021.jpg"
   },
   "2022": {
     "title": "Elden Ring",
     "creator": "FromSoftware",
-    "image": "games/2020s/2022.png"
+    "image": "games/2020s/2022.jpg"
   },
   "2023": {
     "title": "Hogwarts Legacy",
     "creator": "Avalanche Software",
-    "image": "games/2020s/2023.png"
+    "image": "games/2020s/2023.jpg"
   },
   "2024": {
     "title": "Call of Duty: Black Ops 6",
     "creator": "Treyarch",
-    "image": "games/2020s/2024.png"
+    "image": "games/2020s/2024.jpg"
   }
 }

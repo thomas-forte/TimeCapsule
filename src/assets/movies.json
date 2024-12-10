@@ -236,7 +236,7 @@
     "director": ["Francis Ford Coppola"],
     "tagline": "An offer you can't refuse.",
     "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-    "image": "movies/1970s/1972.svg"
+    "image": "movies/1970s/1972.jpg"
   },
   "1973": {
     "title": "The Exorcist",
@@ -246,7 +246,7 @@
     "director": ["Willliam Friedkin"],
     "tagline": "Something almost beyond comprehension is happening to a girl on this street, in this house ...and a man has been sent for as a last resort. This man is The Exorcist.",
     "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
-    "image": "movies/1970s/1973.svg"
+    "image": "movies/1970s/1973.jpg"
   },
   "1974": {
     "title": "The Towering Inferno",
@@ -256,7 +256,7 @@
     "director": ["John Guillermin"],
     "tagline": "One tiny spark becomes a night of blazing suspense.",
     "description": "At the opening party of a colossal, but poorly constructed, office building, a massive fire breaks out that threatens to destroy the tower and everyone in it.",
-    "image": "movies/1970s/1974.svg"
+    "image": "movies/1970s/1974.jpg"
   },
   "1975": {
     "title": "Jaws",
@@ -266,7 +266,7 @@
     "director": ["Steven Spielberg"],
     "tagline": "Amity Island had everything. Clear skies. Gentle surf. Warm water. People flocked there every summer. It was the perfect feeding ground.",
     "description": "When a massive killer shark unleashes chaos on a beach community in New England, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
-    "image": "movies/1970s/1975.svg"
+    "image": "movies/1970s/1975.jpg"
   },
   "1976": {
     "title": "Rocky",
@@ -276,7 +276,7 @@
     "director": ["John G. Avildsen"],
     "tagline": "His whole life was a million-to-one shot.",
     "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
-    "image": "movies/1970s/1976.svg"
+    "image": "movies/1970s/1976.jpg"
   },
   "1977": {
     "title": "Star Wars",
@@ -289,7 +289,7 @@
     "director": ["George Lucas"],
     "tagline": "A long time ago in a galaxy far, far away...",
     "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
-    "image": "movies/1970s/1977.svg"
+    "image": "movies/1970s/1977.jpg"
   },
   "1978": {
     "title": "Grease",
@@ -299,7 +299,7 @@
     "director": ["Randal Kleiser"],
     "tagline": "GREASE is the word.",
     "description": "Good girl Sandy Olsson and greaser Danny Zuko fell in love over the summer. When they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance?",
-    "image": "movies/1970s/1978.svg"
+    "image": "movies/1970s/1978.jpg"
   },
   "1979": {
     "title": "Alien",
@@ -309,7 +309,7 @@
     "director": ["Ridley Scott"],
     "tagline": "In space no one can hear you scream.",
     "description": "After investigating a mysterious transmission of unknown origin, the crew of a commercial spacecraft encounters a deadly lifeform.",
-    "image": "movies/1970s/1979.svg"
+    "image": "movies/1970s/1979.jpg"
   },
   "1980": {
     "title": "Star Wars: The Empire Strikes Back",
@@ -394,7 +394,7 @@
     "director": ["Tony Scott"],
     "tagline": "Up there with the best of the best.",
     "description": "The Top Gun Naval Fighter Weapons School is where the best of the best train to refine their elite flying skills. When hotshot fighter pilot Maverick is sent to the school, his reckless attitude and cocky demeanor put him at odds with the other pilots, especially the cool and collected Iceman.",
-    "image": "movies/1980s/1986.svg"
+    "image": "movies/1980s/1986.jpg"
   },
   "1987": {
     "title": "Fatal Attraction",
@@ -565,7 +565,7 @@
     "director": ["John Woo"],
     "tagline": "Expect the impossible again",
     "description": "IMF agent Ethan Hunt is sent to Sydney to find and destroy a genetically modified disease called \"Chimera\".",
-    "image": "movies/2000s/2000.png"
+    "image": "movies/2000s/2000.jpg"
   },
   "2001": {
     "title": "Harry Potter and the Sorcerer's Stone",
@@ -575,7 +575,7 @@
     "director": ["Chris Columbus"],
     "tagline": "Let The Magic Begin.",
     "description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
-    "image": "movies/2000s/2001.png"
+    "image": "movies/2000s/2001.jpg"
   },
   "2002": {
     "title": "The Lord of the Rings: The Two Towers",
@@ -588,7 +588,7 @@
     "director": ["Peter Jackson"],
     "tagline": "The battle for Middle-Earth begins!",
     "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-    "image": "movies/2000s/2002.png"
+    "image": "movies/2000s/2002.jpg"
   },
   "2003": {
     "title": "The Lord of the Rings: The Return of the King",
@@ -601,7 +601,7 @@
     "director": ["Peter Jackson"],
     "tagline": "The eye of the enemy is moving.",
     "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-    "image": "movies/2000s/2003.png"
+    "image": "movies/2000s/2003.jpg"
   },
   "2004": {
     "title": "Shrek 2",
@@ -615,7 +615,7 @@
     "director": ["Andrew Adamson", "Kelly Asbury", "Conrad Vernon"],
     "tagline": "Once upon another time...",
     "description": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
-    "image": "movies/2000s/2004.png"
+    "image": "movies/2000s/2004.jpg"
   },
   "2005": {
     "title": "Harry Potter and the Goblet of Fire",
@@ -625,7 +625,7 @@
     "director": ["Mike Newell"],
     "tagline": "Everything is about to change.",
     "description": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
-    "image": "movies/2000s/2005.png"
+    "image": "movies/2000s/2005.jpg"
   },
   "2006": {
     "title": "Casino Royale",
@@ -640,7 +640,7 @@
     "director": ["Martin Campbell"],
     "tagline": "The new Bond. Living for Love. Dying for Thrills.",
     "description": "After earning a license to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, in Montenegro.",
-    "image": "movies/2000s/2006.png"
+    "image": "movies/2000s/2006.jpg"
   },
   "2007": {
     "title": "Spider-Man 3",
@@ -654,7 +654,7 @@
     "director": ["Sam Raimi"],
     "tagline": "The battle within.",
     "description": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
-    "image": "movies/2000s/2007.png"
+    "image": "movies/2000s/2007.jpg"
   },
   "2008": {
     "title": "The Dark Knight",
@@ -668,7 +668,7 @@
     "director": ["Christopher Nolan"],
     "tagline": "Why So Serious?",
     "description": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
-    "image": "movies/2000s/2008.png"
+    "image": "movies/2000s/2008.jpg"
   },
   "2009": {
     "title": "Avatar",
@@ -683,7 +683,7 @@
     "director": ["James Cameron"],
     "tagline": "Discover a new world.",
     "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-    "image": "movies/2000s/2009.png"
+    "image": "movies/2000s/2009.jpg"
   },
   "2010": {
     "title": "Inception",
@@ -697,7 +697,7 @@
     "director": ["Christopher Nolan"],
     "tagline": "Your mind is the scene of the crime.",
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
-    "image": "movies/2010s/2010.png"
+    "image": "movies/2010s/2010.jpg"
   },
   "2011": {
     "title": "Harry Potter and the Deathly Hallows - Part 2",
@@ -707,7 +707,7 @@
     "director": ["David Yates"],
     "tagline": "The last enemy is death",
     "description": "As the battle between the forces of good and evil in the wizarding world escalates, Harry Potter draws ever closer to his final confrontation with Voldemort.",
-    "image": "movies/2010s/2011.png"
+    "image": "movies/2010s/2011.jpg"
   },
   "2012": {
     "title": "The Avengers",
@@ -720,7 +720,7 @@
     "director": ["Joss Whedon"],
     "tagline": "Avengers assemble!",
     "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-    "image": "movies/2010s/2012.png"
+    "image": "movies/2010s/2012.jpg"
   },
   "2013": {
     "title": "Frozen",
@@ -733,7 +733,7 @@
     "director": ["Chris Buck", "Jennifer Lee"],
     "tagline": "Some people are worth melting for",
     "description": "Fearless optimist Anna teams up with rugged mountain man Kristoff and his loyal reindeer Sven in an epic journey to find Anna's sister Elsa, whose icy powers have trapped the kingdom of Arendelle in eternal winter.",
-    "image": "movies/2010s/2013.png"
+    "image": "movies/2010s/2013.jpg"
   },
   "2014": {
     "title": "Guardians of the Galaxy",
@@ -746,7 +746,7 @@
     "director": ["James Gunn"],
     "tagline": "All heroes start somewhere.",
     "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
-    "image": "movies/2010s/2014.png"
+    "image": "movies/2010s/2014.jpg"
   },
   "2015": {
     "title": "Star Wars: The Force Awakens",
@@ -760,7 +760,7 @@
     "director": ["J. J. Abrams"],
     "tagline": "Every generation has a story.",
     "description": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
-    "image": "movies/2010s/2015.png"
+    "image": "movies/2010s/2015.jpg"
   },
   "2016": {
     "title": "Rogue One: A Star Wars Story",
@@ -773,7 +773,7 @@
     "director": ["Gareth Edwards"],
     "tagline": "A rebellion built on hope.",
     "description": "In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.",
-    "image": "movies/2010s/2016.png"
+    "image": "movies/2010s/2016.jpg"
   },
   "2017": {
     "title": "Star Wars: The Last Jedi",
@@ -786,7 +786,7 @@
     "director": ["Rian Johnson"],
     "tagline": "Let the Past Die",
     "description": "Rey develops her abilities with the help of Luke Skywalker as the Resistance prepares for battle against the First Order.",
-    "image": "movies/2010s/2017.png"
+    "image": "movies/2010s/2017.jpg"
   },
   "2018": {
     "title": "Incredibles 2",
@@ -799,7 +799,7 @@
     "director": ["Brad Bird"],
     "tagline": "It's been too long, dahlings.",
     "description": "The Incredibles family takes on a new mission which involves a change in family roles: Bob Parr (Mr. Incredible) must manage the house while his wife Helen (Elastigirl) goes out to save the world.",
-    "image": "movies/2010s/2018.png"
+    "image": "movies/2010s/2018.jpg"
   },
   "2019": {
     "title": "Avengers: Endgame",
@@ -812,7 +812,7 @@
     "director": ["Anthony Russo", "Joe Russo"],
     "tagline": "Avenge the fallen.",
     "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-    "image": "movies/2010s/2019.png"
+    "image": "movies/2010s/2019.jpg"
   },
   "2020": {
     "title": "Bad Boys for Life",
@@ -827,7 +827,7 @@
     "director": ["Adil El Arbi", "Bilall Fallah"],
     "tagline": "Ride Together. Die Together.",
     "description": "Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.",
-    "image": "movies/2020s/2020.png"
+    "image": "movies/2020s/2020.jpg"
   },
   "2021": {
     "title": "Spider-Man: No Way Home",
@@ -842,7 +842,7 @@
     "director": ["Jon Watts"],
     "tagline": "The Multiverse Unleashed.",
     "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
-    "image": "movies/2020s/2021.png"
+    "image": "movies/2020s/2021.jpg"
   },
   "2022": {
     "title": "Avatar: The Way of Water",
@@ -856,7 +856,7 @@
     "director": ["James Cameron"],
     "tagline": "Where the ocean becomes your home",
     "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
-    "image": "movies/2020s/2022.png"
+    "image": "movies/2020s/2022.jpg"
   },
   "2023": {
     "title": "The Super Mario Bros. Movie",
@@ -870,6 +870,6 @@
     "director": ["Aaron Horvath", "Michael Jelenic"],
     "tagline": "Let's-a go!",
     "description": "A plumber named Mario travels through an underground labyrinth with his brother Luigi, trying to save a captured princess.",
-    "image": "movies/2020s/2023.png"
+    "image": "movies/2020s/2023.jpg"
   }
 }
