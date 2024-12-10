@@ -28,7 +28,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
 
   return (
     game && (
-      <Section name="games" landscape>
+      <Section name="games" landscape={game.landscape}>
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Game of {date.getFullYear()}:</div>
           <div className={`title-text header-font-${decade}`}>{game.title}</div>
