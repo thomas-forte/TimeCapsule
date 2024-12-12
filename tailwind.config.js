@@ -16,41 +16,45 @@ export default {
         small: "1vw",
       },
       colors: {
-        p1950s: "#3EADD2", // primary colors
-        p1960s: "#FFE101",
-        p1970s: "#EF9F20",
-        p1980s: "#2B0D29",
-        p1990s: "#5ABFAD",
-        p2000s: "#B4CBE4",
-        p2010s: "#D3D4D9",
-        p2020s: "#998A6B",
+        bg1950s: "#3EADD2", // bg colors
+        bg1960s: "#FFE101",
+        bg1970s: "#E59F23",
+        bg1980s: "#2B0D29",
+        bg1990s: "#5ABFAD",
+        bg2000s: "#88AEDD",
+        bg2010s: "#D3D4D9",
+        bg2020s: "#998A6B",
+        bg2030s: "#F0F0F0",
 
-        s1950s: "#031C26", // secondary colors
-        s1960s: "#310C0B",
-        s1970s: "#3C2000",
-        s1980s: "#FA8057",
-        s1990s: "#5D3B8C",
-        s2000s: "#5E88BA",
-        s2010s: "#D3D4D9",
-        s2020s: "#998A6B",
+        b1950s: "#031C26", // border colors
+        b1960s: "#310C0B",
+        b1970s: "#3C2000",
+        b1980s: "#8CA9FD",
+        b1990s: "#FDB64C",
+        b2000s: "#5E88BA",
+        b2010s: "#191919",
+        b2020s: "#998A6B",
+        b2030s: "#000000",
 
-        a1950s: "#031C26", // accent colors
-        a1960s: "#310C0B",
-        a1970s: "#3C2000",
-        a1980s: "#8CA9FD",
-        a1990s: "#161616",
-        a2000s: "#112236",
-        a2010s: "#D3D4D9", // not spec'd
-        a2020s: "#33270F",
+        h1950s: "#031C26", // header colors
+        h1960s: "#310C0B",
+        h1970s: "#3C2000",
+        h1980s: "#8CA9FD",
+        h1990s: "#FDB64C",
+        h2000s: "#112236",
+        h2010s: "#191919",
+        h2020s: "#CCC5B7",
+        h2030s: "#000000",
 
-        t1950s: "#031C26", // text colors
+        t1950s: "#031C26", // text body colors
         t1960s: "#310C0B",
         t1970s: "#3C2000",
         t1980s: "#8CA9FD",
-        t1990s: "#FDB64C",
+        t1990s: "#161616",
         t2000s: "#112236",
         t2010s: "#191919",
-        t2020s: "#CCC5B7",
+        t2020s: "#33270F",
+        t2030s: "#000000",
       },
       fontFamily: {
         carterOne: ['"Carter One"'],

@@ -156,106 +156,118 @@
 /* font classes             */
 /* ======================== */
 .header-font-1950s {
-  @apply font-carterOne;
+  @apply font-carterOne text-h1950s;
 }
 .header-font-1960s {
-  @apply font-spicyRice;
+  @apply font-spicyRice text-h1960s;
 }
 .header-font-1970s {
-  @apply font-bungeeShade;
+  @apply font-bungeeShade text-h1970s;
 }
 .header-font-1980s {
-  @apply font-monoton;
+  @apply font-monoton text-h1980s;
 }
 .header-font-1990s {
-  @apply font-gluten;
+  @apply font-gluten text-h1990s;
 }
 .header-font-2000s {
-  @apply font-cuteFont;
+  @apply font-cuteFont text-h2000s;
 }
 .header-font-2010s {
-  @apply font-dmSans;
+  @apply font-dmSans text-h2010s;
 }
 .header-font-2020s {
-  @apply font-poppins;
+  @apply font-poppins text-h2020s;
+}
+.header-font-2030s {
+  @apply font-['Papyrus'] text-h2030s;
 }
 
 .body-font-1950s {
-  @apply font-truculenta;
+  @apply font-truculenta text-t1950s;
 }
 .body-font-1960s {
-  @apply font-lifeSavers;
+  @apply font-lifeSavers text-t1960s;
 }
 .body-font-1970s {
-  @apply font-michroma;
+  @apply font-michroma text-t1970s;
 }
 .body-font-1980s {
-  @apply font-orbitron;
+  @apply font-orbitron text-t1980s;
 }
 .body-font-1990s {
-  @apply font-comicNeue;
+  @apply font-comicNeue text-t1990s;
 }
 .body-font-2000s {
-  @apply font-jura;
+  @apply font-jura text-t2000s;
 }
 .body-font-2010s {
-  @apply font-lato;
+  @apply font-lato text-t2010s;
 }
 .body-font-2020s {
-  @apply font-montserrat;
+  @apply font-montserrat text-t2020s;
+}
+.body-font-2030s {
+  @apply font-['Comic_Sans_MS'] text-t2030s;
 }
 
 /* background color classes */
 .background-1950s {
-  @apply bg-p1950s;
+  @apply bg-bg1950s;
 }
 .background-1960s {
-  @apply bg-p1960s;
+  @apply bg-bg1960s;
 }
 .background-1970s {
-  @apply bg-p1970s;
+  @apply bg-bg1970s;
 }
 .background-1980s {
-  @apply bg-p1980s;
+  @apply bg-bg1980s;
 }
 .background-1990s {
-  @apply bg-p1990s;
+  @apply bg-bg1990s;
 }
 .background-2000s {
-  @apply bg-p2000s;
+  @apply bg-bg2000s;
 }
 .background-2010s {
-  @apply bg-p2010s;
+  @apply bg-bg2010s;
 }
 .background-2020s {
-  @apply bg-p2020s;
+  @apply bg-bg2020s;
+}
+.background-2030s {
+  @apply bg-bg2030s;
 }
 
 /* border color classes */
 .border-1950s {
-  @apply border-s1950s;
+  @apply border-b1950s;
 }
 .border-1960s {
-  @apply border-s1960s;
+  @apply border-b1960s;
 }
 .border-1970s {
-  @apply border-s1970s;
+  @apply border-b1970s;
 }
 .border-1980s {
-  @apply border-s1980s;
+  @apply border-b1980s;
 }
 .border-1990s {
-  @apply border-s1990s;
+  @apply border-b1990s;
 }
 .border-2000s {
-  @apply border-s2000s;
+  @apply border-b2000s;
 }
 .border-2010s {
-  @apply border-s2010s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  @apply border-b2010s;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 .border-2020s {
-  @apply border-s2020s;
+  @apply border-b2020s;
+}
+.border-2030s {
+  @apply border-b2030s;
 }
 
 /* animations */
