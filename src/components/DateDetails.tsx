@@ -6,6 +6,10 @@ import { NewsSection } from "./sections/NewsSection";
 import { GamesSection } from "./sections/GamesSection";
 import { AlbumSection } from "./sections/AlbumSection";
 
+import { Card } from "./sections/Card";
+import { Section } from "./sections/Section";
+import { config } from "../config";
+
 interface DateDetailsProps {
   date: Date;
   decade: string;
@@ -18,8 +22,10 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
     backgroundImage = `url(/images/${decade}bg.svg)`;
   } else if (date.getFullYear() < 2020) {
     backgroundImage = "radial-gradient(#DBD2CB 40%, #CCBDB6 60%)";
-  } else {
+  } else if (date.getFullYear() < 2030) {
     backgroundImage = "linear-gradient(#665533, #665533)";
+  } else {
+    backgroundImage = "radial-gradient(#FFF 0, #F0F0F0 100%)";
   }
 
   return (
@@ -30,6 +36,18 @@ export const DateDetails = ({ date, decade, filters }: DateDetailsProps) => {
       )}
       style={{ backgroundImage }}
     >
+      {date > config.maximumDate && (
+        <Section name="future">
+          <Card decade={decade} className="w-2/5">
+            <div className="top-text">This date:</div>
+            <div className={`title-text header-font-${decade}`}>
+              {date.toLocaleDateString()}
+            </div>
+            <p className="body-text">Is not currently ready.</p>
+          </Card>
+        </Section>
+      )}
+
       {(!filters.length || filters.includes("books")) && (
         <MovieSection date={date} decade={decade} />
       )}
