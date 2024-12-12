@@ -90,10 +90,10 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => (
         <path
           d="M99.976,451L67.976,436L131.976,436L99.976,451Z"
           className={classNames("arrows", {
-            disabled: date.getFullYear() <= 1950,
+            disabled: date.getFullYear() <= config.minimumDate.getFullYear(),
           })}
           onClick={() =>
-            date.getFullYear() > 1950 &&
+            date.getFullYear() > config.minimumDate.getFullYear() &&
             updateDate(
               new Date(date.getFullYear() - 1, date.getMonth(), date.getDate())
             )
@@ -102,10 +102,10 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => (
         <path
           d="M99.976,358L131.976,373L67.976,373L99.976,358Z"
           className={classNames("arrows", {
-            disabled: date.getFullYear() >= 2024,
+            disabled: date.getFullYear() >= config.maximumDate.getFullYear(),
           })}
           onClick={() =>
-            date.getFullYear() < 2024 &&
+            date.getFullYear() < config.maximumDate.getFullYear() &&
             updateDate(
               new Date(date.getFullYear() + 1, date.getMonth(), date.getDate())
             )
@@ -113,8 +113,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => (
         />
         <path
           d="M99.976,316L67.976,301L131.976,301L99.976,316Z"
-          className="arrows"
+          className={classNames("arrows", {
+            disabled: date <= config.minimumDate,
+          })}
           onClick={() =>
+            date > config.minimumDate &&
             updateDate(
               new Date(date.getFullYear(), date.getMonth(), date.getDate() - 1)
             )
