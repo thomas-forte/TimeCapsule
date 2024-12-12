@@ -141,7 +141,7 @@
         @apply h-full;
         > img {
           @apply h-full;
-          @apply border-solid border-inherit border-4;
+          @apply border-solid border-inherit border-2 border-black;
         }
       }
     }
