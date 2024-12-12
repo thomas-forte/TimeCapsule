@@ -20,8 +20,6 @@ import { TopRightScrew } from "./screws/TopRightScrew";
 import { BottomRightScrew } from "./screws/BottomRightScrew";
 import { BottomLeftScrew } from "./screws/BottomLeftScrew";
 
-const MIN_DATE = config.minimumDate;
-
 interface ControlPanelProps {
   goToDate: (date: Date, filters: string[]) => void;
 }
@@ -36,8 +34,9 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
   // pick a random date between min and max
   const pickRandomDate = () => {
     const randomTime = new Date(
-      MIN_DATE.getTime() +
-        Math.random() * (new Date().getTime() - MIN_DATE.getTime())
+      config.minimumDate.getTime() +
+        Math.random() *
+          (config.maximumDate.getTime() - config.minimumDate.getTime())
     );
     setDate(randomTime);
   };
