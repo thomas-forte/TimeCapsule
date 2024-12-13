@@ -82,10 +82,10 @@
 
   .button-panel-base-button-svg {
     @apply cursor-pointer;
-    @apply fill-[#1e2023] hover:fill-[#8bf8ff];
+    @apply fill-[#1e2023] hover:fill-[#8bf8ff75];
 
     &.active {
-      @apply fill-[#c0fbff];
+      @apply fill-[#8bf8ff];
     }
   }
 
