@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import classNames from "classnames";
 
 // config
@@ -9,13 +9,15 @@ import styles from "./App.module.css";
 
 // components
 import { ControlPanel } from "./components/control-panel/ControlPanel";
-import { DateDetails } from "./components/DateDetails";
+import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 import { Door } from "./components/Door";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
 
 export const App = () => {
+  const dateDetailsRef = useRef<DateDetailsRef | null>(null);
+
   const [initialLoad, setInitialLoad] = useState(true);
   const [doorOpen, setDoorOpen] = useState(false);
 
@@ -39,6 +41,7 @@ export const App = () => {
       setDate(date);
       setDecade(`${Math.trunc(date.getFullYear() / 10) * 10}s`);
       setFilters(filters);
+      dateDetailsRef.current?.scrollToBeginning();
     }, initialTimeout);
 
     // play sound floor chime then animate door open 2s after door closes
@@ -67,7 +70,12 @@ export const App = () => {
           <Door />
         </div>
 
-        <DateDetails date={date} decade={decade} filters={filters} />
+        <DateDetails
+          ref={dateDetailsRef}
+          date={date}
+          decade={decade}
+          filters={filters}
+        />
       </div>
 
       {/* turn yo screen */}
