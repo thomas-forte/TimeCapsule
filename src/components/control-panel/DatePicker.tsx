@@ -111,7 +111,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
               date.getFullYear() > config.minimumDate.getFullYear() &&
               updateDate(
                 new Date(
-                  date.getFullYear() - 1,
+                  date.getFullYear() -
+                    (isAltPressed &&
+                    date.getFullYear() - 10 > config.minimumDate.getFullYear()
+                      ? 10
+                      : 1),
                   date.getMonth(),
                   date.getDate()
                 )
@@ -127,7 +131,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
               date.getFullYear() < config.maximumDate.getFullYear() &&
               updateDate(
                 new Date(
-                  date.getFullYear() + 1,
+                  date.getFullYear() +
+                    (isAltPressed &&
+                    date.getFullYear() + 10 < config.maximumDate.getFullYear()
+                      ? 10
+                      : 1),
                   date.getMonth(),
                   date.getDate()
                 )
@@ -145,7 +153,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
                 new Date(
                   date.getFullYear(),
                   date.getMonth(),
-                  date.getDate() - 1
+                  date.getDate() - (isAltPressed ? 10 : 1)
                 )
               )
             }
@@ -158,7 +166,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
                 new Date(
                   date.getFullYear(),
                   date.getMonth(),
-                  date.getDate() + (isAltPressed ? 30 : 1)
+                  date.getDate() + (isAltPressed ? 10 : 1)
                 )
               )
             }
