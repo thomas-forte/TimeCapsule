@@ -8,7 +8,7 @@ export default {
       },
 
       borderWidth: {
-        DEFAULT: "5px",
+        DEFAULT: "0.5dvw",
         thin: "0.15vw",
       },
       borderRadius: {
