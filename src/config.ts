@@ -1,5 +1,5 @@
 export const config = {
-  enableAudio: true,
+  enableAudio: false,
   clockUpdateInterval: 1000, // time in ms
 
   doorClosingDuration: 3000, // time in ms (match with value in App.module.css)
