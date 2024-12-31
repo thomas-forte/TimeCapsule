@@ -1,9 +1,0 @@
-.rotateScreenPopup {
-  display: none;
-}
-
-@media screen and (max-aspect-ratio: 1/1) {
-  .rotateScreenPopup {
-    display: block;
-  }
-}

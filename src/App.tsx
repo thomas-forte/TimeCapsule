@@ -11,7 +11,8 @@ import styles from "./App.module.css";
 import { ControlPanel } from "./components/control-panel/ControlPanel";
 import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 import { Door } from "./components/Door";
-import { HelpScreen } from "./components/HelpScreen";
+import { HelpScreen } from "./components/HelpDialog";
+import { RotateDialog } from "./components/RotateDialog";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
@@ -80,6 +81,7 @@ export const App = () => {
       </div>
 
       {/* turn yo screen */}
+      <RotateDialog />
 
       {/* help menu */}
       <HelpScreen />
