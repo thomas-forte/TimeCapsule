@@ -37,7 +37,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
           </div>
           <p className="subtitle-text">By {album.artist}</p>
           <p className="body-text">Genre: {album.genre}</p>
-          <div className="flex flex-wrap justify-center mt-5">
+          <div className="flex flex-wrap justify-center mt-[2dvh]">
             {album.label.map((labelUrl, index) => (
               <img
                 className="max-w-[40%] max-h-[15dvh] m-[3%]"

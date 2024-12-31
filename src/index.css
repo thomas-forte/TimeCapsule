@@ -122,26 +122,26 @@
       @apply p-[1vw];
 
       .top-text {
-        @apply text-center text-2xl;
+        @apply text-center text-[2.5dvh];
       }
 
       .title-text {
-        @apply text-center text-7xl my-6 text-pretty;
+        @apply text-center text-[10dvh] my-[2dvh] text-pretty;
       }
 
       .subtitle-text {
-        @apply text-center text-xl mb-6 italic;
+        @apply text-center text-[2.5dvh] mb-[2dvh] italic;
       }
 
       .body-text {
-        @apply text-center text-2xl text-pretty;
+        @apply text-center text-[2.5dvh] text-pretty;
       }
 
       &.poster {
         @apply h-full;
         > img {
           @apply h-full;
-          @apply border-solid border-inherit border-2 border-black;
+          @apply border-solid border-inherit border-thin border-black;
         }
       }
     }
