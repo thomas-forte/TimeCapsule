@@ -39,7 +39,6 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             {movie.title}
           </div>
           <p className="subtitle-text">{movie.tagline}</p>
-          <p className="body-text">{movie.description}</p>
         </Card>
         <Card decade={decade} className="poster">
           <img
