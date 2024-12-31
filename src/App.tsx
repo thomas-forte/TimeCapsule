@@ -11,6 +11,7 @@ import styles from "./App.module.css";
 import { ControlPanel } from "./components/control-panel/ControlPanel";
 import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 import { Door } from "./components/Door";
+import { HelpScreen } from "./components/HelpScreen";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
@@ -56,7 +57,7 @@ export const App = () => {
 
   return (
     <div className="h-dvh w-dvw">
-      <div className="fixed top-0 left-0 h-dvh w-1/5 overflow-hidden z-50">
+      <div className="fixed top-0 left-0 h-dvh w-1/5 overflow-hidden z-40">
         <ControlPanel goToDate={goToDate} />
       </div>
 
@@ -81,6 +82,7 @@ export const App = () => {
       {/* turn yo screen */}
 
       {/* help menu */}
+      <HelpScreen />
     </div>
   );
 };

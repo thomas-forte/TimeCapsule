@@ -9,4 +9,6 @@ export const config = {
   maximumDate: new Date(2024, 11, 31), // December 31, 2024
 
   assetsRoot: "https://timecapsule.brendantrepal.com/images/",
+
+  enableHelp: false,
 };
