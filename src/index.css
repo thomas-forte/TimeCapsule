@@ -120,6 +120,7 @@
       @apply max-h-full;
       @apply border-solid border rounded;
       @apply p-[1vw];
+      @apply break-words;
 
       .top-text {
         @apply text-center text-[2.5dvh];
