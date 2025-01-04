@@ -13,7 +13,11 @@ interface BaseSectionProps extends PropsWithChildren {
 
 export const Section = ({ children, name, landscape }: BaseSectionProps) => (
   <div
-    className={classNames("section-container", name, landscape && "landscape")}
+    className={classNames(
+      "section-container snap-center",
+      name,
+      landscape && "landscape"
+    )}
   >
     {children}
   </div>

@@ -46,6 +46,7 @@ export const DateDetails = forwardRef(
       <div
         className={classNames(
           "h-dvh max-w-full overflow-y-hidden content-container flex",
+          "snap-x snap-mandatory",
           `body-font-${decade}`
         )}
         style={{ backgroundImage }}
