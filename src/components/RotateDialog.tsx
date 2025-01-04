@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Dialog,
   DialogBackdrop,
@@ -9,13 +9,21 @@ import {
 export const RotateDialog = () => {
   const [open, setOpen] = useState(window.innerWidth < window.innerHeight);
 
-  window.addEventListener("resize", () => {
-    if (!open && window.innerWidth < window.innerHeight) {
-      setOpen(true);
-    } else if (open && window.innerWidth > window.innerHeight) {
-      setOpen(false);
-    }
-  });
+  useEffect(() => {
+    const handleResize = () => {
+      if (!open && window.innerWidth < window.innerHeight) {
+        setOpen(true);
+      } else if (open && window.innerWidth > window.innerHeight) {
+        setOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [open]);
 
   return (
     <Dialog open={open} onClose={setOpen} className="relative z-50">
