@@ -94,7 +94,7 @@
   /* ======================== */
   .content-container {
     @apply bg-top bg-repeat-y bg-[length:100%_auto];
-    @apply p-[3dvh];
+    @apply px-[3dvh] py-[6dvh];
     @apply gap-[3dvh];
   }
 
