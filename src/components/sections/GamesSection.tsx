@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import classNames from "classnames";
 
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
@@ -29,7 +30,10 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
   return (
     game && (
       <Section name="games" landscape={game.landscape}>
-        <Card decade={decade} className="w-2/5">
+        <Card
+          decade={decade}
+          className={classNames(!game.landscape && "w-2/5")}
+        >
           <div className="top-text">Game of {date.getFullYear()}:</div>
           <div className={`title-text header-font-${decade}`}>{game.title}</div>
           <p className="body-text">By {game.creator}</p>

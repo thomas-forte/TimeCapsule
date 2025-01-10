@@ -108,16 +108,11 @@
       .card {
         @apply max-h-none;
         @apply flex justify-around items-center gap-[3dvw];
-        @apply min-w-max;
-
-        &.poster {
-          @apply w-auto max-h-[70dvh];
-        }
       }
     }
 
     .card {
-      @apply max-h-full;
+      @apply max-h-full max-w-full;
       @apply border-solid border rounded;
       @apply p-[1vw];
       @apply break-words;
@@ -147,10 +142,6 @@
         }
       }
     }
-  }
-
-  .newspaper {
-    @apply max-h-[60dvh] mx-auto;
   }
 }
 
