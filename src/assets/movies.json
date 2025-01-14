@@ -530,9 +530,9 @@
   "1998": {
     "title": "Saving Private Ryan",
     "studio": [
-      "movies/studios/amblin_1984.svg",
-      "movies/studios/dreamworks_1994.svg",
-      "movies/studios/paramount_1967.svg"
+      "movies/studios/amblin_1984-e.svg",
+      "movies/studios/dreamworks_1994-e.svg",
+      "movies/studios/paramount_1967-e.svg"
     ],
     "mpaa": "R",
     "runtime": "170 minutes",
@@ -544,8 +544,8 @@
   "1999": {
     "title": "Star Wars: Episode I - The Phantom Menace",
     "studio": [
-      "movies/studios/lucasfilm_1971.svg",
-      "movies/studios/fox_1986.svg"
+      "movies/studios/lucasfilm_1971-e.svg",
+      "movies/studios/fox_1986-e.svg"
     ],
     "mpaa": "PG",
     "runtime": "134 minutes",
@@ -557,8 +557,8 @@
   "2000": {
     "title": "Mission: Impossible 2",
     "studio": [
-      "movies/studios/cruise-wagner_1992.svg",
-      "movies/studios/paramount_1967.svg"
+      "movies/studios/cruise-wagner_1992-f.svg",
+      "movies/studios/paramount_1967-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "124 minutes",
@@ -569,7 +569,7 @@
   },
   "2001": {
     "title": "Harry Potter and the Sorcerer's Stone",
-    "studio": ["movies/studios/wb_1993.svg", "movies/studios/1492_1995.svg"],
+    "studio": ["movies/studios/wb_1993-f.svg", "movies/studios/1492_1995-f.svg"],
     "mpaa": "PG",
     "runtime": "152 minutes",
     "director": ["Chris Columbus"],
@@ -580,8 +580,8 @@
   "2002": {
     "title": "The Lord of the Rings: The Two Towers",
     "studio": [
-      "movies/studios/wingnut_1989.svg",
-      "movies/studios/new-line_2001.svg"
+      "movies/studios/wingnut_1989-f.svg",
+      "movies/studios/new-line_2001-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "179 minutes",
@@ -593,8 +593,8 @@
   "2003": {
     "title": "The Lord of the Rings: The Return of the King",
     "studio": [
-      "movies/studios/wingnut_1989.svg",
-      "movies/studios/new-line_2001.svg"
+      "movies/studios/wingnut_1989-f.svg",
+      "movies/studios/new-line_2001-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "201",
@@ -607,8 +607,8 @@
     "title": "Shrek 2",
     "studio": [
       "movies/studios/pdi_2000.svg",
-      "movies/studios/dreamworks-animation_2004.svg",
-      "movies/studios/dreamworks_1994.svg"
+      "movies/studios/dreamworks-animation_2004-f.svg",
+      "movies/studios/dreamworks_1994-f.svg"
     ],
     "mpaa": "PG",
     "runtime": "92 minutes",
@@ -619,7 +619,7 @@
   },
   "2005": {
     "title": "Harry Potter and the Goblet of Fire",
-    "studio": ["movies/studios/wb_1993.svg", "movies/studios/heyday_2005.svg"],
+    "studio": ["movies/studios/wb_1993-f.svg", "movies/studios/heyday_2005-f.svg"],
     "mpaa": "PG-13",
     "runtime": "157 minutes",
     "director": ["Mike Newell"],
@@ -630,10 +630,10 @@
   "2006": {
     "title": "Casino Royale",
     "studio": [
-      "movies/studios/mgm_1986.svg",
-      "movies/studios/columbia_1993.svg",
-      "movies/studios/eon_1961.svg",
-      "movies/studios/sony-releasing_2005.svg"
+      "movies/studios/mgm_1986-f.svg",
+      "movies/studios/columbia_1993-f.svg",
+      "movies/studios/eon_1961-f.svg",
+      "movies/studios/sony-releasing_2005-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "144 minutes",
@@ -645,9 +645,9 @@
   "2007": {
     "title": "Spider-Man 3",
     "studio": [
-      "movies/studios/columbia_1993.svg",
-      "movies/studios/marvel_2002.svg",
-      "movies/studios/sony-releasing_2005.svg"
+      "movies/studios/columbia_1993-f.svg",
+      "movies/studios/marvel_2002-f.svg",
+      "movies/studios/sony-releasing_2005-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "139 minutes",
@@ -659,9 +659,9 @@
   "2008": {
     "title": "The Dark Knight",
     "studio": [
-      "movies/studios/wb_1993.svg",
-      "movies/studios/legendary_2006.svg",
-      "movies/studios/syncopy_2008.svg"
+      "movies/studios/wb_1993-f.svg",
+      "movies/studios/legendary_2006-f.svg",
+      "movies/studios/syncopy_2008-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "152 minutes",
@@ -673,10 +673,10 @@
   "2009": {
     "title": "Avatar",
     "studio": [
-      "movies/studios/fox_1986.svg",
-      "movies/studios/dune_2006.svg",
-      "movies/studios/ingenious_1998.svg",
-      "movies/studios/lightstorm_1994.svg"
+      "movies/studios/fox_1986-f.svg",
+      "movies/studios/dune_2006-f.svg",
+      "movies/studios/ingenious_1998-f.svg",
+      "movies/studios/lightstorm_1994-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "162 minutes",
@@ -688,9 +688,9 @@
   "2010": {
     "title": "Inception",
     "studio": [
-      "movies/studios/wb_1993.svg",
-      "movies/studios/legendary_2006.svg",
-      "movies/studios/syncopy_2008.svg"
+      "movies/studios/wb_1993-g.svg",
+      "movies/studios/legendary_2006-g.svg",
+      "movies/studios/syncopy_2008-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "148 minutes",
@@ -701,7 +701,7 @@
   },
   "2011": {
     "title": "Harry Potter and the Deathly Hallows - Part 2",
-    "studio": ["movies/studios/wb_1993.svg", "movies/studios/heyday_2008.svg"],
+    "studio": ["movies/studios/wb_1993-g.svg", "movies/studios/heyday_2008-g.svg"],
     "mpaa": "PG-13",
     "runtime": "130 minutes",
     "director": ["David Yates"],
@@ -712,8 +712,8 @@
   "2012": {
     "title": "The Avengers",
     "studio": [
-      "movies/studios/marvel_2002.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/marvel_2002-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "143 minutes",
@@ -725,8 +725,8 @@
   "2013": {
     "title": "Frozen",
     "studio": [
-      "movies/studios/disney-animation_2007.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/disney-animation_2007-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG",
     "runtime": "102 minutes",
@@ -738,8 +738,8 @@
   "2014": {
     "title": "Guardians of the Galaxy",
     "studio": [
-      "movies/studios/marvel_2013.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/marvel_2013-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "122 minutes",
@@ -751,9 +751,9 @@
   "2015": {
     "title": "Star Wars: The Force Awakens",
     "studio": [
-      "movies/studios/lucasfilm_2015.svg",
-      "movies/studios/bad-robot_2008.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/lucasfilm_2015-g.svg",
+      "movies/studios/bad-robot_2008-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "138 minutes",
@@ -765,8 +765,8 @@
   "2016": {
     "title": "Rogue One: A Star Wars Story",
     "studio": [
-      "movies/studios/lucasfilm_2015.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/lucasfilm_2015-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "134 minutes",
@@ -778,8 +778,8 @@
   "2017": {
     "title": "Star Wars: The Last Jedi",
     "studio": [
-      "movies/studios/lucasfilm_2015.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/lucasfilm_2015-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "152 minutes",
@@ -791,8 +791,8 @@
   "2018": {
     "title": "Incredibles 2",
     "studio": [
-      "movies/studios/pixar_1994.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/pixar_1994-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG",
     "runtime": "118 minutes",
@@ -804,8 +804,8 @@
   "2019": {
     "title": "Avengers: Endgame",
     "studio": [
-      "movies/studios/marvel_2016.svg",
-      "movies/studios/disney_2007.svg"
+      "movies/studios/marvel_2016-g.svg",
+      "movies/studios/disney_2007-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "181 minutes",
@@ -817,10 +817,10 @@
   "2020": {
     "title": "Bad Boys for Life",
     "studio": [
-      "movies/studios/columbia_1993.svg",
-      "movies/studios/jerry-bruckheimer_2001.svg",
-      "movies/studios/overbrook_2003.svg",
-      "movies/studios/sony-releasing_2005.svg"
+      "movies/studios/columbia_1993-h.svg",
+      "movies/studios/jerry-bruckheimer_2001-h.svg",
+      "movies/studios/overbrook_2003-h.svg",
+      "movies/studios/sony-releasing_2005-h.svg"
     ],
     "mpaa": "R",
     "runtime": "124 minutes",
@@ -832,10 +832,10 @@
   "2021": {
     "title": "Spider-Man: No Way Home",
     "studio": [
-      "movies/studios/columbia_1993.svg",
-      "movies/studios/marvel_2016.svg",
-      "movies/studios/pascal_2018.svg",
-      "movies/studios/sony-releasing_2005.svg"
+      "movies/studios/columbia_1993-h.svg",
+      "movies/studios/marvel_2016-h.svg",
+      "movies/studios/pascal_2018-h.svg",
+      "movies/studios/sony-releasing_2005-h.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "148 minutes",
@@ -847,9 +847,9 @@
   "2022": {
     "title": "Avatar: The Way of Water",
     "studio": [
-      "movies/studios/tsg_2012.svg",
-      "movies/studios/lightstorm_1994.svg",
-      "movies/studios/fox_2020.svg"
+      "movies/studios/tsg_2012-h.svg",
+      "movies/studios/lightstorm_1994-h.svg",
+      "movies/studios/fox_2020-h.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "192 minutes",
@@ -861,9 +861,9 @@
   "2023": {
     "title": "The Super Mario Bros. Movie",
     "studio": [
-      "movies/studios/universal_2021.svg",
-      "movies/studios/illumination_2017.svg",
-      "movies/studios/nintendo_2016.svg"
+      "movies/studios/universal_2021-h.svg",
+      "movies/studios/illumination_2017-h.svg",
+      "movies/studios/nintendo_2016-h.svg"
     ],
     "mpaa": "PG",
     "runtime": "92 minutes",
