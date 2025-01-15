@@ -10,112 +10,112 @@
     "title": "Masterpieces by Ellington",
     "artist": "Duke Ellington",
     "genre": "Jazz",
-    "label": ["record_labels/columbia_38.svg"],
+    "label": ["record_labels/columbia_1938-a.svg"],
     "image": "albums/1950s/1951.jpg"
   },
   "1952": {
     "title": "Moanin’ the Blues",
     "artist": "Hank Williams",
     "genre": "Country",
-    "label": ["record_labels/mgm_52.svg"],
+    "label": ["record_labels/mgm_1952-a.svg"],
     "image": "albums/1950s/1952.jpg"
   },
   "1953": {
     "title": "Black Coffee",
     "artist": "Peggy Lee",
     "genre": "Jazz",
-    "label": ["record_labels/decca_53.svg"],
+    "label": ["record_labels/decca_1953-a.svg"],
     "image": "albums/1950s/1953.jpg"
   },
   "1954": {
     "title": "Music for Lovers Only",
     "artist": "Jackie Gleason",
     "genre": "East-Listening",
-    "label": ["record_labels/capitol_49.svg"],
+    "label": ["record_labels/capitol_1949-a.svg"],
     "image": "albums/1950s/1954.jpg"
   },
   "1955": {
     "title": "In the Wee Small Hours",
     "artist": "Frank Sinatra",
     "genre": "Vocal Jazz",
-    "label": ["record_labels/capitol_49.svg"],
+    "label": ["record_labels/capitol_1949-a.svg"],
     "image": "albums/1950s/1955.jpg"
   },
   "1956": {
     "title": "Elvis Presley",
     "artist": "Elvis Presley",
     "genre": "Rock and Roll",
-    "label": ["record_labels/rca_29.svg"],
+    "label": ["record_labels/rca_1929-a.svg"],
     "image": "albums/1950s/1956.jpg"
   },
   "1957": {
     "title": "Calypso",
     "artist": "Harry Belafonte",
     "genre": "Calypso",
-    "label": ["record_labels/rca_29.svg"],
+    "label": ["record_labels/rca_1929-a.svg"],
     "image": "albums/1950s/1957.jpg"
   },
   "1958": {
     "title": "Come Fly With Me",
     "artist": "Frank Sinatra",
     "genre": "Vocal Jazz",
-    "label": ["record_labels/capitol_58.svg"],
+    "label": ["record_labels/capitol_1958-a.svg"],
     "image": "albums/1950s/1958.jpg"
   },
   "1959": {
     "title": "The Music from Peter Gunn",
     "artist": "Henry Mancini",
     "genre": "Jazz",
-    "label": ["record_labels/rca_29.svg"],
+    "label": ["record_labels/rca_1929-a.svg"],
     "image": "albums/1950s/1959.jpg"
   },
   "1960": {
     "title": "G.I. Blues",
     "artist": "Elvis Presley",
     "genre": "Rock and Roll",
-    "label": ["record_labels/rca_29.svg"],
+    "label": ["record_labels/rca_1929-b.svg"],
     "image": "albums/1960s/1960.jpg"
   },
   "1961": {
     "title": "West Side Story",
     "artist": "Leonard Bernstein, Stephen Sondheim, & The Original Motion Picture Cast",
     "genre": "Film Soundtrack",
-    "label": ["record_labels/columbia_masterworks.svg"],
+    "label": ["record_labels/columbia-masterworks_1961-b.svg"],
     "image": "albums/1960s/1961.jpg"
   },
   "1962": {
     "title": "Modern Sounds in Country and Western Music",
     "artist": "Ray Charles",
     "genre": "Country",
-    "label": ["record_labels/abc-paramount.svg"],
+    "label": ["record_labels/abc-paramount_1955-b.svg"],
     "image": "albums/1960s/1962.jpg"
   },
   "1963": {
     "title": "Days of Wine and Roses and Other TV Requests",
     "artist": "Andy Williams",
     "genre": "Pop",
-    "label": ["record_labels/columbia_62.svg"],
+    "label": ["record_labels/columbia_1962-b.svg"],
     "image": "albums/1960s/1963.jpg"
   },
   "1964": {
     "title": "A Hard Day’s Night",
     "artist": "The Beatles",
     "genre": "Rock",
-    "label": ["record_labels/united-artists_60.svg"],
+    "label": ["record_labels/united-artists_1960-b.svg"],
     "image": "albums/1960s/1964.jpg"
   },
   "1965": {
     "title": "Bringing It All Back Home",
     "artist": "Bob Dylan",
     "genre": "Folk Rock",
-    "label": ["record_labels/columbia_62.svg"],
+    "label": ["record_labels/columbia_1962-b.svg"],
     "image": "albums/1960s/1965.jpg"
   },
   "1966": {
     "title": "Pet Sounds",
     "artist": "The Beach Boys",
     "genre": "Pop",
-    "label": ["record_labels/capitol_58.svg"],
+    "label": ["record_labels/capitol_1958-b.svg"],
     "image": "albums/1960s/1966.jpg"
   },
   "1967": {
@@ -123,8 +123,8 @@
     "artist": "The Beatles",
     "genre": "Pop",
     "label": [
-      "record_labels/parlophone_63.svg",
-      "record_labels/capitol_58.svg"
+      "record_labels/parlophone_1963-b.svg",
+      "record_labels/capitol_1958-b.svg"
     ],
     "image": "albums/1950s/1951.jpg"
   },
@@ -132,56 +132,56 @@
     "title": "Electric Ladyland",
     "artist": "The Jimi Hendrix Experience",
     "genre": "Psychedelic Rock",
-    "label": ["record_labels/reprise_67.svg"],
+    "label": ["record_labels/reprise_1967-b.svg"],
     "image": "albums/1960s/1968.jpg"
   },
   "1969": {
     "title": "Abbey Road",
     "artist": "The Beatles",
     "genre": "Rock",
-    "label": ["record_labels/apple-corps.svg"],
+    "label": ["record_labels/apple-corps_1967-b.svg"],
     "image": "albums/1960s/1969.jpg"
   },
   "1970": {
     "title": "Bridge Over Troubled Water",
     "artist": "Simon & Garfunkel",
     "genre": "Folk Rock",
-    "label": ["record_labels/columbia_69.svg"],
+    "label": ["record_labels/columbia_1969-c.svg"],
     "image": "albums/1970s/1970.jpg"
   },
   "1971": {
     "title": "What’s Going On",
     "artist": "Marvin Gaye",
     "genre": "Soul",
-    "label": ["record_labels/tamla_65.svg"],
+    "label": ["record_labels/tamla_1965-c.svg"],
     "image": "albums/1970s/1971.jpg"
   },
   "1972": {
     "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
     "artist": "David Bowie",
     "genre": "Glam Rock",
-    "label": ["record_labels/rca_68.svg"],
+    "label": ["record_labels/rca_1968-c.svg"],
     "image": "albums/1970s/1972.jpg"
   },
   "1973": {
     "title": "The Dark Side of the Moon",
     "artist": "Pink Floyd",
     "genre": "Progressive Rock",
-    "label": ["record_labels/harvest_69.svg", "record_labels/capitol_69.svg"],
+    "label": ["record_labels/harvest_1969-c.svg", "record_labels/capitol_1969-c.svg"],
     "image": "albums/1970s/1973.jpg"
   },
   "1974": {
     "title": "Goodbye Yellow Brick Road",
     "artist": "Elton John",
     "genre": "Pop Rock",
-    "label": ["record_labels/djm.svg"],
+    "label": ["record_labels/djm_1969-c.svg"],
     "image": "albums/1970s/1974.jpg"
   },
   "1975": {
     "title": "Physical Graffiti",
     "artist": "Led Zeppelin",
     "genre": "Hard Rock",
-    "label": ["record_labels/swan-song.svg"],
+    "label": ["record_labels/swan-song_1974-c.svg"],
     "image": "albums/1970s/1975.jpg"
   },
   "1976": {
