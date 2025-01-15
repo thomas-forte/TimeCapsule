@@ -438,37 +438,37 @@
   "2019": {
     "title": "Borderlands 3",
     "creator": "Gearbox Software & 2K",
-    "company": ["games/companies/gearbox_2008.svg", "games/companies/2k_2005.svg"],
+    "company": ["games/companies/gearbox_2008-g.svg", "games/companies/2k_2005-g.svg"],
     "image": "games/2010s/2019.jpg"
   },
   "2020": {
     "title": "The Last of Us Part II (Remastered)",
     "creator": "Naughty Dog & Sony Interactive Entertainment",
-    "company": ["games/companies/naughty-dog_2013.svg", "games/companies/sony_2016.svg"],
+    "company": ["games/companies/naughty-dog_2013-h.svg", "games/companies/sony_2016-h.svg"],
     "image": "games/2020s/2020.jpg"
   },
   "2021": {
     "title": "It Takes Two",
     "creator": "Hazelight Studios & Electronic Arts",
-    "company": ["games/companies/hazelight_2014.svg", "games/companies/ea_2006.svg"],
+    "company": ["games/companies/hazelight_2014-h.svg", "games/companies/ea_2006-h.svg"],
     "image": "games/2020s/2021.jpg"
   },
   "2022": {
     "title": "Elden Ring",
     "creator": "FromSoftware & Bandai Namco Entertainment",
-    "company": ["games/companies/fromsoftware_1996.svg", "games/companies/bandai_2022.svg"],
+    "company": ["games/companies/fromsoftware_1996-h.svg", "games/companies/bandai_2022-h.svg"],
     "image": "games/2020s/2022.jpg"
   },
   "2023": {
     "title": "Hogwarts Legacy",
     "creator": "Avalanche Software & Warner Bros. Games",
-    "company": ["games/companies/avalanche_2022.svg", "games/companies/wb-games_2023.svg"],
+    "company": ["games/companies/avalanche_2022-h.svg", "games/companies/wb-games_2023-h.svg"],
     "image": "games/2020s/2023.jpg"
   },
   "2024": {
     "title": "EA Sports College Football 25",
     "creator": "EA Sports",
-    "company": ["games/companies/ea-sports_2020.svg"],
+    "company": ["games/companies/ea-sports_2020-h.svg"],
     "image": "games/2020s/2024.jpg"
   }
 }
