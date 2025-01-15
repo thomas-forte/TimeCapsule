@@ -872,4 +872,17 @@
     "description": "A plumber named Mario travels through an underground labyrinth with his brother Luigi, trying to save a captured princess.",
     "image": "movies/2020s/2023.jpg"
   }
+  "2024": {
+    "title": "Inside Out 2",
+    "studio": [
+      "movies/studios/pixar_1994-h.svg",
+      "movies/studios/disney_2019-h.svg",
+    ],
+    "mpaa": "PG",
+    "runtime": "96 minutes",
+    "director": ["Kelsey Mann"],
+    "tagline": "Make room for new emotions.",
+    "description": "When teenage Riley heads off to hockey camp, the puberty alarm in headquarters goes off and new emotions come in. When it turns out that these new emotions intend on completely changing Riley, Joy and the emotions are determined to stop them.",
+    "image": "movies/2020s/2024.jpg"
+  }
 }
