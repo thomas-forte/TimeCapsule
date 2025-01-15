@@ -1,7 +1,10 @@
 {
   "1950": {
     "title": "Cinderella",
-    "studio": ["movies/studios/disney_1948-a.svg", "movies/studios/rko_1937-a.svg"],
+    "studio": [
+      "movies/studios/disney_1948-a.svg",
+      "movies/studios/rko_1937-a.svg"
+    ],
     "mpaa": "G",
     "runtime": "75 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
@@ -31,7 +34,10 @@
   },
   "1953": {
     "title": "Peter Pan",
-    "studio": ["movies/studios/disney_1948-a.svg", "movies/studios/rko_1937-a.svg"],
+    "studio": [
+      "movies/studios/disney_1948-a.svg",
+      "movies/studios/rko_1937-a.svg"
+    ],
     "mpaa": "G",
     "runtime": "77 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
@@ -147,7 +153,10 @@
   },
   "1964": {
     "title": "Mary Poppins",
-    "studio": ["movies/studios/disney_1948-b.svg", "movies/studios/buena-vista_1960-b.svg"],
+    "studio": [
+      "movies/studios/disney_1948-b.svg",
+      "movies/studios/buena-vista_1960-b.svg"
+    ],
     "mpaa": "G",
     "runtime": "139 minutes",
     "director": ["Robert Stevenson"],
@@ -167,7 +176,10 @@
   },
   "1966": {
     "title": "Hawaii",
-    "studio": ["movies/studios/mirisch_1960-b.svg", "movies/studios/ua_1929-b.svg"],
+    "studio": [
+      "movies/studios/mirisch_1960-b.svg",
+      "movies/studios/ua_1929-b.svg"
+    ],
     "mpaa": "Approved",
     "runtime": "161 minutes",
     "director": ["George Roy Hill"],
@@ -177,7 +189,10 @@
   },
   "1967": {
     "title": "The Graduate",
-    "studio": ["movies/studios/embassy_1961-b.svg", "movies/studios/ua_1967-b.svg"],
+    "studio": [
+      "movies/studios/embassy_1961-b.svg",
+      "movies/studios/ua_1967-b.svg"
+    ],
     "mpaa": "PG",
     "runtime": "106 minutes",
     "director": ["Mike Nichols"],
@@ -220,7 +235,10 @@
   },
   "1971": {
     "title": "Fiddler on the Roof",
-    "studio": ["movies/studios/mirisch_1960-c.svg", "movies/studios/ua_1968-c.svg"],
+    "studio": [
+      "movies/studios/mirisch_1960-c.svg",
+      "movies/studios/ua_1968-c.svg"
+    ],
     "mpaa": "G",
     "runtime": "181 minutes",
     "director": ["Norman Jewison"],
@@ -569,7 +587,10 @@
   },
   "2001": {
     "title": "Harry Potter and the Sorcerer's Stone",
-    "studio": ["movies/studios/wb_1993-f.svg", "movies/studios/1492_1995-f.svg"],
+    "studio": [
+      "movies/studios/wb_1993-f.svg",
+      "movies/studios/1492_1995-f.svg"
+    ],
     "mpaa": "PG",
     "runtime": "152 minutes",
     "director": ["Chris Columbus"],
@@ -619,7 +640,10 @@
   },
   "2005": {
     "title": "Harry Potter and the Goblet of Fire",
-    "studio": ["movies/studios/wb_1993-f.svg", "movies/studios/heyday_2005-f.svg"],
+    "studio": [
+      "movies/studios/wb_1993-f.svg",
+      "movies/studios/heyday_2005-f.svg"
+    ],
     "mpaa": "PG-13",
     "runtime": "157 minutes",
     "director": ["Mike Newell"],
@@ -701,7 +725,10 @@
   },
   "2011": {
     "title": "Harry Potter and the Deathly Hallows - Part 2",
-    "studio": ["movies/studios/wb_1993-g.svg", "movies/studios/heyday_2008-g.svg"],
+    "studio": [
+      "movies/studios/wb_1993-g.svg",
+      "movies/studios/heyday_2008-g.svg"
+    ],
     "mpaa": "PG-13",
     "runtime": "130 minutes",
     "director": ["David Yates"],
@@ -871,12 +898,12 @@
     "tagline": "Let's-a go!",
     "description": "A plumber named Mario travels through an underground labyrinth with his brother Luigi, trying to save a captured princess.",
     "image": "movies/2020s/2023.jpg"
-  }
+  },
   "2024": {
     "title": "Inside Out 2",
     "studio": [
       "movies/studios/pixar_1994-h.svg",
-      "movies/studios/disney_2019-h.svg",
+      "movies/studios/disney_2019-h.svg"
     ],
     "mpaa": "PG",
     "runtime": "96 minutes",
