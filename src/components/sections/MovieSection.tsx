@@ -39,6 +39,16 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             {movie.title}
           </div>
           <p className="subtitle-text">{movie.tagline}</p>
+          <div className="flex flex-wrap justify-center mt-[2dvh]">
+            {movie.studio.map((studioUrl, index) => (
+              <img
+                className="max-w-[40%] max-h-[15dvh] m-[3%]"
+                key={movie.title + index}
+                src={config.assetsRoot + studioUrl}
+                alt="movie studio icon"
+              />
+            ))}
+          </div>
         </Card>
         <Card decade={decade} className="poster">
           <img

@@ -1,10 +1,7 @@
 {
   "1950": {
     "title": "Cinderella",
-    "studio": [
-      "movies/studios/disney_1948-a.svg",
-      "movies/studios/rko_1937-a.svg"
-    ],
+    "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
     "mpaa": "G",
     "runtime": "75 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
@@ -14,7 +11,7 @@
   },
   "1951": {
     "title": "Quo Vadis",
-    "studio": ["movies/studios/mgm_1924-a.svg"],
+    "studio": ["studios/mgm_1924-a.svg"],
     "mpaa": "Approved",
     "runtime": "171 minutes",
     "director": ["Mervyn LeRoy"],
@@ -24,7 +21,7 @@
   },
   "1952": {
     "title": "The Greatest Show on Earth",
-    "studio": ["movies/studios/paramount_1917-a.svg"],
+    "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "Approved",
     "runtime": "152 minutes",
     "director": ["Cecil B. DeMille"],
@@ -34,10 +31,7 @@
   },
   "1953": {
     "title": "Peter Pan",
-    "studio": [
-      "movies/studios/disney_1948-a.svg",
-      "movies/studios/rko_1937-a.svg"
-    ],
+    "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
     "mpaa": "G",
     "runtime": "77 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
@@ -47,7 +41,7 @@
   },
   "1954": {
     "title": "White Christmas",
-    "studio": ["movies/studios/paramount_1917-a.svg"],
+    "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "Approved",
     "runtime": "120 minutes",
     "director": ["Michael Curtiz"],
@@ -57,10 +51,7 @@
   },
   "1955": {
     "title": "Lady and the Tramp",
-    "studio": [
-      "movies/studios/disney_1948-a.svg",
-      "movies/studios/buena-vista_1953-a.svg"
-    ],
+    "studio": ["studios/disney_1948-a.svg", "studios/buena-vista_1953-a.svg"],
     "mpaa": "G",
     "runtime": "76 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
@@ -70,7 +61,7 @@
   },
   "1956": {
     "title": "The Ten Commandments",
-    "studio": ["movies/studios/paramount_1917-a.svg"],
+    "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "G",
     "runtime": "220 minutes",
     "director": ["Cecil B. DeMille"],
@@ -80,7 +71,7 @@
   },
   "1957": {
     "title": "The Bridge on the River Kwai",
-    "studio": ["movies/studios/columbia_1945-a.svg"],
+    "studio": ["studios/columbia_1945-a.svg"],
     "mpaa": "PG",
     "runtime": "161 minutes",
     "director": ["David Lean"],
@@ -90,7 +81,7 @@
   },
   "1958": {
     "title": "South Pacific",
-    "studio": ["movies/studios/fox_1945-a.svg"],
+    "studio": ["studios/fox_1945-a.svg"],
     "mpaa": "Approved",
     "runtime": "157 minutes",
     "director": ["Joshua Logan"],
@@ -100,7 +91,7 @@
   },
   "1959": {
     "title": "Ben-Hur",
-    "studio": ["movies/studios/mgm_1924-a.svg"],
+    "studio": ["studios/mgm_1924-a.svg"],
     "mpaa": "G",
     "runtime": "212 minutes",
     "director": ["William Wyler"],
@@ -110,7 +101,7 @@
   },
   "1960": {
     "title": "Spartacus",
-    "studio": ["movies/studios/universal_1960-b.svg"],
+    "studio": ["studios/universal_1960-b.svg"],
     "mpaa": "PG-13",
     "runtime": "197 minutes",
     "director": ["Stanley Kubrick"],
@@ -120,10 +111,7 @@
   },
   "1961": {
     "title": "One Hundred and One Dalmatians",
-    "studio": [
-      "movies/studios/disney_1948-b.svg",
-      "movies/studios/buena-vista_1960-b.svg"
-    ],
+    "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
     "mpaa": "G",
     "runtime": "79 minutes",
     "director": ["Clyde Geronimi", "Hamilton Luske", "Wolfgang Reitherman"],
@@ -133,7 +121,7 @@
   },
   "1962": {
     "title": "Lawrence of Arabia",
-    "studio": ["movies/studios/columbia_1945-b.svg"],
+    "studio": ["studios/columbia_1945-b.svg"],
     "mpaa": "PG",
     "runtime": "210 minutes",
     "director": ["David Lean"],
@@ -143,7 +131,7 @@
   },
   "1963": {
     "title": "Cleopatra",
-    "studio": ["movies/studios/fox_1945-b.svg"],
+    "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "Approved",
     "runtime": "251 minutes",
     "director": ["Joseph L. Mankiewicz"],
@@ -153,10 +141,7 @@
   },
   "1964": {
     "title": "Mary Poppins",
-    "studio": [
-      "movies/studios/disney_1948-b.svg",
-      "movies/studios/buena-vista_1960-b.svg"
-    ],
+    "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
     "mpaa": "G",
     "runtime": "139 minutes",
     "director": ["Robert Stevenson"],
@@ -166,7 +151,7 @@
   },
   "1965": {
     "title": "The Sound of Music",
-    "studio": ["movies/studios/fox_1945-b.svg"],
+    "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "G",
     "runtime": "174 minutes",
     "director": ["Robert Wise"],
@@ -176,10 +161,7 @@
   },
   "1966": {
     "title": "Hawaii",
-    "studio": [
-      "movies/studios/mirisch_1960-b.svg",
-      "movies/studios/ua_1929-b.svg"
-    ],
+    "studio": ["studios/mirisch_1960-b.svg", "studios/ua_1929-b.svg"],
     "mpaa": "Approved",
     "runtime": "161 minutes",
     "director": ["George Roy Hill"],
@@ -189,10 +171,7 @@
   },
   "1967": {
     "title": "The Graduate",
-    "studio": [
-      "movies/studios/embassy_1961-b.svg",
-      "movies/studios/ua_1967-b.svg"
-    ],
+    "studio": ["studios/embassy_1961-b.svg", "studios/ua_1967-b.svg"],
     "mpaa": "PG",
     "runtime": "106 minutes",
     "director": ["Mike Nichols"],
@@ -202,10 +181,7 @@
   },
   "1968": {
     "title": "Funny Girl",
-    "studio": [
-      "movies/studios/rastar_1975-b.svg",
-      "movies/studios/columbia_1966-b.svg"
-    ],
+    "studio": ["studios/rastar_1975-b.svg", "studios/columbia_1966-b.svg"],
     "mpaa": "G",
     "runtime": "149 minutes",
     "director": ["William Wyler"],
@@ -215,7 +191,7 @@
   },
   "1969": {
     "title": "Butch Cassidy and the Sundance Kid",
-    "studio": ["movies/studios/fox_1945-b.svg"],
+    "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "PG",
     "runtime": "110 minutes",
     "director": ["George Roy Hill"],
@@ -225,7 +201,7 @@
   },
   "1970": {
     "title": "Love Story",
-    "studio": ["movies/studios/paramount_1967-c.svg"],
+    "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "PG",
     "runtime": "101 minutes",
     "director": ["Arthur Hiller"],
@@ -235,10 +211,7 @@
   },
   "1971": {
     "title": "Fiddler on the Roof",
-    "studio": [
-      "movies/studios/mirisch_1960-c.svg",
-      "movies/studios/ua_1968-c.svg"
-    ],
+    "studio": ["studios/mirisch_1960-c.svg", "studios/ua_1968-c.svg"],
     "mpaa": "G",
     "runtime": "181 minutes",
     "director": ["Norman Jewison"],
@@ -248,7 +221,7 @@
   },
   "1972": {
     "title": "The Godfather",
-    "studio": ["movies/studios/paramount_1967-c.svg"],
+    "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "R",
     "runtime": "175 minutes",
     "director": ["Francis Ford Coppola"],
@@ -258,7 +231,7 @@
   },
   "1973": {
     "title": "The Exorcist",
-    "studio": ["movies/studios/wb_1972-c.svg"],
+    "studio": ["studios/wb_1972-c.svg"],
     "mpaa": "R",
     "runtime": "122 minutes",
     "director": ["Willliam Friedkin"],
@@ -268,7 +241,7 @@
   },
   "1974": {
     "title": "The Towering Inferno",
-    "studio": ["movies/studios/wb_1972-c.svg", "movies/studios/fox_1972-c.svg"],
+    "studio": ["studios/wb_1972-c.svg", "studios/fox_1972-c.svg"],
     "mpaa": "PG",
     "runtime": "165 minutes",
     "director": ["John Guillermin"],
@@ -278,7 +251,7 @@
   },
   "1975": {
     "title": "Jaws",
-    "studio": ["movies/studios/universal_1963-c.svg"],
+    "studio": ["studios/universal_1963-c.svg"],
     "mpaa": "PG",
     "runtime": "124 minutes",
     "director": ["Steven Spielberg"],
@@ -288,7 +261,7 @@
   },
   "1976": {
     "title": "Rocky",
-    "studio": ["movies/studios/ua_1976-c.svg"],
+    "studio": ["studios/ua_1976-c.svg"],
     "mpaa": "PG",
     "runtime": "119 minutes",
     "director": ["John G. Avildsen"],
@@ -298,10 +271,7 @@
   },
   "1977": {
     "title": "Star Wars",
-    "studio": [
-      "movies/studios/lucasfilm_1971-c.svg",
-      "movies/studios/fox_1972-c.svg"
-    ],
+    "studio": ["studios/lucasfilm_1971-c.svg", "studios/fox_1972-c.svg"],
     "mpaa": "PG",
     "runtime": "121 minutes",
     "director": ["George Lucas"],
@@ -311,7 +281,7 @@
   },
   "1978": {
     "title": "Grease",
-    "studio": ["movies/studios/paramount_1967-c.svg"],
+    "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "PG",
     "runtime": "110 minutes",
     "director": ["Randal Kleiser"],
@@ -321,7 +291,7 @@
   },
   "1979": {
     "title": "Alien",
-    "studio": ["movies/studios/fox_1972-c.svg"],
+    "studio": ["studios/fox_1972-c.svg"],
     "mpaa": "R",
     "runtime": "116 minutes",
     "director": ["Ridley Scott"],
@@ -331,10 +301,7 @@
   },
   "1980": {
     "title": "Star Wars: The Empire Strikes Back",
-    "studio": [
-      "movies/studios/lucasfilm_1971-d.svg",
-      "movies/studios/fox_1972-d.svg"
-    ],
+    "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1972-d.svg"],
     "mpaa": "PG",
     "runtime": "124 minutes",
     "director": ["Irvin Kershner"],
@@ -344,10 +311,7 @@
   },
   "1981": {
     "title": "Raiders of the Lost Ark",
-    "studio": [
-      "movies/studios/lucasfilm_1971-d.svg",
-      "movies/studios/paramount_1967-d.svg"
-    ],
+    "studio": ["studios/lucasfilm_1971-d.svg", "studios/paramount_1967-d.svg"],
     "mpaa": "PG",
     "runtime": "115 minutes",
     "director": ["Steven Spielberg"],
@@ -357,10 +321,7 @@
   },
   "1982": {
     "title": "E.T. the Extra-Terrestrial",
-    "studio": [
-      "movies/studios/amblin_1983-d.svg",
-      "movies/studios/universal_1963.svg"
-    ],
+    "studio": ["studios/amblin_1983-d.svg", "studios/universal_1963-d.svg"],
     "mpaa": "PG",
     "runtime": "114 minutes",
     "director": ["Steven Spielberg"],
@@ -370,10 +331,7 @@
   },
   "1983": {
     "title": "Star Wars: Return of the Jedi",
-    "studio": [
-      "movies/studios/lucasfilm_1971-d.svg",
-      "movies/studios/fox_1982-d.svg"
-    ],
+    "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1982-d.svg"],
     "mpaa": "PG",
     "runtime": "132 minutes",
     "director": ["Richard Marquand"],
@@ -383,7 +341,7 @@
   },
   "1984": {
     "title": "Ghostbusters",
-    "studio": ["movies/studios/columbia_1981-d.svg"],
+    "studio": ["studios/columbia_1981-d.svg"],
     "mpaa": "PG",
     "runtime": "105 minutes",
     "director": ["Ivan Reitman"],
@@ -393,10 +351,7 @@
   },
   "1985": {
     "title": "Back to the Future",
-    "studio": [
-      "movies/studios/amblin_1984-d.svg",
-      "movies/studios/universal_1963-d.svg"
-    ],
+    "studio": ["studios/amblin_1984-d.svg", "studios/universal_1963-d.svg"],
     "mpaa": "PG",
     "runtime": "116 minutes",
     "director": ["Robert Zemeckis"],
@@ -406,7 +361,7 @@
   },
   "1986": {
     "title": "Top Gun",
-    "studio": ["movies/studios/paramount_1967-d.svg"],
+    "studio": ["studios/paramount_1967-d.svg"],
     "mpaa": "PG",
     "runtime": "109 minutes",
     "director": ["Tony Scott"],
@@ -416,7 +371,7 @@
   },
   "1987": {
     "title": "Fatal Attraction",
-    "studio": ["movies/studios/paramount_1967-d.svg"],
+    "studio": ["studios/paramount_1967-d.svg"],
     "mpaa": "R",
     "runtime": "119 minutes",
     "director": ["Adrian Lyne"],
@@ -426,7 +381,7 @@
   },
   "1988": {
     "title": "Rain Man",
-    "studio": ["movies/studios/ua_1987-d.svg", "movies/studios/mgm_1986-d.svg"],
+    "studio": ["studios/ua_1987-d.svg", "studios/mgm_1986-d.svg"],
     "mpaa": "R",
     "runtime": "134 minutes",
     "director": ["Barry Levinson"],
@@ -436,7 +391,7 @@
   },
   "1989": {
     "title": "Batman",
-    "studio": ["movies/studios/wb_1985-d.svg"],
+    "studio": ["studios/wb_1985-d.svg"],
     "mpaa": "PG-13",
     "runtime": "126 minutes",
     "director": ["Tim Burton"],
@@ -446,7 +401,7 @@
   },
   "1990": {
     "title": "Ghost",
-    "studio": ["movies/studios/paramount_1967-e.svg"],
+    "studio": ["studios/paramount_1967-e.svg"],
     "mpaa": "PG-13",
     "runtime": "127 minutes",
     "director": ["Jerry Zucker"],
@@ -457,10 +412,10 @@
   "1991": {
     "title": "Terminator 2: Judgement Day",
     "studio": [
-      "movies/studios/carolco_1976-e.svg",
-      "movies/studios/lightstorm_1990-e.svg",
-      "movies/studios/studio-canal_1992-e.svg",
-      "movies/studios/tristar_1991-e.svg"
+      "studios/carolco_1976-e.svg",
+      "studios/lightstorm_1990-e.svg",
+      "studios/studio-canal_1992-e.svg",
+      "studios/tristar_1991-e.svg"
     ],
     "mpaa": "R",
     "runtime": "137 minutes",
@@ -472,8 +427,8 @@
   "1992": {
     "title": "Aladdin",
     "studio": [
-      "movies/studios/disney-animation_1986-e.svg",
-      "movies/studios/buena-vista_1987-e.svg"
+      "studios/disney-animation_1986-e.svg",
+      "studios/buena-vista_1987-e.svg"
     ],
     "mpaa": "G",
     "runtime": "90 minutes",
@@ -484,10 +439,7 @@
   },
   "1993": {
     "title": "Jurassic Park",
-    "studio": [
-      "movies/studios/amblin_1984-e.svg",
-      "movies/studios/universal_1990-e.svg"
-    ],
+    "studio": ["studios/amblin_1984-e.svg", "studios/universal_1990-e.svg"],
     "mpaa": "PG-13",
     "runtime": "127 minutes",
     "director": ["Steven Spielberg"],
@@ -497,7 +449,7 @@
   },
   "1994": {
     "title": "Forrest Gump",
-    "studio": ["movies/studios/paramount_1967-e.svg"],
+    "studio": ["studios/paramount_1967-e.svg"],
     "mpaa": "PG-13",
     "runtime": "142 minutes",
     "director": ["Robert Zemeckis"],
@@ -507,10 +459,7 @@
   },
   "1995": {
     "title": "Toy Story",
-    "studio": [
-      "movies/studios/pixar_1994-e.svg",
-      "movies/studios/buena-vista_1987-e.svg"
-    ],
+    "studio": ["studios/pixar_1994-e.svg", "studios/buena-vista_1987-e.svg"],
     "mpaa": "G",
     "runtime": "81 minutes",
     "director": ["John Lasseter"],
@@ -520,10 +469,7 @@
   },
   "1996": {
     "title": "Independence Day",
-    "studio": [
-      "movies/studios/centropolis_1998-e.svg",
-      "movies/studios/fox_1986-e.svg"
-    ],
+    "studio": ["studios/centropolis_1998-e.svg", "studios/fox_1986-e.svg"],
     "mpaa": "PG-13",
     "runtime": "145 minutes",
     "director": ["Roland Emmerich"],
@@ -534,9 +480,9 @@
   "1997": {
     "title": "Titanic",
     "studio": [
-      "movies/studios/paramount_1967-e.svg",
-      "movies/studios/fox_1986-e.svg",
-      "movies/studios/lightstorm_1994-e.svg"
+      "studios/paramount_1967-e.svg",
+      "studios/fox_1986-e.svg",
+      "studios/lightstorm_1994-e.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "195 minutes",
@@ -548,9 +494,9 @@
   "1998": {
     "title": "Saving Private Ryan",
     "studio": [
-      "movies/studios/amblin_1984-e.svg",
-      "movies/studios/dreamworks_1994-e.svg",
-      "movies/studios/paramount_1967-e.svg"
+      "studios/amblin_1984-e.svg",
+      "studios/dreamworks_1994-e.svg",
+      "studios/paramount_1967-e.svg"
     ],
     "mpaa": "R",
     "runtime": "170 minutes",
@@ -561,10 +507,7 @@
   },
   "1999": {
     "title": "Star Wars: Episode I - The Phantom Menace",
-    "studio": [
-      "movies/studios/lucasfilm_1971-e.svg",
-      "movies/studios/fox_1986-e.svg"
-    ],
+    "studio": ["studios/lucasfilm_1971-e.svg", "studios/fox_1986-e.svg"],
     "mpaa": "PG",
     "runtime": "134 minutes",
     "director": ["George Lucas"],
@@ -575,8 +518,8 @@
   "2000": {
     "title": "Mission: Impossible 2",
     "studio": [
-      "movies/studios/cruise-wagner_1992-f.svg",
-      "movies/studios/paramount_1967-f.svg"
+      "studios/cruise-wagner_1992-f.svg",
+      "studios/paramount_1967-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "124 minutes",
@@ -587,10 +530,7 @@
   },
   "2001": {
     "title": "Harry Potter and the Sorcerer's Stone",
-    "studio": [
-      "movies/studios/wb_1993-f.svg",
-      "movies/studios/1492_1995-f.svg"
-    ],
+    "studio": ["studios/wb_1993-f.svg", "studios/1492_1995-f.svg"],
     "mpaa": "PG",
     "runtime": "152 minutes",
     "director": ["Chris Columbus"],
@@ -600,10 +540,7 @@
   },
   "2002": {
     "title": "The Lord of the Rings: The Two Towers",
-    "studio": [
-      "movies/studios/wingnut_1989-f.svg",
-      "movies/studios/new-line_2001-f.svg"
-    ],
+    "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
     "mpaa": "PG-13",
     "runtime": "179 minutes",
     "director": ["Peter Jackson"],
@@ -613,10 +550,7 @@
   },
   "2003": {
     "title": "The Lord of the Rings: The Return of the King",
-    "studio": [
-      "movies/studios/wingnut_1989-f.svg",
-      "movies/studios/new-line_2001-f.svg"
-    ],
+    "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
     "mpaa": "PG-13",
     "runtime": "201",
     "director": ["Peter Jackson"],
@@ -627,9 +561,9 @@
   "2004": {
     "title": "Shrek 2",
     "studio": [
-      "movies/studios/pdi_2000-f.svg",
-      "movies/studios/dreamworks-animation_2004-f.svg",
-      "movies/studios/dreamworks_1994-f.svg"
+      "studios/pdi_2000-f.svg",
+      "studios/dreamworks-animation_2004-f.svg",
+      "studios/dreamworks_1994-f.svg"
     ],
     "mpaa": "PG",
     "runtime": "92 minutes",
@@ -640,10 +574,7 @@
   },
   "2005": {
     "title": "Harry Potter and the Goblet of Fire",
-    "studio": [
-      "movies/studios/wb_1993-f.svg",
-      "movies/studios/heyday_2005-f.svg"
-    ],
+    "studio": ["studios/wb_1993-f.svg", "studios/heyday_2005-f.svg"],
     "mpaa": "PG-13",
     "runtime": "157 minutes",
     "director": ["Mike Newell"],
@@ -654,10 +585,10 @@
   "2006": {
     "title": "Casino Royale",
     "studio": [
-      "movies/studios/mgm_1986-f.svg",
-      "movies/studios/columbia_1993-f.svg",
-      "movies/studios/eon_1961-f.svg",
-      "movies/studios/sony-releasing_2005-f.svg"
+      "studios/mgm_1986-f.svg",
+      "studios/columbia_1993-f.svg",
+      "studios/eon_1961-f.svg",
+      "studios/sony-releasing_2005-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "144 minutes",
@@ -669,9 +600,9 @@
   "2007": {
     "title": "Spider-Man 3",
     "studio": [
-      "movies/studios/columbia_1993-f.svg",
-      "movies/studios/marvel_2002-f.svg",
-      "movies/studios/sony-releasing_2005-f.svg"
+      "studios/columbia_1993-f.svg",
+      "studios/marvel_2002-f.svg",
+      "studios/sony-releasing_2005-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "139 minutes",
@@ -683,9 +614,9 @@
   "2008": {
     "title": "The Dark Knight",
     "studio": [
-      "movies/studios/wb_1993-f.svg",
-      "movies/studios/legendary_2006-f.svg",
-      "movies/studios/syncopy_2008-f.svg"
+      "studios/wb_1993-f.svg",
+      "studios/legendary_2006-f.svg",
+      "studios/syncopy_2008-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "152 minutes",
@@ -697,10 +628,10 @@
   "2009": {
     "title": "Avatar",
     "studio": [
-      "movies/studios/fox_1986-f.svg",
-      "movies/studios/dune_2006-f.svg",
-      "movies/studios/ingenious_1998-f.svg",
-      "movies/studios/lightstorm_1994-f.svg"
+      "studios/fox_1986-f.svg",
+      "studios/dune_2006-f.svg",
+      "studios/ingenious_1998-f.svg",
+      "studios/lightstorm_1994-f.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "162 minutes",
@@ -712,9 +643,9 @@
   "2010": {
     "title": "Inception",
     "studio": [
-      "movies/studios/wb_1993-g.svg",
-      "movies/studios/legendary_2006-g.svg",
-      "movies/studios/syncopy_2008-g.svg"
+      "studios/wb_1993-g.svg",
+      "studios/legendary_2006-g.svg",
+      "studios/syncopy_2008-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "148 minutes",
@@ -725,10 +656,7 @@
   },
   "2011": {
     "title": "Harry Potter and the Deathly Hallows - Part 2",
-    "studio": [
-      "movies/studios/wb_1993-g.svg",
-      "movies/studios/heyday_2008-g.svg"
-    ],
+    "studio": ["studios/wb_1993-g.svg", "studios/heyday_2008-g.svg"],
     "mpaa": "PG-13",
     "runtime": "130 minutes",
     "director": ["David Yates"],
@@ -738,10 +666,7 @@
   },
   "2012": {
     "title": "The Avengers",
-    "studio": [
-      "movies/studios/marvel_2002-g.svg",
-      "movies/studios/disney_2007-g.svg"
-    ],
+    "studio": ["studios/marvel_2002-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "PG-13",
     "runtime": "143 minutes",
     "director": ["Joss Whedon"],
@@ -752,8 +677,8 @@
   "2013": {
     "title": "Frozen",
     "studio": [
-      "movies/studios/disney-animation_2007-g.svg",
-      "movies/studios/disney_2007-g.svg"
+      "studios/disney-animation_2007-g.svg",
+      "studios/disney_2007-g.svg"
     ],
     "mpaa": "PG",
     "runtime": "102 minutes",
@@ -764,10 +689,7 @@
   },
   "2014": {
     "title": "Guardians of the Galaxy",
-    "studio": [
-      "movies/studios/marvel_2013-g.svg",
-      "movies/studios/disney_2007-g.svg"
-    ],
+    "studio": ["studios/marvel_2013-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "PG-13",
     "runtime": "122 minutes",
     "director": ["James Gunn"],
@@ -778,9 +700,9 @@
   "2015": {
     "title": "Star Wars: The Force Awakens",
     "studio": [
-      "movies/studios/lucasfilm_2015-g.svg",
-      "movies/studios/bad-robot_2008-g.svg",
-      "movies/studios/disney_2007-g.svg"
+      "studios/lucasfilm_2015-g.svg",
+      "studios/bad-robot_2008-g.svg",
+      "studios/disney_2007-g.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "138 minutes",
@@ -791,10 +713,7 @@
   },
   "2016": {
     "title": "Rogue One: A Star Wars Story",
-    "studio": [
-      "movies/studios/lucasfilm_2015-g.svg",
-      "movies/studios/disney_2007-g.svg"
-    ],
+    "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "PG-13",
     "runtime": "134 minutes",
     "director": ["Gareth Edwards"],
@@ -804,10 +723,7 @@
   },
   "2017": {
     "title": "Star Wars: The Last Jedi",
-    "studio": [
-      "movies/studios/lucasfilm_2015-g.svg",
-      "movies/studios/disney_2007-g.svg"
-    ],
+    "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "PG-13",
     "runtime": "152 minutes",
     "director": ["Rian Johnson"],
@@ -817,10 +733,7 @@
   },
   "2018": {
     "title": "Incredibles 2",
-    "studio": [
-      "movies/studios/pixar_1994-g.svg",
-      "movies/studios/disney_2007-g.svg"
-    ],
+    "studio": ["studios/pixar_1994-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "PG",
     "runtime": "118 minutes",
     "director": ["Brad Bird"],
@@ -830,10 +743,7 @@
   },
   "2019": {
     "title": "Avengers: Endgame",
-    "studio": [
-      "movies/studios/marvel_2016-g.svg",
-      "movies/studios/disney_2007-g.svg"
-    ],
+    "studio": ["studios/marvel_2016-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "PG-13",
     "runtime": "181 minutes",
     "director": ["Anthony Russo", "Joe Russo"],
@@ -844,10 +754,10 @@
   "2020": {
     "title": "Bad Boys for Life",
     "studio": [
-      "movies/studios/columbia_1993-h.svg",
-      "movies/studios/jerry-bruckheimer_2001-h.svg",
-      "movies/studios/overbrook_2003-h.svg",
-      "movies/studios/sony-releasing_2005-h.svg"
+      "studios/columbia_1993-h.svg",
+      "studios/jerry-bruckheimer_2001-h.svg",
+      "studios/overbrook_2003-h.svg",
+      "studios/sony-releasing_2005-h.svg"
     ],
     "mpaa": "R",
     "runtime": "124 minutes",
@@ -859,10 +769,10 @@
   "2021": {
     "title": "Spider-Man: No Way Home",
     "studio": [
-      "movies/studios/columbia_1993-h.svg",
-      "movies/studios/marvel_2016-h.svg",
-      "movies/studios/pascal_2018-h.svg",
-      "movies/studios/sony-releasing_2005-h.svg"
+      "studios/columbia_1993-h.svg",
+      "studios/marvel_2016-h.svg",
+      "studios/pascal_2018-h.svg",
+      "studios/sony-releasing_2005-h.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "148 minutes",
@@ -874,9 +784,9 @@
   "2022": {
     "title": "Avatar: The Way of Water",
     "studio": [
-      "movies/studios/tsg_2012-h.svg",
-      "movies/studios/lightstorm_1994-h.svg",
-      "movies/studios/fox_2020-h.svg"
+      "studios/tsg_2012-h.svg",
+      "studios/lightstorm_1994-h.svg",
+      "studios/fox_2020-h.svg"
     ],
     "mpaa": "PG-13",
     "runtime": "192 minutes",
@@ -888,9 +798,9 @@
   "2023": {
     "title": "The Super Mario Bros. Movie",
     "studio": [
-      "movies/studios/universal_2021-h.svg",
-      "movies/studios/illumination_2017-h.svg",
-      "movies/studios/nintendo_2016-h.svg"
+      "studios/universal_2021-h.svg",
+      "studios/illumination_2017-h.svg",
+      "studios/nintendo_2016-h.svg"
     ],
     "mpaa": "PG",
     "runtime": "92 minutes",
@@ -901,10 +811,7 @@
   },
   "2024": {
     "title": "Inside Out 2",
-    "studio": [
-      "movies/studios/pixar_1994-h.svg",
-      "movies/studios/disney_2019-h.svg"
-    ],
+    "studio": ["studios/pixar_1994-h.svg", "studios/disney_2019-h.svg"],
     "mpaa": "PG",
     "runtime": "96 minutes",
     "director": ["Kelsey Mann"],
