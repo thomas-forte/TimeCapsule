@@ -2,7 +2,7 @@
   "1950": {
     "title": "Cinderella",
     "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "75 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "Greatest since Snow White",
@@ -12,7 +12,7 @@
   "1951": {
     "title": "Quo Vadis",
     "studio": ["studios/mgm_1924-a.svg"],
-    "mpaa": "Approved",
+    "mpaa": "",
     "runtime": "171 minutes",
     "director": ["Mervyn LeRoy"],
     "tagline": "The greatest spectacle ever filmed...three triumphant hours of unforgettable thrills!",
@@ -22,7 +22,7 @@
   "1952": {
     "title": "The Greatest Show on Earth",
     "studio": ["studios/paramount_1917-a.svg"],
-    "mpaa": "Approved",
+    "mpaa": "",
     "runtime": "152 minutes",
     "director": ["Cecil B. DeMille"],
     "tagline": "The heartbeat story of circus people, filmed with the cooperation of Ringling Bros. - Barnum and Bailey Circus!",
@@ -32,7 +32,7 @@
   "1953": {
     "title": "Peter Pan",
     "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "77 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "It will live in your heart forever!",
@@ -42,7 +42,7 @@
   "1954": {
     "title": "White Christmas",
     "studio": ["studios/paramount_1917-a.svg"],
-    "mpaa": "Approved",
+    "mpaa": "",
     "runtime": "120 minutes",
     "director": ["Michael Curtiz"],
     "tagline": "The most fabulous music-and-mirth show in motion picture history!",
@@ -52,7 +52,7 @@
   "1955": {
     "title": "Lady and the Tramp",
     "studio": ["studios/disney_1948-a.svg", "studios/buena-vista_1953-a.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "76 minutes",
     "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "The most delightful characters in a dog's age!",
@@ -62,7 +62,7 @@
   "1956": {
     "title": "The Ten Commandments",
     "studio": ["studios/paramount_1917-a.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "220 minutes",
     "director": ["Cecil B. DeMille"],
     "tagline": "It would take more than a man to lead the slaves from bondage. It would take a God.",
@@ -72,7 +72,7 @@
   "1957": {
     "title": "The Bridge on the River Kwai",
     "studio": ["studios/columbia_1945-a.svg"],
-    "mpaa": "PG",
+    "mpaa": "",
     "runtime": "161 minutes",
     "director": ["David Lean"],
     "tagline": "The towering triumph of adventure from the makers of \"Lawrence of Arabia.\"",
@@ -82,7 +82,7 @@
   "1958": {
     "title": "South Pacific",
     "studio": ["studios/fox_1945-a.svg"],
-    "mpaa": "Approved",
+    "mpaa": "",
     "runtime": "157 minutes",
     "director": ["Joshua Logan"],
     "tagline": "In the thrilling tradition of \"Around The World In 80 Days\"",
@@ -92,7 +92,7 @@
   "1959": {
     "title": "Ben-Hur",
     "studio": ["studios/mgm_1924-a.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "212 minutes",
     "director": ["William Wyler"],
     "tagline": "A tale of the Christ",
@@ -102,7 +102,7 @@
   "1960": {
     "title": "Spartacus",
     "studio": ["studios/universal_1960-b.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "",
     "runtime": "197 minutes",
     "director": ["Stanley Kubrick"],
     "tagline": "It roars with fierce excitement!",
@@ -112,7 +112,7 @@
   "1961": {
     "title": "One Hundred and One Dalmatians",
     "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "79 minutes",
     "director": ["Clyde Geronimi", "Hamilton Luske", "Wolfgang Reitherman"],
     "tagline": "One great big ONEderful motion picture",
@@ -122,7 +122,7 @@
   "1962": {
     "title": "Lawrence of Arabia",
     "studio": ["studios/columbia_1945-b.svg"],
-    "mpaa": "PG",
+    "mpaa": "",
     "runtime": "210 minutes",
     "director": ["David Lean"],
     "tagline": "A mighty motion picture of action and adventure!",
@@ -132,7 +132,7 @@
   "1963": {
     "title": "Cleopatra",
     "studio": ["studios/fox_1945-b.svg"],
-    "mpaa": "Approved",
+    "mpaa": "",
     "runtime": "251 minutes",
     "director": ["Joseph L. Mankiewicz"],
     "tagline": "The motion picture the world has been waiting for!",
@@ -142,7 +142,7 @@
   "1964": {
     "title": "Mary Poppins",
     "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "139 minutes",
     "director": ["Robert Stevenson"],
     "tagline": "It's supercalifragilisticexpialidocious!",
@@ -152,7 +152,7 @@
   "1965": {
     "title": "The Sound of Music",
     "studio": ["studios/fox_1945-b.svg"],
-    "mpaa": "G",
+    "mpaa": "",
     "runtime": "174 minutes",
     "director": ["Robert Wise"],
     "tagline": "The happiest sound in all the world!",
@@ -162,7 +162,7 @@
   "1966": {
     "title": "Hawaii",
     "studio": ["studios/mirisch_1960-b.svg", "studios/ua_1929-b.svg"],
-    "mpaa": "Approved",
+    "mpaa": "",
     "runtime": "161 minutes",
     "director": ["George Roy Hill"],
     "tagline": "James Michener's novel reaches the screen.",
@@ -172,7 +172,7 @@
   "1967": {
     "title": "The Graduate",
     "studio": ["studios/embassy_1961-b.svg", "studios/ua_1967-b.svg"],
-    "mpaa": "PG",
+    "mpaa": "",
     "runtime": "106 minutes",
     "director": ["Mike Nichols"],
     "tagline": "This is Benjamin. He's a little worried about his future.",
@@ -182,7 +182,7 @@
   "1968": {
     "title": "Funny Girl",
     "studio": ["studios/rastar_1975-b.svg", "studios/columbia_1966-b.svg"],
-    "mpaa": "G",
+    "mpaa": "ratings/g-rating_1968-b.svg",
     "runtime": "149 minutes",
     "director": ["William Wyler"],
     "tagline": "People who see FUNNY GIRL are the luckiest people in the world!",
@@ -192,7 +192,7 @@
   "1969": {
     "title": "Butch Cassidy and the Sundance Kid",
     "studio": ["studios/fox_1945-b.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/m-rating_1968-b.svg",
     "runtime": "110 minutes",
     "director": ["George Roy Hill"],
     "tagline": "You never met a pair like Butch and The Kid.",
@@ -202,7 +202,7 @@
   "1970": {
     "title": "Love Story",
     "studio": ["studios/paramount_1967-c.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/gp-rating_1970-c.svg",
     "runtime": "101 minutes",
     "director": ["Arthur Hiller"],
     "tagline": "Love means never having to say you're sorry",
@@ -212,7 +212,7 @@
   "1971": {
     "title": "Fiddler on the Roof",
     "studio": ["studios/mirisch_1960-c.svg", "studios/ua_1968-c.svg"],
-    "mpaa": "G",
+    "mpaa": "ratings/g-rating_1970-c.svg",
     "runtime": "181 minutes",
     "director": ["Norman Jewison"],
     "tagline": "Shout it from the rooftops!",
@@ -222,7 +222,7 @@
   "1972": {
     "title": "The Godfather",
     "studio": ["studios/paramount_1967-c.svg"],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_1972-c.svg",
     "runtime": "175 minutes",
     "director": ["Francis Ford Coppola"],
     "tagline": "An offer you can't refuse.",
@@ -232,7 +232,7 @@
   "1973": {
     "title": "The Exorcist",
     "studio": ["studios/wb_1972-c.svg"],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_1972-c.svg",
     "runtime": "122 minutes",
     "director": ["Willliam Friedkin"],
     "tagline": "Something almost beyond comprehension is happening to a girl on this street, in this house ...and a man has been sent for as a last resort. This man is The Exorcist.",
@@ -242,7 +242,7 @@
   "1974": {
     "title": "The Towering Inferno",
     "studio": ["studios/wb_1972-c.svg", "studios/fox_1972-c.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-c.svg",
     "runtime": "165 minutes",
     "director": ["John Guillermin"],
     "tagline": "One tiny spark becomes a night of blazing suspense.",
@@ -252,7 +252,7 @@
   "1975": {
     "title": "Jaws",
     "studio": ["studios/universal_1963-c.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-c.svg",
     "runtime": "124 minutes",
     "director": ["Steven Spielberg"],
     "tagline": "Amity Island had everything. Clear skies. Gentle surf. Warm water. People flocked there every summer. It was the perfect feeding ground.",
@@ -262,7 +262,7 @@
   "1976": {
     "title": "Rocky",
     "studio": ["studios/ua_1976-c.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-c.svg",
     "runtime": "119 minutes",
     "director": ["John G. Avildsen"],
     "tagline": "His whole life was a million-to-one shot.",
@@ -272,7 +272,7 @@
   "1977": {
     "title": "Star Wars",
     "studio": ["studios/lucasfilm_1971-c.svg", "studios/fox_1972-c.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-c.svg",
     "runtime": "121 minutes",
     "director": ["George Lucas"],
     "tagline": "A long time ago in a galaxy far, far away...",
@@ -282,7 +282,7 @@
   "1978": {
     "title": "Grease",
     "studio": ["studios/paramount_1967-c.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-c.svg",
     "runtime": "110 minutes",
     "director": ["Randal Kleiser"],
     "tagline": "GREASE is the word.",
@@ -292,7 +292,7 @@
   "1979": {
     "title": "Alien",
     "studio": ["studios/fox_1972-c.svg"],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_1972-c.svg",
     "runtime": "116 minutes",
     "director": ["Ridley Scott"],
     "tagline": "In space no one can hear you scream.",
@@ -302,7 +302,7 @@
   "1980": {
     "title": "Star Wars: The Empire Strikes Back",
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1972-d.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-d.svg",
     "runtime": "124 minutes",
     "director": ["Irvin Kershner"],
     "tagline": "The Star Wars saga continues",
@@ -312,7 +312,7 @@
   "1981": {
     "title": "Raiders of the Lost Ark",
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/paramount_1967-d.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-d.svg",
     "runtime": "115 minutes",
     "director": ["Steven Spielberg"],
     "tagline": "Indiana Jones - the new hero from the creators of JAWS and STAR WARS.",
@@ -322,7 +322,7 @@
   "1982": {
     "title": "E.T. the Extra-Terrestrial",
     "studio": ["studios/amblin_1983-d.svg", "studios/universal_1963-d.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-d.svg",
     "runtime": "114 minutes",
     "director": ["Steven Spielberg"],
     "tagline": "He is afraid. He is totally alone. He is 3 million light years from home.",
@@ -332,7 +332,7 @@
   "1983": {
     "title": "Star Wars: Return of the Jedi",
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1982-d.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-d.svg",
     "runtime": "132 minutes",
     "director": ["Richard Marquand"],
     "tagline": "The Empire Falls....",
@@ -342,7 +342,7 @@
   "1984": {
     "title": "Ghostbusters",
     "studio": ["studios/columbia_1981-d.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-d.svg",
     "runtime": "105 minutes",
     "director": ["Ivan Reitman"],
     "tagline": "They're here to save the world.",
@@ -352,7 +352,7 @@
   "1985": {
     "title": "Back to the Future",
     "studio": ["studios/amblin_1984-d.svg", "studios/universal_1963-d.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-d.svg",
     "runtime": "116 minutes",
     "director": ["Robert Zemeckis"],
     "tagline": "He was never in time for his classes... He wasn't in time for his dinner... Then one day... he wasn't in his time at all.",
@@ -362,7 +362,7 @@
   "1986": {
     "title": "Top Gun",
     "studio": ["studios/paramount_1967-d.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-d.svg",
     "runtime": "109 minutes",
     "director": ["Tony Scott"],
     "tagline": "Up there with the best of the best.",
@@ -372,7 +372,7 @@
   "1987": {
     "title": "Fatal Attraction",
     "studio": ["studios/paramount_1967-d.svg"],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_1972-d.svg",
     "runtime": "119 minutes",
     "director": ["Adrian Lyne"],
     "tagline": "On the other side of drinks, dinner and a one night stand, lies a terrifying love story.",
@@ -382,7 +382,7 @@
   "1988": {
     "title": "Rain Man",
     "studio": ["studios/ua_1987-d.svg", "studios/mgm_1986-d.svg"],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_1972-d.svg",
     "runtime": "134 minutes",
     "director": ["Barry Levinson"],
     "tagline": "A journey through understanding and fellowship.",
@@ -392,7 +392,7 @@
   "1989": {
     "title": "Batman",
     "studio": ["studios/wb_1985-d.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-d.svg",
     "runtime": "126 minutes",
     "director": ["Tim Burton"],
     "tagline": "Only one will claim the night.",
@@ -402,7 +402,7 @@
   "1990": {
     "title": "Ghost",
     "studio": ["studios/paramount_1967-e.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-e.svg",
     "runtime": "127 minutes",
     "director": ["Jerry Zucker"],
     "tagline": "A love that will last forever.",
@@ -417,7 +417,7 @@
       "studios/studio-canal_1992-e.svg",
       "studios/tristar_1991-e.svg"
     ],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_1972-e.svg",
     "runtime": "137 minutes",
     "director": ["James Cameron"],
     "tagline": "It's nothing personal.",
@@ -430,7 +430,7 @@
       "studios/disney-animation_1986-e.svg",
       "studios/buena-vista_1987-e.svg"
     ],
-    "mpaa": "G",
+    "mpaa": "ratings/g-rating_1990-e.svg",
     "runtime": "90 minutes",
     "director": ["John Musker", "Ron Clements"],
     "tagline": "Imagine if you had three wishes, three hopes, three dreams, and they all could come true.",
@@ -440,7 +440,7 @@
   "1993": {
     "title": "Jurassic Park",
     "studio": ["studios/amblin_1984-e.svg", "studios/universal_1990-e.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-e.svg",
     "runtime": "127 minutes",
     "director": ["Steven Spielberg"],
     "tagline": "An adventure 65 million years in the making.",
@@ -450,7 +450,7 @@
   "1994": {
     "title": "Forrest Gump",
     "studio": ["studios/paramount_1967-e.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-e.svg",
     "runtime": "142 minutes",
     "director": ["Robert Zemeckis"],
     "tagline": "The world will never be the same once you've seen it through the eyes of Forrest Gump.",
@@ -460,7 +460,7 @@
   "1995": {
     "title": "Toy Story",
     "studio": ["studios/pixar_1994-e.svg", "studios/buena-vista_1987-e.svg"],
-    "mpaa": "G",
+    "mpaa": "ratings/g-rating_1990-e.svg",
     "runtime": "81 minutes",
     "director": ["John Lasseter"],
     "tagline": "Take off on an adventure beyond the imagination.",
@@ -470,7 +470,7 @@
   "1996": {
     "title": "Independence Day",
     "studio": ["studios/centropolis_1998-e.svg", "studios/fox_1986-e.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-e.svg",
     "runtime": "145 minutes",
     "director": ["Roland Emmerich"],
     "tagline": "The question of whether or not we are alone in the universe has been answered.",
@@ -484,7 +484,7 @@
       "studios/fox_1986-e.svg",
       "studios/lightstorm_1994-e.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-e.svg",
     "runtime": "195 minutes",
     "director": ["James Cameron"],
     "tagline": "Nothing on Earth could come between them.",
@@ -498,7 +498,7 @@
       "studios/dreamworks_1994-e.svg",
       "studios/paramount_1967-e.svg"
     ],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_1972-e.svg",
     "runtime": "170 minutes",
     "director": ["Steven Spielberg"],
     "tagline": "The mission is a man.",
@@ -508,7 +508,7 @@
   "1999": {
     "title": "Star Wars: Episode I - The Phantom Menace",
     "studio": ["studios/lucasfilm_1971-e.svg", "studios/fox_1986-e.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-e.svg",
     "runtime": "134 minutes",
     "director": ["George Lucas"],
     "tagline": "Every saga has a beginning.",
@@ -521,7 +521,7 @@
       "studios/cruise-wagner_1992-f.svg",
       "studios/paramount_1967-f.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "124 minutes",
     "director": ["John Woo"],
     "tagline": "Expect the impossible again",
@@ -531,7 +531,7 @@
   "2001": {
     "title": "Harry Potter and the Sorcerer's Stone",
     "studio": ["studios/wb_1993-f.svg", "studios/1492_1995-f.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-f.svg",
     "runtime": "152 minutes",
     "director": ["Chris Columbus"],
     "tagline": "Let The Magic Begin.",
@@ -541,7 +541,7 @@
   "2002": {
     "title": "The Lord of the Rings: The Two Towers",
     "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "179 minutes",
     "director": ["Peter Jackson"],
     "tagline": "The battle for Middle-Earth begins!",
@@ -551,7 +551,7 @@
   "2003": {
     "title": "The Lord of the Rings: The Return of the King",
     "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "201",
     "director": ["Peter Jackson"],
     "tagline": "The eye of the enemy is moving.",
@@ -565,7 +565,7 @@
       "studios/dreamworks-animation_2004-f.svg",
       "studios/dreamworks_1994-f.svg"
     ],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_1972-f.svg",
     "runtime": "92 minutes",
     "director": ["Andrew Adamson", "Kelly Asbury", "Conrad Vernon"],
     "tagline": "Once upon another time...",
@@ -575,7 +575,7 @@
   "2005": {
     "title": "Harry Potter and the Goblet of Fire",
     "studio": ["studios/wb_1993-f.svg", "studios/heyday_2005-f.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "157 minutes",
     "director": ["Mike Newell"],
     "tagline": "Everything is about to change.",
@@ -590,7 +590,7 @@
       "studios/eon_1961-f.svg",
       "studios/sony-releasing_2005-f.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "144 minutes",
     "director": ["Martin Campbell"],
     "tagline": "The new Bond. Living for Love. Dying for Thrills.",
@@ -604,7 +604,7 @@
       "studios/marvel_2002-f.svg",
       "studios/sony-releasing_2005-f.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "139 minutes",
     "director": ["Sam Raimi"],
     "tagline": "The battle within.",
@@ -618,7 +618,7 @@
       "studios/legendary_2006-f.svg",
       "studios/syncopy_2008-f.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "152 minutes",
     "director": ["Christopher Nolan"],
     "tagline": "Why So Serious?",
@@ -633,7 +633,7 @@
       "studios/ingenious_1998-f.svg",
       "studios/lightstorm_1994-f.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-f.svg",
     "runtime": "162 minutes",
     "director": ["James Cameron"],
     "tagline": "Discover a new world.",
@@ -647,7 +647,7 @@
       "studios/legendary_2006-g.svg",
       "studios/syncopy_2008-g.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-g.svg",
     "runtime": "148 minutes",
     "director": ["Christopher Nolan"],
     "tagline": "Your mind is the scene of the crime.",
@@ -657,7 +657,7 @@
   "2011": {
     "title": "Harry Potter and the Deathly Hallows - Part 2",
     "studio": ["studios/wb_1993-g.svg", "studios/heyday_2008-g.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-g.svg",
     "runtime": "130 minutes",
     "director": ["David Yates"],
     "tagline": "The last enemy is death",
@@ -667,7 +667,7 @@
   "2012": {
     "title": "The Avengers",
     "studio": ["studios/marvel_2002-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_1984-g.svg",
     "runtime": "143 minutes",
     "director": ["Joss Whedon"],
     "tagline": "Avengers assemble!",
@@ -680,7 +680,7 @@
       "studios/disney-animation_2007-g.svg",
       "studios/disney_2007-g.svg"
     ],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_2013-g.svg",
     "runtime": "102 minutes",
     "director": ["Chris Buck", "Jennifer Lee"],
     "tagline": "Some people are worth melting for",
@@ -690,7 +690,7 @@
   "2014": {
     "title": "Guardians of the Galaxy",
     "studio": ["studios/marvel_2013-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_2013-g.svg",
     "runtime": "122 minutes",
     "director": ["James Gunn"],
     "tagline": "All heroes start somewhere.",
@@ -704,7 +704,7 @@
       "studios/bad-robot_2008-g.svg",
       "studios/disney_2007-g.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_2013-g.svg",
     "runtime": "138 minutes",
     "director": ["J. J. Abrams"],
     "tagline": "Every generation has a story.",
@@ -714,7 +714,7 @@
   "2016": {
     "title": "Rogue One: A Star Wars Story",
     "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_2013-g.svg",
     "runtime": "134 minutes",
     "director": ["Gareth Edwards"],
     "tagline": "A rebellion built on hope.",
@@ -724,7 +724,7 @@
   "2017": {
     "title": "Star Wars: The Last Jedi",
     "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_2013-g.svg",
     "runtime": "152 minutes",
     "director": ["Rian Johnson"],
     "tagline": "Let the Past Die",
@@ -734,7 +734,7 @@
   "2018": {
     "title": "Incredibles 2",
     "studio": ["studios/pixar_1994-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_2013-g.svg",
     "runtime": "118 minutes",
     "director": ["Brad Bird"],
     "tagline": "It's been too long, dahlings.",
@@ -744,7 +744,7 @@
   "2019": {
     "title": "Avengers: Endgame",
     "studio": ["studios/marvel_2016-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_2013-g.svg",
     "runtime": "181 minutes",
     "director": ["Anthony Russo", "Joe Russo"],
     "tagline": "Avenge the fallen.",
@@ -759,7 +759,7 @@
       "studios/overbrook_2003-h.svg",
       "studios/sony-releasing_2005-h.svg"
     ],
-    "mpaa": "R",
+    "mpaa": "ratings/r-rating_2013-h.svg",
     "runtime": "124 minutes",
     "director": ["Adil El Arbi", "Bilall Fallah"],
     "tagline": "Ride Together. Die Together.",
@@ -774,7 +774,7 @@
       "studios/pascal_2018-h.svg",
       "studios/sony-releasing_2005-h.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_2013-h.svg",
     "runtime": "148 minutes",
     "director": ["Jon Watts"],
     "tagline": "The Multiverse Unleashed.",
@@ -788,7 +788,7 @@
       "studios/lightstorm_1994-h.svg",
       "studios/fox_2020-h.svg"
     ],
-    "mpaa": "PG-13",
+    "mpaa": "ratings/pg-13-rating_2013-h.svg",
     "runtime": "192 minutes",
     "director": ["James Cameron"],
     "tagline": "Where the ocean becomes your home",
@@ -802,7 +802,7 @@
       "studios/illumination_2017-h.svg",
       "studios/nintendo_2016-h.svg"
     ],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_2013-h.svg",
     "runtime": "92 minutes",
     "director": ["Aaron Horvath", "Michael Jelenic"],
     "tagline": "Let's-a go!",
@@ -812,7 +812,7 @@
   "2024": {
     "title": "Inside Out 2",
     "studio": ["studios/pixar_1994-h.svg", "studios/disney_2019-h.svg"],
-    "mpaa": "PG",
+    "mpaa": "ratings/pg-rating_2013-h.svg",
     "runtime": "96 minutes",
     "director": ["Kelsey Mann"],
     "tagline": "Make room for new emotions.",
