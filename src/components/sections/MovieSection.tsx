@@ -42,13 +42,22 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
           <div className="flex flex-wrap justify-center mt-[2dvh]">
             {movie.studio.map((studioUrl, index) => (
               <img
-                className="max-w-[40%] max-h-[15dvh] m-[3%]"
+                className="max-w-[40%] max-h-[8dvh] m-[3%]"
                 key={movie.title + index}
                 src={config.assetsRoot + studioUrl}
                 alt="movie studio icon"
               />
             ))}
           </div>
+          {movie.mpaa && (
+            <div className="flex flex-wrap justify-center mt-[2dvh]">
+              <img
+                className="max-w-[40%] max-h-[4dvh] m-[3%]"
+                src={config.assetsRoot + movie.mpaa}
+                alt="mpaa rating"
+              />
+            </div>
+          )}
         </Card>
         <Card decade={decade} className="poster">
           <img
