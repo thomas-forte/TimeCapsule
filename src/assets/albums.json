@@ -3,7 +3,7 @@
     "title": "Charlie Parker with Strings",
     "artist": "Charlie Parker",
     "genre": "Jazz",
-    "label": ["record_labels/mercury_45.svg"],
+    "label": ["record_labels/mercury_1945-a.svg"],
     "image": "albums/1950s/1950.jpg"
   },
   "1951": {
@@ -188,182 +188,182 @@
     "title": "Songs in the Key of Life",
     "artist": "Stevie Wonder",
     "genre": "R&B",
-    "label": ["record_labels/tamla_65.svg"],
+    "label": ["record_labels/tamla_1965-c.svg"],
     "image": "albums/1970s/1976.jpg"
   },
   "1977": {
     "title": "Rumors",
     "artist": "Fleetwood Mac",
     "genre": "Pop Rock",
-    "label": ["record_labels/warner_73.svg"],
+    "label": ["record_labels/warner_1973-c.svg"],
     "image": "albums/1970s/1977.jpg"
   },
   "1978": {
     "title": "Saturday Night Fever",
     "artist": "The Bee Gees, Various",
     "genre": "Disco",
-    "label": ["record_labels/rso.svg"],
+    "label": ["record_labels/rso_1973-c.svg"],
     "image": "albums/1970s/1978.jpg"
   },
   "1979": {
     "title": "52nd Street",
     "artist": "Billy Joel",
     "genre": "Rock",
-    "label": ["record_labels/columbia_72.svg"],
+    "label": ["record_labels/columbia_1972-c.svg"],
     "image": "albums/1970s/1979.jpg"
   },
   "1980": {
     "title": "The Wall",
     "artist": "Pink Floyd",
     "genre": "Progressive Rock",
-    "label": ["record_labels/columbia_72.svg"],
+    "label": ["record_labels/columbia_1972-d.svg"],
     "image": "albums/1980s/1980.jpg"
   },
   "1981": {
     "title": "Hi Infidelity",
     "artist": "REO Speedwagon",
     "genre": "Hard Rock",
-    "label": ["record_labels/epic_78.svg"],
+    "label": ["record_labels/epic_1978-d.svg"],
     "image": "albums/1980s/1981.jpg"
   },
   "1982": {
     "title": "Asia",
     "artist": "Asia",
     "genre": "Progressive Rock",
-    "label": ["record_labels/geffen_82.svg"],
+    "label": ["record_labels/geffen_1982-d.svg"],
     "image": "albums/1980s/1982.jpg"
   },
   "1983": {
     "title": "Thriller",
     "artist": "Michael Jackson",
     "genre": "Pop",
-    "label": ["record_labels/epic_78.svg"],
+    "label": ["record_labels/epic_1978-d.svg"],
     "image": "albums/1980s/1983.jpg"
   },
   "1984": {
     "title": "Purple Rain",
     "artist": "Prince and the Revolution",
     "genre": "Pop",
-    "label": ["record_labels/warner_73.svg"],
+    "label": ["record_labels/warner_1973-d.svg"],
     "image": "albums/1980s/1984.jpg"
   },
   "1985": {
     "title": "Born in the U.S.A.",
     "artist": "Bruce Springsteen",
     "genre": "Rock and Roll",
-    "label": ["record_labels/columbia_72.svg"],
+    "label": ["record_labels/columbia_1972-d.svg"],
     "image": "albums/1980s/1985.jpg"
   },
   "1986": {
     "title": "Whitney Houston",
     "artist": "Whitney Houston",
     "genre": "Pop-Soul",
-    "label": ["record_labels/arista_83.svg"],
+    "label": ["record_labels/arista_1983-d.svg"],
     "image": "albums/1980s/1986.jpg"
   },
   "1987": {
     "title": "The Joshua Tree",
     "artist": "U2",
     "genre": "Rock",
-    "label": ["record_labels/island_75.svg"],
+    "label": ["record_labels/island_1975-d.svg"],
     "image": "albums/1980s/1987.jpg"
   },
   "1988": {
     "title": "Faith",
     "artist": "George Michael",
     "genre": "Pop",
-    "label": ["record_labels/columbia_72.svg", "record_labels/epic_78.svg"],
+    "label": ["record_labels/columbia_1972-d.svg", "record_labels/epic_1978-d.svg"],
     "image": "albums/1980s/1988.jpg"
   },
   "1989": {
     "title": "Like a Prayer",
     "artist": "Madonna",
     "genre": "Pop",
-    "label": ["record_labels/sire_71.svg", "record_labels/warner_89.svg"],
+    "label": ["record_labels/sire_1971-d.svg", "record_labels/warner_1989-d.svg"],
     "image": "albums/1980s/1989.jpg"
   },
   "1990": {
     "title": "Please Hammer Don’t Hurt ‘Em",
     "artist": "MC Hammer",
     "genre": "Hip Hop",
-    "label": ["record_labels/capitol_77.svg", "record_labels/emi_72.svg"],
+    "label": ["record_labels/capitol_1977-e.svg", "record_labels/emi_1972-e.svg"],
     "image": "albums/1990s/1990.jpg"
   },
   "1991": {
     "title": "Nevermind",
     "artist": "Nirvana",
     "genre": "Grunge",
-    "label": ["record_labels/dgc_90.svg"],
+    "label": ["record_labels/dgc_1990-e.svg"],
     "image": "albums/1990s/1991.jpg"
   },
   "1992": {
     "title": "Ropin’ the Wind",
     "artist": "Garth Brooks",
     "genre": "Country",
-    "label": ["record_labels/capitol_77.svg"],
+    "label": ["record_labels/capitol_1977-e.svg"],
     "image": "albums/1990s/1992.jpg"
   },
   "1993": {
     "title": "The Bodyguard: Original Soundtrack Album",
     "artist": "Whitney Houston, Various",
     "genre": "Pop",
-    "label": ["record_labels/arista_83.svg"],
+    "label": ["record_labels/arista_1983-e.svg"],
     "image": "albums/1990s/1993.jpg"
   },
   "1994": {
     "title": "Grace",
     "artist": "Jeff Buckley",
     "genre": "Alternative Rock",
-    "label": ["record_labels/columbia_72.svg"],
+    "label": ["record_labels/columbia_1972-e.svg"],
     "image": "albums/1990s/1994.jpg"
   },
   "1995": {
     "title": "Cracked Rear View",
     "artist": "Hootie & the Blowfish",
     "genre": "Alternative Rock",
-    "label": ["record_labels/atlantic_66.svg"],
+    "label": ["record_labels/atlantic_1966-e.svg"],
     "image": "albums/1990s/1995.jpg"
   },
   "1996": {
     "title": "Jagged Little Pill",
     "artist": "Alanis Morissette",
     "genre": "Alternative Rock",
-    "label": ["record_labels/maverick_92.svg", "record_labels/reprise_70.svg"],
+    "label": ["record_labels/maverick_1992-e.svg", "record_labels/reprise_1970-e.svg"],
     "image": "albums/1990s/1996.jpg"
   },
   "1997": {
     "title": "Spice",
     "artist": "The Spice Girls",
     "genre": "Pop",
-    "label": ["record_labels/virgin_78.svg"],
+    "label": ["record_labels/virgin_1978-e.svg"],
     "image": "albums/1990s/1997.jpg"
   },
   "1998": {
     "title": "Titanic: Music from the Motion Picture",
     "artist": "James Horner and Celine Dion",
     "genre": "Soundtrack",
-    "label": ["record_labels/sony-classical_90.svg"],
+    "label": ["record_labels/sony-classical_1990-e.svg"],
     "image": "albums/1990s/1998.jpg"
   },
   "1999": {
     "title": "Millennium",
     "artist": "The Backstreet Boys",
     "genre": "Pop",
-    "label": ["record_labels/jive_91.svg"],
+    "label": ["record_labels/jive_1991-e.svg"],
     "image": "albums/1990s/1999.jpg"
   },
   "2000": {
     "title": "No Strings Attached",
     "artist": "NSYNC",
     "genre": "Pop",
-    "label": ["record_labels/jive_91.svg"],
+    "label": ["record_labels/jive_1991-f.svg"],
     "image": "albums/2000s/2000.jpg"
   },
   "2001": {
     "title": "Hot Shot",
     "artist": "Shaggy",
     "genre": "Reggae Fusion",
-    "label": ["record_labels/mca.svg", "record_labels/geffen_00.svg"],
+    "label": ["record_labels/mca_1997-f.svg", "record_labels/geffen_2000-f.svg"],
     "image": "albums/2000s/2001.jpg"
   },
   "2002": {
@@ -371,10 +371,10 @@
     "artist": "Eminem",
     "genre": "Hip Hop",
     "label": [
-      "record_labels/shady.svg",
-      "record_labels/aftermath.svg",
-      "record_labels/interscope.svg",
-      "record_labels/web.svg"
+      "record_labels/shady_1999-f.svg",
+      "record_labels/aftermath_1996-f.svg",
+      "record_labels/interscope_1990-f.svg",
+      "record_labels/web_1992-f.svg"
     ],
     "image": "albums/2000s/2002.jpg"
   },
@@ -383,10 +383,10 @@
     "artist": "50 Cent",
     "genre": "Gangsta Rap",
     "label": [
-      "record_labels/interscope.svg",
-      "record_labels/shady.svg",
-      "record_labels/aftermath.svg",
-      "record_labels/g-unit.svg"
+      "record_labels/interscope_1990-f.svg",
+      "record_labels/shady_1999-f.svg",
+      "record_labels/aftermath_1996-f.svg",
+      "record_labels/g-unit_2003-f.svg"
     ],
     "image": "albums/2000s/2003.jpg"
   },
@@ -394,7 +394,7 @@
     "title": "Confessions",
     "artist": "Usher",
     "genre": "R&B",
-    "label": ["record_labels/arista_83.svg"],
+    "label": ["record_labels/arista_1983-f.svg"],
     "image": "albums/2000s/2004.jpg"
   },
   "2005": {
@@ -402,8 +402,8 @@
     "artist": "Coldplay",
     "genre": "Alternative Rock",
     "label": [
-      "record_labels/parlophone_93.svg",
-      "record_labels/capitol_77.svg"
+      "record_labels/parlophone_1993-f.svg",
+      "record_labels/capitol_1977-f.svg"
     ],
     "image": "albums/2000s/2005.jpg"
   },
@@ -411,28 +411,28 @@
     "title": "Some Hearts",
     "artist": "Carrie Underwood",
     "genre": "Country",
-    "label": ["record_labels/arista_83.svg", "record_labels/19_02.svg"],
+    "label": ["record_labels/arista_1983-f.svg", "record_labels/19_2002-f.svg"],
     "image": "albums/2000s/2006.jpg"
   },
   "2007": {
     "title": "Daughtry",
     "artist": "Daughtry",
     "genre": "Post-Grunge",
-    "label": ["record_labels/rca_90.svg", "record_labels/19_07.svg"],
+    "label": ["record_labels/rca_1990-f.svg", "record_labels/19_2007-f.svg"],
     "image": "albums/2000s/2007.jpg"
   },
   "2008": {
     "title": "As I Am",
     "artist": "Alicia Keys",
     "genre": "R&B",
-    "label": ["record_labels/j.svg"],
+    "label": ["record_labels/j_2000-f.svg"],
     "image": "albums/2000s/2008.jpg"
   },
   "2009": {
     "title": "Fearless",
     "artist": "Taylor Swift",
     "genre": "Country Pop",
-    "label": ["record_labels/big-machine.svg"],
+    "label": ["record_labels/big-machine_2005-f.svg"],
     "image": "albums/2000s/2009.jpg"
   },
   "2010": {
@@ -440,10 +440,10 @@
     "artist": "Eminem",
     "genre": "Hip Hop",
     "label": [
-      "record_labels/aftermath.svg",
-      "record_labels/shady.svg",
-      "record_labels/interscope.svg",
-      "record_labels/web.svg"
+      "record_labels/aftermath_1996-g.svg",
+      "record_labels/shady_1999-g.svg",
+      "record_labels/interscope_1990-g.svg",
+      "record_labels/web_1992-g.svg"
     ],
     "image": "albums/2010s/2010.jpg"
   },
@@ -451,35 +451,35 @@
     "title": "21",
     "artist": "Adele",
     "genre": "Pop",
-    "label": ["record_labels/xl.svg", "record_labels/columbia_99.svg"],
+    "label": ["record_labels/xl_1989-g.svg", "record_labels/columbia_1999-g.svg"],
     "image": "albums/2010s/2011.jpg"
   },
   "2012": {
     "title": "Night Visions",
     "artist": "Imagine Dragons",
     "genre": "Pop Rock",
-    "label": ["record_labels/interscope.svg", "record_labels/kidinakorner.svg"],
+    "label": ["record_labels/interscope_1990-g.svg", "record_labels/kidinakorner_2011-g.svg"],
     "image": "albums/2010s/2012.jpg"
   },
   "2013": {
     "title": "The 20/20 Experience",
     "artist": "Justin Timberlake",
     "genre": "R&B",
-    "label": ["record_labels/rca_90.svg"],
+    "label": ["record_labels/rca_1990-g.svg"],
     "image": "albums/2010s/2013.jpg"
   },
   "2014": {
     "title": "x",
     "artist": "Ed Sheeran",
     "genre": "Pop",
-    "label": ["record_labels/asylum.svg", "record_labels/atlantic_05.svg"],
+    "label": ["record_labels/asylum_2004-g.svg", "record_labels/atlantic_2005-g.svg"],
     "image": "albums/2010s/2014.jpg"
   },
   "2015": {
     "title": "1989",
     "artist": "Taylor Swift",
     "genre": "Synth-Pop",
-    "label": ["record_labels/big-machine.svg"],
+    "label": ["record_labels/big-machine_2005-g.svg"],
     "image": "albums/2010s/2015.jpg"
   },
   "2016": {
@@ -487,9 +487,9 @@
     "artist": "Drake",
     "genre": "Hip Hop",
     "label": [
-      "record_labels/cash-money.svg",
-      "record_labels/republic.svg",
-      "record_labels/young-money.svg"
+      "record_labels/cash-money_1991-g.svg",
+      "record_labels/republic_2012-g.svg",
+      "record_labels/young-money_2005-g.svg"
     ],
     "image": "albums/2010s/2016.jpg"
   },
@@ -498,9 +498,9 @@
     "artist": "Kendrick Lamar",
     "genre": "Conscious Hip Hop",
     "label": [
-      "record_labels/tde.svg",
-      "record_labels/aftermath.svg",
-      "record_labels/interscope.svg"
+      "record_labels/tde_2015-g.svg",
+      "record_labels/aftermath_1996-g.svg",
+      "record_labels/interscope_1990-g.svg"
     ],
     "image": "albums/2010s/2017.jpg"
   },
@@ -508,35 +508,35 @@
     "title": "Beerbongs & Bentleys",
     "artist": "Post Malone",
     "genre": "Pop Rap",
-    "label": ["record_labels/republic.svg"],
+    "label": ["record_labels/republic_2012-g.svg"],
     "image": "albums/2010s/2018.jpg"
   },
   "2019": {
     "title": "When We All Fall Asleep, Where Do We Go?",
     "artist": "Billie Eilish",
     "genre": "Pop",
-    "label": ["record_labels/interscope.svg"],
+    "label": ["record_labels/interscope_1990-g.svg"],
     "image": "albums/2010s/2019.jpg"
   },
   "2020": {
     "title": "After Hours",
     "artist": "The Weeknd",
     "genre": "R&B",
-    "label": ["record_labels/xo.svg", "record_labels/republic.svg"],
+    "label": ["record_labels/xo_2011-h.svg", "record_labels/republic_2012-h.svg"],
     "image": "albums/2020s/2020.jpg"
   },
   "2021": {
     "title": "Dangerous: The Double Album",
     "artist": "Morgan Wallen",
     "genre": "Country",
-    "label": ["record_labels/big-loud.svg", "record_labels/republic.svg"],
+    "label": ["record_labels/big-loud_2011-h.svg", "record_labels/republic_2012-h.svg"],
     "image": "albums/2020s/2021.jpg"
   },
   "2022": {
     "title": "Renaissance",
     "artist": "Beyoncé",
     "genre": "R&B",
-    "label": ["record_labels/parkwood.svg", "record_labels/columbia_99.svg"],
+    "label": ["record_labels/parkwood_2008-h.svg", "record_labels/columbia_1999-h.svg"],
     "image": "albums/2020s/2022.jpg"
   },
   "2023": {
@@ -544,9 +544,9 @@
     "artist": "Morgan Wallen",
     "genre": "Country Pop",
     "label": [
-      "record_labels/big-loud.svg",
-      "record_labels/republic.svg",
-      "record_labels/mercury_22.svg"
+      "record_labels/big-loud_2011-h.svg",
+      "record_labels/republic_2012-h.svg",
+      "record_labels/mercury_2022-h.svg"
     ],
     "image": "albums/2020s/2023.jpg"
   },
@@ -554,7 +554,7 @@
     "title": "The Tortured Poets Department",
     "artist": "Taylor Swift",
     "genre": "Synth-Pop",
-    "label": ["record_labels/republic.svg"],
+    "label": ["record_labels/republic_2012-h.svg"],
     "image": "albums/2020s/2024.jpg"
   }
 }
