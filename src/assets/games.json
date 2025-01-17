@@ -2,473 +2,543 @@
   "1950": {
     "title": "Candy Land",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1943-a.svg"],
+    "company": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1950.jpg",
     "landscape": true
   },
   "1951": {
     "title": "Clue",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1943-a.svg"],
+    "company": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1951.jpg",
     "landscape": true
   },
   "1952": {
     "title": "Scrabble",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1943-a.svg"],
+    "company": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1952.jpg",
     "landscape": true
   },
   "1953": {
     "title": "Peter Pan",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1943-a.svg"],
+    "company": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1953.jpg",
     "landscape": true
   },
   "1954": {
     "title": "Park and Shop",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1943-a.svg"],
+    "company": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1954.jpg",
     "landscape": true
   },
   "1955": {
     "title": "Careers",
     "creator": "Parker Brothers",
-    "company": ["games/companies/pb_1930-a.svg"],
+    "company": ["game_companies/pb_1930-a.svg"],
     "image": "games/1950s/1955.jpg",
     "landscape": true
   },
   "1956": {
     "title": "Yahtzee",
     "creator": "Lowe Company",
-    "company": ["games/companies/lowe_1956-a.svg"],
+    "company": ["game_companies/lowe_1956-a.svg"],
     "image": "games/1950s/1956.jpg",
     "landscape": true
   },
   "1957": {
     "title": "Monopoly",
     "creator": "Parker Brothers",
-    "company": ["games/companies/pb_1957-a.svg"],
+    "company": ["game_companies/pb_1957-a.svg"],
     "image": "games/1950s/1957.jpg",
     "landscape": true
   },
   "1958": {
     "title": "Sorry!",
     "creator": "Parker Brothers",
-    "company": ["games/companies/pb_1957-a.svg"],
+    "company": ["game_companies/pb_1957-a.svg"],
     "image": "games/1950s/1958.jpg",
     "landscape": true
   },
   "1959": {
     "title": "Risk!",
     "creator": "Parker Brothers",
-    "company": ["games/companies/pb_1957-a.svg"],
+    "company": ["game_companies/pb_1957-a.svg"],
     "image": "games/1950s/1959.jpg",
     "landscape": true
   },
   "1960": {
     "title": "The Game of Life",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1943-b.svg"],
+    "company": ["game_companies/mb_1943-b.svg"],
     "image": "games/1960s/1960.jpg",
     "landscape": true
   },
   "1961": {
     "title": "Stratego",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1943-b.svg"],
+    "company": ["game_companies/mb_1943-b.svg"],
     "image": "games/1960s/1961.jpg",
     "landscape": true
   },
   "1962": {
     "title": "Password",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1962-b.svg"],
+    "company": ["game_companies/mb_1962-b.svg"],
     "image": "games/1960s/1962.jpg",
     "landscape": true
   },
   "1963": {
     "title": "Mouse Trap Game",
     "creator": "Ideal Toy Corporation",
-    "company": ["games/companies/ideal_1955-b.svg"],
+    "company": ["game_companies/ideal_1955-b.svg"],
     "image": "games/1960s/1963.jpg",
     "landscape": true
   },
   "1964": {
     "title": "Let's Make a Deal",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-b.svg"],
+    "company": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1964.jpg",
     "landscape": true
   },
   "1965": {
     "title": "Operation",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-b.svg"],
+    "company": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1965.jpg",
     "landscape": true
   },
   "1966": {
     "title": "Twister",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-b.svg"],
+    "company": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1966.jpg",
     "landscape": true
   },
   "1967": {
     "title": "Battleship",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-b.svg"],
+    "company": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1967.jpg",
     "landscape": true
   },
   "1968": {
     "title": "Recall",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-b.svg"],
+    "company": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1968.jpg",
     "landscape": true
   },
   "1969": {
     "title": "Beat the Clock",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-b.svg"],
+    "company": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1969.jpg",
     "landscape": true
   },
   "1970": {
     "title": "Concentration",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-c.svg"],
+    "company": ["game_companies/mb_1963-c.svg"],
     "image": "games/1970s/1970.jpg",
     "landscape": true
   },
   "1971": {
     "title": "Jepordy!",
     "creator": "Milton Bradley",
-    "company": ["games/companies/mb_1963-c.svg"],
+    "company": ["game_companies/mb_1963-c.svg"],
     "image": "games/1970s/1971.jpg",
     "landscape": true
   },
   "1972": {
     "title": "Odyssey: Table Tennis",
     "creator": "Magnavox",
-    "company": ["games/companies/magnavox_1960-c.svg"],
+    "company": ["game_companies/magnavox_1960-c.svg"],
     "image": "games/1970s/1972.svg"
   },
   "1973": {
     "title": "Odyssey: Basketball",
     "creator": "Magnavox",
-    "company": ["games/companies/magnavox_1960-c.svg"],
+    "company": ["game_companies/magnavox_1960-c.svg"],
     "image": "games/1970s/1973.svg"
   },
   "1974": {
     "title": "Odyssey: Inter-Planetary Voyage",
     "creator": "Magnavox",
-    "company": ["games/companies/magnavox_1960-c.svg"],
+    "company": ["game_companies/magnavox_1960-c.svg"],
     "image": "games/1970s/1974.svg"
   },
   "1975": {
     "title": "Pong",
     "creator": "Atari",
-    "company": ["games/companies/atari_1973-c.svg"],
+    "company": ["game_companies/atari_1973-c.svg"],
     "image": "games/1970s/1975.svg"
   },
   "1976": {
     "title": "Videocart-2",
     "creator": "Fairchild",
-    "company": ["games/companies/fairchild_1970-c.svg"],
+    "company": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1976.svg"
   },
   "1977": {
     "title": "Videocart-5",
     "creator": "Fairchild",
-    "company": ["games/companies/fairchild_1970-c.svg"],
+    "company": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1977.svg"
   },
   "1978": {
     "title": "Videocart-16",
     "creator": "Fairchild",
-    "company": ["games/companies/fairchild_1970-c.svg"],
+    "company": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1978.svg"
   },
   "1979": {
     "title": "Videocart-21",
     "creator": "Fairchild",
-    "company": ["games/companies/fairchild_1970-c.svg"],
+    "company": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1979.svg"
   },
   "1980": {
     "title": "Space Invaders",
     "creator": "Taito & Atari",
-    "company": ["games/companies/taito_1967-d.svg", "games/companies/atari_1973-d.svg"],
+    "company": [
+      "game_companies/taito_1967-d.svg",
+      "game_companies/atari_1973-d.svg"
+    ],
     "image": "games/1980s/1980.jpg"
   },
   "1981": {
     "title": "Asteroids",
     "creator": "Atari",
-    "company": ["games/companies/atari_1973-d.svg"],
+    "company": ["game_companies/atari_1973-d.svg"],
     "image": "games/1980s/1981.jpg"
   },
   "1982": {
     "title": "Pac-Man",
     "creator": "Namco & Atari",
-    "company": ["games/companies/namco_1977-d.svg", "games/companies/atari_1973-d.svg"],
+    "company": [
+      "game_companies/namco_1977-d.svg",
+      "game_companies/atari_1973-d.svg"
+    ],
     "image": "games/1980s/1982.jpg"
   },
   "1983": {
     "title": "Ms. Pac-Man",
     "creator": "Midway",
-    "company": ["games/companies/midway_1963-d.svg"],
+    "company": ["game_companies/midway_1963-d.svg"],
     "image": "games/1980s/1983.jpg"
   },
   "1984": {
     "title": "Pitfall II: Lost Caverns",
     "creator": "Activision",
-    "company": ["games/companies/activision_1979-d.svg"],
+    "company": ["game_companies/activision_1979-d.svg"],
     "image": "games/1980s/1984.jpg"
   },
   "1985": {
     "title": "The Oregon Trail",
     "creator": "MECC",
-    "company": ["games/companies/mecc_1983-d.svg"],
+    "company": ["game_companies/mecc_1983-d.svg"],
     "image": "games/1980s/1985.jpg"
   },
   "1986": {
     "title": "Super Mario Bros.",
     "creator": "Nintendo",
-    "company": ["games/companies/nintendo_1984-d.svg"],
+    "company": ["game_companies/nintendo_1984-d.svg"],
     "image": "games/1980s/1986.svg"
   },
   "1987": {
     "title": "The Legend of Zelda",
     "creator": "Nintendo",
-    "company": ["games/companies/nintendo_1984-d.svg"],
+    "company": ["game_companies/nintendo_1984-d.svg"],
     "image": "games/1980s/1987.jpg"
   },
   "1988": {
     "title": "Duck Hunt",
     "creator": "Nintendo",
-    "company": ["games/companies/nintendo_1984-d.svg"],
+    "company": ["game_companies/nintendo_1984-d.svg"],
     "image": "games/1980s/1988.jpg"
   },
   "1989": {
     "title": "Ghouls 'n Ghosts",
     "creator": "Capcom & Sega",
-    "company": ["games/companies/capcom_1989-d.svg", "games/companies/sega_1982-d.svg"],
+    "company": [
+      "game_companies/capcom_1989-d.svg",
+      "game_companies/sega_1982-d.svg"
+    ],
     "image": "games/1980s/1989.jpg"
   },
   "1990": {
     "title": "Strider",
     "creator": "Capcom",
-    "company": ["games/companies/capcom_1989-e.svg"],
+    "company": ["game_companies/capcom_1989-e.svg"],
     "image": "games/1990s/1990.jpg"
   },
   "1991": {
     "title": "Sonic the Hedgehog",
     "creator": "Sonic Team & Sega",
-    "company": ["games/companies/sonic-team_1991-e.svg", "games/companies/sega_1982-e.svg"],
+    "company": [
+      "game_companies/sonic-team_1991-e.svg",
+      "game_companies/sega_1982-e.svg"
+    ],
     "image": "games/1990s/1991.jpg"
   },
   "1992": {
     "title": "Sonic the Hedgehog 2",
     "creator": "Sega Technical Institute & Sega",
-    "company": ["games/companies/sti_1991-e.svg", "games/companies/sega_1982-e.svg"],
+    "company": [
+      "game_companies/sti_1991-e.svg",
+      "game_companies/sega_1982-e.svg"
+    ],
     "image": "games/1990s/1992.jpg"
   },
   "1993": {
     "title": "Mortal Kombat",
     "creator": "Midway",
-    "company": ["games/companies/midway_1988-e.svg"],
+    "company": ["game_companies/midway_1988-e.svg"],
     "image": "games/1990s/1993.jpg"
   },
   "1994": {
     "title": "Donkey Kong Country",
     "creator": "Rareware & Nintendo",
-    "company": ["games/companies/rare_1994-e.svg", "games/companies/nintendo_1984-e.svg"],
+    "company": [
+      "game_companies/rare_1994-e.svg",
+      "game_companies/nintendo_1984-e.svg"
+    ],
     "image": "games/1990s/1994.jpg"
   },
   "1995": {
     "title": "Mortal Kombat 3",
     "creator": "Midway",
-    "company": ["games/companies/midway_1988-e.svg"],
+    "company": ["game_companies/midway_1988-e.svg"],
     "image": "games/1990s/1995.jpg"
   },
   "1996": {
     "title": "Super Mario 64",
     "creator": "Nintendo",
-    "company": ["games/companies/nintendo_1984-e.svg"],
+    "company": ["game_companies/nintendo_1984-e.svg"],
     "image": "games/1990s/1996.jpg"
   },
   "1997": {
     "title": "Mario Kart 64",
     "creator": "Nintendo",
-    "company": ["games/companies/nintendo_1984-e.svg"],
+    "company": ["game_companies/nintendo_1984-e.svg"],
     "image": "games/1990s/1997.jpg"
   },
   "1998": {
     "title": "The Legend of Zelda: Ocarina of Time",
     "creator": "Nintendo",
-    "company": ["games/companies/nintendo_1984-e.svg"],
+    "company": ["game_companies/nintendo_1984-e.svg"],
     "image": "games/1990s/1998.jpg"
   },
   "1999": {
     "title": "Donkey Kong 64",
     "creator": "Rareware & Nintendo",
-    "company": ["games/companies/rare_1994-e.svg", "games/companies/nintendo_1984-e.svg"],
+    "company": [
+      "game_companies/rare_1994-e.svg",
+      "game_companies/nintendo_1984-e.svg"
+    ],
     "image": "games/1990s/1999.jpg"
   },
   "2000": {
     "title": "Tony Hawk's Pro Skater 2",
     "creator": "Neversoft & Activision",
-    "company": ["games/companies/neversoft_1999-f.svg", "games/companies/activision_1979-f.svg"],
+    "company": [
+      "game_companies/neversoft_1999-f.svg",
+      "game_companies/activision_1979-f.svg"
+    ],
     "image": "games/2000s/2000.jpg"
   },
   "2001": {
     "title": "Madden NFL 2002",
     "creator": "EA Sports",
-    "company": ["games/companies/ea-sports_2000-f.svg"],
+    "company": ["game_companies/ea-sports_2000-f.svg"],
     "image": "games/2000s/2001.jpg"
   },
   "2002": {
     "title": "Grand Theft Auto: Vice City",
     "creator": "Rockstar North",
-    "company": ["games/companies/rn_2002-f.svg"],
+    "company": ["game_companies/rn_2002-f.svg"],
     "image": "games/2000s/2002.jpg"
   },
   "2003": {
     "title": "Madden NFL 2004",
     "creator": "EA Sports",
-    "company": ["games/companies/ea-sports_2000-f.svg"],
+    "company": ["game_companies/ea-sports_2000-f.svg"],
     "image": "games/2000s/2003.jpg"
   },
   "2004": {
     "title": "Grand Theft Auto: San Andreas",
     "creator": "Rockstar North",
-    "company": ["games/companies/rn_2002-f.svg"],
+    "company": ["game_companies/rn_2002-f.svg"],
     "image": "games/2000s/2004.jpg"
   },
   "2005": {
     "title": "Star Wars: Battlefront II",
     "creator": "Pandemic Studios & LucasArts",
-    "company": ["games/companies/pandemic_1998-f.svg", "games/companies/lucasarts_2005-f.svg"],
+    "company": [
+      "game_companies/pandemic_1998-f.svg",
+      "game_companies/lucasarts_2005-f.svg"
+    ],
     "image": "games/2000s/2005.jpg"
   },
   "2006": {
     "title": "Gears of War",
     "creator": "Epic Games & Microsoft Game Studios",
-    "company": ["games/companies/epic_2005-f.svg", "games/companies/microsoft_2002-f.svg"],
+    "company": [
+      "game_companies/epic_2005-f.svg",
+      "game_companies/microsoft_2002-f.svg"
+    ],
     "image": "games/2000s/2006.jpg"
   },
   "2007": {
     "title": "Halo 3",
     "creator": "Bungie & Microsoft Game Studios",
-    "company": ["games/companies/bungie_1994-f.svg", "games/companies/microsoft_2002-f.svg"],
+    "company": [
+      "game_companies/bungie_1994-f.svg",
+      "game_companies/microsoft_2002-f.svg"
+    ],
     "image": "games/2000s/2007.jpg"
   },
   "2008": {
     "title": "Grand Theft Auto IV",
     "creator": "Rockstar North",
-    "company": ["games/companies/rn_2002-f.svg"],
+    "company": ["game_companies/rn_2002-f.svg"],
     "image": "games/2000s/2008.jpg"
   },
   "2009": {
     "title": "Call of Duty: Modern Warfare 2",
     "creator": "Infinity Ward & Activision",
-    "company": ["games/companies/iw_2003-f.svg", "games/companies/activision_1979-f.svg"],
+    "company": [
+      "game_companies/iw_2003-f.svg",
+      "game_companies/activision_1979-f.svg"
+    ],
     "image": "games/2000s/2009.jpg"
   },
   "2010": {
     "title": "Mass Effect 2",
     "creator": "BioWare, Electronic Arts, Microsoft Game Studios",
-    "company": ["games/companies/bioware_1998-g.svg", "games/companies/ea_2006-g.svg", "games/companies/microsoft_2002-g.svg"],
+    "company": [
+      "game_companies/bioware_1998-g.svg",
+      "game_companies/ea_2006-g.svg",
+      "game_companies/microsoft_2002-g.svg"
+    ],
     "image": "games/2010s/2010.jpg"
   },
   "2011": {
     "title": "The Elder Scrolls V: Skyrim",
     "creator": "Bethesda Game Studios & Bethesda Softworks",
-    "company": ["games/companies/bgs_2001-g.svg", "games/companies/bethesda_2010-g.svg"],
+    "company": [
+      "game_companies/bgs_2001-g.svg",
+      "game_companies/bethesda_2010-g.svg"
+    ],
     "image": "games/2010s/2011.jpg"
   },
   "2012": {
     "title": "Mass Effect 3",
     "creator": "BioWare & Electronic Arts",
-    "company": ["games/companies/bioware_1998-g.svg", "games/companies/ea_2006-g.svg"],
+    "company": [
+      "game_companies/bioware_1998-g.svg",
+      "game_companies/ea_2006-g.svg"
+    ],
     "image": "games/2010s/2012.jpg"
   },
   "2013": {
     "title": "Grand Theft Auto V",
     "creator": "Rockstar North",
-    "company": ["games/companies/rn_2002-g.svg"],
+    "company": ["game_companies/rn_2002-g.svg"],
     "image": "games/2010s/2013.jpg"
   },
   "2014": {
     "title": "The Last of Us Remastered",
     "creator": "Naughty Dog & Sony Computer Entertainment",
-    "company": ["games/companies/naughty-dog_2013-g.svg", "games/companies/sony_1993-g.svg"],
+    "company": [
+      "game_companies/naughty-dog_2013-g.svg",
+      "game_companies/sony_1993-g.svg"
+    ],
     "image": "games/2010s/2014.jpg"
   },
   "2015": {
     "title": "The Witcher 3: Wild Hunt",
     "creator": "CD Projekt Red",
-    "company": ["games/companies/cdpr_2014-g.svg"],
+    "company": ["game_companies/cdpr_2014-g.svg"],
     "image": "games/2010s/2015.jpg"
   },
   "2016": {
     "title": "Uncharted 4: A Thief's End",
     "creator": "Naughty Dog",
-    "company": ["games/companies/naughty-dog_2013-g.svg", "games/companies/sony_1993-g.svg"],
+    "company": [
+      "game_companies/naughty-dog_2013-g.svg",
+      "game_companies/sony_1993-g.svg"
+    ],
     "image": "games/2010s/2016.jpg"
   },
   "2017": {
     "title": "NBA 2K18",
     "creator": "Visual Concepts & 2K",
-    "company": ["games/companies/visual-concepts_1988-g.svg", "games/companies/2k_2005-g.svg"],
+    "company": [
+      "game_companies/visual-concepts_1988-g.svg",
+      "game_companies/2k_2005-g.svg"
+    ],
     "image": "games/2010s/2017.jpg"
   },
   "2018": {
     "title": "Red Dead Redemption 2",
     "creator": "Rockstar Games",
-    "company": ["games/companies/rockstar_1998-g.svg"],
+    "company": ["game_companies/rockstar_1998-g.svg"],
     "image": "games/2010s/2018.jpg"
   },
   "2019": {
     "title": "Borderlands 3",
     "creator": "Gearbox Software & 2K",
-    "company": ["games/companies/gearbox_2008-g.svg", "games/companies/2k_2005-g.svg"],
+    "company": [
+      "game_companies/gearbox_2008-g.svg",
+      "game_companies/2k_2005-g.svg"
+    ],
     "image": "games/2010s/2019.jpg"
   },
   "2020": {
     "title": "The Last of Us Part II (Remastered)",
     "creator": "Naughty Dog & Sony Interactive Entertainment",
-    "company": ["games/companies/naughty-dog_2013-h.svg", "games/companies/sony_2016-h.svg"],
+    "company": [
+      "game_companies/naughty-dog_2013-h.svg",
+      "game_companies/sony_2016-h.svg"
+    ],
     "image": "games/2020s/2020.jpg"
   },
   "2021": {
     "title": "It Takes Two",
     "creator": "Hazelight Studios & Electronic Arts",
-    "company": ["games/companies/hazelight_2014-h.svg", "games/companies/ea_2006-h.svg"],
+    "company": [
+      "game_companies/hazelight_2014-h.svg",
+      "game_companies/ea_2006-h.svg"
+    ],
     "image": "games/2020s/2021.jpg"
   },
   "2022": {
     "title": "Elden Ring",
     "creator": "FromSoftware & Bandai Namco Entertainment",
-    "company": ["games/companies/fromsoftware_1996-h.svg", "games/companies/bandai_2022-h.svg"],
+    "company": [
+      "game_companies/fromsoftware_1996-h.svg",
+      "game_companies/bandai_2022-h.svg"
+    ],
     "image": "games/2020s/2022.jpg"
   },
   "2023": {
     "title": "Hogwarts Legacy",
     "creator": "Avalanche Software & Warner Bros. Games",
-    "company": ["games/companies/avalanche_2022-h.svg", "games/companies/wb-games_2023-h.svg"],
+    "company": [
+      "game_companies/avalanche_2022-h.svg",
+      "game_companies/wb-games_2023-h.svg"
+    ],
     "image": "games/2020s/2023.jpg"
   },
   "2024": {
     "title": "EA Sports College Football 25",
     "creator": "EA Sports",
-    "company": ["games/companies/ea-sports_2020-h.svg"],
+    "company": ["game_companies/ea-sports_2020-h.svg"],
     "image": "games/2020s/2024.jpg"
   }
 }
