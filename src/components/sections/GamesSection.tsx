@@ -11,6 +11,7 @@ import games from "../../assets/games.json";
 type Game = {
   title: string;
   creator: string;
+  companies: string[];
   image: string;
   landscape?: boolean;
 };
@@ -40,6 +41,18 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
           <div className="top-text">Game of {date.getFullYear()}:</div>
           <div className={`title-text header-font-${decade}`}>{game.title}</div>
           <p className="body-text">By {game.creator}</p>
+          {!game.landscape && (
+            <div className="flex flex-wrap justify-center mt-[2dvh]">
+              {game.companies.map((companyUrl, index) => (
+                <img
+                  className="max-w-[35%] max-h-[10dvh] m-[3%]"
+                  key={game.title + index}
+                  src={config.assetsRoot + companyUrl}
+                  alt="game company icon"
+                />
+              ))}
+            </div>
+          )}
         </Card>
         <Card decade={decade} className="poster">
           <img
