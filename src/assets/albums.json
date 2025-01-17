@@ -108,6 +108,7 @@
     "artist": "Andy Williams",
     "genre": "Pop",
     "labels": ["record_labels/columbia_1962-b.svg"],
+    "certification": "",
     "image": "albums/1960s/1963.jpg"
   },
   "1964": {
