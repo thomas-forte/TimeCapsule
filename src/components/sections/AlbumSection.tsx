@@ -10,7 +10,8 @@ type Album = {
   title: string;
   artist: string;
   genre: string;
-  label: string[];
+  labels: string[];
+  certification: string;
   image: string;
 };
 
@@ -38,7 +39,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
           <p className="subtitle-text">By {album.artist}</p>
           <p className="body-text">Genre: {album.genre}</p>
           <div className="flex flex-wrap justify-center mt-[2dvh]">
-            {album.label.map((labelUrl, index) => (
+            {album.labels.map((labelUrl, index) => (
               <img
                 className="max-w-[40%] max-h-[15dvh] m-[3%]"
                 key={album.title + index}

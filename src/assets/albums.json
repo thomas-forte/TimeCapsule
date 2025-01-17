@@ -3,7 +3,7 @@
     "title": "Charlie Parker with Strings",
     "artist": "Charlie Parker",
     "genre": "Jazz",
-    "label": ["record_labels/mercury_1945-a.svg"],
+    "labels": ["record_labels/mercury_1945-a.svg"],
     "certification": "",
     "image": "albums/1950s/1950.jpg"
   },
@@ -11,7 +11,7 @@
     "title": "Masterpieces by Ellington",
     "artist": "Duke Ellington",
     "genre": "Jazz",
-    "label": ["record_labels/columbia_1938-a.svg"],
+    "labels": ["record_labels/columbia_1938-a.svg"],
     "certification": "",
     "image": "albums/1950s/1951.jpg"
   },
@@ -19,7 +19,7 @@
     "title": "Moanin’ the Blues",
     "artist": "Hank Williams",
     "genre": "Country",
-    "label": ["record_labels/mgm_1952-a.svg"],
+    "labels": ["record_labels/mgm_1952-a.svg"],
     "certification": "",
     "image": "albums/1950s/1952.jpg"
   },
@@ -27,7 +27,7 @@
     "title": "Black Coffee",
     "artist": "Peggy Lee",
     "genre": "Jazz",
-    "label": ["record_labels/decca_1953-a.svg"],
+    "labels": ["record_labels/decca_1953-a.svg"],
     "certification": "",
     "image": "albums/1950s/1953.jpg"
   },
@@ -35,7 +35,7 @@
     "title": "Music for Lovers Only",
     "artist": "Jackie Gleason",
     "genre": "East-Listening",
-    "label": ["record_labels/capitol_1949-a.svg"],
+    "labels": ["record_labels/capitol_1949-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
     "image": "albums/1950s/1954.jpg"
   },
@@ -43,7 +43,7 @@
     "title": "In the Wee Small Hours",
     "artist": "Frank Sinatra",
     "genre": "Vocal Jazz",
-    "label": ["record_labels/capitol_1949-a.svg"],
+    "labels": ["record_labels/capitol_1949-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
     "image": "albums/1950s/1955.jpg"
   },
@@ -51,7 +51,7 @@
     "title": "Elvis Presley",
     "artist": "Elvis Presley",
     "genre": "Rock and Roll",
-    "label": ["record_labels/rca_1929-a.svg"],
+    "labels": ["record_labels/rca_1929-a.svg"],
     "certification": "riaa_certifications/riaa-platinum-a.svg",
     "image": "albums/1950s/1956.jpg"
   },
@@ -59,7 +59,7 @@
     "title": "Calypso",
     "artist": "Harry Belafonte",
     "genre": "Calypso",
-    "label": ["record_labels/rca_1929-a.svg"],
+    "labels": ["record_labels/rca_1929-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
     "image": "albums/1950s/1957.jpg"
   },
@@ -67,7 +67,7 @@
     "title": "Come Fly With Me",
     "artist": "Frank Sinatra",
     "genre": "Vocal Jazz",
-    "label": ["record_labels/capitol_1958-a.svg"],
+    "labels": ["record_labels/capitol_1958-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
     "image": "albums/1950s/1958.jpg"
   },
@@ -75,14 +75,15 @@
     "title": "The Music from Peter Gunn",
     "artist": "Henry Mancini",
     "genre": "Jazz",
-    "label": ["record_labels/rca_1929-a.svg"],
+    "labels": ["record_labels/rca_1929-a.svg"],
+    "certification": "",
     "image": "albums/1950s/1959.jpg"
   },
   "1960": {
     "title": "G.I. Blues",
     "artist": "Elvis Presley",
     "genre": "Rock and Roll",
-    "label": ["record_labels/rca_1929-b.svg"],
+    "labels": ["record_labels/rca_1929-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-b.svg",
     "image": "albums/1960s/1960.jpg"
   },
@@ -90,7 +91,7 @@
     "title": "West Side Story",
     "artist": "Leonard Bernstein, Stephen Sondheim, & The Original Motion Picture Cast",
     "genre": "Film Soundtrack",
-    "label": ["record_labels/columbia-masterworks_1961-b.svg"],
+    "labels": ["record_labels/columbia-masterworks_1961-b.svg"],
     "certification": "riaa_certifications/riaa-gold-b.svg",
     "image": "albums/1960s/1961.jpg"
   },
@@ -98,7 +99,7 @@
     "title": "Modern Sounds in Country and Western Music",
     "artist": "Ray Charles",
     "genre": "Country",
-    "label": ["record_labels/abc-paramount_1955-b.svg"],
+    "labels": ["record_labels/abc-paramount_1955-b.svg"],
     "certification": "riaa_certifications/riaa-gold-b.svg",
     "image": "albums/1960s/1962.jpg"
   },
@@ -106,14 +107,14 @@
     "title": "Days of Wine and Roses and Other TV Requests",
     "artist": "Andy Williams",
     "genre": "Pop",
-    "label": ["record_labels/columbia_1962-b.svg"],
+    "labels": ["record_labels/columbia_1962-b.svg"],
     "image": "albums/1960s/1963.jpg"
   },
   "1964": {
     "title": "A Hard Day’s Night",
     "artist": "The Beatles",
     "genre": "Rock",
-    "label": ["record_labels/united-artists_1960-b.svg"],
+    "labels": ["record_labels/united-artists_1960-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-b.svg",
     "image": "albums/1960s/1964.jpg"
   },
@@ -121,7 +122,7 @@
     "title": "Bringing It All Back Home",
     "artist": "Bob Dylan",
     "genre": "Folk Rock",
-    "label": ["record_labels/columbia_1962-b.svg"],
+    "labels": ["record_labels/columbia_1962-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-b.svg",
     "image": "albums/1960s/1965.jpg"
   },
@@ -129,7 +130,7 @@
     "title": "Pet Sounds",
     "artist": "The Beach Boys",
     "genre": "Pop",
-    "label": ["record_labels/capitol_1958-b.svg"],
+    "labels": ["record_labels/capitol_1958-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-b.svg",
     "image": "albums/1960s/1966.jpg"
   },
@@ -137,7 +138,7 @@
     "title": "Sgt. Pepper’s Lonely Hearts Club Band",
     "artist": "The Beatles",
     "genre": "Pop",
-    "label": [
+    "labels": [
       "record_labels/parlophone_1963-b.svg",
       "record_labels/capitol_1958-b.svg"
     ],
@@ -148,7 +149,7 @@
     "title": "Electric Ladyland",
     "artist": "The Jimi Hendrix Experience",
     "genre": "Psychedelic Rock",
-    "label": ["record_labels/reprise_1967-b.svg"],
+    "labels": ["record_labels/reprise_1967-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-2x-b.svg",
     "image": "albums/1960s/1968.jpg"
   },
@@ -156,7 +157,7 @@
     "title": "Abbey Road",
     "artist": "The Beatles",
     "genre": "Rock",
-    "label": ["record_labels/apple-corps_1967-b.svg"],
+    "labels": ["record_labels/apple-corps_1967-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-12x-b.svg",
     "image": "albums/1960s/1969.jpg"
   },
@@ -164,7 +165,7 @@
     "title": "Bridge Over Troubled Water",
     "artist": "Simon & Garfunkel",
     "genre": "Folk Rock",
-    "label": ["record_labels/columbia_1969-c.svg"],
+    "labels": ["record_labels/columbia_1969-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-8x-c.svg",
     "image": "albums/1970s/1970.jpg"
   },
@@ -172,7 +173,7 @@
     "title": "What’s Going On",
     "artist": "Marvin Gaye",
     "genre": "Soul",
-    "label": ["record_labels/tamla_1965-c.svg"],
+    "labels": ["record_labels/tamla_1965-c.svg"],
     "certification": "riaa_certifications/riaa-gold-c.svg",
     "image": "albums/1970s/1971.jpg"
   },
@@ -180,7 +181,7 @@
     "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
     "artist": "David Bowie",
     "genre": "Glam Rock",
-    "label": ["record_labels/rca_1968-c.svg"],
+    "labels": ["record_labels/rca_1968-c.svg"],
     "certification": "riaa_certifications/riaa-gold-c.svg",
     "image": "albums/1970s/1972.jpg"
   },
@@ -188,7 +189,7 @@
     "title": "The Dark Side of the Moon",
     "artist": "Pink Floyd",
     "genre": "Progressive Rock",
-    "label": [
+    "labels": [
       "record_labels/harvest_1969-c.svg",
       "record_labels/capitol_1969-c.svg"
     ],
@@ -199,7 +200,7 @@
     "title": "Goodbye Yellow Brick Road",
     "artist": "Elton John",
     "genre": "Pop Rock",
-    "label": ["record_labels/djm_1969-c.svg"],
+    "labels": ["record_labels/djm_1969-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-8x-c.svg",
     "image": "albums/1970s/1974.jpg"
   },
@@ -207,7 +208,7 @@
     "title": "Physical Graffiti",
     "artist": "Led Zeppelin",
     "genre": "Hard Rock",
-    "label": ["record_labels/swan-song_1974-c.svg"],
+    "labels": ["record_labels/swan-song_1974-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-16x-c.svg",
     "image": "albums/1970s/1975.jpg"
   },
@@ -215,7 +216,7 @@
     "title": "Songs in the Key of Life",
     "artist": "Stevie Wonder",
     "genre": "R&B",
-    "label": ["record_labels/tamla_1965-c.svg"],
+    "labels": ["record_labels/tamla_1965-c.svg"],
     "certification": "riaa_certifications/riaa-diamond-c.svg",
     "image": "albums/1970s/1976.jpg"
   },
@@ -223,7 +224,7 @@
     "title": "Rumours",
     "artist": "Fleetwood Mac",
     "genre": "Pop Rock",
-    "label": ["record_labels/warner_1973-c.svg"],
+    "labels": ["record_labels/warner_1973-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-21x-c.svg",
     "image": "albums/1970s/1977.jpg"
   },
@@ -231,7 +232,7 @@
     "title": "Saturday Night Fever",
     "artist": "The Bee Gees, Various",
     "genre": "Disco",
-    "label": ["record_labels/rso_1973-c.svg"],
+    "labels": ["record_labels/rso_1973-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-16x-c.svg",
     "image": "albums/1970s/1978.jpg"
   },
@@ -239,7 +240,7 @@
     "title": "52nd Street",
     "artist": "Billy Joel",
     "genre": "Rock",
-    "label": ["record_labels/columbia_1972-c.svg"],
+    "labels": ["record_labels/columbia_1972-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-7x-c.svg",
     "image": "albums/1970s/1979.jpg"
   },
@@ -247,7 +248,7 @@
     "title": "The Wall",
     "artist": "Pink Floyd",
     "genre": "Progressive Rock",
-    "label": ["record_labels/columbia_1972-d.svg"],
+    "labels": ["record_labels/columbia_1972-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-23x-d.svg",
     "image": "albums/1980s/1980.jpg"
   },
@@ -255,7 +256,7 @@
     "title": "Hi Infidelity",
     "artist": "REO Speedwagon",
     "genre": "Hard Rock",
-    "label": ["record_labels/epic_1978-d.svg"],
+    "labels": ["record_labels/epic_1978-d.svg"],
     "certification": "riaa_certifications/riaa-diamond-d.svg",
     "image": "albums/1980s/1981.jpg"
   },
@@ -263,7 +264,7 @@
     "title": "Asia",
     "artist": "Asia",
     "genre": "Progressive Rock",
-    "label": ["record_labels/geffen_1982-d.svg"],
+    "labels": ["record_labels/geffen_1982-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-d.svg",
     "image": "albums/1980s/1982.jpg"
   },
@@ -271,7 +272,7 @@
     "title": "Thriller",
     "artist": "Michael Jackson",
     "genre": "Pop",
-    "label": ["record_labels/epic_1978-d.svg"],
+    "labels": ["record_labels/epic_1978-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-34x-d.svg",
     "image": "albums/1980s/1983.jpg"
   },
@@ -279,7 +280,7 @@
     "title": "Purple Rain",
     "artist": "Prince and the Revolution",
     "genre": "Pop",
-    "label": ["record_labels/warner_1973-d.svg"],
+    "labels": ["record_labels/warner_1973-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-13x-d.svg",
     "image": "albums/1980s/1984.jpg"
   },
@@ -287,7 +288,7 @@
     "title": "Born in the U.S.A.",
     "artist": "Bruce Springsteen",
     "genre": "Rock and Roll",
-    "label": ["record_labels/columbia_1972-d.svg"],
+    "labels": ["record_labels/columbia_1972-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-17x-d.svg",
     "image": "albums/1980s/1985.jpg"
   },
@@ -295,7 +296,7 @@
     "title": "Whitney Houston",
     "artist": "Whitney Houston",
     "genre": "Pop-Soul",
-    "label": ["record_labels/arista_1983-d.svg"],
+    "labels": ["record_labels/arista_1983-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-14x-d.svg",
     "image": "albums/1980s/1986.jpg"
   },
@@ -303,7 +304,7 @@
     "title": "The Joshua Tree",
     "artist": "U2",
     "genre": "Rock",
-    "label": ["record_labels/island_1975-d.svg"],
+    "labels": ["record_labels/island_1975-d.svg"],
     "certification": "riaa_certifications/riaa-diamond-d.svg",
     "image": "albums/1980s/1987.jpg"
   },
@@ -311,7 +312,7 @@
     "title": "Faith",
     "artist": "George Michael",
     "genre": "Pop",
-    "label": [
+    "labels": [
       "record_labels/columbia_1972-d.svg",
       "record_labels/epic_1978-d.svg"
     ],
@@ -322,7 +323,7 @@
     "title": "Like a Prayer",
     "artist": "Madonna",
     "genre": "Pop",
-    "label": [
+    "labels": [
       "record_labels/sire_1971-d.svg",
       "record_labels/warner_1989-d.svg"
     ],
@@ -333,7 +334,7 @@
     "title": "Please Hammer Don’t Hurt ‘Em",
     "artist": "MC Hammer",
     "genre": "Hip Hop",
-    "label": [
+    "labels": [
       "record_labels/capitol_1977-e.svg",
       "record_labels/emi_1972-e.svg"
     ],
@@ -345,7 +346,7 @@
     "title": "Nevermind",
     "artist": "Nirvana",
     "genre": "Grunge",
-    "label": ["record_labels/dgc_1990-e.svg"],
+    "labels": ["record_labels/dgc_1990-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-13x-e.svg",
     "image": "albums/1990s/1991.jpg"
   },
@@ -353,7 +354,7 @@
     "title": "Ropin’ the Wind",
     "artist": "Garth Brooks",
     "genre": "Country",
-    "label": ["record_labels/capitol_1977-e.svg"],
+    "labels": ["record_labels/capitol_1977-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-14x-e.svg",
     "image": "albums/1990s/1992.jpg"
   },
@@ -361,7 +362,7 @@
     "title": "The Bodyguard: Original Soundtrack Album",
     "artist": "Whitney Houston, Various",
     "genre": "Pop",
-    "label": ["record_labels/arista_1983-e.svg"],
+    "labels": ["record_labels/arista_1983-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-18x-e.svg",
     "image": "albums/1990s/1993.jpg"
   },
@@ -369,7 +370,7 @@
     "title": "Grace",
     "artist": "Jeff Buckley",
     "genre": "Alternative Rock",
-    "label": ["record_labels/columbia_1972-e.svg"],
+    "labels": ["record_labels/columbia_1972-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-e.svg",
     "image": "albums/1990s/1994.jpg"
   },
@@ -377,7 +378,7 @@
     "title": "Cracked Rear View",
     "artist": "Hootie & the Blowfish",
     "genre": "Alternative Rock",
-    "label": ["record_labels/atlantic_1966-e.svg"],
+    "labels": ["record_labels/atlantic_1966-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-22x-e.svg",
     "image": "albums/1990s/1995.jpg"
   },
@@ -385,7 +386,7 @@
     "title": "Jagged Little Pill",
     "artist": "Alanis Morissette",
     "genre": "Alternative Rock",
-    "label": [
+    "labels": [
       "record_labels/maverick_1992-e.svg",
       "record_labels/reprise_1970-e.svg"
     ],
@@ -396,7 +397,7 @@
     "title": "Spice",
     "artist": "The Spice Girls",
     "genre": "Pop",
-    "label": ["record_labels/virgin_1978-e.svg"],
+    "labels": ["record_labels/virgin_1978-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-7x-e.svg",
     "image": "albums/1990s/1997.jpg"
   },
@@ -404,7 +405,7 @@
     "title": "Titanic: Music from the Motion Picture",
     "artist": "James Horner and Celine Dion",
     "genre": "Soundtrack",
-    "label": ["record_labels/sony-classical_1990-e.svg"],
+    "labels": ["record_labels/sony-classical_1990-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-11x-e.svg",
     "image": "albums/1990s/1998.jpg"
   },
@@ -412,7 +413,7 @@
     "title": "Millennium",
     "artist": "The Backstreet Boys",
     "genre": "Pop",
-    "label": ["record_labels/jive_1991-e.svg"],
+    "labels": ["record_labels/jive_1991-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-13x-e.svg",
     "image": "albums/1990s/1999.jpg"
   },
@@ -420,7 +421,7 @@
     "title": "No Strings Attached",
     "artist": "NSYNC",
     "genre": "Pop",
-    "label": ["record_labels/jive_1991-f.svg"],
+    "labels": ["record_labels/jive_1991-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-11x-f.svg",
     "image": "albums/2000s/2000.jpg"
   },
@@ -428,7 +429,7 @@
     "title": "Hot Shot",
     "artist": "Shaggy",
     "genre": "Reggae Fusion",
-    "label": [
+    "labels": [
       "record_labels/mca_1997-f.svg",
       "record_labels/geffen_2000-f.svg"
     ],
@@ -439,7 +440,7 @@
     "title": "The Eminem Show",
     "artist": "Eminem",
     "genre": "Hip Hop",
-    "label": [
+    "labels": [
       "record_labels/shady_1999-f.svg",
       "record_labels/aftermath_1996-f.svg",
       "record_labels/interscope_1990-f.svg",
@@ -452,7 +453,7 @@
     "title": "Get Rich Or Die Tryin’",
     "artist": "50 Cent",
     "genre": "Gangsta Rap",
-    "label": [
+    "labels": [
       "record_labels/interscope_1990-f.svg",
       "record_labels/shady_1999-f.svg",
       "record_labels/aftermath_1996-f.svg",
@@ -465,7 +466,7 @@
     "title": "Confessions",
     "artist": "Usher",
     "genre": "R&B",
-    "label": ["record_labels/arista_1983-f.svg"],
+    "labels": ["record_labels/arista_1983-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-14x-f.svg",
     "image": "albums/2000s/2004.jpg"
   },
@@ -473,7 +474,7 @@
     "title": "X&Y",
     "artist": "Coldplay",
     "genre": "Alternative Rock",
-    "label": [
+    "labels": [
       "record_labels/parlophone_1993-f.svg",
       "record_labels/capitol_1977-f.svg"
     ],
@@ -484,7 +485,10 @@
     "title": "Some Hearts",
     "artist": "Carrie Underwood",
     "genre": "Country",
-    "label": ["record_labels/arista_1983-f.svg", "record_labels/19_2002-f.svg"],
+    "labels": [
+      "record_labels/arista_1983-f.svg",
+      "record_labels/19_2002-f.svg"
+    ],
     "certification": "riaa_certifications/riaa-platinum-9x-f.svg",
     "image": "albums/2000s/2006.jpg"
   },
@@ -492,7 +496,7 @@
     "title": "Daughtry",
     "artist": "Daughtry",
     "genre": "Post-Grunge",
-    "label": ["record_labels/rca_1990-f.svg", "record_labels/19_2007-f.svg"],
+    "labels": ["record_labels/rca_1990-f.svg", "record_labels/19_2007-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-6x-f.svg",
     "image": "albums/2000s/2007.jpg"
   },
@@ -500,7 +504,7 @@
     "title": "As I Am",
     "artist": "Alicia Keys",
     "genre": "R&B",
-    "label": ["record_labels/j_2000-f.svg"],
+    "labels": ["record_labels/j_2000-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-f.svg",
     "image": "albums/2000s/2008.jpg"
   },
@@ -508,7 +512,7 @@
     "title": "Fearless",
     "artist": "Taylor Swift",
     "genre": "Country Pop",
-    "label": ["record_labels/big-machine_2005-f.svg"],
+    "labels": ["record_labels/big-machine_2005-f.svg"],
     "certification": "riaa_certifications/riaa-diamond-f.svg",
     "image": "albums/2000s/2009.jpg"
   },
@@ -516,7 +520,7 @@
     "title": "Recovery",
     "artist": "Eminem",
     "genre": "Hip Hop",
-    "label": [
+    "labels": [
       "record_labels/aftermath_1996-g.svg",
       "record_labels/shady_1999-g.svg",
       "record_labels/interscope_1990-g.svg",
@@ -529,7 +533,7 @@
     "title": "21",
     "artist": "Adele",
     "genre": "Pop",
-    "label": [
+    "labels": [
       "record_labels/xl_1989-g.svg",
       "record_labels/columbia_1999-g.svg"
     ],
@@ -540,7 +544,7 @@
     "title": "Night Visions",
     "artist": "Imagine Dragons",
     "genre": "Pop Rock",
-    "label": [
+    "labels": [
       "record_labels/interscope_1990-g.svg",
       "record_labels/kidinakorner_2011-g.svg"
     ],
@@ -551,7 +555,7 @@
     "title": "The 20/20 Experience",
     "artist": "Justin Timberlake",
     "genre": "R&B",
-    "label": ["record_labels/rca_1990-g.svg"],
+    "labels": ["record_labels/rca_1990-g.svg"],
     "certification": "riaa_certifications/riaa-platinum-2x-g.svg",
     "image": "albums/2010s/2013.jpg"
   },
@@ -559,7 +563,7 @@
     "title": "x",
     "artist": "Ed Sheeran",
     "genre": "Pop",
-    "label": [
+    "labels": [
       "record_labels/asylum_2004-g.svg",
       "record_labels/atlantic_2005-g.svg"
     ],
@@ -570,7 +574,7 @@
     "title": "1989",
     "artist": "Taylor Swift",
     "genre": "Synth-Pop",
-    "label": ["record_labels/big-machine_2005-g.svg"],
+    "labels": ["record_labels/big-machine_2005-g.svg"],
     "certification": "riaa_certifications/riaa-platinum-9x-g.svg",
     "image": "albums/2010s/2015.jpg"
   },
@@ -578,7 +582,7 @@
     "title": "Views",
     "artist": "Drake",
     "genre": "Hip Hop",
-    "label": [
+    "labels": [
       "record_labels/cash-money_1991-g.svg",
       "record_labels/republic_2012-g.svg",
       "record_labels/young-money_2005-g.svg"
@@ -590,7 +594,7 @@
     "title": "Damn.",
     "artist": "Kendrick Lamar",
     "genre": "Conscious Hip Hop",
-    "label": [
+    "labels": [
       "record_labels/tde_2015-g.svg",
       "record_labels/aftermath_1996-g.svg",
       "record_labels/interscope_1990-g.svg"
@@ -602,7 +606,7 @@
     "title": "Beerbongs & Bentleys",
     "artist": "Post Malone",
     "genre": "Pop Rap",
-    "label": ["record_labels/republic_2012-g.svg"],
+    "labels": ["record_labels/republic_2012-g.svg"],
     "certification": "riaa_certifications/riaa-platinum-5x-g.svg",
     "image": "albums/2010s/2018.jpg"
   },
@@ -610,7 +614,7 @@
     "title": "When We All Fall Asleep, Where Do We Go?",
     "artist": "Billie Eilish",
     "genre": "Pop",
-    "label": ["record_labels/interscope_1990-g.svg"],
+    "labels": ["record_labels/interscope_1990-g.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-g.svg",
     "image": "albums/2010s/2019.jpg"
   },
@@ -618,7 +622,7 @@
     "title": "After Hours",
     "artist": "The Weeknd",
     "genre": "R&B",
-    "label": [
+    "labels": [
       "record_labels/xo_2011-h.svg",
       "record_labels/republic_2012-h.svg"
     ],
@@ -629,7 +633,7 @@
     "title": "Dangerous: The Double Album",
     "artist": "Morgan Wallen",
     "genre": "Country",
-    "label": [
+    "labels": [
       "record_labels/big-loud_2011-h.svg",
       "record_labels/republic_2012-h.svg"
     ],
@@ -640,7 +644,7 @@
     "title": "Renaissance",
     "artist": "Beyoncé",
     "genre": "R&B",
-    "label": [
+    "labels": [
       "record_labels/parkwood_2008-h.svg",
       "record_labels/columbia_1999-h.svg"
     ],
@@ -651,7 +655,7 @@
     "title": "One Thing at a Time",
     "artist": "Morgan Wallen",
     "genre": "Country Pop",
-    "label": [
+    "labels": [
       "record_labels/big-loud_2011-h.svg",
       "record_labels/republic_2012-h.svg",
       "record_labels/mercury_2022-h.svg"
@@ -663,7 +667,7 @@
     "title": "The Tortured Poets Department",
     "artist": "Taylor Swift",
     "genre": "Synth-Pop",
-    "label": ["record_labels/republic_2012-h.svg"],
+    "labels": ["record_labels/republic_2012-h.svg"],
     "certification": "riaa_certifications/riaa-platinum-6x-h.svg",
     "image": "albums/2020s/2024.jpg"
   }
