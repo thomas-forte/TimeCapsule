@@ -4,7 +4,7 @@
     "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
     "mpaa": "",
     "runtime": "75 minutes",
-    "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
+    "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "Greatest since Snow White",
     "description": "When Cinderella's cruel stepmother prevents her from attending the Royal Ball, she gets some unexpected help from the lovable mice Gus and Jaq and from her Fairy Godmother.",
     "image": "movies/1950s/1950.jpg"
@@ -14,7 +14,7 @@
     "studio": ["studios/mgm_1924-a.svg"],
     "mpaa": "",
     "runtime": "171 minutes",
-    "director": ["Mervyn LeRoy"],
+    "directors": ["Mervyn LeRoy"],
     "tagline": "The greatest spectacle ever filmed...three triumphant hours of unforgettable thrills!",
     "description": "After fierce Roman commander Marcus Vinicius becomes infatuated with beautiful Christian hostage Lygia, he begins to question the tyrannical leadership of the despotic emperor Nero.",
     "image": "movies/1950s/1951.jpg"
@@ -24,7 +24,7 @@
     "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "",
     "runtime": "152 minutes",
-    "director": ["Cecil B. DeMille"],
+    "directors": ["Cecil B. DeMille"],
     "tagline": "The heartbeat story of circus people, filmed with the cooperation of Ringling Bros. - Barnum and Bailey Circus!",
     "description": "The dramatic lives of trapeze artists, a clown, and an elephant trainer are told against a background of circus spectacle.",
     "image": "movies/1950s/1952.jpg"
@@ -34,7 +34,7 @@
     "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
     "mpaa": "",
     "runtime": "77 minutes",
-    "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
+    "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "It will live in your heart forever!",
     "description": "Wendy and her brothers are whisked away to the magical world of Neverland with the hero of their stories, Peter Pan.",
     "image": "movies/1950s/1953.jpg"
@@ -44,7 +44,7 @@
     "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "",
     "runtime": "120 minutes",
-    "director": ["Michael Curtiz"],
+    "directors": ["Michael Curtiz"],
     "tagline": "The most fabulous music-and-mirth show in motion picture history!",
     "description": "A successful song-and-dance team become romantically involved with a sister act and team up to save the failing Vermont inn of their former commanding general.",
     "image": "movies/1950s/1954.jpg"
@@ -54,7 +54,7 @@
     "studio": ["studios/disney_1948-a.svg", "studios/buena-vista_1953-a.svg"],
     "mpaa": "",
     "runtime": "76 minutes",
-    "director": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
+    "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "The most delightful characters in a dog's age!",
     "description": "The romantic tale of a sheltered uptown Cocker Spaniel dog and a streetwise downtown Mutt.",
     "image": "movies/1950s/1955.jpg"
@@ -64,7 +64,7 @@
     "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "",
     "runtime": "220 minutes",
-    "director": ["Cecil B. DeMille"],
+    "directors": ["Cecil B. DeMille"],
     "tagline": "It would take more than a man to lead the slaves from bondage. It would take a God.",
     "description": "Moses, raised as a prince of Egypt in the Pharaoh's household, learns of his true heritage as a Hebrew and his divine mission as the deliverer of his people from slavery.",
     "image": "movies/1950s/1956.jpg"
@@ -74,7 +74,7 @@
     "studio": ["studios/columbia_1945-a.svg"],
     "mpaa": "",
     "runtime": "161 minutes",
-    "director": ["David Lean"],
+    "directors": ["David Lean"],
     "tagline": "The towering triumph of adventure from the makers of \"Lawrence of Arabia.\"",
     "description": "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors in occupied Burma, not knowing that the allied forces are planning a daring commando raid through the jungle to destroy it.",
     "image": "movies/1950s/1957.jpg"
@@ -84,7 +84,7 @@
     "studio": ["studios/fox_1945-a.svg"],
     "mpaa": "",
     "runtime": "157 minutes",
-    "director": ["Joshua Logan"],
+    "directors": ["Joshua Logan"],
     "tagline": "In the thrilling tradition of \"Around The World In 80 Days\"",
     "description": "On a South Pacific island during World War II, love blooms between a young nurse and a secretive Frenchman who's being courted for a dangerous military mission.",
     "image": "movies/1950s/1958.jpg"
@@ -94,7 +94,7 @@
     "studio": ["studios/mgm_1924-a.svg"],
     "mpaa": "",
     "runtime": "212 minutes",
-    "director": ["William Wyler"],
+    "directors": ["William Wyler"],
     "tagline": "A tale of the Christ",
     "description": "A Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, but it's not long before he regains his freedom and comes back for revenge.",
     "image": "movies/1950s/1959.jpg"
@@ -104,7 +104,7 @@
     "studio": ["studios/universal_1960-b.svg"],
     "mpaa": "",
     "runtime": "197 minutes",
-    "director": ["Stanley Kubrick"],
+    "directors": ["Stanley Kubrick"],
     "tagline": "It roars with fierce excitement!",
     "description": "The slave Spartacus survives brutal training as a gladiator and leads a violent revolt against the decadent Roman Republic, as the ambitious Crassus seeks to gain power by crushing the uprising.",
     "image": "movies/1960s/1960.jpg"
@@ -114,7 +114,7 @@
     "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
     "mpaa": "",
     "runtime": "79 minutes",
-    "director": ["Clyde Geronimi", "Hamilton Luske", "Wolfgang Reitherman"],
+    "directors": ["Clyde Geronimi", "Hamilton Luske", "Wolfgang Reitherman"],
     "tagline": "One great big ONEderful motion picture",
     "description": "When a litter of Dalmatian puppies are abducted by the minions of Cruella De Vil, the owners must find them before she uses them for a diabolical fashion statement.",
     "image": "movies/1960s/1961.jpg"
@@ -124,7 +124,7 @@
     "studio": ["studios/columbia_1945-b.svg"],
     "mpaa": "",
     "runtime": "210 minutes",
-    "director": ["David Lean"],
+    "directors": ["David Lean"],
     "tagline": "A mighty motion picture of action and adventure!",
     "description": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",
     "image": "movies/1960s/1962.jpg"
@@ -134,7 +134,7 @@
     "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "",
     "runtime": "251 minutes",
-    "director": ["Joseph L. Mankiewicz"],
+    "directors": ["Joseph L. Mankiewicz"],
     "tagline": "The motion picture the world has been waiting for!",
     "description": "Queen Cleopatra VII of Egypt experiences both triumph and tragedy as she attempts to resist the imperial ambitions of Rome.",
     "image": "movies/1960s/1963.jpg"
@@ -144,7 +144,7 @@
     "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
     "mpaa": "",
     "runtime": "139 minutes",
-    "director": ["Robert Stevenson"],
+    "directors": ["Robert Stevenson"],
     "tagline": "It's supercalifragilisticexpialidocious!",
     "description": "In turn of the century London, a magical nanny employs music and adventure to help two neglected children become closer to their father.",
     "image": "movies/1960s/1964.jpg"
@@ -154,7 +154,7 @@
     "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "",
     "runtime": "174 minutes",
-    "director": ["Robert Wise"],
+    "directors": ["Robert Wise"],
     "tagline": "The happiest sound in all the world!",
     "description": "A young novice is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.",
     "image": "movies/1960s/1965.jpg"
@@ -164,7 +164,7 @@
     "studio": ["studios/mirisch_1960-b.svg", "studios/ua_1929-b.svg"],
     "mpaa": "",
     "runtime": "161 minutes",
-    "director": ["George Roy Hill"],
+    "directors": ["George Roy Hill"],
     "tagline": "James Michener's novel reaches the screen.",
     "description": "An American missionary and his wife travel to the exotic island kingdom of Hawaii, intent on converting the natives. But the clash between the two cultures is too great and instead of understanding there comes tragedy.",
     "image": "movies/1960s/1966.jpg"
@@ -174,7 +174,7 @@
     "studio": ["studios/embassy_1961-b.svg", "studios/ua_1967-b.svg"],
     "mpaa": "",
     "runtime": "106 minutes",
-    "director": ["Mike Nichols"],
+    "directors": ["Mike Nichols"],
     "tagline": "This is Benjamin. He's a little worried about his future.",
     "description": "A disillusioned college graduate finds himself torn between his older lover and her daughter.",
     "image": "movies/1960s/1967.jpg"
@@ -184,7 +184,7 @@
     "studio": ["studios/rastar_1975-b.svg", "studios/columbia_1966-b.svg"],
     "mpaa": "mpaa_ratings/g-rating_1968-b.svg",
     "runtime": "149 minutes",
-    "director": ["William Wyler"],
+    "directors": ["William Wyler"],
     "tagline": "People who see FUNNY GIRL are the luckiest people in the world!",
     "description": "The life of Fanny Brice, famed comedienne and entertainer of the early 1900s. We see her rise to fame as a Ziegfeld girl, subsequent career, and her personal life, particularly her relationship with Nick Arnstein.",
     "image": "movies/1960s/1968.jpg"
@@ -194,7 +194,7 @@
     "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "mpaa_ratings/m-rating_1968-b.svg",
     "runtime": "110 minutes",
-    "director": ["George Roy Hill"],
+    "directors": ["George Roy Hill"],
     "tagline": "You never met a pair like Butch and The Kid.",
     "description": "In 1890s Wyoming, Butch Cassidy and The Sundance Kid lead a band of outlaws. When a train robbery goes wrong, they find themselves on the run with a posse hard on their heels...",
     "image": "movies/1960s/1969.jpg"
@@ -204,7 +204,7 @@
     "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "mpaa_ratings/gp-rating_1970-c.svg",
     "runtime": "101 minutes",
-    "director": ["Arthur Hiller"],
+    "directors": ["Arthur Hiller"],
     "tagline": "Love means never having to say you're sorry",
     "description": "A boy and a girl from different backgrounds fall in love regardless of their upbringing - and then tragedy strikes.",
     "image": "movies/1970s/1970.jpg"
@@ -214,7 +214,7 @@
     "studio": ["studios/mirisch_1960-c.svg", "studios/ua_1968-c.svg"],
     "mpaa": "mpaa_ratings/g-rating_1970-c.svg",
     "runtime": "181 minutes",
-    "director": ["Norman Jewison"],
+    "directors": ["Norman Jewison"],
     "tagline": "Shout it from the rooftops!",
     "description": "In pre-revolutionary Russia, a Jewish peasant with traditional values contends with marrying off three of his daughters with modern romantic ideals while growing anti-Semitic sentiment threatens his village.",
     "image": "movies/1970s/1971.jpg"
@@ -224,7 +224,7 @@
     "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-c.svg",
     "runtime": "175 minutes",
-    "director": ["Francis Ford Coppola"],
+    "directors": ["Francis Ford Coppola"],
     "tagline": "An offer you can't refuse.",
     "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
     "image": "movies/1970s/1972.jpg"
@@ -234,7 +234,7 @@
     "studio": ["studios/wb_1972-c.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-c.svg",
     "runtime": "122 minutes",
-    "director": ["Willliam Friedkin"],
+    "directors": ["Willliam Friedkin"],
     "tagline": "Something almost beyond comprehension is happening to a girl on this street, in this house ...and a man has been sent for as a last resort. This man is The Exorcist.",
     "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
     "image": "movies/1970s/1973.jpg"
@@ -244,7 +244,7 @@
     "studio": ["studios/wb_1972-c.svg", "studios/fox_1972-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
     "runtime": "165 minutes",
-    "director": ["John Guillermin"],
+    "directors": ["John Guillermin"],
     "tagline": "One tiny spark becomes a night of blazing suspense.",
     "description": "At the opening party of a colossal, but poorly constructed, office building, a massive fire breaks out that threatens to destroy the tower and everyone in it.",
     "image": "movies/1970s/1974.jpg"
@@ -254,7 +254,7 @@
     "studio": ["studios/universal_1963-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
     "runtime": "124 minutes",
-    "director": ["Steven Spielberg"],
+    "directors": ["Steven Spielberg"],
     "tagline": "Amity Island had everything. Clear skies. Gentle surf. Warm water. People flocked there every summer. It was the perfect feeding ground.",
     "description": "When a massive killer shark unleashes chaos on a beach community in New England, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
     "image": "movies/1970s/1975.jpg"
@@ -264,7 +264,7 @@
     "studio": ["studios/ua_1976-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
     "runtime": "119 minutes",
-    "director": ["John G. Avildsen"],
+    "directors": ["John G. Avildsen"],
     "tagline": "His whole life was a million-to-one shot.",
     "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
     "image": "movies/1970s/1976.jpg"
@@ -274,7 +274,7 @@
     "studio": ["studios/lucasfilm_1971-c.svg", "studios/fox_1972-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
     "runtime": "121 minutes",
-    "director": ["George Lucas"],
+    "directors": ["George Lucas"],
     "tagline": "A long time ago in a galaxy far, far away...",
     "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
     "image": "movies/1970s/1977.jpg"
@@ -284,7 +284,7 @@
     "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
     "runtime": "110 minutes",
-    "director": ["Randal Kleiser"],
+    "directors": ["Randal Kleiser"],
     "tagline": "GREASE is the word.",
     "description": "Good girl Sandy Olsson and greaser Danny Zuko fell in love over the summer. When they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance?",
     "image": "movies/1970s/1978.jpg"
@@ -294,7 +294,7 @@
     "studio": ["studios/fox_1972-c.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-c.svg",
     "runtime": "116 minutes",
-    "director": ["Ridley Scott"],
+    "directors": ["Ridley Scott"],
     "tagline": "In space no one can hear you scream.",
     "description": "After investigating a mysterious transmission of unknown origin, the crew of a commercial spacecraft encounters a deadly lifeform.",
     "image": "movies/1970s/1979.jpg"
@@ -304,7 +304,7 @@
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1972-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
     "runtime": "124 minutes",
-    "director": ["Irvin Kershner"],
+    "directors": ["Irvin Kershner"],
     "tagline": "The Star Wars saga continues",
     "description": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins his Jedi training with Yoda. At the same time, Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
     "image": "movies/1980s/1980.jpg"
@@ -314,7 +314,7 @@
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/paramount_1967-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
     "runtime": "115 minutes",
-    "director": ["Steven Spielberg"],
+    "directors": ["Steven Spielberg"],
     "tagline": "Indiana Jones - the new hero from the creators of JAWS and STAR WARS.",
     "description": "In 1936, archaeologists and adventurers of the U.S. government hired Indiana Jones to find the Ark of the Covenant before the Nazis could obtain its extraordinary powers.",
     "image": "movies/1980s/1981.jpg"
@@ -324,7 +324,7 @@
     "studio": ["studios/amblin_1983-d.svg", "studios/universal_1963-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
     "runtime": "114 minutes",
-    "director": ["Steven Spielberg"],
+    "directors": ["Steven Spielberg"],
     "tagline": "He is afraid. He is totally alone. He is 3 million light years from home.",
     "description": "A troubled child summons the courage to help a friendly alien escape from Earth and return to his home planet.",
     "image": "movies/1980s/1982.jpg"
@@ -334,7 +334,7 @@
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1982-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
     "runtime": "132 minutes",
-    "director": ["Richard Marquand"],
+    "directors": ["Richard Marquand"],
     "tagline": "The Empire Falls....",
     "description": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.",
     "image": "movies/1980s/1983.jpg"
@@ -344,7 +344,7 @@
     "studio": ["studios/columbia_1981-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
     "runtime": "105 minutes",
-    "director": ["Ivan Reitman"],
+    "directors": ["Ivan Reitman"],
     "tagline": "They're here to save the world.",
     "description": "Three parapsychologists forced out of their university funding set up shop as a unique ghost removal service in New York City, attracting frightened yet skeptical customers.",
     "image": "movies/1980s/1984.jpg"
@@ -354,7 +354,7 @@
     "studio": ["studios/amblin_1984-d.svg", "studios/universal_1963-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
     "runtime": "116 minutes",
-    "director": ["Robert Zemeckis"],
+    "directors": ["Robert Zemeckis"],
     "tagline": "He was never in time for his classes... He wasn't in time for his dinner... Then one day... he wasn't in his time at all.",
     "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
     "image": "movies/1980s/1985.jpg"
@@ -364,7 +364,7 @@
     "studio": ["studios/paramount_1967-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
     "runtime": "109 minutes",
-    "director": ["Tony Scott"],
+    "directors": ["Tony Scott"],
     "tagline": "Up there with the best of the best.",
     "description": "The Top Gun Naval Fighter Weapons School is where the best of the best train to refine their elite flying skills. When hotshot fighter pilot Maverick is sent to the school, his reckless attitude and cocky demeanor put him at odds with the other pilots, especially the cool and collected Iceman.",
     "image": "movies/1980s/1986.jpg"
@@ -374,7 +374,7 @@
     "studio": ["studios/paramount_1967-d.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-d.svg",
     "runtime": "119 minutes",
-    "director": ["Adrian Lyne"],
+    "directors": ["Adrian Lyne"],
     "tagline": "On the other side of drinks, dinner and a one night stand, lies a terrifying love story.",
     "description": "A married man's one-night stand comes back to haunt him when that lover begins to stalk him and his family.",
     "image": "movies/1980s/1987.jpg"
@@ -384,7 +384,7 @@
     "studio": ["studios/ua_1987-d.svg", "studios/mgm_1986-d.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-d.svg",
     "runtime": "134 minutes",
-    "director": ["Barry Levinson"],
+    "directors": ["Barry Levinson"],
     "tagline": "A journey through understanding and fellowship.",
     "description": "After a selfish L.A. yuppie learns his estranged father left a fortune to an autistic-savant brother in Ohio that he didn't know existed, he absconds with his brother and sets out across the country, hoping to gain a larger inheritance.",
     "image": "movies/1980s/1988.jpg"
@@ -394,7 +394,7 @@
     "studio": ["studios/wb_1985-d.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-d.svg",
     "runtime": "126 minutes",
-    "director": ["Tim Burton"],
+    "directors": ["Tim Burton"],
     "tagline": "Only one will claim the night.",
     "description": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
     "image": "movies/1980s/1989.jpg"
@@ -404,7 +404,7 @@
     "studio": ["studios/paramount_1967-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
     "runtime": "127 minutes",
-    "director": ["Jerry Zucker"],
+    "directors": ["Jerry Zucker"],
     "tagline": "A love that will last forever.",
     "description": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
     "image": "movies/1990s/1990.jpg"
@@ -419,7 +419,7 @@
     ],
     "mpaa": "mpaa_ratings/r-rating_1972-e.svg",
     "runtime": "137 minutes",
-    "director": ["James Cameron"],
+    "directors": ["James Cameron"],
     "tagline": "It's nothing personal.",
     "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg.",
     "image": "movies/1990s/1991.jpg"
@@ -432,7 +432,7 @@
     ],
     "mpaa": "mpaa_ratings/g-rating_1990-e.svg",
     "runtime": "90 minutes",
-    "director": ["John Musker", "Ron Clements"],
+    "directors": ["John Musker", "Ron Clements"],
     "tagline": "Imagine if you had three wishes, three hopes, three dreams, and they all could come true.",
     "description": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
     "image": "movies/1990s/1992.jpg"
@@ -442,7 +442,7 @@
     "studio": ["studios/amblin_1984-e.svg", "studios/universal_1990-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
     "runtime": "127 minutes",
-    "director": ["Steven Spielberg"],
+    "directors": ["Steven Spielberg"],
     "tagline": "An adventure 65 million years in the making.",
     "description": "An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in danger.",
     "image": "movies/1990s/1993.jpg"
@@ -452,7 +452,7 @@
     "studio": ["studios/paramount_1967-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
     "runtime": "142 minutes",
-    "director": ["Robert Zemeckis"],
+    "directors": ["Robert Zemeckis"],
     "tagline": "The world will never be the same once you've seen it through the eyes of Forrest Gump.",
     "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
     "image": "movies/1990s/1994.jpg"
@@ -462,7 +462,7 @@
     "studio": ["studios/pixar_1994-e.svg", "studios/buena-vista_1987-e.svg"],
     "mpaa": "mpaa_ratings/g-rating_1990-e.svg",
     "runtime": "81 minutes",
-    "director": ["John Lasseter"],
+    "directors": ["John Lasseter"],
     "tagline": "Take off on an adventure beyond the imagination.",
     "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
     "image": "movies/1990s/1995.jpg"
@@ -472,7 +472,7 @@
     "studio": ["studios/centropolis_1998-e.svg", "studios/fox_1986-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
     "runtime": "145 minutes",
-    "director": ["Roland Emmerich"],
+    "directors": ["Roland Emmerich"],
     "tagline": "The question of whether or not we are alone in the universe has been answered.",
     "description": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
     "image": "movies/1990s/1996.jpg"
@@ -486,7 +486,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
     "runtime": "195 minutes",
-    "director": ["James Cameron"],
+    "directors": ["James Cameron"],
     "tagline": "Nothing on Earth could come between them.",
     "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
     "image": "movies/1990s/1997.jpg"
@@ -500,7 +500,7 @@
     ],
     "mpaa": "mpaa_ratings/r-rating_1972-e.svg",
     "runtime": "170 minutes",
-    "director": ["Steven Spielberg"],
+    "directors": ["Steven Spielberg"],
     "tagline": "The mission is a man.",
     "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
     "image": "movies/1990s/1998.jpg"
@@ -510,7 +510,7 @@
     "studio": ["studios/lucasfilm_1971-e.svg", "studios/fox_1986-e.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-e.svg",
     "runtime": "134 minutes",
-    "director": ["George Lucas"],
+    "directors": ["George Lucas"],
     "tagline": "Every saga has a beginning.",
     "description": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
     "image": "movies/1990s/1999.jpg"
@@ -523,7 +523,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "124 minutes",
-    "director": ["John Woo"],
+    "directors": ["John Woo"],
     "tagline": "Expect the impossible again",
     "description": "IMF agent Ethan Hunt is sent to Sydney to find and destroy a genetically modified disease called \"Chimera\".",
     "image": "movies/2000s/2000.jpg"
@@ -533,7 +533,7 @@
     "studio": ["studios/wb_1993-f.svg", "studios/1492_1995-f.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-f.svg",
     "runtime": "152 minutes",
-    "director": ["Chris Columbus"],
+    "directors": ["Chris Columbus"],
     "tagline": "Let The Magic Begin.",
     "description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
     "image": "movies/2000s/2001.jpg"
@@ -543,7 +543,7 @@
     "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "179 minutes",
-    "director": ["Peter Jackson"],
+    "directors": ["Peter Jackson"],
     "tagline": "The battle for Middle-Earth begins!",
     "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
     "image": "movies/2000s/2002.jpg"
@@ -553,7 +553,7 @@
     "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "201",
-    "director": ["Peter Jackson"],
+    "directors": ["Peter Jackson"],
     "tagline": "The eye of the enemy is moving.",
     "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
     "image": "movies/2000s/2003.jpg"
@@ -567,7 +567,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-rating_1972-f.svg",
     "runtime": "92 minutes",
-    "director": ["Andrew Adamson", "Kelly Asbury", "Conrad Vernon"],
+    "directors": ["Andrew Adamson", "Kelly Asbury", "Conrad Vernon"],
     "tagline": "Once upon another time...",
     "description": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
     "image": "movies/2000s/2004.jpg"
@@ -577,7 +577,7 @@
     "studio": ["studios/wb_1993-f.svg", "studios/heyday_2005-f.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "157 minutes",
-    "director": ["Mike Newell"],
+    "directors": ["Mike Newell"],
     "tagline": "Everything is about to change.",
     "description": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
     "image": "movies/2000s/2005.jpg"
@@ -592,7 +592,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "144 minutes",
-    "director": ["Martin Campbell"],
+    "directors": ["Martin Campbell"],
     "tagline": "The new Bond. Living for Love. Dying for Thrills.",
     "description": "After earning a license to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, in Montenegro.",
     "image": "movies/2000s/2006.jpg"
@@ -606,7 +606,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "139 minutes",
-    "director": ["Sam Raimi"],
+    "directors": ["Sam Raimi"],
     "tagline": "The battle within.",
     "description": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
     "image": "movies/2000s/2007.jpg"
@@ -620,7 +620,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "152 minutes",
-    "director": ["Christopher Nolan"],
+    "directors": ["Christopher Nolan"],
     "tagline": "Why So Serious?",
     "description": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
     "image": "movies/2000s/2008.jpg"
@@ -635,7 +635,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
     "runtime": "162 minutes",
-    "director": ["James Cameron"],
+    "directors": ["James Cameron"],
     "tagline": "Discover a new world.",
     "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
     "image": "movies/2000s/2009.jpg"
@@ -649,7 +649,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
     "runtime": "148 minutes",
-    "director": ["Christopher Nolan"],
+    "directors": ["Christopher Nolan"],
     "tagline": "Your mind is the scene of the crime.",
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
     "image": "movies/2010s/2010.jpg"
@@ -659,7 +659,7 @@
     "studio": ["studios/wb_1993-g.svg", "studios/heyday_2008-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
     "runtime": "130 minutes",
-    "director": ["David Yates"],
+    "directors": ["David Yates"],
     "tagline": "The last enemy is death",
     "description": "As the battle between the forces of good and evil in the wizarding world escalates, Harry Potter draws ever closer to his final confrontation with Voldemort.",
     "image": "movies/2010s/2011.jpg"
@@ -669,7 +669,7 @@
     "studio": ["studios/marvel_2002-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
     "runtime": "143 minutes",
-    "director": ["Joss Whedon"],
+    "directors": ["Joss Whedon"],
     "tagline": "Avengers assemble!",
     "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
     "image": "movies/2010s/2012.jpg"
@@ -682,7 +682,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-rating_2013-g.svg",
     "runtime": "102 minutes",
-    "director": ["Chris Buck", "Jennifer Lee"],
+    "directors": ["Chris Buck", "Jennifer Lee"],
     "tagline": "Some people are worth melting for",
     "description": "Fearless optimist Anna teams up with rugged mountain man Kristoff and his loyal reindeer Sven in an epic journey to find Anna's sister Elsa, whose icy powers have trapped the kingdom of Arendelle in eternal winter.",
     "image": "movies/2010s/2013.jpg"
@@ -692,7 +692,7 @@
     "studio": ["studios/marvel_2013-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
     "runtime": "122 minutes",
-    "director": ["James Gunn"],
+    "directors": ["James Gunn"],
     "tagline": "All heroes start somewhere.",
     "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
     "image": "movies/2010s/2014.jpg"
@@ -706,7 +706,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
     "runtime": "138 minutes",
-    "director": ["J. J. Abrams"],
+    "directors": ["J. J. Abrams"],
     "tagline": "Every generation has a story.",
     "description": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
     "image": "movies/2010s/2015.jpg"
@@ -716,7 +716,7 @@
     "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
     "runtime": "134 minutes",
-    "director": ["Gareth Edwards"],
+    "directors": ["Gareth Edwards"],
     "tagline": "A rebellion built on hope.",
     "description": "In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.",
     "image": "movies/2010s/2016.jpg"
@@ -726,7 +726,7 @@
     "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
     "runtime": "152 minutes",
-    "director": ["Rian Johnson"],
+    "directors": ["Rian Johnson"],
     "tagline": "Let the Past Die",
     "description": "Rey develops her abilities with the help of Luke Skywalker as the Resistance prepares for battle against the First Order.",
     "image": "movies/2010s/2017.jpg"
@@ -736,7 +736,7 @@
     "studio": ["studios/pixar_1994-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-rating_2013-g.svg",
     "runtime": "118 minutes",
-    "director": ["Brad Bird"],
+    "directors": ["Brad Bird"],
     "tagline": "It's been too long, dahlings.",
     "description": "The Incredibles family takes on a new mission which involves a change in family roles: Bob Parr (Mr. Incredible) must manage the house while his wife Helen (Elastigirl) goes out to save the world.",
     "image": "movies/2010s/2018.jpg"
@@ -746,7 +746,7 @@
     "studio": ["studios/marvel_2016-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
     "runtime": "181 minutes",
-    "director": ["Anthony Russo", "Joe Russo"],
+    "directors": ["Anthony Russo", "Joe Russo"],
     "tagline": "Avenge the fallen.",
     "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
     "image": "movies/2010s/2019.jpg"
@@ -761,7 +761,7 @@
     ],
     "mpaa": "mpaa_ratings/r-rating_2013-h.svg",
     "runtime": "124 minutes",
-    "director": ["Adil El Arbi", "Bilall Fallah"],
+    "directors": ["Adil El Arbi", "Bilall Fallah"],
     "tagline": "Ride Together. Die Together.",
     "description": "Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.",
     "image": "movies/2020s/2020.jpg"
@@ -776,7 +776,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-h.svg",
     "runtime": "148 minutes",
-    "director": ["Jon Watts"],
+    "directors": ["Jon Watts"],
     "tagline": "The Multiverse Unleashed.",
     "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
     "image": "movies/2020s/2021.jpg"
@@ -790,7 +790,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-h.svg",
     "runtime": "192 minutes",
-    "director": ["James Cameron"],
+    "directors": ["James Cameron"],
     "tagline": "Where the ocean becomes your home",
     "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
     "image": "movies/2020s/2022.jpg"
@@ -804,7 +804,7 @@
     ],
     "mpaa": "mpaa_ratings/pg-rating_2013-h.svg",
     "runtime": "92 minutes",
-    "director": ["Aaron Horvath", "Michael Jelenic"],
+    "directors": ["Aaron Horvath", "Michael Jelenic"],
     "tagline": "Let's-a go!",
     "description": "A plumber named Mario travels through an underground labyrinth with his brother Luigi, trying to save a captured princess.",
     "image": "movies/2020s/2023.jpg"
@@ -814,7 +814,7 @@
     "studio": ["studios/pixar_1994-h.svg", "studios/disney_2019-h.svg"],
     "mpaa": "mpaa_ratings/pg-rating_2013-h.svg",
     "runtime": "96 minutes",
-    "director": ["Kelsey Mann"],
+    "directors": ["Kelsey Mann"],
     "tagline": "Make room for new emotions.",
     "description": "When teenage Riley heads off to hockey camp, the puberty alarm in headquarters goes off and new emotions come in. When it turns out that these new emotions intend on completely changing Riley, Joy and the emotions are determined to stop them.",
     "image": "movies/2020s/2024.jpg"

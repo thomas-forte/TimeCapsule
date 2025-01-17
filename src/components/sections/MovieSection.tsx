@@ -11,7 +11,7 @@ type Movie = {
   studio: string[];
   mpaa: string;
   runtime: string;
-  director: string[];
+  directors: string[];
   tagline: string;
   description: string;
   image: string;
