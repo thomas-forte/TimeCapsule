@@ -277,7 +277,7 @@
     "artist": "Prince and the Revolution",
     "genre": "Pop",
     "label": ["record_labels/warner_1973-d.svg"],
-    "certification": "certifications/riaa-platinum-13x-c.svg",
+    "certification": "certifications/riaa-platinum-13x-d.svg",
     "image": "albums/1980s/1984.jpg"
   },
   "1985": {
@@ -285,7 +285,7 @@
     "artist": "Bruce Springsteen",
     "genre": "Rock and Roll",
     "label": ["record_labels/columbia_1972-d.svg"],
-    "certification": "certifications/riaa-platinum-17x-c.svg",
+    "certification": "certifications/riaa-platinum-17x-d.svg",
     "image": "albums/1980s/1985.jpg"
   },
   "1986": {
