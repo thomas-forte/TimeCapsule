@@ -39,8 +39,8 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
           {movie.awards && (
             <img
               className="max-h-[8dvh] mx-auto mt-2"
-              src={movie.awards}
-              alt=""
+              src={config.assetsRoot + movie.awards}
+              alt="movie awards image"
             />
           )}
           <div className={`title-text header-font-${decade}`}>
