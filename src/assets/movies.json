@@ -1,6 +1,6 @@
 {
   "1950": {
-    "awards": "awards/1950-awards-a.svg",
+    "awards": "movie_awards/1950-awards-a.svg",
     "title": "Cinderella",
     "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
     "mpaa": "",
@@ -11,7 +11,7 @@
     "image": "movies/1950s/1950.jpg"
   },
   "1951": {
-    "awards": "awards/1951-awards-a.svg",
+    "awards": "movie_awards/1951-awards-a.svg",
     "title": "Quo Vadis",
     "studio": ["studios/mgm_1924-a.svg"],
     "mpaa": "",
@@ -22,7 +22,7 @@
     "image": "movies/1950s/1951.jpg"
   },
   "1952": {
-    "awards": "awards/1952-awards-a.svg",
+    "awards": "movie_awards/1952-awards-a.svg",
     "title": "The Greatest Show on Earth",
     "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "",
@@ -44,7 +44,7 @@
     "image": "movies/1950s/1953.jpg"
   },
   "1954": {
-    "awards": "awards/1954-awards-a.svg",
+    "awards": "movie_awards/1954-awards-a.svg",
     "title": "White Christmas",
     "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "",
@@ -66,7 +66,7 @@
     "image": "movies/1950s/1955.jpg"
   },
   "1956": {
-    "awards": "awards/1956-awards-a.svg",
+    "awards": "movie_awards/1956-awards-a.svg",
     "title": "The Ten Commandments",
     "studio": ["studios/paramount_1917-a.svg"],
     "mpaa": "",
@@ -77,7 +77,7 @@
     "image": "movies/1950s/1956.jpg"
   },
   "1957": {
-    "awards": "awards/1957-awards-a.svg",
+    "awards": "movie_awards/1957-awards-a.svg",
     "title": "The Bridge on the River Kwai",
     "studio": ["studios/columbia_1945-a.svg"],
     "mpaa": "",
@@ -99,7 +99,7 @@
     "image": "movies/1950s/1958.jpg"
   },
   "1959": {
-    "awards": "awards/1959-awards-a.svg",
+    "awards": "movie_awards/1959-awards-a.svg",
     "title": "Ben-Hur",
     "studio": ["studios/mgm_1924-a.svg"],
     "mpaa": "",
@@ -110,7 +110,7 @@
     "image": "movies/1950s/1959.jpg"
   },
   "1960": {
-    "awards": "awards/1960-awards-b.svg",
+    "awards": "movie_awards/1960-awards-b.svg",
     "title": "Spartacus",
     "studio": ["studios/universal_1960-b.svg"],
     "mpaa": "",
@@ -132,7 +132,7 @@
     "image": "movies/1960s/1961.jpg"
   },
   "1962": {
-    "awards": "awards/1962-awards-b.svg",
+    "awards": "movie_awards/1962-awards-b.svg",
     "title": "Lawrence of Arabia",
     "studio": ["studios/columbia_1945-b.svg"],
     "mpaa": "",
@@ -143,7 +143,7 @@
     "image": "movies/1960s/1962.jpg"
   },
   "1963": {
-    "awards": "awards/1963-awards-b.svg",
+    "awards": "movie_awards/1963-awards-b.svg",
     "title": "Cleopatra",
     "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "",
@@ -154,7 +154,7 @@
     "image": "movies/1960s/1963.jpg"
   },
   "1964": {
-    "awards": "awards/1964-awards-b.svg",
+    "awards": "movie_awards/1964-awards-b.svg",
     "title": "Mary Poppins",
     "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
     "mpaa": "",
@@ -165,7 +165,7 @@
     "image": "movies/1960s/1964.jpg"
   },
   "1965": {
-    "awards": "awards/1965-awards-b.svg",
+    "awards": "movie_awards/1965-awards-b.svg",
     "title": "The Sound of Music",
     "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "",
@@ -176,7 +176,7 @@
     "image": "movies/1960s/1965.jpg"
   },
   "1966": {
-    "awards": "awards/1966-awards-b.svg",
+    "awards": "movie_awards/1966-awards-b.svg",
     "title": "Hawaii",
     "studio": ["studios/mirisch_1960-b.svg", "studios/ua_1929-b.svg"],
     "mpaa": "",
@@ -187,7 +187,7 @@
     "image": "movies/1960s/1966.jpg"
   },
   "1967": {
-    "awards": "awards/1967-awards-b.svg",
+    "awards": "movie_awards/1967-awards-b.svg",
     "title": "The Graduate",
     "studio": ["studios/embassy_1961-b.svg", "studios/ua_1967-b.svg"],
     "mpaa": "",
@@ -198,7 +198,7 @@
     "image": "movies/1960s/1967.jpg"
   },
   "1968": {
-    "awards": "awards/1960-awards-b.svg",
+    "awards": "movie_awards/1960-awards-b.svg",
     "title": "Funny Girl",
     "studio": ["studios/rastar_1975-b.svg", "studios/columbia_1966-b.svg"],
     "mpaa": "mpaa_ratings/g-rating_1968-b.svg",
@@ -209,7 +209,7 @@
     "image": "movies/1960s/1968.jpg"
   },
   "1969": {
-    "awards": "awards/1960-awards-b.svg",
+    "awards": "movie_awards/1960-awards-b.svg",
     "title": "Butch Cassidy and the Sundance Kid",
     "studio": ["studios/fox_1945-b.svg"],
     "mpaa": "mpaa_ratings/m-rating_1968-b.svg",
@@ -220,7 +220,7 @@
     "image": "movies/1960s/1969.jpg"
   },
   "1970": {
-    "awards": "awards/1970-awards-c.svg",
+    "awards": "movie_awards/1970-awards-c.svg",
     "title": "Love Story",
     "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "mpaa_ratings/gp-rating_1970-c.svg",
@@ -231,7 +231,7 @@
     "image": "movies/1970s/1970.jpg"
   },
   "1971": {
-    "awards": "awards/1971-awards-c.svg",
+    "awards": "movie_awards/1971-awards-c.svg",
     "title": "Fiddler on the Roof",
     "studio": ["studios/mirisch_1960-c.svg", "studios/ua_1968-c.svg"],
     "mpaa": "mpaa_ratings/g-rating_1970-c.svg",
@@ -242,7 +242,7 @@
     "image": "movies/1970s/1971.jpg"
   },
   "1972": {
-    "awards": "awards/1972-awards-c.svg",
+    "awards": "movie_awards/1972-awards-c.svg",
     "title": "The Godfather",
     "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-c.svg",
@@ -253,7 +253,7 @@
     "image": "movies/1970s/1972.jpg"
   },
   "1973": {
-    "awards": "awards/1973-awards-c.svg",
+    "awards": "movie_awards/1973-awards-c.svg",
     "title": "The Exorcist",
     "studio": ["studios/wb_1972-c.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-c.svg",
@@ -264,7 +264,7 @@
     "image": "movies/1970s/1973.jpg"
   },
   "1974": {
-    "awards": "awards/1974-awards-c.svg",
+    "awards": "movie_awards/1974-awards-c.svg",
     "title": "The Towering Inferno",
     "studio": ["studios/wb_1972-c.svg", "studios/fox_1972-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
@@ -275,7 +275,7 @@
     "image": "movies/1970s/1974.jpg"
   },
   "1975": {
-    "awards": "awards/1975-awards-c.svg",
+    "awards": "movie_awards/1975-awards-c.svg",
     "title": "Jaws",
     "studio": ["studios/universal_1963-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
@@ -286,7 +286,7 @@
     "image": "movies/1970s/1975.jpg"
   },
   "1976": {
-    "awards": "awards/1976-awards-c.svg",
+    "awards": "movie_awards/1976-awards-c.svg",
     "title": "Rocky",
     "studio": ["studios/ua_1976-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
@@ -297,7 +297,7 @@
     "image": "movies/1970s/1976.jpg"
   },
   "1977": {
-    "awards": "awards/1977-awards-c.svg",
+    "awards": "movie_awards/1977-awards-c.svg",
     "title": "Star Wars",
     "studio": ["studios/lucasfilm_1971-c.svg", "studios/fox_1972-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
@@ -308,7 +308,7 @@
     "image": "movies/1970s/1977.jpg"
   },
   "1978": {
-    "awards": "awards/1978-awards-c.svg",
+    "awards": "movie_awards/1978-awards-c.svg",
     "title": "Grease",
     "studio": ["studios/paramount_1967-c.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-c.svg",
@@ -319,7 +319,7 @@
     "image": "movies/1970s/1978.jpg"
   },
   "1979": {
-    "awards": "awards/1979-awards-c.svg",
+    "awards": "movie_awards/1979-awards-c.svg",
     "title": "Alien",
     "studio": ["studios/fox_1972-c.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-c.svg",
@@ -330,7 +330,7 @@
     "image": "movies/1970s/1979.jpg"
   },
   "1980": {
-    "awards": "awards/1980-awards-d.svg",
+    "awards": "movie_awards/1980-awards-d.svg",
     "title": "Star Wars: The Empire Strikes Back",
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1972-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
@@ -341,7 +341,7 @@
     "image": "movies/1980s/1980.jpg"
   },
   "1981": {
-    "awards": "awards/1981-awards-d.svg",
+    "awards": "movie_awards/1981-awards-d.svg",
     "title": "Raiders of the Lost Ark",
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/paramount_1967-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
@@ -352,7 +352,7 @@
     "image": "movies/1980s/1981.jpg"
   },
   "1982": {
-    "awards": "awards/1982-awards-d.svg",
+    "awards": "movie_awards/1982-awards-d.svg",
     "title": "E.T. the Extra-Terrestrial",
     "studio": ["studios/amblin_1983-d.svg", "studios/universal_1963-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
@@ -363,7 +363,7 @@
     "image": "movies/1980s/1982.jpg"
   },
   "1983": {
-    "awards": "awards/1983-awards-d.svg",
+    "awards": "movie_awards/1983-awards-d.svg",
     "title": "Star Wars: Return of the Jedi",
     "studio": ["studios/lucasfilm_1971-d.svg", "studios/fox_1982-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
@@ -374,7 +374,7 @@
     "image": "movies/1980s/1983.jpg"
   },
   "1984": {
-    "awards": "awards/1984-awards-d.svg",
+    "awards": "movie_awards/1984-awards-d.svg",
     "title": "Ghostbusters",
     "studio": ["studios/columbia_1981-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
@@ -385,7 +385,7 @@
     "image": "movies/1980s/1984.jpg"
   },
   "1985": {
-    "awards": "awards/1985-awards-d.svg",
+    "awards": "movie_awards/1985-awards-d.svg",
     "title": "Back to the Future",
     "studio": ["studios/amblin_1984-d.svg", "studios/universal_1963-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
@@ -396,7 +396,7 @@
     "image": "movies/1980s/1985.jpg"
   },
   "1986": {
-    "awards": "awards/1986-awards-d.svg",
+    "awards": "movie_awards/1986-awards-d.svg",
     "title": "Top Gun",
     "studio": ["studios/paramount_1967-d.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-d.svg",
@@ -407,7 +407,7 @@
     "image": "movies/1980s/1986.jpg"
   },
   "1987": {
-    "awards": "awards/1987-awards-d.svg",
+    "awards": "movie_awards/1987-awards-d.svg",
     "title": "Fatal Attraction",
     "studio": ["studios/paramount_1967-d.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-d.svg",
@@ -418,7 +418,7 @@
     "image": "movies/1980s/1987.jpg"
   },
   "1988": {
-    "awards": "awards/1988-awards-d.svg",
+    "awards": "movie_awards/1988-awards-d.svg",
     "title": "Rain Man",
     "studio": ["studios/ua_1987-d.svg", "studios/mgm_1986-d.svg"],
     "mpaa": "mpaa_ratings/r-rating_1972-d.svg",
@@ -429,7 +429,7 @@
     "image": "movies/1980s/1988.jpg"
   },
   "1989": {
-    "awards": "awards/1989-awards-d.svg",
+    "awards": "movie_awards/1989-awards-d.svg",
     "title": "Batman",
     "studio": ["studios/wb_1985-d.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-d.svg",
@@ -440,7 +440,7 @@
     "image": "movies/1980s/1989.jpg"
   },
   "1990": {
-    "awards": "awards/1990-awards-e.svg",
+    "awards": "movie_awards/1990-awards-e.svg",
     "title": "Ghost",
     "studio": ["studios/paramount_1967-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
@@ -451,7 +451,7 @@
     "image": "movies/1990s/1990.jpg"
   },
   "1991": {
-    "awards": "awards/1991-awards-e.svg",
+    "awards": "movie_awards/1991-awards-e.svg",
     "title": "Terminator 2: Judgement Day",
     "studio": [
       "studios/carolco_1976-e.svg",
@@ -467,7 +467,7 @@
     "image": "movies/1990s/1991.jpg"
   },
   "1992": {
-    "awards": "awards/1990-awards-e.svg",
+    "awards": "movie_awards/1990-awards-e.svg",
     "title": "Aladdin",
     "studio": [
       "studios/disney-animation_1986-e.svg",
@@ -481,7 +481,7 @@
     "image": "movies/1990s/1992.jpg"
   },
   "1993": {
-    "awards": "awards/1993-awards-e.svg",
+    "awards": "movie_awards/1993-awards-e.svg",
     "title": "Jurassic Park",
     "studio": ["studios/amblin_1984-e.svg", "studios/universal_1990-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
@@ -492,7 +492,7 @@
     "image": "movies/1990s/1993.jpg"
   },
   "1994": {
-    "awards": "awards/1994-awards-e.svg",
+    "awards": "movie_awards/1994-awards-e.svg",
     "title": "Forrest Gump",
     "studio": ["studios/paramount_1967-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
@@ -503,7 +503,7 @@
     "image": "movies/1990s/1994.jpg"
   },
   "1995": {
-    "awards": "awards/1995-awards-e.svg",
+    "awards": "movie_awards/1995-awards-e.svg",
     "title": "Toy Story",
     "studio": ["studios/pixar_1994-e.svg", "studios/buena-vista_1987-e.svg"],
     "mpaa": "mpaa_ratings/g-rating_1990-e.svg",
@@ -514,7 +514,7 @@
     "image": "movies/1990s/1995.jpg"
   },
   "1996": {
-    "awards": "awards/1996-awards-e.svg",
+    "awards": "movie_awards/1996-awards-e.svg",
     "title": "Independence Day",
     "studio": ["studios/centropolis_1998-e.svg", "studios/fox_1986-e.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
@@ -525,7 +525,7 @@
     "image": "movies/1990s/1996.jpg"
   },
   "1997": {
-    "awards": "awards/1997-awards-e.svg",
+    "awards": "movie_awards/1997-awards-e.svg",
     "title": "Titanic",
     "studio": [
       "studios/paramount_1967-e.svg",
@@ -540,7 +540,7 @@
     "image": "movies/1990s/1997.jpg"
   },
   "1998": {
-    "awards": "awards/1998-awards-e.svg",
+    "awards": "movie_awards/1998-awards-e.svg",
     "title": "Saving Private Ryan",
     "studio": [
       "studios/amblin_1984-e.svg",
@@ -555,7 +555,7 @@
     "image": "movies/1990s/1998.jpg"
   },
   "1999": {
-    "awards": "awards/1999-awards-e.svg",
+    "awards": "movie_awards/1999-awards-e.svg",
     "title": "Star Wars: Episode I - The Phantom Menace",
     "studio": ["studios/lucasfilm_1971-e.svg", "studios/fox_1986-e.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-e.svg",
@@ -580,7 +580,7 @@
     "image": "movies/2000s/2000.jpg"
   },
   "2001": {
-    "awards": "awards/2000-awards-f.svg",
+    "awards": "movie_awards/2000-awards-f.svg",
     "title": "Harry Potter and the Sorcerer's Stone",
     "studio": ["studios/wb_1993-f.svg", "studios/1492_1995-f.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-f.svg",
@@ -591,7 +591,7 @@
     "image": "movies/2000s/2001.jpg"
   },
   "2002": {
-    "awards": "awards/2002-awards-f.svg",
+    "awards": "movie_awards/2002-awards-f.svg",
     "title": "The Lord of the Rings: The Two Towers",
     "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
@@ -602,7 +602,7 @@
     "image": "movies/2000s/2002.jpg"
   },
   "2003": {
-    "awards": "awards/2003-awards-f.svg",
+    "awards": "movie_awards/2003-awards-f.svg",
     "title": "The Lord of the Rings: The Return of the King",
     "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
@@ -613,7 +613,7 @@
     "image": "movies/2000s/2003.jpg"
   },
   "2004": {
-    "awards": "awards/2004-awards-f.svg",
+    "awards": "movie_awards/2004-awards-f.svg",
     "title": "Shrek 2",
     "studio": [
       "studios/pdi_2000-f.svg",
@@ -628,7 +628,7 @@
     "image": "movies/2000s/2004.jpg"
   },
   "2005": {
-    "awards": "awards/2005-awards-f.svg",
+    "awards": "movie_awards/2005-awards-f.svg",
     "title": "Harry Potter and the Goblet of Fire",
     "studio": ["studios/wb_1993-f.svg", "studios/heyday_2005-f.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
@@ -670,7 +670,7 @@
     "image": "movies/2000s/2007.jpg"
   },
   "2008": {
-    "awards": "awards/2008-awards-f.svg",
+    "awards": "movie_awards/2008-awards-f.svg",
     "title": "The Dark Knight",
     "studio": [
       "studios/wb_1993-f.svg",
@@ -685,7 +685,7 @@
     "image": "movies/2000s/2008.jpg"
   },
   "2009": {
-    "awards": "awards/2009-awards-f.svg",
+    "awards": "movie_awards/2009-awards-f.svg",
     "title": "Avatar",
     "studio": [
       "studios/fox_1986-f.svg",
@@ -701,7 +701,7 @@
     "image": "movies/2000s/2009.jpg"
   },
   "2010": {
-    "awards": "awards/2010-awards-g.svg",
+    "awards": "movie_awards/2010-awards-g.svg",
     "title": "Inception",
     "studio": [
       "studios/wb_1993-g.svg",
@@ -716,7 +716,7 @@
     "image": "movies/2010s/2010.jpg"
   },
   "2011": {
-    "awards": "awards/2011-awards-g.svg",
+    "awards": "movie_awards/2011-awards-g.svg",
     "title": "Harry Potter and the Deathly Hallows - Part 2",
     "studio": ["studios/wb_1993-g.svg", "studios/heyday_2008-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
@@ -727,7 +727,7 @@
     "image": "movies/2010s/2011.jpg"
   },
   "2012": {
-    "awards": "awards/2012-awards-g.svg",
+    "awards": "movie_awards/2012-awards-g.svg",
     "title": "The Avengers",
     "studio": ["studios/marvel_2002-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
@@ -738,7 +738,7 @@
     "image": "movies/2010s/2012.jpg"
   },
   "2013": {
-    "awards": "awards/2013-awards-g.svg",
+    "awards": "movie_awards/2013-awards-g.svg",
     "title": "Frozen",
     "studio": [
       "studios/disney-animation_2007-g.svg",
@@ -763,7 +763,7 @@
     "image": "movies/2010s/2014.jpg"
   },
   "2015": {
-    "awards": "awards/2015-awards-g.svg",
+    "awards": "movie_awards/2015-awards-g.svg",
     "title": "Star Wars: The Force Awakens",
     "studio": [
       "studios/lucasfilm_2015-g.svg",
@@ -778,7 +778,7 @@
     "image": "movies/2010s/2015.jpg"
   },
   "2016": {
-    "awards": "awards/2016-awards-g.svg",
+    "awards": "movie_awards/2016-awards-g.svg",
     "title": "Rogue One: A Star Wars Story",
     "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
@@ -789,7 +789,7 @@
     "image": "movies/2010s/2016.jpg"
   },
   "2017": {
-    "awards": "awards/2017-awards-g.svg",
+    "awards": "movie_awards/2017-awards-g.svg",
     "title": "Star Wars: The Last Jedi",
     "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
@@ -800,7 +800,7 @@
     "image": "movies/2010s/2017.jpg"
   },
   "2018": {
-    "awards": "awards/2018-awards-g.svg",
+    "awards": "movie_awards/2018-awards-g.svg",
     "title": "Incredibles 2",
     "studio": ["studios/pixar_1994-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-rating_2013-g.svg",
@@ -811,7 +811,7 @@
     "image": "movies/2010s/2018.jpg"
   },
   "2019": {
-    "awards": "awards/2019-awards-g.svg",
+    "awards": "movie_awards/2019-awards-g.svg",
     "title": "Avengers: Endgame",
     "studio": ["studios/marvel_2016-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
@@ -838,7 +838,7 @@
     "image": "movies/2020s/2020.jpg"
   },
   "2021": {
-    "awards": "awards/2021-awards-h.svg",
+    "awards": "movie_awards/2021-awards-h.svg",
     "title": "Spider-Man: No Way Home",
     "studio": [
       "studios/columbia_1993-h.svg",
@@ -854,7 +854,7 @@
     "image": "movies/2020s/2021.jpg"
   },
   "2022": {
-    "awards": "awards/2022-awards-h.svg",
+    "awards": "movie_awards/2022-awards-h.svg",
     "title": "Avatar: The Way of Water",
     "studio": [
       "studios/tsg_2012-h.svg",

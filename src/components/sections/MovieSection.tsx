@@ -7,6 +7,7 @@ import { config } from "../../config";
 import movies from "../../assets/movies.json";
 
 type Movie = {
+  awards: string;
   title: string;
   studio: string[];
   mpaa: string;
@@ -35,6 +36,13 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
       <Section name="movies">
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Movie of {date.getFullYear()}:</div>
+          {movie.awards && (
+            <img
+              className="max-h-[8dvh] mx-auto mt-2"
+              src={movie.awards}
+              alt=""
+            />
+          )}
           <div className={`title-text header-font-${decade}`}>
             {movie.title}
           </div>
