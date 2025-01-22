@@ -37,11 +37,13 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Movie of {date.getFullYear()}:</div>
           {movie.awards && (
-            <img
-              className="max-h-[8dvh] mx-auto mt-2"
-              src={config.assetsRoot + movie.awards}
-              alt="movie awards image"
-            />
+            <div className="flex flex-wrap justify-center mt-[2dvh] mx-[2dvw]">
+              <img
+                className="max-h-[8dvh]"
+                src={config.assetsRoot + movie.awards}
+                alt="movie awards image"
+              />
+            </div>
           )}
           <div className={`title-text header-font-${decade}`}>
             {movie.title}
