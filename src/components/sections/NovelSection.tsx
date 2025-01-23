@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
+import { ZoomDialog } from "../ZoomDialog";
 
 import { config } from "../../config";
 import novels from "../../assets/novels.json";
@@ -14,6 +15,8 @@ type Novel = {
 
 export const NovelSection = ({ date, decade }: SectionProps) => {
   const [novel, setNovel] = useState<Novel | null>(null);
+  const [isOpen, setIsOpen] = useState(false);
+
   useEffect(() => {
     try {
       const novel = (novels as { [key: string]: Novel })[
@@ -37,8 +40,16 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
         </Card>
         <Card decade={decade} className="poster">
           <img
+            className="novel-cover cursor-zoom-in"
             src={config.assetsRoot + novel.image}
             alt={`${novel.title} cover`}
+            onClick={() => setIsOpen(true)}
+          />
+          <ZoomDialog
+            isOpen={isOpen}
+            onClose={() => setIsOpen(false)}
+            imgSrc={config.assetsRoot + novel.image}
+            imgAlt={`${novel.title} cover`}
           />
         </Card>
       </Section>

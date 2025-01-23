@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import classNames from "classnames";
-import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
+import { ZoomDialog } from "../ZoomDialog";
 
 import { config } from "../../config";
 import games from "../../assets/games.json";
@@ -56,33 +56,18 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
         </Card>
         <Card decade={decade} className="poster">
           <img
-            className="game-cover"
+            className="game-cover cursor-zoom-in"
             src={config.assetsRoot + game.image}
             alt={`${game.title} cover`}
             onClick={() => setIsOpen(true)}
           />
+          <ZoomDialog
+            isOpen={isOpen}
+            onClose={() => setIsOpen(false)}
+            imgSrc={config.assetsRoot + game.image}
+            imgAlt={`${game.title} cover`}
+          />
         </Card>
-        <Dialog
-          open={isOpen}
-          className="relative z-40 focus:outline-none"
-          onClose={() => setIsOpen(false)}
-        >
-          <DialogBackdrop className="fixed inset-0 bg-black/70" />
-          <div className="fixed inset-0 z-50 w-dvw h-dvh overflow-none">
-            <div className="flex w-dvw h-dvh items-center justify-center p-4">
-              <DialogPanel
-                transition
-                className="rounded-xl bg-white/5 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0"
-              >
-                <img
-                  className="max-w-[80dvw] max-h-[90dvh]"
-                  src={config.assetsRoot + game.image}
-                  alt={`${game.title} cover`}
-                />
-              </DialogPanel>
-            </div>
-          </div>
-        </Dialog>
       </Section>
     )
   );

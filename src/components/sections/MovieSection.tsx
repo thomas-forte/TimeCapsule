@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
+import { ZoomDialog } from "../ZoomDialog";
 
 import { config } from "../../config";
 import movies from "../../assets/movies.json";
@@ -20,6 +21,8 @@ type Movie = {
 
 export const MovieSection = ({ date, decade }: SectionProps) => {
   const [movie, setMovie] = useState<Movie | null>(null);
+  const [isOpen, setIsOpen] = useState(false);
+
   useEffect(() => {
     try {
       const movie = (movies as { [key: string]: Movie })[
@@ -71,8 +74,16 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
         </Card>
         <Card decade={decade} className="poster">
           <img
+            className="movie-poster cursor-zoom-in"
             src={config.assetsRoot + movie.image}
             alt={`${movie.title} poster`}
+            onClick={() => setIsOpen(true)}
+          />
+          <ZoomDialog
+            isOpen={isOpen}
+            onClose={() => setIsOpen(false)}
+            imgSrc={config.assetsRoot + movie.image}
+            imgAlt={`${movie.title} poster`}
           />
         </Card>
       </Section>

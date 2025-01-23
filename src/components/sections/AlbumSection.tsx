@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import { Section, SectionProps } from "./Section";
 import { Card } from "./Card";
+import { ZoomDialog } from "../ZoomDialog";
 
 import { config } from "../../config";
 import albums from "../../assets/albums.json";
@@ -17,6 +18,8 @@ type Album = {
 
 export const AlbumSection = ({ date, decade }: SectionProps) => {
   const [album, setAlbum] = useState<Album | null>(null);
+  const [isOpen, setIsOpen] = useState(false);
+
   useEffect(() => {
     try {
       const album = (albums as { [key: string]: Album })[
@@ -51,8 +54,16 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
         </Card>
         <Card decade={decade} className="poster">
           <img
+            className="album-cover cursor-zoom-in"
             src={config.assetsRoot + album.image}
             alt={`${album.title} cover`}
+            onClick={() => setIsOpen(true)}
+          />
+          <ZoomDialog
+            isOpen={isOpen}
+            onClose={() => setIsOpen(false)}
+            imgSrc={config.assetsRoot + album.image}
+            imgAlt={`${album.title} cover`}
           />
         </Card>
       </Section>
