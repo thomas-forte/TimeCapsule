@@ -2,6 +2,7 @@
   "1950": {
     "awards": "",
     "title": "Candy Land",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1950.jpg",
@@ -10,6 +11,7 @@
   "1951": {
     "awards": "",
     "title": "Clue",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1951.jpg",
@@ -18,6 +20,7 @@
   "1952": {
     "awards": "",
     "title": "Scrabble",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1952.jpg",
@@ -26,6 +29,7 @@
   "1953": {
     "awards": "",
     "title": "Peter Pan",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1953.jpg",
@@ -34,6 +38,7 @@
   "1954": {
     "awards": "",
     "title": "Park and Shop",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1943-a.svg"],
     "image": "games/1950s/1954.jpg",
@@ -42,6 +47,7 @@
   "1955": {
     "awards": "",
     "title": "Careers",
+    "esrb": "",
     "creator": "Parker Brothers",
     "companies": ["game_companies/pb_1930-a.svg"],
     "image": "games/1950s/1955.jpg",
@@ -50,6 +56,7 @@
   "1956": {
     "awards": "",
     "title": "Yahtzee",
+    "esrb": "",
     "creator": "Lowe Company",
     "companies": ["game_companies/lowe_1956-a.svg"],
     "image": "games/1950s/1956.jpg",
@@ -58,6 +65,7 @@
   "1957": {
     "awards": "",
     "title": "Monopoly",
+    "esrb": "",
     "creator": "Parker Brothers",
     "companies": ["game_companies/pb_1957-a.svg"],
     "image": "games/1950s/1957.jpg",
@@ -66,6 +74,7 @@
   "1958": {
     "awards": "",
     "title": "Sorry!",
+    "esrb": "",
     "creator": "Parker Brothers",
     "companies": ["game_companies/pb_1957-a.svg"],
     "image": "games/1950s/1958.jpg",
@@ -74,6 +83,7 @@
   "1959": {
     "awards": "",
     "title": "Risk!",
+    "esrb": "",
     "creator": "Parker Brothers",
     "companies": ["game_companies/pb_1957-a.svg"],
     "image": "games/1950s/1959.jpg",
@@ -82,6 +92,7 @@
   "1960": {
     "awards": "",
     "title": "The Game of Life",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1943-b.svg"],
     "image": "games/1960s/1960.jpg",
@@ -90,6 +101,7 @@
   "1961": {
     "awards": "",
     "title": "Stratego",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1943-b.svg"],
     "image": "games/1960s/1961.jpg",
@@ -98,6 +110,7 @@
   "1962": {
     "awards": "",
     "title": "Password",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1962-b.svg"],
     "image": "games/1960s/1962.jpg",
@@ -106,6 +119,7 @@
   "1963": {
     "awards": "",
     "title": "Mouse Trap Game",
+    "esrb": "",
     "creator": "Ideal Toy Corporation",
     "companies": ["game_companies/ideal_1955-b.svg"],
     "image": "games/1960s/1963.jpg",
@@ -114,6 +128,7 @@
   "1964": {
     "awards": "",
     "title": "Let's Make a Deal",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1964.jpg",
@@ -122,6 +137,7 @@
   "1965": {
     "awards": "",
     "title": "Operation",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1965.jpg",
@@ -130,6 +146,7 @@
   "1966": {
     "awards": "",
     "title": "Twister",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1966.jpg",
@@ -138,6 +155,7 @@
   "1967": {
     "awards": "",
     "title": "Battleship",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1967.jpg",
@@ -146,6 +164,7 @@
   "1968": {
     "awards": "",
     "title": "Recall",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1968.jpg",
@@ -154,6 +173,7 @@
   "1969": {
     "awards": "",
     "title": "Beat the Clock",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-b.svg"],
     "image": "games/1960s/1969.jpg",
@@ -162,6 +182,7 @@
   "1970": {
     "awards": "",
     "title": "Concentration",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-c.svg"],
     "image": "games/1970s/1970.jpg",
@@ -170,6 +191,7 @@
   "1971": {
     "awards": "",
     "title": "Jepordy!",
+    "esrb": "",
     "creator": "Milton Bradley",
     "companies": ["game_companies/mb_1963-c.svg"],
     "image": "games/1970s/1971.jpg",
@@ -178,6 +200,7 @@
   "1972": {
     "awards": "",
     "title": "Odyssey: Table Tennis",
+    "esrb": "",
     "creator": "Magnavox",
     "companies": ["game_companies/magnavox_1960-c.svg"],
     "image": "games/1970s/1972.svg"
@@ -185,6 +208,7 @@
   "1973": {
     "awards": "",
     "title": "Odyssey: Basketball",
+    "esrb": "",
     "creator": "Magnavox",
     "companies": ["game_companies/magnavox_1960-c.svg"],
     "image": "games/1970s/1973.svg"
@@ -192,6 +216,7 @@
   "1974": {
     "awards": "",
     "title": "Odyssey: Inter-Planetary Voyage",
+    "esrb": "",
     "creator": "Magnavox",
     "companies": ["game_companies/magnavox_1960-c.svg"],
     "image": "games/1970s/1974.svg"
@@ -199,6 +224,7 @@
   "1975": {
     "awards": "",
     "title": "Pong",
+    "esrb": "",
     "creator": "Atari",
     "companies": ["game_companies/atari_1973-c.svg"],
     "image": "games/1970s/1975.svg"
@@ -206,6 +232,7 @@
   "1976": {
     "awards": "",
     "title": "Videocart-2",
+    "esrb": "",
     "creator": "Fairchild",
     "companies": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1976.svg"
@@ -213,6 +240,7 @@
   "1977": {
     "awards": "",
     "title": "Videocart-5",
+    "esrb": "",
     "creator": "Fairchild",
     "companies": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1977.svg"
@@ -220,6 +248,7 @@
   "1978": {
     "awards": "",
     "title": "Videocart-16",
+    "esrb": "",
     "creator": "Fairchild",
     "companies": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1978.svg"
@@ -227,6 +256,7 @@
   "1979": {
     "awards": "",
     "title": "Videocart-21",
+    "esrb": "",
     "creator": "Fairchild",
     "companies": ["game_companies/fairchild_1970-c.svg"],
     "image": "games/1970s/1979.svg"
@@ -234,6 +264,7 @@
   "1980": {
     "awards": "",
     "title": "Space Invaders",
+    "esrb": "",
     "creator": "Taito & Atari",
     "companies": [
       "game_companies/taito_1967-d.svg",
@@ -244,6 +275,7 @@
   "1981": {
     "awards": "",
     "title": "Asteroids",
+    "esrb": "",
     "creator": "Atari",
     "companies": ["game_companies/atari_1973-d.svg"],
     "image": "games/1980s/1981.jpg"
@@ -251,6 +283,7 @@
   "1982": {
     "awards": "",
     "title": "Pac-Man",
+    "esrb": "",
     "creator": "Namco & Atari",
     "companies": [
       "game_companies/namco_1977-d.svg",
@@ -261,6 +294,7 @@
   "1983": {
     "awards": "",
     "title": "Ms. Pac-Man",
+    "esrb": "",
     "creator": "Midway",
     "companies": ["game_companies/midway_1963-d.svg"],
     "image": "games/1980s/1983.jpg"
@@ -268,6 +302,7 @@
   "1984": {
     "awards": "",
     "title": "Pitfall II: Lost Caverns",
+    "esrb": "",
     "creator": "Activision",
     "companies": ["game_companies/activision_1979-d.svg"],
     "image": "games/1980s/1984.jpg"
@@ -275,6 +310,7 @@
   "1985": {
     "awards": "",
     "title": "The Oregon Trail",
+    "esrb": "",
     "creator": "MECC",
     "companies": ["game_companies/mecc_1983-d.svg"],
     "image": "games/1980s/1985.jpg"
@@ -282,6 +318,7 @@
   "1986": {
     "awards": "",
     "title": "Super Mario Bros.",
+    "esrb": "",
     "creator": "Nintendo",
     "companies": ["game_companies/nintendo_1984-d.svg"],
     "image": "games/1980s/1986.svg"
@@ -289,6 +326,7 @@
   "1987": {
     "awards": "",
     "title": "The Legend of Zelda",
+    "esrb": "",
     "creator": "Nintendo",
     "companies": ["game_companies/nintendo_1984-d.svg"],
     "image": "games/1980s/1987.jpg"
@@ -296,6 +334,7 @@
   "1988": {
     "awards": "",
     "title": "Duck Hunt",
+    "esrb": "",
     "creator": "Nintendo",
     "companies": ["game_companies/nintendo_1984-d.svg"],
     "image": "games/1980s/1988.jpg"
@@ -303,6 +342,7 @@
   "1989": {
     "awards": "",
     "title": "Ghouls 'n Ghosts",
+    "esrb": "",
     "creator": "Capcom & Sega",
     "companies": [
       "game_companies/capcom_1989-d.svg",
@@ -313,6 +353,7 @@
   "1990": {
     "awards": "",
     "title": "Strider",
+    "esrb": "",
     "creator": "Capcom",
     "companies": ["game_companies/capcom_1989-e.svg"],
     "image": "games/1990s/1990.jpg"
@@ -320,6 +361,7 @@
   "1991": {
     "awards": "",
     "title": "Sonic the Hedgehog",
+    "esrb": "",
     "creator": "Sonic Team & Sega",
     "companies": [
       "game_companies/sonic-team_1991-e.svg",
@@ -330,6 +372,7 @@
   "1992": {
     "awards": "",
     "title": "Sonic the Hedgehog 2",
+    "esrb": "",
     "creator": "Sega Technical Institute & Sega",
     "companies": [
       "game_companies/sti_1991-e.svg",
@@ -340,6 +383,7 @@
   "1993": {
     "awards": "",
     "title": "Mortal Kombat",
+    "esrb": "",
     "creator": "Midway",
     "companies": ["game_companies/midway_1988-e.svg"],
     "image": "games/1990s/1993.jpg"
@@ -347,6 +391,7 @@
   "1994": {
     "awards": "",
     "title": "Donkey Kong Country",
+    "esrb": "esrb_ratings/k-a_1994-e.svg",
     "creator": "Rareware & Nintendo",
     "companies": [
       "game_companies/rare_1994-e.svg",
@@ -357,6 +402,7 @@
   "1995": {
     "awards": "",
     "title": "Mortal Kombat 3",
+    "esrb": "esrb_ratings/m_1994-e.svg",
     "creator": "Midway",
     "companies": ["game_companies/midway_1988-e.svg"],
     "image": "games/1990s/1995.jpg"
@@ -364,6 +410,7 @@
   "1996": {
     "awards": "",
     "title": "Super Mario 64",
+    "esrb": "esrb_ratings/k-a_1996-e.svg",
     "creator": "Nintendo",
     "companies": ["game_companies/nintendo_1984-e.svg"],
     "image": "games/1990s/1996.jpg"
@@ -371,6 +418,7 @@
   "1997": {
     "awards": "",
     "title": "Mario Kart 64",
+    "esrb": "esrb_ratings/k-a_1996-e.svg",
     "creator": "Nintendo",
     "companies": ["game_companies/nintendo_1984-e.svg"],
     "image": "games/1990s/1997.jpg"
@@ -378,6 +426,7 @@
   "1998": {
     "awards": "game_awards/dice-win-e.svg",
     "title": "The Legend of Zelda: Ocarina of Time",
+    "esrb": "esrb_ratings/e_1998-e.svg",
     "creator": "Nintendo",
     "companies": ["game_companies/nintendo_1984-e.svg"],
     "image": "games/1990s/1998.jpg"
@@ -385,6 +434,7 @@
   "1999": {
     "awards": "game_awards/dice-nomination-e.svg",
     "title": "Donkey Kong 64",
+    "esrb": "esrb_ratings/e_1999-e.svg",
     "creator": "Rareware & Nintendo",
     "companies": [
       "game_companies/rare_1994-e.svg",
@@ -395,6 +445,7 @@
   "2000": {
     "awards": "",
     "title": "Tony Hawk's Pro Skater 2",
+    "esrb": "esrb_ratings/e_2000-f.svg",
     "creator": "Neversoft & Activision",
     "companies": [
       "game_companies/neversoft_1999-f.svg",
@@ -405,6 +456,7 @@
   "2001": {
     "awards": "",
     "title": "Madden NFL 2002",
+    "esrb": "esrb_ratings/e_2000-f.svg",
     "creator": "EA Sports",
     "companies": ["game_companies/ea-sports_2000-f.svg"],
     "image": "games/2000s/2001.jpg"
@@ -412,6 +464,7 @@
   "2002": {
     "awards": "game_awards/dice-nomination-e.svg",
     "title": "Grand Theft Auto: Vice City",
+    "esrb": "esrb_ratings/m_2000-f.svg",
     "creator": "Rockstar North",
     "companies": ["game_companies/rn_2002-f.svg"],
     "image": "games/2000s/2002.jpg"
@@ -419,6 +472,7 @@
   "2003": {
     "awards": "",
     "title": "Madden NFL 2004",
+    "esrb": "esrb_ratings/e_2003-f.svg",
     "creator": "EA Sports",
     "companies": ["game_companies/ea-sports_2000-f.svg"],
     "image": "games/2000s/2003.jpg"
@@ -426,6 +480,7 @@
   "2004": {
     "awards": "game_awards/dice-nomination-f.svg",
     "title": "Grand Theft Auto: San Andreas",
+    "esrb": "esrb_ratings/m_2003-f.svg",
     "creator": "Rockstar North",
     "companies": ["game_companies/rn_2002-f.svg"],
     "image": "games/2000s/2004.jpg"
@@ -433,6 +488,7 @@
   "2005": {
     "awards": "",
     "title": "Star Wars: Battlefront II",
+    "esrb": "esrb_ratings/t_2003-f.svg",
     "creator": "Pandemic Studios & LucasArts",
     "companies": [
       "game_companies/pandemic_1998-f.svg",
@@ -443,6 +499,7 @@
   "2006": {
     "awards": ["game_awards/dice-win-f.svg", "game_awards/gdca-f.svg"],
     "title": "Gears of War",
+    "esrb": "esrb_ratings/m_2003-f.svg",
     "creator": "Epic Games & Microsoft Game Studios",
     "companies": [
       "game_companies/epic_2005-f.svg",
@@ -453,6 +510,7 @@
   "2007": {
     "awards": "",
     "title": "Halo 3",
+    "esrb": "esrb_ratings/m_2003-f.svg",
     "creator": "Bungie & Microsoft Game Studios",
     "companies": [
       "game_companies/bungie_1994-f.svg",
@@ -463,6 +521,7 @@
   "2008": {
     "awards": "game_awards/dice-nomination-f.svg",
     "title": "Grand Theft Auto IV",
+    "esrb": "esrb_ratings/m_2003-f.svg",
     "creator": "Rockstar North",
     "companies": ["game_companies/rn_2002-f.svg"],
     "image": "games/2000s/2008.jpg"
@@ -470,6 +529,7 @@
   "2009": {
     "awards": "game_awards/dice-nomination-f.svg",
     "title": "Call of Duty: Modern Warfare 2",
+    "esrb": "esrb_ratings/m_2003-f.svg",
     "creator": "Infinity Ward & Activision",
     "companies": [
       "game_companies/iw_2003-f.svg",
@@ -480,6 +540,7 @@
   "2010": {
     "awards": "game_awards/dice-win-g.svg",
     "title": "Mass Effect 2",
+    "esrb": "esrb_ratings/m_2003-g.svg",
     "creator": "BioWare, Electronic Arts, Microsoft Game Studios",
     "companies": [
       "game_companies/bioware_1998-g.svg",
@@ -491,6 +552,7 @@
   "2011": {
     "awards": ["game_awards/dice-win-g.svg", "game_awards/gdca-g.svg"],
     "title": "The Elder Scrolls V: Skyrim",
+    "esrb": "esrb_ratings/m_2003-g.svg",
     "creator": "Bethesda Game Studios & Bethesda Softworks",
     "companies": [
       "game_companies/bgs_2001-g.svg",
@@ -501,6 +563,7 @@
   "2012": {
     "awards": "",
     "title": "Mass Effect 3",
+    "esrb": "esrb_ratings/m_2003-g.svg",
     "creator": "BioWare & Electronic Arts",
     "companies": [
       "game_companies/bioware_1998-g.svg",
@@ -511,6 +574,7 @@
   "2013": {
     "awards": "game_awards/dice-nomination-g.svg",
     "title": "Grand Theft Auto V",
+    "esrb": "esrb_ratings/m_2013-g.svg",
     "creator": "Rockstar North",
     "companies": ["game_companies/rn_2002-g.svg"],
     "image": "games/2010s/2013.jpg"
@@ -518,6 +582,7 @@
   "2014": {
     "awards": ["game_awards/dice-win-g.svg", "game_awards/gdca-g.svg"],
     "title": "The Last of Us Remastered",
+    "esrb": "esrb_ratings/m_2013-g.svg",
     "creator": "Naughty Dog & Sony Computer Entertainment",
     "companies": [
       "game_companies/naughty-dog_2013-g.svg",
@@ -528,6 +593,7 @@
   "2015": {
     "awards": ["game_awards/game_awards-win-g.svg", "game_awards/dice-nomination-g.svg", "game_awards/gdca-g.svg"],
     "title": "The Witcher 3: Wild Hunt",
+    "esrb": "esrb_ratings/m_2013-g.svg",
     "creator": "CD Projekt Red",
     "companies": ["game_companies/cdpr_2014-g.svg"],
     "image": "games/2010s/2015.jpg"
@@ -535,6 +601,7 @@
   "2016": {
     "awards": ["game_awards/game_awards-nomination-g.svg", "game_awards/dice-nomination-g.svg"],
     "title": "Uncharted 4: A Thief's End",
+    "esrb": "esrb_ratings/t_2013-g.svg",
     "creator": "Naughty Dog",
     "companies": [
       "game_companies/naughty-dog_2013-g.svg",
@@ -545,6 +612,7 @@
   "2017": {
     "awards": "",
     "title": "NBA 2K18",
+    "esrb": "esrb_ratings/e10_2013-g.svg",
     "creator": "Visual Concepts & 2K",
     "companies": [
       "game_companies/visual-concepts_1988-g.svg",
@@ -555,6 +623,7 @@
   "2018": {
     "awards": ["game_awards/game_awards-nomination-g.svg", "game_awards/dice-nomination-g.svg"],
     "title": "Red Dead Redemption 2",
+    "esrb": "esrb_ratings/m_2013-g.svg",
     "creator": "Rockstar Games",
     "companies": ["game_companies/rockstar_1998-g.svg"],
     "image": "games/2010s/2018.jpg"
@@ -562,6 +631,7 @@
   "2019": {
     "awards": "",
     "title": "Borderlands 3",
+    "esrb": "esrb_ratings/m_2013-g.svg",
     "creator": "Gearbox Software & 2K",
     "companies": [
       "game_companies/gearbox_2008-g.svg",
@@ -572,6 +642,7 @@
   "2020": {
     "awards": ["game_awards/game_awards-win-h.svg", "game_awards/dice-nomination-h.svg"],
     "title": "The Last of Us Part II (Remastered)",
+    "esrb": "esrb_ratings/m_2013-h.svg",
     "creator": "Naughty Dog & Sony Interactive Entertainment",
     "companies": [
       "game_companies/naughty-dog_2013-h.svg",
@@ -582,6 +653,7 @@
   "2021": {
     "awards": ["game_awards/game_awards-win-h.svg", "game_awards/dice-win-h.svg"],
     "title": "It Takes Two",
+    "esrb": "esrb_ratings/t_2013-h.svg",
     "creator": "Hazelight Studios & Electronic Arts",
     "companies": [
       "game_companies/hazelight_2014-h.svg",
@@ -592,6 +664,7 @@
   "2022": {
     "awards": ["game_awards/game_awards-win-h.svg", "game_awards/dice-win-h.svg", "game_awards/gdca-h.svg"],
     "title": "Elden Ring",
+    "esrb": "esrb_ratings/m_2013-h.svg",
     "creator": "FromSoftware & Bandai Namco Entertainment",
     "companies": [
       "game_companies/fromsoftware_1996-h.svg",
@@ -602,6 +675,7 @@
   "2023": {
     "awards": "",
     "title": "Hogwarts Legacy",
+    "esrb": "esrb_ratings/t_2013-h.svg",
     "creator": "Avalanche Software & Warner Bros. Games",
     "companies": [
       "game_companies/avalanche_2022-h.svg",
@@ -612,6 +686,7 @@
   "2024": {
     "awards": "",
     "title": "EA Sports College Football 25",
+    "esrb": "esrb_ratings/e_2013-h.svg",
     "creator": "EA Sports",
     "companies": ["game_companies/ea-sports_2020-h.svg"],
     "image": "games/2020s/2024.jpg"
