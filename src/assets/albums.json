@@ -6,6 +6,7 @@
     "genre": "Jazz",
     "labels": ["record_labels/mercury_1945-a.svg"],
     "certification": "",
+    "advisory": "",
     "image": "albums/1950s/1950.jpg"
   },
   "1951": {
@@ -15,6 +16,7 @@
     "genre": "Jazz",
     "labels": ["record_labels/columbia_1938-a.svg"],
     "certification": "",
+    "advisory": "",
     "image": "albums/1950s/1951.jpg"
   },
   "1952": {
@@ -24,6 +26,7 @@
     "genre": "Country",
     "labels": ["record_labels/mgm_1952-a.svg"],
     "certification": "",
+    "advisory": "",
     "image": "albums/1950s/1952.jpg"
   },
   "1953": {
@@ -33,6 +36,7 @@
     "genre": "Jazz",
     "labels": ["record_labels/decca_1953-a.svg"],
     "certification": "",
+    "advisory": "",
     "image": "albums/1950s/1953.jpg"
   },
   "1954": {
@@ -42,6 +46,7 @@
     "genre": "East-Listening",
     "labels": ["record_labels/capitol_1949-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
+    "advisory": "",
     "image": "albums/1950s/1954.jpg"
   },
   "1955": {
@@ -51,6 +56,7 @@
     "genre": "Vocal Jazz",
     "labels": ["record_labels/capitol_1949-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
+    "advisory": "",
     "image": "albums/1950s/1955.jpg"
   },
   "1956": {
@@ -60,6 +66,7 @@
     "genre": "Rock and Roll",
     "labels": ["record_labels/rca_1929-a.svg"],
     "certification": "riaa_certifications/riaa-platinum-a.svg",
+    "advisory": "",
     "image": "albums/1950s/1956.jpg"
   },
   "1957": {
@@ -69,6 +76,7 @@
     "genre": "Calypso",
     "labels": ["record_labels/rca_1929-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
+    "advisory": "",
     "image": "albums/1950s/1957.jpg"
   },
   "1958": {
@@ -78,6 +86,7 @@
     "genre": "Vocal Jazz",
     "labels": ["record_labels/capitol_1958-a.svg"],
     "certification": "riaa_certifications/riaa-gold-a.svg",
+    "advisory": "",
     "image": "albums/1950s/1958.jpg"
   },
   "1959": {
@@ -87,6 +96,7 @@
     "genre": "Jazz",
     "labels": ["record_labels/rca_1929-a.svg"],
     "certification": "",
+    "advisory": "",
     "image": "albums/1950s/1959.jpg"
   },
   "1960": {
@@ -96,6 +106,7 @@
     "genre": "Rock and Roll",
     "labels": ["record_labels/rca_1929-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1960.jpg"
   },
   "1961": {
@@ -105,6 +116,7 @@
     "genre": "Film Soundtrack",
     "labels": ["record_labels/columbia-masterworks_1961-b.svg"],
     "certification": "riaa_certifications/riaa-gold-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1961.jpg"
   },
   "1962": {
@@ -114,6 +126,7 @@
     "genre": "Country",
     "labels": ["record_labels/abc-paramount_1955-b.svg"],
     "certification": "riaa_certifications/riaa-gold-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1962.jpg"
   },
   "1963": {
@@ -123,6 +136,7 @@
     "genre": "Pop",
     "labels": ["record_labels/columbia_1962-b.svg"],
     "certification": "",
+    "advisory": "",
     "image": "albums/1960s/1963.jpg"
   },
   "1964": {
@@ -132,6 +146,7 @@
     "genre": "Rock",
     "labels": ["record_labels/united-artists_1960-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1964.jpg"
   },
   "1965": {
@@ -141,6 +156,7 @@
     "genre": "Folk Rock",
     "labels": ["record_labels/columbia_1962-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1965.jpg"
   },
   "1966": {
@@ -150,6 +166,7 @@
     "genre": "Pop",
     "labels": ["record_labels/capitol_1958-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1966.jpg"
   },
   "1967": {
@@ -162,6 +179,7 @@
       "record_labels/capitol_1958-b.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-11x-b.svg",
+    "advisory": "",
     "image": "albums/1950s/1951.jpg"
   },
   "1968": {
@@ -171,6 +189,7 @@
     "genre": "Psychedelic Rock",
     "labels": ["record_labels/reprise_1967-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-2x-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1968.jpg"
   },
   "1969": {
@@ -180,6 +199,7 @@
     "genre": "Rock",
     "labels": ["record_labels/apple-corps_1967-b.svg"],
     "certification": "riaa_certifications/riaa-platinum-12x-b.svg",
+    "advisory": "",
     "image": "albums/1960s/1969.jpg"
   },
   "1970": {
@@ -189,6 +209,7 @@
     "genre": "Folk Rock",
     "labels": ["record_labels/columbia_1969-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-8x-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1970.jpg"
   },
   "1971": {
@@ -198,6 +219,7 @@
     "genre": "Soul",
     "labels": ["record_labels/tamla_1965-c.svg"],
     "certification": "riaa_certifications/riaa-gold-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1971.jpg"
   },
   "1972": {
@@ -207,6 +229,7 @@
     "genre": "Glam Rock",
     "labels": ["record_labels/rca_1968-c.svg"],
     "certification": "riaa_certifications/riaa-gold-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1972.jpg"
   },
   "1973": {
@@ -219,6 +242,7 @@
       "record_labels/capitol_1969-c.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-15x-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1973.jpg"
   },
   "1974": {
@@ -228,6 +252,7 @@
     "genre": "Pop Rock",
     "labels": ["record_labels/djm_1969-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-8x-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1974.jpg"
   },
   "1975": {
@@ -237,6 +262,7 @@
     "genre": "Hard Rock",
     "labels": ["record_labels/swan-song_1974-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-16x-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1975.jpg"
   },
   "1976": {
@@ -246,6 +272,7 @@
     "genre": "R&B",
     "labels": ["record_labels/tamla_1965-c.svg"],
     "certification": "riaa_certifications/riaa-diamond-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1976.jpg"
   },
   "1977": {
@@ -255,6 +282,7 @@
     "genre": "Pop Rock",
     "labels": ["record_labels/warner_1973-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-21x-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1977.jpg"
   },
   "1978": {
@@ -264,6 +292,7 @@
     "genre": "Disco",
     "labels": ["record_labels/rso_1973-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-16x-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1978.jpg"
   },
   "1979": {
@@ -273,6 +302,7 @@
     "genre": "Rock",
     "labels": ["record_labels/columbia_1972-c.svg"],
     "certification": "riaa_certifications/riaa-platinum-7x-c.svg",
+    "advisory": "",
     "image": "albums/1970s/1979.jpg"
   },
   "1980": {
@@ -282,6 +312,7 @@
     "genre": "Progressive Rock",
     "labels": ["record_labels/columbia_1972-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-23x-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1980.jpg"
   },
   "1981": {
@@ -291,6 +322,7 @@
     "genre": "Hard Rock",
     "labels": ["record_labels/epic_1978-d.svg"],
     "certification": "riaa_certifications/riaa-diamond-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1981.jpg"
   },
   "1982": {
@@ -300,6 +332,7 @@
     "genre": "Progressive Rock",
     "labels": ["record_labels/geffen_1982-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1982.jpg"
   },
   "1983": {
@@ -309,6 +342,7 @@
     "genre": "Pop",
     "labels": ["record_labels/epic_1978-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-34x-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1983.jpg"
   },
   "1984": {
@@ -318,6 +352,7 @@
     "genre": "Pop",
     "labels": ["record_labels/warner_1973-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-13x-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1984.jpg"
   },
   "1985": {
@@ -327,6 +362,7 @@
     "genre": "Rock and Roll",
     "labels": ["record_labels/columbia_1972-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-17x-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1985.jpg"
   },
   "1986": {
@@ -336,6 +372,7 @@
     "genre": "Pop-Soul",
     "labels": ["record_labels/arista_1983-d.svg"],
     "certification": "riaa_certifications/riaa-platinum-14x-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1986.jpg"
   },
   "1987": {
@@ -345,6 +382,7 @@
     "genre": "Rock",
     "labels": ["record_labels/island_1975-d.svg"],
     "certification": "riaa_certifications/riaa-diamond-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1987.jpg"
   },
   "1988": {
@@ -357,6 +395,7 @@
       "record_labels/epic_1978-d.svg"
     ],
     "certification": "riaa_certifications/riaa-diamond-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1988.jpg"
   },
   "1989": {
@@ -369,6 +408,7 @@
       "record_labels/warner_1989-d.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-4x-d.svg",
+    "advisory": "",
     "image": "albums/1980s/1989.jpg"
   },
   "1990": {
@@ -381,7 +421,7 @@
       "record_labels/emi_1972-e.svg"
     ],
     "certification": "riaa_certifications/riaa-diamond-e.svg",
-
+    "advisory": "",
     "image": "albums/1990s/1990.jpg"
   },
   "1991": {
@@ -391,6 +431,7 @@
     "genre": "Grunge",
     "labels": ["record_labels/dgc_1990-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-13x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1991.jpg"
   },
   "1992": {
@@ -400,6 +441,7 @@
     "genre": "Country",
     "labels": ["record_labels/capitol_1977-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-14x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1992.jpg"
   },
   "1993": {
@@ -409,6 +451,7 @@
     "genre": "Pop",
     "labels": ["record_labels/arista_1983-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-18x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1993.jpg"
   },
   "1994": {
@@ -418,6 +461,7 @@
     "genre": "Alternative Rock",
     "labels": ["record_labels/columbia_1972-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1994.jpg"
   },
   "1995": {
@@ -427,6 +471,7 @@
     "genre": "Alternative Rock",
     "labels": ["record_labels/atlantic_1966-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-22x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1995.jpg"
   },
   "1996": {
@@ -439,6 +484,7 @@
       "record_labels/reprise_1970-e.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-17x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1996.jpg"
   },
   "1997": {
@@ -448,6 +494,7 @@
     "genre": "Pop",
     "labels": ["record_labels/virgin_1978-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-7x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1997.jpg"
   },
   "1998": {
@@ -457,6 +504,7 @@
     "genre": "Soundtrack",
     "labels": ["record_labels/sony-classical_1990-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-11x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1998.jpg"
   },
   "1999": {
@@ -466,6 +514,7 @@
     "genre": "Pop",
     "labels": ["record_labels/jive_1991-e.svg"],
     "certification": "riaa_certifications/riaa-platinum-13x-e.svg",
+    "advisory": "",
     "image": "albums/1990s/1999.jpg"
   },
   "2000": {
@@ -475,6 +524,7 @@
     "genre": "Pop",
     "labels": ["record_labels/jive_1991-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-11x-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2000.jpg"
   },
   "2001": {
@@ -487,6 +537,7 @@
       "record_labels/geffen_2000-f.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-6x-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2001.jpg"
   },
   "2002": {
@@ -501,6 +552,7 @@
       "record_labels/web_1992-f.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-12x-f.svg",
+    "advisory": "parental_advisory/pa-f.svg",
     "image": "albums/2000s/2002.jpg"
   },
   "2003": {
@@ -515,6 +567,7 @@
       "record_labels/g-unit_2003-f.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-9x-f.svg",
+    "advisory": "parental_advisory/pa-f.svg",
     "image": "albums/2000s/2003.jpg"
   },
   "2004": {
@@ -524,6 +577,7 @@
     "genre": "R&B",
     "labels": ["record_labels/arista_1983-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-14x-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2004.jpg"
   },
   "2005": {
@@ -536,6 +590,7 @@
       "record_labels/capitol_1977-f.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-3x-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2005.jpg"
   },
   "2006": {
@@ -548,6 +603,7 @@
       "record_labels/19_2002-f.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-9x-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2006.jpg"
   },
   "2007": {
@@ -557,6 +613,7 @@
     "genre": "Post-Grunge",
     "labels": ["record_labels/rca_1990-f.svg", "record_labels/19_2007-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-6x-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2007.jpg"
   },
   "2008": {
@@ -566,6 +623,7 @@
     "genre": "R&B",
     "labels": ["record_labels/j_2000-f.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2008.jpg"
   },
   "2009": {
@@ -575,6 +633,7 @@
     "genre": "Country Pop",
     "labels": ["record_labels/big-machine_2005-f.svg"],
     "certification": "riaa_certifications/riaa-diamond-f.svg",
+    "advisory": "",
     "image": "albums/2000s/2009.jpg"
   },
   "2010": {
@@ -589,6 +648,7 @@
       "record_labels/web_1992-g.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-8x-g.svg",
+    "advisory": "parental_advisory/pa-g.svg",
     "image": "albums/2010s/2010.jpg"
   },
   "2011": {
@@ -601,6 +661,7 @@
       "record_labels/columbia_1999-g.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-14x-g.svg",
+    "advisory": "",
     "image": "albums/2010s/2011.jpg"
   },
   "2012": {
@@ -613,6 +674,7 @@
       "record_labels/kidinakorner_2011-g.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-8x-g.svg",
+    "advisory": "",
     "image": "albums/2010s/2012.jpg"
   },
   "2013": {
@@ -622,6 +684,7 @@
     "genre": "R&B",
     "labels": ["record_labels/rca_1990-g.svg"],
     "certification": "riaa_certifications/riaa-platinum-2x-g.svg",
+    "advisory": "",
     "image": "albums/2010s/2013.jpg"
   },
   "2014": {
@@ -634,6 +697,7 @@
       "record_labels/atlantic_2005-g.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-6x-g.svg",
+    "advisory": "",
     "image": "albums/2010s/2014.jpg"
   },
   "2015": {
@@ -643,6 +707,7 @@
     "genre": "Synth-Pop",
     "labels": ["record_labels/big-machine_2005-g.svg"],
     "certification": "riaa_certifications/riaa-platinum-9x-g.svg",
+    "advisory": "",
     "image": "albums/2010s/2015.jpg"
   },
   "2016": {
@@ -656,6 +721,7 @@
       "record_labels/young-money_2005-g.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-8x-g.svg",
+    "advisory": "parental_advisory/pa-g.svg",
     "image": "albums/2010s/2016.jpg"
   },
   "2017": {
@@ -669,6 +735,7 @@
       "record_labels/interscope_1990-g.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-3x-g.svg",
+    "advisory": "parental_advisory/pa-g.svg",
     "image": "albums/2010s/2017.jpg"
   },
   "2018": {
@@ -687,6 +754,7 @@
     "genre": "Pop",
     "labels": ["record_labels/interscope_1990-g.svg"],
     "certification": "riaa_certifications/riaa-platinum-4x-g.svg",
+    "advisory": "",
     "image": "albums/2010s/2019.jpg"
   },
   "2020": {
@@ -699,6 +767,7 @@
       "record_labels/republic_2012-h.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-3x-h.svg",
+    "advisory": "parental_advisory/pa-h.svg",
     "image": "albums/2020s/2020.jpg"
   },
   "2021": {
@@ -711,6 +780,7 @@
       "record_labels/republic_2012-h.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-6x-h.svg",
+    "advisory": "parental_advisory/pa-h.svg",
     "image": "albums/2020s/2021.jpg"
   },
   "2022": {
@@ -723,6 +793,7 @@
       "record_labels/columbia_1999-h.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-2x-h.svg",
+    "advisory": "",
     "image": "albums/2020s/2022.jpg"
   },
   "2023": {
@@ -736,6 +807,7 @@
       "record_labels/mercury_2022-h.svg"
     ],
     "certification": "riaa_certifications/riaa-platinum-7x-h.svg",
+    "advisory": "parental_advisory/pa-h.svg",
     "image": "albums/2020s/2023.jpg"
   },
   "2024": {
@@ -745,6 +817,7 @@
     "genre": "Synth-Pop",
     "labels": ["record_labels/republic_2012-h.svg"],
     "certification": "riaa_certifications/riaa-platinum-6x-h.svg",
+    "advisory": "",
     "image": "albums/2020s/2024.jpg"
   }
 }
