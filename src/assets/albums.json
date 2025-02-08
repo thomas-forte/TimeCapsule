@@ -1,5 +1,6 @@
 {
   "1950": {
+    "awards": "",
     "title": "Charlie Parker with Strings",
     "artist": "Charlie Parker",
     "genre": "Jazz",
@@ -8,6 +9,7 @@
     "image": "albums/1950s/1950.jpg"
   },
   "1951": {
+    "awards": "",
     "title": "Masterpieces by Ellington",
     "artist": "Duke Ellington",
     "genre": "Jazz",
@@ -16,6 +18,7 @@
     "image": "albums/1950s/1951.jpg"
   },
   "1952": {
+    "awards": "",
     "title": "Moanin’ the Blues",
     "artist": "Hank Williams",
     "genre": "Country",
@@ -24,6 +27,7 @@
     "image": "albums/1950s/1952.jpg"
   },
   "1953": {
+    "awards": "",
     "title": "Black Coffee",
     "artist": "Peggy Lee",
     "genre": "Jazz",
@@ -32,6 +36,7 @@
     "image": "albums/1950s/1953.jpg"
   },
   "1954": {
+    "awards": "",
     "title": "Music for Lovers Only",
     "artist": "Jackie Gleason",
     "genre": "East-Listening",
@@ -40,6 +45,7 @@
     "image": "albums/1950s/1954.jpg"
   },
   "1955": {
+    "awards": "",
     "title": "In the Wee Small Hours",
     "artist": "Frank Sinatra",
     "genre": "Vocal Jazz",
@@ -48,6 +54,7 @@
     "image": "albums/1950s/1955.jpg"
   },
   "1956": {
+    "awards": "",
     "title": "Elvis Presley",
     "artist": "Elvis Presley",
     "genre": "Rock and Roll",
@@ -56,6 +63,7 @@
     "image": "albums/1950s/1956.jpg"
   },
   "1957": {
+    "awards": "",
     "title": "Calypso",
     "artist": "Harry Belafonte",
     "genre": "Calypso",
@@ -64,6 +72,7 @@
     "image": "albums/1950s/1957.jpg"
   },
   "1958": {
+    "awards": "",
     "title": "Come Fly With Me",
     "artist": "Frank Sinatra",
     "genre": "Vocal Jazz",
@@ -72,6 +81,7 @@
     "image": "albums/1950s/1958.jpg"
   },
   "1959": {
+    "awards": "album_awards/grammy_win-a.svg",
     "title": "The Music from Peter Gunn",
     "artist": "Henry Mancini",
     "genre": "Jazz",
@@ -80,6 +90,7 @@
     "image": "albums/1950s/1959.jpg"
   },
   "1960": {
+    "awards": "",
     "title": "G.I. Blues",
     "artist": "Elvis Presley",
     "genre": "Rock and Roll",
@@ -88,6 +99,7 @@
     "image": "albums/1960s/1960.jpg"
   },
   "1961": {
+    "awards": "album_awards/grammy_nomination-b.svg",
     "title": "West Side Story",
     "artist": "Leonard Bernstein, Stephen Sondheim, & The Original Motion Picture Cast",
     "genre": "Film Soundtrack",
@@ -96,6 +108,7 @@
     "image": "albums/1960s/1961.jpg"
   },
   "1962": {
+    "awards": "album_awards/grammy_nomination-b.svg",
     "title": "Modern Sounds in Country and Western Music",
     "artist": "Ray Charles",
     "genre": "Country",
@@ -104,6 +117,7 @@
     "image": "albums/1960s/1962.jpg"
   },
   "1963": {
+    "awards": "album_awards/grammy_nomination-b.svg",
     "title": "Days of Wine and Roses and Other TV Requests",
     "artist": "Andy Williams",
     "genre": "Pop",
@@ -112,6 +126,7 @@
     "image": "albums/1960s/1963.jpg"
   },
   "1964": {
+    "awards": "",
     "title": "A Hard Day’s Night",
     "artist": "The Beatles",
     "genre": "Rock",
@@ -120,6 +135,7 @@
     "image": "albums/1960s/1964.jpg"
   },
   "1965": {
+    "awards": "",
     "title": "Bringing It All Back Home",
     "artist": "Bob Dylan",
     "genre": "Folk Rock",
@@ -128,6 +144,7 @@
     "image": "albums/1960s/1965.jpg"
   },
   "1966": {
+    "awards": "",
     "title": "Pet Sounds",
     "artist": "The Beach Boys",
     "genre": "Pop",
@@ -136,6 +153,7 @@
     "image": "albums/1960s/1966.jpg"
   },
   "1967": {
+    "awards": "album_awards/grammy_win-b.svg",
     "title": "Sgt. Pepper’s Lonely Hearts Club Band",
     "artist": "The Beatles",
     "genre": "Pop",
@@ -147,6 +165,7 @@
     "image": "albums/1950s/1951.jpg"
   },
   "1968": {
+    "awards": "",
     "title": "Electric Ladyland",
     "artist": "The Jimi Hendrix Experience",
     "genre": "Psychedelic Rock",
@@ -155,6 +174,7 @@
     "image": "albums/1960s/1968.jpg"
   },
   "1969": {
+    "awards": "album_awards/grammy_nomination-b.svg",
     "title": "Abbey Road",
     "artist": "The Beatles",
     "genre": "Rock",
@@ -163,6 +183,7 @@
     "image": "albums/1960s/1969.jpg"
   },
   "1970": {
+    "awards": "album_awards/grammy_win-c.svg",
     "title": "Bridge Over Troubled Water",
     "artist": "Simon & Garfunkel",
     "genre": "Folk Rock",
@@ -171,6 +192,7 @@
     "image": "albums/1970s/1970.jpg"
   },
   "1971": {
+    "awards": "",
     "title": "What’s Going On",
     "artist": "Marvin Gaye",
     "genre": "Soul",
@@ -179,6 +201,7 @@
     "image": "albums/1970s/1971.jpg"
   },
   "1972": {
+    "awards": "",
     "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
     "artist": "David Bowie",
     "genre": "Glam Rock",
@@ -187,6 +210,7 @@
     "image": "albums/1970s/1972.jpg"
   },
   "1973": {
+    "awards": "",
     "title": "The Dark Side of the Moon",
     "artist": "Pink Floyd",
     "genre": "Progressive Rock",
@@ -198,6 +222,7 @@
     "image": "albums/1970s/1973.jpg"
   },
   "1974": {
+    "awards": "",
     "title": "Goodbye Yellow Brick Road",
     "artist": "Elton John",
     "genre": "Pop Rock",
@@ -206,6 +231,7 @@
     "image": "albums/1970s/1974.jpg"
   },
   "1975": {
+    "awards": "",
     "title": "Physical Graffiti",
     "artist": "Led Zeppelin",
     "genre": "Hard Rock",
@@ -214,6 +240,7 @@
     "image": "albums/1970s/1975.jpg"
   },
   "1976": {
+    "awards": "album_awards/grammy_win-c.svg",
     "title": "Songs in the Key of Life",
     "artist": "Stevie Wonder",
     "genre": "R&B",
@@ -222,6 +249,7 @@
     "image": "albums/1970s/1976.jpg"
   },
   "1977": {
+    "awards": "album_awards/grammy_win-c.svg",
     "title": "Rumours",
     "artist": "Fleetwood Mac",
     "genre": "Pop Rock",
@@ -230,6 +258,7 @@
     "image": "albums/1970s/1977.jpg"
   },
   "1978": {
+    "awards": "album_awards/grammy_win-c.svg",
     "title": "Saturday Night Fever",
     "artist": "The Bee Gees, Various",
     "genre": "Disco",
@@ -238,6 +267,7 @@
     "image": "albums/1970s/1978.jpg"
   },
   "1979": {
+    "awards": "album_awards/grammy_win-c.svg",
     "title": "52nd Street",
     "artist": "Billy Joel",
     "genre": "Rock",
@@ -246,6 +276,7 @@
     "image": "albums/1970s/1979.jpg"
   },
   "1980": {
+    "awards": "album_awards/grammy_nomination-d.svg",
     "title": "The Wall",
     "artist": "Pink Floyd",
     "genre": "Progressive Rock",
@@ -254,6 +285,7 @@
     "image": "albums/1980s/1980.jpg"
   },
   "1981": {
+    "awards": "",
     "title": "Hi Infidelity",
     "artist": "REO Speedwagon",
     "genre": "Hard Rock",
@@ -262,6 +294,7 @@
     "image": "albums/1980s/1981.jpg"
   },
   "1982": {
+    "awards": "",
     "title": "Asia",
     "artist": "Asia",
     "genre": "Progressive Rock",
@@ -270,6 +303,7 @@
     "image": "albums/1980s/1982.jpg"
   },
   "1983": {
+    "awards": "album_awards/grammy_win-d.svg",
     "title": "Thriller",
     "artist": "Michael Jackson",
     "genre": "Pop",
@@ -278,6 +312,7 @@
     "image": "albums/1980s/1983.jpg"
   },
   "1984": {
+    "awards": "album_awards/grammy_nomination-d.svg",
     "title": "Purple Rain",
     "artist": "Prince and the Revolution",
     "genre": "Pop",
@@ -286,6 +321,7 @@
     "image": "albums/1980s/1984.jpg"
   },
   "1985": {
+    "awards": "album_awards/grammy_nomination-d.svg",
     "title": "Born in the U.S.A.",
     "artist": "Bruce Springsteen",
     "genre": "Rock and Roll",
@@ -294,6 +330,7 @@
     "image": "albums/1980s/1985.jpg"
   },
   "1986": {
+    "awards": "album_awards/grammy_nomination-d.svg",
     "title": "Whitney Houston",
     "artist": "Whitney Houston",
     "genre": "Pop-Soul",
@@ -302,6 +339,7 @@
     "image": "albums/1980s/1986.jpg"
   },
   "1987": {
+    "awards": "album_awards/grammy_win-d.svg",
     "title": "The Joshua Tree",
     "artist": "U2",
     "genre": "Rock",
@@ -310,6 +348,7 @@
     "image": "albums/1980s/1987.jpg"
   },
   "1988": {
+    "awards": "album_awards/grammy_win-d.svg",
     "title": "Faith",
     "artist": "George Michael",
     "genre": "Pop",
@@ -321,6 +360,7 @@
     "image": "albums/1980s/1988.jpg"
   },
   "1989": {
+    "awards": "",
     "title": "Like a Prayer",
     "artist": "Madonna",
     "genre": "Pop",
@@ -332,6 +372,7 @@
     "image": "albums/1980s/1989.jpg"
   },
   "1990": {
+    "awards": "album_awards/grammy_nomination-e.svg",
     "title": "Please Hammer Don’t Hurt ‘Em",
     "artist": "MC Hammer",
     "genre": "Hip Hop",
@@ -344,6 +385,7 @@
     "image": "albums/1990s/1990.jpg"
   },
   "1991": {
+    "awards": "",
     "title": "Nevermind",
     "artist": "Nirvana",
     "genre": "Grunge",
@@ -352,6 +394,7 @@
     "image": "albums/1990s/1991.jpg"
   },
   "1992": {
+    "awards": "",
     "title": "Ropin’ the Wind",
     "artist": "Garth Brooks",
     "genre": "Country",
@@ -360,6 +403,7 @@
     "image": "albums/1990s/1992.jpg"
   },
   "1993": {
+    "awards": "album_awards/grammy_win-e.svg",
     "title": "The Bodyguard: Original Soundtrack Album",
     "artist": "Whitney Houston, Various",
     "genre": "Pop",
@@ -368,6 +412,7 @@
     "image": "albums/1990s/1993.jpg"
   },
   "1994": {
+    "awards": "",
     "title": "Grace",
     "artist": "Jeff Buckley",
     "genre": "Alternative Rock",
@@ -376,6 +421,7 @@
     "image": "albums/1990s/1994.jpg"
   },
   "1995": {
+    "awards": "",
     "title": "Cracked Rear View",
     "artist": "Hootie & the Blowfish",
     "genre": "Alternative Rock",
@@ -384,6 +430,7 @@
     "image": "albums/1990s/1995.jpg"
   },
   "1996": {
+    "awards": "album_awards/grammy_win-e.svg",
     "title": "Jagged Little Pill",
     "artist": "Alanis Morissette",
     "genre": "Alternative Rock",
@@ -395,6 +442,7 @@
     "image": "albums/1990s/1996.jpg"
   },
   "1997": {
+    "awards": "",
     "title": "Spice",
     "artist": "The Spice Girls",
     "genre": "Pop",
@@ -403,6 +451,7 @@
     "image": "albums/1990s/1997.jpg"
   },
   "1998": {
+    "awards": "",
     "title": "Titanic: Music from the Motion Picture",
     "artist": "James Horner and Celine Dion",
     "genre": "Soundtrack",
@@ -411,6 +460,7 @@
     "image": "albums/1990s/1998.jpg"
   },
   "1999": {
+    "awards": "album_awards/grammy_nomination-e.svg",
     "title": "Millennium",
     "artist": "The Backstreet Boys",
     "genre": "Pop",
@@ -419,6 +469,7 @@
     "image": "albums/1990s/1999.jpg"
   },
   "2000": {
+    "awards": "",
     "title": "No Strings Attached",
     "artist": "NSYNC",
     "genre": "Pop",
@@ -427,6 +478,7 @@
     "image": "albums/2000s/2000.jpg"
   },
   "2001": {
+    "awards": "",
     "title": "Hot Shot",
     "artist": "Shaggy",
     "genre": "Reggae Fusion",
@@ -438,6 +490,7 @@
     "image": "albums/2000s/2001.jpg"
   },
   "2002": {
+    "awards": "album_awards/grammy_nomination-f.svg",
     "title": "The Eminem Show",
     "artist": "Eminem",
     "genre": "Hip Hop",
@@ -451,6 +504,7 @@
     "image": "albums/2000s/2002.jpg"
   },
   "2003": {
+    "awards": "",
     "title": "Get Rich Or Die Tryin’",
     "artist": "50 Cent",
     "genre": "Gangsta Rap",
@@ -464,6 +518,7 @@
     "image": "albums/2000s/2003.jpg"
   },
   "2004": {
+    "awards": "album_awards/grammy_nomination-f.svg",
     "title": "Confessions",
     "artist": "Usher",
     "genre": "R&B",
@@ -472,6 +527,7 @@
     "image": "albums/2000s/2004.jpg"
   },
   "2005": {
+    "awards": "",
     "title": "X&Y",
     "artist": "Coldplay",
     "genre": "Alternative Rock",
@@ -483,6 +539,7 @@
     "image": "albums/2000s/2005.jpg"
   },
   "2006": {
+    "awards": "",
     "title": "Some Hearts",
     "artist": "Carrie Underwood",
     "genre": "Country",
@@ -494,6 +551,7 @@
     "image": "albums/2000s/2006.jpg"
   },
   "2007": {
+    "awards": "",
     "title": "Daughtry",
     "artist": "Daughtry",
     "genre": "Post-Grunge",
@@ -502,6 +560,7 @@
     "image": "albums/2000s/2007.jpg"
   },
   "2008": {
+    "awards": "",
     "title": "As I Am",
     "artist": "Alicia Keys",
     "genre": "R&B",
@@ -510,6 +569,7 @@
     "image": "albums/2000s/2008.jpg"
   },
   "2009": {
+    "awards": "album_awards/grammy_win-f.svg",
     "title": "Fearless",
     "artist": "Taylor Swift",
     "genre": "Country Pop",
@@ -518,6 +578,7 @@
     "image": "albums/2000s/2009.jpg"
   },
   "2010": {
+    "awards": "album_awards/grammy_nomination-g.svg",
     "title": "Recovery",
     "artist": "Eminem",
     "genre": "Hip Hop",
@@ -531,6 +592,7 @@
     "image": "albums/2010s/2010.jpg"
   },
   "2011": {
+    "awards": "album_awards/grammy_win-g.svg",
     "title": "21",
     "artist": "Adele",
     "genre": "Pop",
@@ -542,6 +604,7 @@
     "image": "albums/2010s/2011.jpg"
   },
   "2012": {
+    "awards": "",
     "title": "Night Visions",
     "artist": "Imagine Dragons",
     "genre": "Pop Rock",
@@ -553,6 +616,7 @@
     "image": "albums/2010s/2012.jpg"
   },
   "2013": {
+    "awards": "",
     "title": "The 20/20 Experience",
     "artist": "Justin Timberlake",
     "genre": "R&B",
@@ -561,6 +625,7 @@
     "image": "albums/2010s/2013.jpg"
   },
   "2014": {
+    "awards": "album_awards/grammy_nomination-g.svg",
     "title": "x",
     "artist": "Ed Sheeran",
     "genre": "Pop",
@@ -572,6 +637,7 @@
     "image": "albums/2010s/2014.jpg"
   },
   "2015": {
+    "awards": "album_awards/grammy_win-g.svg",
     "title": "1989",
     "artist": "Taylor Swift",
     "genre": "Synth-Pop",
@@ -580,6 +646,7 @@
     "image": "albums/2010s/2015.jpg"
   },
   "2016": {
+    "awards": "album_awards/grammy_nomination-g.svg",
     "title": "Views",
     "artist": "Drake",
     "genre": "Hip Hop",
@@ -592,6 +659,7 @@
     "image": "albums/2010s/2016.jpg"
   },
   "2017": {
+    "awards": "album_awards/grammy_nomination-g.svg",
     "title": "Damn.",
     "artist": "Kendrick Lamar",
     "genre": "Conscious Hip Hop",
@@ -604,6 +672,7 @@
     "image": "albums/2010s/2017.jpg"
   },
   "2018": {
+    "awards": "album_awards/grammy_nomination-g.svg",
     "title": "Beerbongs & Bentleys",
     "artist": "Post Malone",
     "genre": "Pop Rap",
@@ -612,6 +681,7 @@
     "image": "albums/2010s/2018.jpg"
   },
   "2019": {
+    "awards": "album_awards/grammy_win-g.svg",
     "title": "When We All Fall Asleep, Where Do We Go?",
     "artist": "Billie Eilish",
     "genre": "Pop",
@@ -620,6 +690,7 @@
     "image": "albums/2010s/2019.jpg"
   },
   "2020": {
+    "awards": "",
     "title": "After Hours",
     "artist": "The Weeknd",
     "genre": "R&B",
@@ -631,6 +702,7 @@
     "image": "albums/2020s/2020.jpg"
   },
   "2021": {
+    "awards": "",
     "title": "Dangerous: The Double Album",
     "artist": "Morgan Wallen",
     "genre": "Country",
@@ -642,6 +714,7 @@
     "image": "albums/2020s/2021.jpg"
   },
   "2022": {
+    "awards": "album_awards/grammy_nomination-h.svg",
     "title": "Renaissance",
     "artist": "Beyoncé",
     "genre": "R&B",
@@ -653,6 +726,7 @@
     "image": "albums/2020s/2022.jpg"
   },
   "2023": {
+    "awards": "",
     "title": "One Thing at a Time",
     "artist": "Morgan Wallen",
     "genre": "Country Pop",
@@ -665,6 +739,7 @@
     "image": "albums/2020s/2023.jpg"
   },
   "2024": {
+    "awards": "album_awards/grammy_nomination-h.svg",
     "title": "The Tortured Poets Department",
     "artist": "Taylor Swift",
     "genre": "Synth-Pop",
