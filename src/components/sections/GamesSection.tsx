@@ -45,6 +45,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
               className="max-h-[8dvh]"
               src={config.assetsRoot + awardUrl}
               alt="game award image"
+              title={awardUrl.split("/").pop()?.slice(0, -6)}
             />
           ))}
         </div>
@@ -62,6 +63,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
               key={game.title + index}
               src={config.assetsRoot + companyUrl}
               alt="game company icon"
+              title={companyUrl.split("/").pop()?.split("_")[0]}
             />
           ))}
         </div>
@@ -75,6 +77,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
               key={game.title + index}
               src={config.assetsRoot + companyUrl}
               alt="game company icon"
+              title={companyUrl.split("/").pop()?.split("_")[0]}
             />
           ))}
         </div>
@@ -92,6 +95,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
             className="max-w-[40%] max-h-[4dvh] m-[3%]"
             src={config.assetsRoot + game.esrb}
             alt="esrb rating"
+            title={game.esrb.split("/").pop()?.split("_")[0]}
           />
         </div>
       );

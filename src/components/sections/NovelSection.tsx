@@ -41,6 +41,7 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
                 className="max-h-[8dvh]"
                 src={config.assetsRoot + awardUrl}
                 alt="novel award image"
+                title={awardUrl.split("/").pop()?.slice(0, -6)}
               />
             ))}
           </div>

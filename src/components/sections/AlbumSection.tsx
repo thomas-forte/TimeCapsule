@@ -43,6 +43,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
                 className="max-h-[8dvh]"
                 src={config.assetsRoot + album.awards}
                 alt="album award image"
+                title={album.awards.split("/").pop()?.slice(0, -6)}
               />
             )}
             {album.certification && (
@@ -50,6 +51,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
                 className="max-h-[8dvh]"
                 src={config.assetsRoot + album.certification}
                 alt="certification award image"
+                title={album.certification.split("/").pop()?.slice(0, -6)}
               />
             )}
           </div>
@@ -65,6 +67,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
                 key={album.title + index}
                 src={config.assetsRoot + labelUrl}
                 alt="record label icon"
+                title={labelUrl.split("/").pop()?.split("_")[0]}
               />
             ))}
           </div>

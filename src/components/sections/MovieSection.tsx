@@ -45,6 +45,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
                 className="max-h-[8dvh]"
                 src={config.assetsRoot + movie.awards}
                 alt="movie award image"
+                title="Movie Award"
               />
             </div>
           )}
@@ -59,6 +60,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
                 key={movie.title + index}
                 src={config.assetsRoot + studioUrl}
                 alt="movie studio icon"
+                title={studioUrl.split("_")[0].split("/").pop()}
               />
             ))}
           </div>
@@ -68,6 +70,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
                 className="max-w-[40%] max-h-[4dvh] m-[3%]"
                 src={config.assetsRoot + movie.mpaa}
                 alt="mpaa rating"
+                title={movie.mpaa.split("/").pop()?.split("_")[0]}
               />
             </div>
           )}
