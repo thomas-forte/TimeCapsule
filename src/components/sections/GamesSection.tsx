@@ -58,7 +58,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
         <div className="flex justify-center h-full">
           {game.companies.map((companyUrl, index) => (
             <img
-              className="max-w-[35%] max-h-[10dvh] m-[3%]"
+              className="max-h-[10dvh] m-[3%]"
               key={game.title + index}
               src={config.assetsRoot + companyUrl}
               alt="game company icon"
