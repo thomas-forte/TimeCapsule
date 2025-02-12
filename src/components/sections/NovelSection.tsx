@@ -34,18 +34,16 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
       <Section name="novels">
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Novel of {date.getFullYear()}:</div>
-          {novel.awards.length && (
-            <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
-              {novel.awards.map((awardUrl, index) => (
-                <img
-                  key={novel.title + "award" + index}
-                  className="max-h-[8dvh]"
-                  src={config.assetsRoot + awardUrl}
-                  alt="novel award image"
-                />
-              ))}
-            </div>
-          )}
+          <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
+            {novel.awards.map((awardUrl, index) => (
+              <img
+                key={novel.title + "award" + index}
+                className="max-h-[8dvh]"
+                src={config.assetsRoot + awardUrl}
+                alt="novel award image"
+              />
+            ))}
+          </div>
           <div className={`title-text header-font-${decade}`}>
             {novel.title}
           </div>
