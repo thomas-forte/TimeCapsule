@@ -580,7 +580,7 @@
     "image": "movies/2000s/2000.jpg"
   },
   "2001": {
-    "awards": "movie_awards/2000-awards-f.svg",
+    "awards": "movie_awards/2001-awards-f.svg",
     "title": "Harry Potter and the Sorcerer's Stone",
     "studio": ["studios/wb_1993-f.svg", "studios/1492_1995-f.svg"],
     "mpaa": "mpaa_ratings/pg-rating_1972-f.svg",
