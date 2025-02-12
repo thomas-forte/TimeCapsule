@@ -44,7 +44,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
               <img
                 className="max-h-[8dvh]"
                 src={config.assetsRoot + movie.awards}
-                alt="movie awards image"
+                alt="movie award image"
               />
             </div>
           )}
