@@ -8,6 +8,7 @@ import { config } from "../../config";
 import albums from "../../assets/albums.json";
 
 type Album = {
+  awards: string;
   title: string;
   artist: string;
   genre: string;
@@ -36,6 +37,22 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
       <Section name="albums">
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Album of {date.getFullYear()}:</div>
+          <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw] ">
+            {album.awards && (
+              <img
+                className="max-h-[8dvh]"
+                src={config.assetsRoot + album.awards}
+                alt="album award image"
+              />
+            )}
+            {album.certification && (
+              <img
+                className="max-h-[8dvh]"
+                src={config.assetsRoot + album.certification}
+                alt="certification award image"
+              />
+            )}
+          </div>
           <div className={`title-text header-font-${decade}`}>
             {album.title}
           </div>
