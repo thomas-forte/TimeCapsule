@@ -9,7 +9,9 @@ import { config } from "../../config";
 import games from "../../assets/games.json";
 
 type Game = {
+  awards: string[];
   title: string;
+  esrb: string;
   creator: string;
   companies: string[];
   image: string;
@@ -39,6 +41,18 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
           className={classNames(!game.landscape && "w-2/5")}
         >
           <div className="top-text">Game of {date.getFullYear()}:</div>
+          {game.awards.length && (
+            <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
+              {game.awards.map((awardUrl, index) => (
+                <img
+                  key={game.title + "award" + index}
+                  className="max-h-[8dvh]"
+                  src={config.assetsRoot + awardUrl}
+                  alt="game award image"
+                />
+              ))}
+            </div>
+          )}
           <div className={`title-text header-font-${decade}`}>{game.title}</div>
           <p className="body-text">By {game.creator}</p>
           {!game.landscape && (
@@ -51,6 +65,15 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
                   alt="game company icon"
                 />
               ))}
+            </div>
+          )}
+          {game.esrb && (
+            <div className="flex flex-wrap justify-center mt-[2dvh]">
+              <img
+                className="max-w-[40%] max-h-[4dvh] m-[3%]"
+                src={config.assetsRoot + game.esrb}
+                alt="esrb rating"
+              />
             </div>
           )}
         </Card>
