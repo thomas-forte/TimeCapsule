@@ -60,7 +60,7 @@
     "image": "novels/1950s/1959.jpg"
   },
   "1960": {
-    "awards": "novel_awards/pulitzer-b.svg",
+    "awards": ["novel_awards/pulitzer-b.svg"],
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "image": "novels/1960s/1960.jpg"
