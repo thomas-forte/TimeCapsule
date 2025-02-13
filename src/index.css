@@ -100,14 +100,14 @@
 
   .section-container {
     @apply min-w-full h-full;
-    @apply flex gap-[3dvh] justify-around items-center;
+    @apply flex gap-[2dvh] justify-around items-center;
 
     &.landscape {
       @apply flex-col;
 
       .card {
         @apply max-h-none;
-        @apply flex justify-around items-center gap-[3dvw];
+        @apply flex justify-around items-center gap-[2dvw];
       }
     }
 
@@ -123,7 +123,7 @@
       }
 
       .title-text {
-        @apply text-center text-[9dvh] leading-none my-[2dvh] text-pretty;
+        @apply text-center my-[2dvh] text-pretty;
       }
 
       .subtitle-text {
@@ -150,30 +150,39 @@
 /* ======================== */
 .header-font-1950s {
   @apply font-carterOne text-h1950s;
+  @apply text-[8dvh] leading-none;
 }
 .header-font-1960s {
   @apply font-spicyRice text-h1960s;
+  @apply text-[7dvh] leading-none;
 }
 .header-font-1970s {
   @apply font-bungeeShade text-h1970s;
+  @apply text-[6dvh] leading-none;
 }
 .header-font-1980s {
   @apply font-monoton text-h1980s;
+  @apply text-[6dvh] leading-none;
 }
 .header-font-1990s {
   @apply font-gluten text-h1990s;
+  @apply text-[7dvh] leading-none;
 }
 .header-font-2000s {
   @apply font-cuteFont text-h2000s;
+  @apply text-[10dvh] leading-[.75];
 }
 .header-font-2010s {
   @apply font-dmSans text-h2010s;
+  @apply text-[7dvh] leading-none;
 }
 .header-font-2020s {
   @apply font-poppins text-h2020s;
+  @apply text-[7dvh] leading-none;
 }
 .header-font-2030s {
   @apply font-['Papyrus'] text-h2030s;
+  @apply text-[7dvh] leading-none;
 }
 
 .body-font-1950s {
