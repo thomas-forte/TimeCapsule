@@ -463,7 +463,12 @@
     "title": "Ms. Pac-Man",
     "esrb": "",
     "creator": "Midway",
-    "companies": ["game_companies/midway_1963-d.svg"],
+    "companies": [
+      {
+        "tooltip": "Midway Games",
+        "url": "game_companies/midway_1963-d.svg"
+      }
+    ],
     "image": "games/1980s/1983.jpg"
   },
   "1984": {
@@ -471,7 +476,12 @@
     "title": "Pitfall II: Lost Caverns",
     "esrb": "",
     "creator": "Activision",
-    "companies": ["game_companies/activision_1979-d.svg"],
+    "companies": [
+      {
+        "tooltip": "Activision",
+        "url": "game_companies/activision_1979-d.svg"
+      }
+    ],
     "image": "games/1980s/1984.jpg"
   },
   "1985": {
@@ -479,7 +489,12 @@
     "title": "The Oregon Trail",
     "esrb": "",
     "creator": "MECC",
-    "companies": ["game_companies/mecc_1983-d.svg"],
+    "companies": [
+      {
+        "tooltip": "Minnesota Educational Computing Consortium",
+        "url": "game_companies/mecc_1983-d.svg"
+      }
+    ],
     "image": "games/1980s/1985.jpg"
   },
   "1986": {
@@ -487,7 +502,12 @@
     "title": "Super Mario Bros.",
     "esrb": "",
     "creator": "Nintendo",
-    "companies": ["game_companies/nintendo_1984-d.svg"],
+    "companies": [
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-d.svg"
+      }
+    ],
     "image": "games/1980s/1986.svg"
   },
   "1987": {
@@ -495,7 +515,12 @@
     "title": "The Legend of Zelda",
     "esrb": "",
     "creator": "Nintendo",
-    "companies": ["game_companies/nintendo_1984-d.svg"],
+    "companies": [
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-d.svg"
+      }
+    ],
     "image": "games/1980s/1987.jpg"
   },
   "1988": {
@@ -503,7 +528,12 @@
     "title": "Duck Hunt",
     "esrb": "",
     "creator": "Nintendo",
-    "companies": ["game_companies/nintendo_1984-d.svg"],
+    "companies": [
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-d.svg"
+      }
+    ],
     "image": "games/1980s/1988.jpg"
   },
   "1989": {
@@ -512,8 +542,14 @@
     "esrb": "",
     "creator": "Capcom & Sega",
     "companies": [
-      "game_companies/capcom_1989-d.svg",
-      "game_companies/sega_1982-d.svg"
+      {
+        "tooltip": "Capcom",
+        "url": "game_companies/capcom_1989-d.svg"
+      },
+      {
+        "tooltip": "Sega Corporation",
+        "url": "game_companies/sega_1982-d.svg"
+      }
     ],
     "image": "games/1980s/1989.jpg"
   },
@@ -522,7 +558,12 @@
     "title": "Strider",
     "esrb": "",
     "creator": "Capcom",
-    "companies": ["game_companies/capcom_1989-e.svg"],
+    "companies": [
+      {
+        "tooltip": "Capcom",
+        "url": "game_companies/capcom_1989-e.svg"
+      }
+    ],
     "image": "games/1990s/1990.jpg"
   },
   "1991": {
@@ -531,8 +572,14 @@
     "esrb": "",
     "creator": "Sonic Team & Sega",
     "companies": [
-      "game_companies/sonic-team_1991-e.svg",
-      "game_companies/sega_1982-e.svg"
+      {
+        "tooltip": "Sonic Team",
+        "url": "game_companies/sonic-team_1991-e.svg"
+      },
+      {
+        "tooltip": "Sega Corporation",
+        "url": "game_companies/sega_1982-e.svg"
+      }
     ],
     "image": "games/1990s/1991.jpg"
   },
@@ -542,8 +589,14 @@
     "esrb": "",
     "creator": "Sega Technical Institute & Sega",
     "companies": [
-      "game_companies/sti_1991-e.svg",
-      "game_companies/sega_1982-e.svg"
+      {
+        "tooltip": "Sega Technical Institute",
+        "url": "game_companies/sti_1991-e.svg"
+      },
+      {
+        "tooltip": "Sega Corporation",
+        "url": "game_companies/sega_1982-e.svg"
+      }
     ],
     "image": "games/1990s/1992.jpg"
   },
@@ -552,26 +605,52 @@
     "title": "Mortal Kombat",
     "esrb": "",
     "creator": "Midway",
-    "companies": ["game_companies/midway_1988-e.svg"],
+    "companies": [
+      {
+        "tooltip": "Midway Games",
+        "url": "game_companies/midway_1988-e.svg"
+      }
+    ],
     "image": "games/1990s/1993.jpg"
   },
   "1994": {
     "awards": [],
     "title": "Donkey Kong Country",
-    "esrb": "esrb_ratings/k-a_1994-e.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated K-A for Kids to Adults by the ESRB",
+        "url": "esrb_ratings/k-a_1994-e.svg"
+      }
+    ],
     "creator": "Rareware & Nintendo",
     "companies": [
-      "game_companies/rare_1994-e.svg",
-      "game_companies/nintendo_1984-e.svg"
+      {
+        "tooltip": "Rareware",
+        "url": "game_companies/rare_1994-e.svg"
+      },
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-e.svg"
+      }
     ],
     "image": "games/1990s/1994.jpg"
   },
   "1995": {
     "awards": [],
     "title": "Mortal Kombat 3",
-    "esrb": "esrb_ratings/m_1994-e.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_1994-e.svg"
+      }
+    ],
     "creator": "Midway",
-    "companies": ["game_companies/midway_1988-e.svg"],
+    "companies": [
+      {
+        "tooltip": "Midway Games",
+        "url": "game_companies/midway_1988-e.svg"
+      }
+    ],
     "image": "games/1990s/1995.jpg"
   },
   "1996": {
