@@ -8,12 +8,12 @@ import { config } from "../../config";
 import albums from "../../assets/albums.json";
 
 type Album = {
-  awards: string;
+  awards: { url: string; tooltip: string } | null;
   title: string;
   artist: string;
   genre: string;
-  labels: string[];
-  certification: string;
+  labels: { url: string; tooltip: string }[];
+  certification: { url: string; tooltip: string } | null;
   image: string;
 };
 
@@ -41,17 +41,17 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
             {album.awards && (
               <img
                 className="max-h-[8dvh]"
-                src={config.assetsRoot + album.awards}
-                alt="album award image"
-                title={album.awards.split("/").pop()?.slice(0, -6)}
+                src={config.assetsRoot + album.awards.url}
+                alt={album.awards.tooltip}
+                title={album.awards.tooltip}
               />
             )}
             {album.certification && (
               <img
                 className="max-h-[8dvh]"
-                src={config.assetsRoot + album.certification}
-                alt="certification award image"
-                title={album.certification.split("/").pop()?.slice(0, -6)}
+                src={config.assetsRoot + album.certification.url}
+                alt={album.certification.tooltip}
+                title={album.certification.tooltip}
               />
             )}
           </div>
@@ -61,13 +61,13 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
           <p className="subtitle-text">By {album.artist}</p>
           <p className="body-text">Genre: {album.genre}</p>
           <div className="flex flex-wrap justify-center mt-[2dvh]">
-            {album.labels.map((labelUrl, index) => (
+            {album.labels.map((label, index) => (
               <img
                 className="max-w-[40%] max-h-[15dvh] m-[3%]"
                 key={album.title + index}
-                src={config.assetsRoot + labelUrl}
-                alt="record label icon"
-                title={labelUrl.split("/").pop()?.split("_")[0]}
+                src={config.assetsRoot + label.url}
+                alt={label.tooltip}
+                title={label.tooltip}
               />
             ))}
           </div>
