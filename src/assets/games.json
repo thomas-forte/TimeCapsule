@@ -764,118 +764,291 @@
   "2001": {
     "awards": [],
     "title": "Madden NFL 2002",
-    "esrb": "esrb_ratings/e_2000-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated E for Everyone by the ESRB",
+        "url": "esrb_ratings/e_2000-f.svg"
+      }
+    ],
     "creator": "EA Sports",
-    "companies": ["game_companies/ea-sports_2000-f.svg"],
+    "companies": [
+      {
+        "tooltip": "EA Sports",
+        "url": "game_companies/ea-sports_2000-f.svg"
+      }
+    ],
     "image": "games/2000s/2001.jpg"
   },
   "2002": {
-    "awards": ["game_awards/dice-nomination-e.svg"],
+    "awards": [
+      {
+        "tooltip": "Nominee, Game of the Year, 6th DICE Awards",
+        "url": "game_awards/dice-nomination-e.svg"
+      }
+    ],
     "title": "Grand Theft Auto: Vice City",
-    "esrb": "esrb_ratings/m_2000-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2000-f.svg"
+      }
+    ],
     "creator": "Rockstar North",
-    "companies": ["game_companies/rn_2002-f.svg"],
+    "companies": [
+      {
+        "tooltip": "Rockstar North",
+        "url": "game_companies/rn_2002-f.svg"
+      }
+    ],
     "image": "games/2000s/2002.jpg"
   },
   "2003": {
     "awards": [],
     "title": "Madden NFL 2004",
-    "esrb": "esrb_ratings/e_2003-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated E for Everyone by the ESRB",
+        "url": "esrb_ratings/e_2003-f.svg"
+      }
+    ],
     "creator": "EA Sports",
-    "companies": ["game_companies/ea-sports_2000-f.svg"],
+    "companies": [
+      {
+        "tooltip": "EA Sports",
+        "url": "game_companies/ea-sports_2000-f.svg"
+      }
+    ],
     "image": "games/2000s/2003.jpg"
   },
   "2004": {
-    "awards": ["game_awards/dice-nomination-f.svg"],
+    "awards": [
+      {
+        "tooltip": "Nominee, Game of the Year, 8th DICE Awards",
+        "url": "game_awards/dice-nomination-f.svg"
+      }
+    ],
     "title": "Grand Theft Auto: San Andreas",
-    "esrb": "esrb_ratings/m_2003-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-f.svg"
+      }
+    ],
     "creator": "Rockstar North",
-    "companies": ["game_companies/rn_2002-f.svg"],
+    "companies": [
+      {
+        "tooltip": "Rockstar North",
+        "url": "game_companies/rn_2002-f.svg"
+      }
+    ],
     "image": "games/2000s/2004.jpg"
   },
   "2005": {
     "awards": [],
     "title": "Star Wars: Battlefront II",
-    "esrb": "esrb_ratings/t_2003-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated T for Teen by the ESRB",
+        "url": "esrb_ratings/t_2003-f.svg"
+      }
+    ],
     "creator": "Pandemic Studios & LucasArts",
     "companies": [
-      "game_companies/pandemic_1998-f.svg",
-      "game_companies/lucasarts_2005-f.svg"
+      {
+        "tooltip": "Pandemic Studios",
+        "url": "game_companies/pandemic_1998-f.svg"
+      },
+      {
+        "tooltip": "LucasArts",
+        "url": "game_companies/lucasarts_2005-f.svg"
+      }
     ],
     "image": "games/2000s/2005.jpg"
   },
   "2006": {
-    "awards": ["game_awards/dice-win-f.svg", "game_awards/gdca-f.svg"],
+    "awards": [
+      {
+        "tooltip": "Winner, Game of the Year, 10th DICE Awards",
+        "url": "game_awards/dice-win-f.svg"
+      },
+      {
+        "tooltip": "Winner, Game of the Year, 7th GDC Awards",
+        "url": "game_awards/gdca-f.svg"
+      }
+    ],
     "title": "Gears of War",
-    "esrb": "esrb_ratings/m_2003-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-f.svg"
+      }
+    ],
     "creator": "Epic Games & Microsoft Game Studios",
     "companies": [
-      "game_companies/epic_2005-f.svg",
-      "game_companies/microsoft_2002-f.svg"
+      {
+        "tooltip": "Epic Games",
+        "url": "game_companies/epic_2005-f.svg"
+      },
+      {
+        "tooltip": "Microsoft Game Studios",
+        "url": "game_companies/microsoft_2002-f.svg"
+      }
     ],
     "image": "games/2000s/2006.jpg"
   },
   "2007": {
     "awards": [],
     "title": "Halo 3",
-    "esrb": "esrb_ratings/m_2003-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-f.svg"
+      }
+    ],
     "creator": "Bungie & Microsoft Game Studios",
     "companies": [
-      "game_companies/bungie_1994-f.svg",
-      "game_companies/microsoft_2002-f.svg"
+      {
+        "tooltip": "Bungie",
+        "url": "game_companies/epic_2005-f.svg"
+      },
+      {
+        "tooltip": "Microsoft Game Studios",
+        "url": "game_companies/microsoft_2002-f.svg"
+      }
     ],
     "image": "games/2000s/2007.jpg"
   },
   "2008": {
-    "awards": ["game_awards/dice-nomination-f.svg"],
+    "awards": [
+      {
+        "tooltip": "Nominee, Game of the Year, 12th DICE Awards",
+        "url": "game_awards/dice-nomination-f.svg"
+      }
+    ],
     "title": "Grand Theft Auto IV",
-    "esrb": "esrb_ratings/m_2003-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-f.svg"
+      }
+    ],
     "creator": "Rockstar North",
-    "companies": ["game_companies/rn_2002-f.svg"],
+    "companies": [
+      {
+        "tooltip": "Rockstar North",
+        "url": "game_companies/rn_2002-f.svg"
+      }
+    ],
     "image": "games/2000s/2008.jpg"
   },
   "2009": {
-    "awards": ["game_awards/dice-nomination-f.svg"],
+    "awards": [
+      {
+        "tooltip": "Nominee, Game of the Year, 13th DICE Awards",
+        "url": "game_awards/dice-nomination-f.svg"
+      }
+    ],
     "title": "Call of Duty: Modern Warfare 2",
-    "esrb": "esrb_ratings/m_2003-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-f.svg"
+      }
+    ],
     "creator": "Infinity Ward & Activision",
     "companies": [
-      "game_companies/iw_2003-f.svg",
-      "game_companies/activision_1979-f.svg"
+      {
+        "tooltip": "Infinity Ward",
+        "url": "game_companies/iw_2003-f.svg"
+      },
+      {
+        "tooltip": "Activision",
+        "url": "game_companies/activision_1979-f.svg"
+      }
     ],
     "image": "games/2000s/2009.jpg"
   },
   "2010": {
-    "awards": ["game_awards/dice-win-g.svg"],
+    "awards": [
+      {
+        "tooltip": "Winner, Game of the Year, 14th DICE Awards",
+        "url": "game_awards/dice-win-g.svg"
+      }
+    ],
     "title": "Mass Effect 2",
-    "esrb": "esrb_ratings/m_2003-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-g.svg"
+      }
+    ],
     "creator": "BioWare, Electronic Arts, Microsoft Game Studios",
     "companies": [
-      "game_companies/bioware_1998-g.svg",
-      "game_companies/ea_2006-g.svg",
-      "game_companies/microsoft_2002-g.svg"
+      {
+        "tooltip": "BioWare",
+        "url": "game_companies/bioware_1998-g.svg"
+      },
+      {
+        "tooltip": "Electronic Arts",
+        "url": "game_companies/ea_2006-g.svg"
+      },
+      {
+        "tooltip": "Microsoft Game Studios",
+        "url": "game_companies/microsoft_2002-g.svg"
+      }
     ],
     "image": "games/2010s/2010.jpg"
   },
   "2011": {
-    "awards": ["game_awards/dice-win-g.svg", "game_awards/gdca-g.svg"],
+    "awards": [
+      {
+        "tooltip": "Winner, Game of the Year, 15th DICE Awards",
+        "url": "game_awards/dice-win-g.svg"
+      },
+      {
+        "tooltip": "Winner, Game of the Year, 12th GDC Awards",
+        "url": "game_awards/gdca-g.svg"
+      }
+    ],
     "title": "The Elder Scrolls V: Skyrim",
-    "esrb": "esrb_ratings/m_2003-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-g.svg"
+      }
+    ],
     "creator": "Bethesda Game Studios & Bethesda Softworks",
     "companies": [
-      "game_companies/bgs_2001-g.svg",
-      "game_companies/bethesda_2010-g.svg"
+      {
+        "tooltip": "Bethesda Game Studios",
+        "url": "game_companies/bgs_2001-g.svg"
+      },
+      {
+        "tooltip": "Bethesda Softworks",
+        "url": "game_companies/bethesda_2010-g.svg"
+      }
     ],
     "image": "games/2010s/2011.jpg"
   },
   "2012": {
     "awards": [],
     "title": "Mass Effect 3",
-    "esrb": "esrb_ratings/m_2003-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2003-g.svg"
+      }
+    ],
     "creator": "BioWare & Electronic Arts",
     "companies": [
-      "game_companies/bioware_1998-g.svg",
-      "game_companies/ea_2006-g.svg"
+      {
+        "tooltip": "BioWare",
+        "url": "game_companies/bioware_1998-g.svg"
+      },
+      {
+        "tooltip": "Electronic Arts",
+        "url": "game_companies/ea_2006-g.svg"
+      }
     ],
     "image": "games/2010s/2012.jpg"
   },
