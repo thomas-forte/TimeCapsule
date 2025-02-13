@@ -656,46 +656,108 @@
   "1996": {
     "awards": [],
     "title": "Super Mario 64",
-    "esrb": "esrb_ratings/k-a_1996-e.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated K-A for Kids to Adults by the ESRB",
+        "url": "esrb_ratings/k-a_1996-e.svg"
+      }
+    ],
     "creator": "Nintendo",
-    "companies": ["game_companies/nintendo_1984-e.svg"],
+    "companies": [
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-e.svg"
+      }
+    ],
     "image": "games/1990s/1996.jpg"
   },
   "1997": {
     "awards": [],
     "title": "Mario Kart 64",
-    "esrb": "esrb_ratings/k-a_1996-e.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated K-A for Kids to Adults by the ESRB",
+        "url": "esrb_ratings/k-a_1996-e.svg"
+      }
+    ],
     "creator": "Nintendo",
-    "companies": ["game_companies/nintendo_1984-e.svg"],
+    "companies": [
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-e.svg"
+      }
+    ],
     "image": "games/1990s/1997.jpg"
   },
   "1998": {
-    "awards": ["game_awards/dice-win-e.svg"],
+    "awards": [
+      {
+        "tooltip": "Winner, Game of the Year, 2nd DICE Awards",
+        "url": "game_awards/dice-win-e.svg"
+      }
+    ],
     "title": "The Legend of Zelda: Ocarina of Time",
-    "esrb": "esrb_ratings/e_1998-e.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated E for Everyone by the ESRB",
+        "url": "esrb_ratings/e_1998-e.svg"
+      }
+    ],
     "creator": "Nintendo",
-    "companies": ["game_companies/nintendo_1984-e.svg"],
+    "companies": [
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-e.svg"
+      }
+    ],
     "image": "games/1990s/1998.jpg"
   },
   "1999": {
-    "awards": ["game_awards/dice-nomination-e.svg"],
+    "awards": [
+      {
+        "tooltip": "Nominee, Game of the Year, 3rd DICE Awards",
+        "url": "game_awards/dice-nomination-e.svg"
+      }
+    ],
     "title": "Donkey Kong 64",
-    "esrb": "esrb_ratings/e_1999-e.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated E for Everyone by the ESRB",
+        "url": "esrb_ratings/e_1998-e.svg"
+      }
+    ],
     "creator": "Rareware & Nintendo",
     "companies": [
-      "game_companies/rare_1994-e.svg",
-      "game_companies/nintendo_1984-e.svg"
+      {
+        "tooltip": "Rareware",
+        "url": "game_companies/rare_1994-e.svg"
+      },
+      {
+        "tooltip": "Nintendo",
+        "url": "game_companies/nintendo_1984-e.svg"
+      }
     ],
     "image": "games/1990s/1999.jpg"
   },
   "2000": {
     "awards": [],
     "title": "Tony Hawk's Pro Skater 2",
-    "esrb": "esrb_ratings/e_2000-f.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated E for Everyone by the ESRB",
+        "url": "esrb_ratings/e_2000-f.svg"
+      }
+    ],
     "creator": "Neversoft & Activision",
     "companies": [
-      "game_companies/neversoft_1999-f.svg",
-      "game_companies/activision_1979-f.svg"
+      {
+        "tooltip": "Neversoft Entertainment",
+        "url": "game_companies/neversoft_1999-f.svg"
+      },
+      {
+        "tooltip": "Activision",
+        "url": "game_companies/activision_1979-f.svg"
+      }
     ],
     "image": "games/2000s/2000.jpg"
   },
