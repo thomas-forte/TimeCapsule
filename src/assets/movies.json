@@ -1064,21 +1064,27 @@
   "1992": {
     "awards": [
       {
-        "tooltip": "4 Wins, 6 Nominations, 64th Academy Awards",
-        "url": "movie_awards/1991-awards-e.svg"
+        "tooltip": "2 Wins, 5 Nominations, 65th Academy Awards",
+        "url": "movie_awards/1992-awards-e.svg"
       }
-    ],"movie_awards/1990-awards-e.svg",
+    ],
     "title": "Aladdin",
     "studio": [
       {
-        "tooltip": "4 Wins, 6 Nominations, 64th Academy Awards",
-        "url": "movie_awards/1991-awards-e.svg"
+        "tooltip": "Walt Disney Feature Animation",
+        "url": "studios/disney-animation_1986-e.svg"
+      },
+      {
+        "tooltip": "Buena Vista Pictures Distribution",
+        "url": "studios/buena-vista_1987-e.svg"
       }
-    ],[
-      "studios/disney-animation_1986-e.svg",
-      "studios/buena-vista_1987-e.svg"
     ],
-    "mpaa": "mpaa_ratings/g-rating_1990-e.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated G by the MPAA",
+        "url": "mpaa_ratings/g-rating_1990-e.svg"
+      }
+    ],
     "runtime": "90 minutes",
     "directors": ["John Musker", "Ron Clements"],
     "tagline": "Imagine if you had three wishes, three hopes, three dreams, and they all could come true.",
@@ -1086,10 +1092,29 @@
     "image": "movies/1990s/1992.jpg"
   },
   "1993": {
-    "awards": "movie_awards/1993-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "3 Wins, 3 Nominations, 66th Academy Awards",
+        "url": "movie_awards/1993-awards-e.svg"
+      }
+    ],
     "title": "Jurassic Park",
-    "studio": ["studios/amblin_1984-e.svg", "studios/universal_1990-e.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
+    "studio": [
+      {
+        "tooltip": "Amblin Entertainment",
+        "url": "studios/amblin_1984-e.svg"
+      },
+      {
+        "tooltip": "Universal City Studios",
+        "url": "studios/universal_1990-e.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+      }
+    ],
     "runtime": "127 minutes",
     "directors": ["Steven Spielberg"],
     "tagline": "An adventure 65 million years in the making.",
@@ -1097,10 +1122,25 @@
     "image": "movies/1990s/1993.jpg"
   },
   "1994": {
-    "awards": "movie_awards/1994-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "6 Wins, 13 Nominations, 67th Academy Awards",
+        "url": "movie_awards/1994-awards-e.svg"
+      }
+    ],
     "title": "Forrest Gump",
-    "studio": ["studios/paramount_1967-e.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
+    "studio": [
+      {
+        "tooltip": "Paramount Pictures Corporation",
+        "url": "studios/paramount_1967-e.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+      }
+    ],
     "runtime": "142 minutes",
     "directors": ["Robert Zemeckis"],
     "tagline": "The world will never be the same once you've seen it through the eyes of Forrest Gump.",
@@ -1108,10 +1148,29 @@
     "image": "movies/1990s/1994.jpg"
   },
   "1995": {
-    "awards": "movie_awards/1995-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "1 Win, 4 Nominations, 68th Academy Awards",
+        "url": "movie_awards/1995-awards-e.svg"
+      }
+    ],
     "title": "Toy Story",
-    "studio": ["studios/pixar_1994-e.svg", "studios/buena-vista_1987-e.svg"],
-    "mpaa": "mpaa_ratings/g-rating_1990-e.svg",
+    "studio": [
+      {
+        "tooltip": "Pixar Animation Studios",
+        "url": "studios/pixar_1994-e.svg"
+      },
+      {
+        "tooltip": "Buena Vista Pictures Distribution",
+        "url": "studios/buena-vista_1987-e.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated G by the MPAA",
+        "url": "mpaa_ratings/g-rating_1990-e.svg"
+      }
+    ],
     "runtime": "81 minutes",
     "directors": ["John Lasseter"],
     "tagline": "Take off on an adventure beyond the imagination.",
@@ -1119,10 +1178,29 @@
     "image": "movies/1990s/1995.jpg"
   },
   "1996": {
-    "awards": "movie_awards/1996-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "1 Win, 2 Nominations, 69th Academy Awards",
+        "url": "movie_awards/1996-awards-e.svg"
+      }
+    ],
     "title": "Independence Day",
-    "studio": ["studios/centropolis_1998-e.svg", "studios/fox_1986-e.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
+    "studio": [
+      {
+        "tooltip": "Centropolis Entertainment",
+        "url": "studios/centropolis_1998-e.svg"
+      },
+      {
+        "tooltip": "20th Century Fox Film Corporation",
+        "url": "studios/fox_1986-e.svg"
+      }
+    ],
+    "mpaa":[
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+      }
+    ],
     "runtime": "145 minutes",
     "directors": ["Roland Emmerich"],
     "tagline": "The question of whether or not we are alone in the universe has been answered.",
@@ -1130,14 +1208,33 @@
     "image": "movies/1990s/1996.jpg"
   },
   "1997": {
-    "awards": "movie_awards/1997-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "11 Wins, 14 Nominations, 70th Academy Awards",
+        "url": "movie_awards/1997-awards-e.svg"
+      }
+    ],
     "title": "Titanic",
     "studio": [
-      "studios/paramount_1967-e.svg",
-      "studios/fox_1986-e.svg",
-      "studios/lightstorm_1994-e.svg"
+      {
+        "tooltip": "Paramount Pictures Corporation",
+        "url": "studios/paramount_1967-e.svg"
+      },
+      {
+        "tooltip": "20th Century Fox Film Corporation",
+        "url": "studios/fox_1986-e.svg"
+      },
+      {
+        "tooltip": "Lightstorm Entertainment",
+        "url": "studios/lightstorm_1994-e.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+      }
+    ],
     "runtime": "195 minutes",
     "directors": ["James Cameron"],
     "tagline": "Nothing on Earth could come between them.",
@@ -1145,14 +1242,33 @@
     "image": "movies/1990s/1997.jpg"
   },
   "1998": {
-    "awards": "movie_awards/1998-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "5 Wins, 11 Nominations, 71st Academy Awards",
+        "url": "movie_awards/1998-awards-e.svg"
+      }
+    ],
     "title": "Saving Private Ryan",
     "studio": [
-      "studios/amblin_1984-e.svg",
-      "studios/dreamworks_1994-e.svg",
-      "studios/paramount_1967-e.svg"
+      {
+        "tooltip": "Amblin Entertainment",
+        "url": "studios/amblin_1984-e.svg"
+      },
+      {
+        "tooltip": "DreamWorks SKG",
+        "url": "studios/dreamworks_1994-e.svg"
+      },
+      {
+        "tooltip": "Paramount Pictures Corporation",
+        "url": "studios/paramount_1967-e.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/r-rating_1972-e.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated R by the MPAA",
+        "url": "mpaa_ratings/r-rating_1972-e.svg"
+      }
+    ],
     "runtime": "170 minutes",
     "directors": ["Steven Spielberg"],
     "tagline": "The mission is a man.",
@@ -1160,10 +1276,29 @@
     "image": "movies/1990s/1998.jpg"
   },
   "1999": {
-    "awards": "movie_awards/1999-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "3 Nominations, 72nd Academy Awards",
+        "url": "movie_awards/1999-awards-e.svg"
+      }
+    ],
     "title": "Star Wars: Episode I - The Phantom Menace",
-    "studio": ["studios/lucasfilm_1971-e.svg", "studios/fox_1986-e.svg"],
-    "mpaa": "mpaa_ratings/pg-rating_1972-e.svg",
+    "studio": [
+      {
+        "tooltip": "Lucasfilm",
+        "url": "studios/lucasfilm_1971-e.svg"
+      },
+      {
+        "tooltip": "20th Century Fox Film Corporation",
+        "url": "studios/fox_1986-e.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG by the MPAA",
+        "url": "mpaa_ratings/pg-rating_1972-e.svg"
+      }
+    ],
     "runtime": "134 minutes",
     "directors": ["George Lucas"],
     "tagline": "Every saga has a beginning.",
