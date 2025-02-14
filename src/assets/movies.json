@@ -1309,10 +1309,21 @@
     "awards": "",
     "title": "Mission: Impossible 2",
     "studio": [
-      "studios/cruise-wagner_1992-f.svg",
-      "studios/paramount_1967-f.svg"
+      {
+        "tooltip": "Cruise/Wagner Productions",
+        "url": "studios/cruise-wagner_1992-f.svg"
+      },
+      {
+        "tooltip": "Paramount Pictures Corporation",
+        "url": "studios/paramount_1967-f.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
     "runtime": "124 minutes",
     "directors": ["John Woo"],
     "tagline": "Expect the impossible again",
@@ -1320,10 +1331,29 @@
     "image": "movies/2000s/2000.jpg"
   },
   "2001": {
-    "awards": "movie_awards/2001-awards-f.svg",
+    "awards": [
+      {
+        "tooltip": "3 Nominations, 74th Academy Awards",
+        "url": "movie_awards/2001-awards-f.svg"
+      }
+    ],
     "title": "Harry Potter and the Sorcerer's Stone",
-    "studio": ["studios/wb_1993-f.svg", "studios/1492_1995-f.svg"],
-    "mpaa": "mpaa_ratings/pg-rating_1972-f.svg",
+    "studio": [
+      {
+        "tooltip": "Warner Bros.",
+        "url": "studios/wb_1993-f.svg"
+      },
+      {
+        "tooltip": "1492 Pictures",
+        "url": "studios/1492_1995-f.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG by the MPAA",
+        "url": "mpaa_ratings/pg-rating_1972-f.svg"
+      }
+    ],
     "runtime": "152 minutes",
     "directors": ["Chris Columbus"],
     "tagline": "Let The Magic Begin.",
@@ -1331,10 +1361,29 @@
     "image": "movies/2000s/2001.jpg"
   },
   "2002": {
-    "awards": "movie_awards/2002-awards-f.svg",
+    "awards": [
+      {
+        "tooltip": "2 Wins, 6 Nominations, 75th Academy Awards",
+        "url": "movie_awards/2002-awards-f.svg"
+      }
+    ],
     "title": "The Lord of the Rings: The Two Towers",
-    "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
+    "studio": [
+      {
+        "tooltip": "WingNut Films Productions",
+        "url": "studios/wingnut_1989-f.svg"
+      },
+      {
+        "tooltip": "New Line Cinema",
+        "url": "studios/new-line_2001-f.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
     "runtime": "179 minutes",
     "directors": ["Peter Jackson"],
     "tagline": "The battle for Middle-Earth begins!",
