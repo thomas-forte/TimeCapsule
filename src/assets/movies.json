@@ -1,8 +1,22 @@
 {
   "1950": {
-    "awards": "movie_awards/1950-awards-a.svg",
+    "awards": [
+      {
+        "tooltip": "3 Nominations, 23rd Academy Awards",
+        "url": "movie_awards/1950-awards-a.svg"
+      }
+    ],
     "title": "Cinderella",
-    "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Walt Disney Productions",
+        "url": "studios/disney_1948-a.svg"
+      },
+      {
+        "tooltip": "RKO Radio Pictures",
+        "url": "studios/rko_1937-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "75 minutes",
     "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
