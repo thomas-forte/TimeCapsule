@@ -25,9 +25,19 @@
     "image": "movies/1950s/1950.jpg"
   },
   "1951": {
-    "awards": "movie_awards/1951-awards-a.svg",
+    "awards": [
+      {
+        "tooltip": "8 Nominations, 24th Academy Awards",
+        "url": "movie_awards/1951-awards-a.svg"
+      }
+    ],
     "title": "Quo Vadis",
-    "studio": ["studios/mgm_1924-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Metro-Goldwyn-Mayer",
+        "url": "studios/mgm_1924-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "171 minutes",
     "directors": ["Mervyn LeRoy"],
@@ -36,9 +46,19 @@
     "image": "movies/1950s/1951.jpg"
   },
   "1952": {
-    "awards": "movie_awards/1952-awards-a.svg",
+    "awards": [
+      {
+        "tooltip": "2 Wins, 5 Nominations, 25th Academy Awards",
+        "url": "movie_awards/1952-awards-a.svg"
+      }
+    ],
     "title": "The Greatest Show on Earth",
-    "studio": ["studios/paramount_1917-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Paramount Pictures",
+        "url": "studios/paramount_1917-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "152 minutes",
     "directors": ["Cecil B. DeMille"],
@@ -49,7 +69,16 @@
   "1953": {
     "awards": "",
     "title": "Peter Pan",
-    "studio": ["studios/disney_1948-a.svg", "studios/rko_1937-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Walt Disney Productions",
+        "url": "studios/disney_1948-a.svg"
+      },
+      {
+        "tooltip": "RKO Radio Pictures",
+        "url": "studios/rko_1937-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "77 minutes",
     "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
@@ -58,9 +87,19 @@
     "image": "movies/1950s/1953.jpg"
   },
   "1954": {
-    "awards": "movie_awards/1954-awards-a.svg",
+    "awards": [
+      {
+        "tooltip": "1 Nominations, 27th Academy Awards",
+        "url": "movie_awards/1954-awards-a.svg"
+      }
+    ],
     "title": "White Christmas",
-    "studio": ["studios/paramount_1917-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Paramount Pictures",
+        "url": "studios/paramount_1917-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "120 minutes",
     "directors": ["Michael Curtiz"],
@@ -71,7 +110,16 @@
   "1955": {
     "awards": "",
     "title": "Lady and the Tramp",
-    "studio": ["studios/disney_1948-a.svg", "studios/buena-vista_1953-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Walt Disney Productions",
+        "url": "studios/disney_1948-a.svg"
+      },
+      {
+        "tooltip": "Buena Vista Film Distribution",
+        "url": "studios/buena-vista_1953-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "76 minutes",
     "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
@@ -80,9 +128,19 @@
     "image": "movies/1950s/1955.jpg"
   },
   "1956": {
-    "awards": "movie_awards/1956-awards-a.svg",
+    "awards": [
+      {
+        "tooltip": "1 Win, 7 Nominations, 29th Academy Awards",
+        "url": "movie_awards/1956-awards-a.svg"
+      }
+    ],
     "title": "The Ten Commandments",
-    "studio": ["studios/paramount_1917-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Paramount Pictures",
+        "url": "studios/paramount_1917-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "220 minutes",
     "directors": ["Cecil B. DeMille"],
@@ -91,9 +149,19 @@
     "image": "movies/1950s/1956.jpg"
   },
   "1957": {
-    "awards": "movie_awards/1957-awards-a.svg",
+    "awards": [
+      {
+        "tooltip": "7 Wins, 8 Nominations, 30th Academy Awards",
+        "url": "movie_awards/1957-awards-a.svg"
+      }
+    ],
     "title": "The Bridge on the River Kwai",
-    "studio": ["studios/columbia_1945-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Columbia Pictures Corporation",
+        "url": "studios/columbia_1945-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "161 minutes",
     "directors": ["David Lean"],
@@ -104,7 +172,12 @@
   "1958": {
     "awards": "",
     "title": "South Pacific",
-    "studio": ["studios/fox_1945-a.svg"],
+    "studio": [
+      {
+        "tooltip": "20th Century-Fox Film Corporation",
+        "url": "studios/fox_1945-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "157 minutes",
     "directors": ["Joshua Logan"],
@@ -113,9 +186,19 @@
     "image": "movies/1950s/1958.jpg"
   },
   "1959": {
-    "awards": "movie_awards/1959-awards-a.svg",
+    "awards": [
+      {
+        "tooltip": "11 Wins, 12 Nominations, 32nd Academy Awards",
+        "url": "movie_awards/1959-awards-a.svg"
+      }
+    ],
     "title": "Ben-Hur",
-    "studio": ["studios/mgm_1924-a.svg"],
+    "studio": [
+      {
+        "tooltip": "Metro-Goldwyn-Mayer",
+        "url": "studios/mgm_1924-a.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "212 minutes",
     "directors": ["William Wyler"],
@@ -124,9 +207,19 @@
     "image": "movies/1950s/1959.jpg"
   },
   "1960": {
-    "awards": "movie_awards/1960-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "4 Wins, 6 Nominations, 33rd Academy Awards",
+        "url": "movie_awards/1960-awards-b.svg"
+      }
+    ],
     "title": "Spartacus",
-    "studio": ["studios/universal_1960-b.svg"],
+    "studio": [
+      {
+        "tooltip": "Universal Pictures Company",
+        "url": "studios/universal_1960-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "197 minutes",
     "directors": ["Stanley Kubrick"],
@@ -137,7 +230,16 @@
   "1961": {
     "awards": "",
     "title": "One Hundred and One Dalmatians",
-    "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
+    "studio": [
+      {
+        "tooltip": "Walt Disney Productions",
+        "url": "studios/disney_1948-b.svg"
+      },
+      {
+        "tooltip": "Buena Vista Distribution Co.",
+        "url": "studios/buena-vista_1960-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "79 minutes",
     "directors": ["Clyde Geronimi", "Hamilton Luske", "Wolfgang Reitherman"],
@@ -146,9 +248,19 @@
     "image": "movies/1960s/1961.jpg"
   },
   "1962": {
-    "awards": "movie_awards/1962-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "7 Wins, 10 Nominations, 35th Academy Awards",
+        "url": "movie_awards/1962-awards-b.svg"
+      }
+    ],
     "title": "Lawrence of Arabia",
-    "studio": ["studios/columbia_1945-b.svg"],
+    "studio": [
+      {
+        "tooltip": "Columbia Pictures Corporation",
+        "url": "studios/columbia_1945-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "210 minutes",
     "directors": ["David Lean"],
@@ -157,9 +269,19 @@
     "image": "movies/1960s/1962.jpg"
   },
   "1963": {
-    "awards": "movie_awards/1963-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "4 Wins, 9 Nominations, 36th Academy Awards",
+        "url": "movie_awards/1963-awards-b.svg"
+      }
+    ],
     "title": "Cleopatra",
-    "studio": ["studios/fox_1945-b.svg"],
+    "studio": [
+      {
+        "tooltip": "20th Century-Fox Film Corporation",
+        "url": "studios/fox_1945-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "251 minutes",
     "directors": ["Joseph L. Mankiewicz"],
@@ -168,9 +290,23 @@
     "image": "movies/1960s/1963.jpg"
   },
   "1964": {
-    "awards": "movie_awards/1964-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "5 Wins, 13 Nominations, 37th Academy Awards",
+        "url": "movie_awards/1964-awards-b.svg"
+      }
+    ],
     "title": "Mary Poppins",
-    "studio": ["studios/disney_1948-b.svg", "studios/buena-vista_1960-b.svg"],
+    "studio": [
+      {
+        "tooltip": "Walt Disney Productions",
+        "url": "studios/disney_1948-b.svg"
+      },
+      {
+        "tooltip": "Buena Vista Distribution Co.",
+        "url": "studios/buena-vista_1960-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "139 minutes",
     "directors": ["Robert Stevenson"],
@@ -179,9 +315,19 @@
     "image": "movies/1960s/1964.jpg"
   },
   "1965": {
-    "awards": "movie_awards/1965-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "5 Wins, 10 Nominations, 38th Academy Awards",
+        "url": "movie_awards/1965-awards-b.svg"
+      }
+    ],
     "title": "The Sound of Music",
-    "studio": ["studios/fox_1945-b.svg"],
+    "studio": [
+      {
+        "tooltip": "20th Century-Fox Film Corporation",
+        "url": "studios/fox_1945-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "174 minutes",
     "directors": ["Robert Wise"],
@@ -190,9 +336,23 @@
     "image": "movies/1960s/1965.jpg"
   },
   "1966": {
-    "awards": "movie_awards/1966-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "7 Nominations, 39th Academy Awards",
+        "url": "movie_awards/1966-awards-b.svg"
+      }
+    ],
     "title": "Hawaii",
-    "studio": ["studios/mirisch_1960-b.svg", "studios/ua_1929-b.svg"],
+    "studio": [
+      {
+        "tooltip": "The Mirisch Company",
+        "url": "studios/mirisch_1960-b.svg"
+      },
+      {
+        "tooltip": "United Artists",
+        "url": "studios/ua_1929-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "161 minutes",
     "directors": ["George Roy Hill"],
@@ -201,9 +361,23 @@
     "image": "movies/1960s/1966.jpg"
   },
   "1967": {
-    "awards": "movie_awards/1967-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "1 Win, 7 Nominations, 40th Academy Awards",
+        "url": "movie_awards/1967-awards-b.svg"
+      }
+    ],
     "title": "The Graduate",
-    "studio": ["studios/embassy_1961-b.svg", "studios/ua_1967-b.svg"],
+    "studio": [
+      {
+        "tooltip": "Embassy Pictures Corporation",
+        "url": "studios/embassy_1961-b.svg"
+      },
+      {
+        "tooltip": "United Artists",
+        "url": "studios/ua_1967-b.svg"
+      }
+    ],
     "mpaa": "",
     "runtime": "106 minutes",
     "directors": ["Mike Nichols"],
@@ -212,10 +386,29 @@
     "image": "movies/1960s/1967.jpg"
   },
   "1968": {
-    "awards": "movie_awards/1960-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "1 Win, 8 Nominations, 41st Academy Awards",
+        "url": "movie_awards/1968-awards-b.svg"
+      }
+    ],
     "title": "Funny Girl",
-    "studio": ["studios/rastar_1975-b.svg", "studios/columbia_1966-b.svg"],
-    "mpaa": "mpaa_ratings/g-rating_1968-b.svg",
+    "studio": [
+      {
+        "tooltip": "Rastar Films",
+        "url": "studios/rastar_1975-b.svg"
+      },
+      {
+        "tooltip": "Columbia Pictures Corporation",
+        "url": "studios/columbia_1966-b.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated G for General Audiences by the MPAA",
+        "url": "mpaa_ratings/g-rating_1968-b.svg"
+      }
+    ],
     "runtime": "149 minutes",
     "directors": ["William Wyler"],
     "tagline": "People who see FUNNY GIRL are the luckiest people in the world!",
@@ -223,10 +416,25 @@
     "image": "movies/1960s/1968.jpg"
   },
   "1969": {
-    "awards": "movie_awards/1960-awards-b.svg",
+    "awards": [
+      {
+        "tooltip": "4 Wins, 7 Nominations, 42nd Academy Awards",
+        "url": "movie_awards/1969-awards-b.svg"
+      }
+    ],
     "title": "Butch Cassidy and the Sundance Kid",
-    "studio": ["studios/fox_1945-b.svg"],
-    "mpaa": "mpaa_ratings/m-rating_1968-b.svg",
+    "studio": [
+      {
+        "tooltip": "20th Century-Fox Film Corporation",
+        "url": "studios/fox_1945-b.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated M for Mature Audiences by the MPAA",
+        "url": "mpaa_ratings/m-rating_1968-b.svg"
+      }
+    ],
     "runtime": "110 minutes",
     "directors": ["George Roy Hill"],
     "tagline": "You never met a pair like Butch and The Kid.",
