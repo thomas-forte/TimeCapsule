@@ -1488,12 +1488,29 @@
     "awards": "",
     "title": "Casino Royale",
     "studio": [
-      "studios/mgm_1986-f.svg",
-      "studios/columbia_1993-f.svg",
-      "studios/eon_1961-f.svg",
-      "studios/sony-releasing_2005-f.svg"
+      {
+        "tooltip": "Metro-Goldwyn-Mayer Studios",
+        "url": "studios/mgm_1986-f.svg"
+      },
+      {
+        "tooltip": "Columbia Pictures Industries",
+        "url": "studios/columbia_1993-f.svg"
+      },
+      {
+        "tooltip": "Eon Productions Limited",
+        "url": "studios/eon_1961-f.svg"
+      },
+      {
+        "tooltip": "Sony Pictures Releasing",
+        "url": "studios/sony-releasing_2005-f.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
     "runtime": "144 minutes",
     "directors": ["Martin Campbell"],
     "tagline": "The new Bond. Living for Love. Dying for Thrills.",
@@ -1504,11 +1521,25 @@
     "awards": "",
     "title": "Spider-Man 3",
     "studio": [
-      "studios/columbia_1993-f.svg",
-      "studios/marvel_2002-f.svg",
-      "studios/sony-releasing_2005-f.svg"
+      {
+        "tooltip": "Columbia Pictures Industries",
+        "url": "studios/columbia_1993-f.svg"
+      },
+      {
+        "tooltip": "Marvel Studios",
+        "url": "studios/marvel_2002-f.svg"
+      },
+      {
+        "tooltip": "Sony Pictures Releasing",
+        "url": "studios/sony-releasing_2005-f.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
     "runtime": "139 minutes",
     "directors": ["Sam Raimi"],
     "tagline": "The battle within.",
@@ -1516,14 +1547,33 @@
     "image": "movies/2000s/2007.jpg"
   },
   "2008": {
-    "awards": "movie_awards/2008-awards-f.svg",
+    "awards": [
+      {
+        "tooltip": "2 Wins, 8 Nominations, 81st Academy Awards",
+        "url": "movie_awards/2008-awards-f.svg"
+      }
+    ],
     "title": "The Dark Knight",
     "studio": [
-      "studios/wb_1993-f.svg",
-      "studios/legendary_2006-f.svg",
-      "studios/syncopy_2008-f.svg"
+      {
+        "tooltip": "Warner Bros. Pictures",
+        "url": "studios/wb_1993-f.svg"
+      },
+      {
+        "tooltip": "Legendary Pictures",
+        "url": "studios/legendary_2006-f.svg"
+      },
+      {
+        "tooltip": "Syncopy",
+        "url": "studios/syncopy_2008-f.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
     "runtime": "152 minutes",
     "directors": ["Christopher Nolan"],
     "tagline": "Why So Serious?",
@@ -1531,15 +1581,37 @@
     "image": "movies/2000s/2008.jpg"
   },
   "2009": {
-    "awards": "movie_awards/2009-awards-f.svg",
+    "awards": [
+      {
+        "tooltip": "3 Wins, 9 Nominations, 82nd Academy Awards",
+        "url": "movie_awards/2009-awards-f.svg"
+      }
+    ],
     "title": "Avatar",
     "studio": [
-      "studios/fox_1986-f.svg",
-      "studios/dune_2006-f.svg",
-      "studios/ingenious_1998-f.svg",
-      "studios/lightstorm_1994-f.svg"
+      {
+        "tooltip": "20th Century Fox Film Corporation",
+        "url": "studios/fox_1986-f.svg"
+      },
+      {
+        "tooltip": "Dune Entertainment",
+        "url": "studios/dune_2006-f.svg"
+      },
+      {
+        "tooltip": "Ingenious Media",
+        "url": "studios/ingenious_1998-f.svg"
+      },
+      {
+        "tooltip": "Lightstorm Pictures",
+        "url": "studios/lightstorm_1994-f.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
     "runtime": "162 minutes",
     "directors": ["James Cameron"],
     "tagline": "Discover a new world.",
@@ -1547,14 +1619,33 @@
     "image": "movies/2000s/2009.jpg"
   },
   "2010": {
-    "awards": "movie_awards/2010-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "4 Wins, 8 Nominations, 83rd Academy Awards",
+        "url": "movie_awards/2010-awards-g.svg"
+      }
+    ],
     "title": "Inception",
     "studio": [
-      "studios/wb_1993-g.svg",
-      "studios/legendary_2006-g.svg",
-      "studios/syncopy_2008-g.svg"
+      {
+        "tooltip": "Warner Bros. Pictures",
+        "url": "studios/wb_1993-g.svg"
+      },
+      {
+        "tooltip": "Legendary Pictures",
+        "url": "studios/legendary_2006-g.svg"
+      },
+      {
+        "tooltip": "Syncopy",
+        "url": "studios/syncopy_2008-g.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
+      }
+    ],
     "runtime": "148 minutes",
     "directors": ["Christopher Nolan"],
     "tagline": "Your mind is the scene of the crime.",
@@ -1562,10 +1653,29 @@
     "image": "movies/2010s/2010.jpg"
   },
   "2011": {
-    "awards": "movie_awards/2011-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "3 Nominations, 84th Academy Awards",
+        "url": "movie_awards/2011-awards-g.svg"
+      }
+    ],
     "title": "Harry Potter and the Deathly Hallows - Part 2",
-    "studio": ["studios/wb_1993-g.svg", "studios/heyday_2008-g.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
+    "studio": [
+      {
+        "tooltip": "Warner Bros. Pictures",
+        "url": "studios/wb_1993-g.svg"
+      },
+      {
+        "tooltip": "Heydey Films Limited",
+        "url": "studios/heyday_2008-g.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
+      }
+    ],
     "runtime": "130 minutes",
     "directors": ["David Yates"],
     "tagline": "The last enemy is death",
@@ -1573,10 +1683,29 @@
     "image": "movies/2010s/2011.jpg"
   },
   "2012": {
-    "awards": "movie_awards/2012-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "1 Nomination, 85th Academy Awards",
+        "url": "movie_awards/2012-awards-g.svg"
+      }
+    ],
     "title": "The Avengers",
-    "studio": ["studios/marvel_2002-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-g.svg",
+    "studio": [
+      {
+        "tooltip": "Marvel Studios",
+        "url": "studios/marvel_2002-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
+      }
+    ],
     "runtime": "143 minutes",
     "directors": ["Joss Whedon"],
     "tagline": "Avengers assemble!",
@@ -1584,13 +1713,29 @@
     "image": "movies/2010s/2012.jpg"
   },
   "2013": {
-    "awards": "movie_awards/2013-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "2 Wins, 2 Nominations, 86th Academy Awards",
+        "url": "movie_awards/2013-awards-g.svg"
+      }
+    ],
     "title": "Frozen",
     "studio": [
-      "studios/disney-animation_2007-g.svg",
-      "studios/disney_2007-g.svg"
+      {
+        "tooltip": "Walt Disney Animation Studios",
+        "url": "studios/disney-animation_2007-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-rating_2013-g.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG by the MPAA",
+        "url": "mpaa_ratings/pg-rating_2013-g.svg"
+      }
+    ],
     "runtime": "102 minutes",
     "directors": ["Chris Buck", "Jennifer Lee"],
     "tagline": "Some people are worth melting for",
@@ -1600,8 +1745,22 @@
   "2014": {
     "awards": "",
     "title": "Marvel's Guardians of the Galaxy",
-    "studio": ["studios/marvel_2013-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
+    "studio": [
+      {
+        "tooltip": "Marvel Studios",
+        "url": "studios/marvel_2013-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+      }
+    ],
     "runtime": "122 minutes",
     "directors": ["James Gunn"],
     "tagline": "All heroes start somewhere.",
@@ -1609,14 +1768,33 @@
     "image": "movies/2010s/2014.jpg"
   },
   "2015": {
-    "awards": "movie_awards/2015-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "5 Nominations, 88th Academy Awards",
+        "url": "movie_awards/2015-awards-g.svg"
+      }
+    ],
     "title": "Star Wars: The Force Awakens",
     "studio": [
-      "studios/lucasfilm_2015-g.svg",
-      "studios/bad-robot_2008-g.svg",
-      "studios/disney_2007-g.svg"
+      {
+        "tooltip": "Lucasfilm",
+        "url": "studios/lucasfilm_2015-g.svg"
+      },
+      {
+        "tooltip": "Bad Robot",
+        "url": "studios/bad-robot_2008-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+      }
+    ],
     "runtime": "138 minutes",
     "directors": ["J. J. Abrams"],
     "tagline": "Every generation has a story.",
@@ -1624,10 +1802,29 @@
     "image": "movies/2010s/2015.jpg"
   },
   "2016": {
-    "awards": "movie_awards/2016-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "2 Nominations, 89th Academy Awards",
+        "url": "movie_awards/2016-awards-g.svg"
+      }
+    ],
     "title": "Rogue One: A Star Wars Story",
-    "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
+    "studio": [
+      {
+        "tooltip": "Lucasfilm",
+        "url": "studios/lucasfilm_2015-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+      }
+    ],
     "runtime": "134 minutes",
     "directors": ["Gareth Edwards"],
     "tagline": "A rebellion built on hope.",
@@ -1635,10 +1832,29 @@
     "image": "movies/2010s/2016.jpg"
   },
   "2017": {
-    "awards": "movie_awards/2017-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "4 Nominations, 90th Academy Awards",
+        "url": "movie_awards/2017-awards-g.svg"
+      }
+    ],
     "title": "Star Wars: The Last Jedi",
-    "studio": ["studios/lucasfilm_2015-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
+    "studio": [
+      {
+        "tooltip": "Lucasfilm",
+        "url": "studios/lucasfilm_2015-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+      }
+    ],
     "runtime": "152 minutes",
     "directors": ["Rian Johnson"],
     "tagline": "Let the Past Die",
@@ -1646,7 +1862,12 @@
     "image": "movies/2010s/2017.jpg"
   },
   "2018": {
-    "awards": "movie_awards/2018-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "1 Nomination, 91st Academy Awards",
+        "url": "movie_awards/2018-awards-g.svg"
+      }
+    ],
     "title": "Incredibles 2",
     "studio": ["studios/pixar_1994-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-rating_2013-g.svg",
@@ -1657,7 +1878,12 @@
     "image": "movies/2010s/2018.jpg"
   },
   "2019": {
-    "awards": "movie_awards/2019-awards-g.svg",
+    "awards": [
+      {
+        "tooltip": "2 Nominations, 92nd Academy Awards",
+        "url": "movie_awards/2019-awards-g.svg"
+      }
+    ],
     "title": "Avengers: Endgame",
     "studio": ["studios/marvel_2016-g.svg", "studios/disney_2007-g.svg"],
     "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
@@ -1684,7 +1910,12 @@
     "image": "movies/2020s/2020.jpg"
   },
   "2021": {
-    "awards": "movie_awards/2021-awards-h.svg",
+    "awards": [
+      {
+        "tooltip": "3 Nominations, 94th Academy Awards",
+        "url": "movie_awards/2021-awards-h.svg"
+      }
+    ],
     "title": "Spider-Man: No Way Home",
     "studio": [
       "studios/columbia_1993-h.svg",
@@ -1700,7 +1931,12 @@
     "image": "movies/2020s/2021.jpg"
   },
   "2022": {
-    "awards": "movie_awards/2022-awards-h.svg",
+    "awards": [
+      {
+        "tooltip": "1 Win, 4 Nominations, 95th Academy Awards",
+        "url": "movie_awards/2022-awards-h.svg"
+      }
+    ],
     "title": "Avatar: The Way of Water",
     "studio": [
       "studios/tsg_2012-h.svg",
