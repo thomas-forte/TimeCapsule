@@ -1053,143 +1053,327 @@
     "image": "games/2010s/2012.jpg"
   },
   "2013": {
-    "awards": ["game_awards/dice-nomination-g.svg"],
+    "awards": [
+      {
+        "tooltip": "Nominee, Game of the Year, 17th DICE Awards",
+        "url": "game_awards/dice-nomination-g.svg"
+      }
+    ],
     "title": "Grand Theft Auto V",
-    "esrb": "esrb_ratings/m_2013-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2013-g.svg"
+      }
+    ],
     "creator": "Rockstar North",
-    "companies": ["game_companies/rn_2002-g.svg"],
+    "companies": [
+      {
+        "tooltip": "Rockstar North",
+        "url": "game_companies/rn_2002-g.svg"
+      }
+    ],
     "image": "games/2010s/2013.jpg"
   },
   "2014": {
-    "awards": ["game_awards/dice-win-g.svg", "game_awards/gdca-g.svg"],
+    "awards": [
+      {
+        "tooltip": "Winner, Game of the Year, 17th DICE Awards",
+        "url": "game_awards/dice-win-g.svg"
+      },
+      {
+        "tooltip": "Winner, Game of the Year, 14th GDC Awards",
+        "url": "game_awards/gdca-g.svg"
+      }
+    ],
     "title": "The Last of Us Remastered",
-    "esrb": "esrb_ratings/m_2013-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2013-g.svg"
+      }
+    ],
     "creator": "Naughty Dog & Sony Computer Entertainment",
     "companies": [
-      "game_companies/naughty-dog_2013-g.svg",
-      "game_companies/sony_1993-g.svg"
+      {
+        "tooltip": "Naughty Dog",
+        "url": "game_companies/naughty-dog_2013-g.svg"
+      },
+      {
+        "tooltip": "Sony Computer Entertainment",
+        "url": "game_companies/sony_1993-g.svg"
+      }
     ],
     "image": "games/2010s/2014.jpg"
   },
   "2015": {
     "awards": [
-      "game_awards/game_awards-win-g.svg",
-      "game_awards/dice-nomination-g.svg",
-      "game_awards/gdca-g.svg"
+      {
+        "tooltip": "Winner, Game of the Year, The Game Awards 2015",
+        "url": "game_awards/game_awards-win-g.svg"
+      },
+      {
+        "tooltip": "Nominee, Game of the Year, 19th DICE Awards",
+        "url": "game_awards/dice-nomination-g.svg"
+      },
+      {
+        "tooltip": "Winner, Game of the Year, 16th GDC Awards",
+        "url": "game_awards/gdca-g.svg"
+      }
     ],
     "title": "The Witcher 3: Wild Hunt",
-    "esrb": "esrb_ratings/m_2013-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2013-g.svg"
+      }
+    ],
     "creator": "CD Projekt Red",
-    "companies": ["game_companies/cdpr_2014-g.svg"],
+    "companies": [
+      {
+        "tooltip": "CD Projekt Red",
+        "url": "game_companies/cdpr_2014-g.svg"
+      }
+    ],
     "image": "games/2010s/2015.jpg"
   },
   "2016": {
     "awards": [
-      "game_awards/game_awards-nomination-g.svg",
-      "game_awards/dice-nomination-g.svg"
+      {
+        "tooltip": "Nominee, Game of the Year, The Game Awards 2016",
+        "url": "game_awards/game_awards-nomination-g.svg"
+      },
+      {
+        "tooltip": "Nominee, Game of the Year, 20th DICE Awards",
+        "url": "game_awards/dice-nomination-g.svg"
+      }
     ],
     "title": "Uncharted 4: A Thief's End",
-    "esrb": "esrb_ratings/t_2013-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated T for Teen by the ESRB",
+        "url": "esrb_ratings/t_2013-g.svg"
+      }
+    ],
     "creator": "Naughty Dog",
     "companies": [
-      "game_companies/naughty-dog_2013-g.svg",
-      "game_companies/sony_1993-g.svg"
+      {
+        "tooltip": "Naughty Dog",
+        "url": "game_companies/naughty-dog_2013-g.svg"
+      },
+      {
+        "tooltip": "Sony Computer Entertainment",
+        "url": "game_companies/sony_1993-g.svg"
+      }
     ],
     "image": "games/2010s/2016.jpg"
   },
   "2017": {
     "awards": [],
     "title": "NBA 2K18",
-    "esrb": "esrb_ratings/e10_2013-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated E10 for Everyone 10 and up by the ESRB",
+        "url": "esrb_ratings/e10_2013-g.svg"
+      }
+    ],
     "creator": "Visual Concepts & 2K",
     "companies": [
-      "game_companies/visual-concepts_1988-g.svg",
-      "game_companies/2k_2005-g.svg"
+      {
+        "tooltip": "Visual Concepts Entertainment",
+        "url": "game_companies/visual-concepts_1988-g.svg"
+      },
+      {
+        "tooltip": "2K",
+        "url": "game_companies/2k_2005-g.svg"
+      }
     ],
     "image": "games/2010s/2017.jpg"
   },
   "2018": {
     "awards": [
-      "game_awards/game_awards-nomination-g.svg",
-      "game_awards/dice-nomination-g.svg"
+      {
+        "tooltip": "Nominee, Game of the Year, The Game Awards 2018",
+        "url": "game_awards/game_awards-nomination-g.svg"
+      },
+      {
+        "tooltip": "Nominee, Game of the Year, 22nd DICE Awards",
+        "url": "game_awards/dice-nomination-g.svg"
+      }
     ],
     "title": "Red Dead Redemption 2",
-    "esrb": "esrb_ratings/m_2013-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2013-g.svg"
+      }
+    ],
     "creator": "Rockstar Games",
-    "companies": ["game_companies/rockstar_1998-g.svg"],
+    "companies": [
+      {
+        "tooltip": "Rockstar Games",
+        "url": "game_companies/rockstar_1998-g.svg"
+      }
+    ],
     "image": "games/2010s/2018.jpg"
   },
   "2019": {
     "awards": [],
     "title": "Borderlands 3",
-    "esrb": "esrb_ratings/m_2013-g.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2013-g.svg"
+      }
+    ],
     "creator": "Gearbox Software & 2K",
     "companies": [
-      "game_companies/gearbox_2008-g.svg",
-      "game_companies/2k_2005-g.svg"
+      {
+        "tooltip": "Gearbox Software",
+        "url": "game_companies/gearbox_2008-g.svg"
+      },
+      {
+        "tooltip": "2K",
+        "url": "game_companies/2k_2005-g.svg"
+      }
     ],
     "image": "games/2010s/2019.jpg"
   },
   "2020": {
     "awards": [
-      "game_awards/game_awards-win-h.svg",
-      "game_awards/dice-nomination-h.svg"
+      {
+        "tooltip": "Winner, Game of the Year, The Game Awards 2020",
+        "url": "game_awards/game_awards-win-h.svg"
+      },
+      {
+        "tooltip": "Nominee, Game of the Year, 24th DICE Awards",
+        "url": "game_awards/dice-nomination-h.svg"
+      }
     ],
     "title": "The Last of Us Part II (Remastered)",
-    "esrb": "esrb_ratings/m_2013-h.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2013-h.svg"
+      }
+    ],
     "creator": "Naughty Dog & Sony Interactive Entertainment",
     "companies": [
-      "game_companies/naughty-dog_2013-h.svg",
-      "game_companies/sony_2016-h.svg"
+      {
+        "tooltip": "Naughty Dog",
+        "url": "game_companies/naughty-dog_2013-h.svg"
+      },
+      {
+        "tooltip": "Sony Interactive Entertainment",
+        "url": "game_companies/sony_2016-h.svg"
+      }
     ],
     "image": "games/2020s/2020.jpg"
   },
   "2021": {
     "awards": [
-      "game_awards/game_awards-win-h.svg",
-      "game_awards/dice-win-h.svg"
+      {
+        "tooltip": "Winner, Game of the Year, The Game Awards 2021",
+        "url": "game_awards/game_awards-win-h.svg"
+      },
+      {
+        "tooltip": "Winner, Game of the Year, 25th DICE Awards",
+        "url": "game_awards/dice-win-h.svg"
+      }
     ],
     "title": "It Takes Two",
-    "esrb": "esrb_ratings/t_2013-h.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated T for Teen by the ESRB",
+        "url": "esrb_ratings/t_2013-h.svg"
+      }
+    ],
     "creator": "Hazelight Studios & Electronic Arts",
     "companies": [
-      "game_companies/hazelight_2014-h.svg",
-      "game_companies/ea_2006-h.svg"
+      {
+        "tooltip": "Hazelight Studios",
+        "url": "game_companies/hazelight_2014-h.svg"
+      },
+      {
+        "tooltip": "Electronic Arts",
+        "url": "game_companies/ea_2006-h.svg"
+      }
     ],
     "image": "games/2020s/2021.jpg"
   },
   "2022": {
     "awards": [
-      "game_awards/game_awards-win-h.svg",
-      "game_awards/dice-win-h.svg",
-      "game_awards/gdca-h.svg"
+      {
+        "tooltip": "Winner, Game of the Year, The Game Awards 2022",
+        "url": "game_awards/game_awards-win-h.svg"
+      },
+      {
+        "tooltip": "Winner, Game of the Year, 26th DICE Awards",
+        "url": "game_awards/dice-win-h.svg"
+      },
+      {
+        "tooltip": "Winner, Game of the Year, 23rd GDC Awards",
+        "url": "game_awards/gdca-h.svg"
+      }
     ],
     "title": "Elden Ring",
-    "esrb": "esrb_ratings/m_2013-h.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated M for Mature by the ESRB",
+        "url": "esrb_ratings/m_2013-h.svg"
+      }
+    ],
     "creator": "FromSoftware & Bandai Namco Entertainment",
     "companies": [
-      "game_companies/fromsoftware_1996-h.svg",
-      "game_companies/bandai_2022-h.svg"
+      {
+        "tooltip": "From Software",
+        "url": "game_companies/fromsoftware_1996-h.svg"
+      },
+      {
+        "tooltip": "Bandai Namco",
+        "url": "game_companies/bandai_2022-h.svg"
+      }
     ],
     "image": "games/2020s/2022.jpg"
   },
   "2023": {
     "awards": [],
     "title": "Hogwarts Legacy",
-    "esrb": "esrb_ratings/t_2013-h.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated T for Teen by the ESRB",
+        "url": "esrb_ratings/t_2013-h.svg"
+      }
+    ],
     "creator": "Avalanche Software & Warner Bros. Games",
     "companies": [
-      "game_companies/avalanche_2022-h.svg",
-      "game_companies/wb-games_2023-h.svg"
+      {
+        "tooltip": "Avalanche Software",
+        "url": "game_companies/avalanche_2022-h.svg"
+      },
+      {
+        "tooltip": "Warner Bros. Games",
+        "url": "game_companies/wb-games_2023-h.svg"
+      }
     ],
     "image": "games/2020s/2023.jpg"
   },
   "2024": {
     "awards": [],
     "title": "EA Sports College Football 25",
-    "esrb": "esrb_ratings/e_2013-h.svg",
+    "esrb": [
+      {
+        "tooltip": "Rated E for Everyone by the ESRB",
+        "url": "esrb_ratings/e_2013-h.svg"
+      }
+    ],
     "creator": "EA Sports",
-    "companies": ["game_companies/ea-sports_2020-h.svg"],
+    "companies": [
+      {
+        "tooltip": "EA Sports",
+        "url": "game_companies/ea-sports_2020-h.svg"
+      }
+    ],
     "image": "games/2020s/2024.jpg"
   }
 }
