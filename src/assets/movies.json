@@ -998,10 +998,25 @@
     "image": "movies/1980s/1989.jpg"
   },
   "1990": {
-    "awards": "movie_awards/1990-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "2 Wins, 5 Nominations, 63rd Academy Awards",
+        "url": "movie_awards/1990-awards-e.svg"
+      }
+    ],
     "title": "Ghost",
-    "studio": ["studios/paramount_1967-e.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-e.svg",
+    "studio": [
+      {
+        "tooltip": "Paramount Pictures Corporation",
+        "url": "studios/paramount_1967-e.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+      }
+    ],
     "runtime": "127 minutes",
     "directors": ["Jerry Zucker"],
     "tagline": "A love that will last forever.",
@@ -1009,15 +1024,37 @@
     "image": "movies/1990s/1990.jpg"
   },
   "1991": {
-    "awards": "movie_awards/1991-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "4 Wins, 6 Nominations, 64th Academy Awards",
+        "url": "movie_awards/1991-awards-e.svg"
+      }
+    ],
     "title": "Terminator 2: Judgement Day",
     "studio": [
-      "studios/carolco_1976-e.svg",
-      "studios/lightstorm_1990-e.svg",
-      "studios/studio-canal_1992-e.svg",
-      "studios/tristar_1991-e.svg"
+      {
+        "tooltip": "Carolco Pictures",
+        "url": "studios/carolco_1976-e.svg"
+      },
+      {
+        "tooltip": "Lightstorm Entertainment",
+        "url": "studios/lightstorm_1990-e.svg"
+      },
+      {
+        "tooltip": "Le Studio Canal+",
+        "url": "studios/studio-canal_1992-e.svg"
+      },
+      {
+        "tooltip": "Tristar Pictures",
+        "url": "studios/tristar_1991-e.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/r-rating_1972-e.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated R by the MPAA",
+        "url": "mpaa_ratings/r-rating_1972-e.svg"
+      }
+    ],
     "runtime": "137 minutes",
     "directors": ["James Cameron"],
     "tagline": "It's nothing personal.",
@@ -1025,9 +1062,19 @@
     "image": "movies/1990s/1991.jpg"
   },
   "1992": {
-    "awards": "movie_awards/1990-awards-e.svg",
+    "awards": [
+      {
+        "tooltip": "4 Wins, 6 Nominations, 64th Academy Awards",
+        "url": "movie_awards/1991-awards-e.svg"
+      }
+    ],"movie_awards/1990-awards-e.svg",
     "title": "Aladdin",
     "studio": [
+      {
+        "tooltip": "4 Wins, 6 Nominations, 64th Academy Awards",
+        "url": "movie_awards/1991-awards-e.svg"
+      }
+    ],[
       "studios/disney-animation_1986-e.svg",
       "studios/buena-vista_1987-e.svg"
     ],
