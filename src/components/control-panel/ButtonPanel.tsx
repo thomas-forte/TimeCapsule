@@ -56,8 +56,8 @@ export const ButtonPanel = ({ filters, onChange }: ButtonPanelProps) => {
       </div>
       <div>
         <BooksButton
-          onClick={() => toggleFilterSelection("books")}
-          active={filters.includes("books")}
+          onClick={() => toggleFilterSelection("novels")}
+          active={filters.includes("novels")}
         />
       </div>
       <div>

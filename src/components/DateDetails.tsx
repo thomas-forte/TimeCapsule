@@ -64,10 +64,10 @@ export const DateDetails = forwardRef(
           </Section>
         )}
 
-        {(!filters.length || filters.includes("books")) && (
+        {(!filters.length || filters.includes("movies")) && (
           <MovieSection date={date} decade={decade} />
         )}
-        {(!filters.length || filters.includes("movies")) && (
+        {(!filters.length || filters.includes("novels")) && (
           <NovelSection date={date} decade={decade} />
         )}
         {(!filters.length || filters.includes("news")) && (
