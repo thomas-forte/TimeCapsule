@@ -1391,25 +1391,63 @@
     "image": "movies/2000s/2002.jpg"
   },
   "2003": {
-    "awards": "movie_awards/2003-awards-f.svg",
+    "awards": [
+      {
+        "tooltip": "11 Wins, 11 Nominations, 76th Academy Awards",
+        "url": "movie_awards/2003-awards-f.svg"
+      }
+    ],
     "title": "The Lord of the Rings: The Return of the King",
-    "studio": ["studios/wingnut_1989-f.svg", "studios/new-line_2001-f.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
-    "runtime": "201",
+    "studio": [
+      {
+        "tooltip": "WingNut Films Productions",
+        "url": "studios/wingnut_1989-f.svg"
+      },
+      {
+        "tooltip": "New Line Cinemas",
+        "url": "studios/new-line_2001-f.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
+    "runtime": "201 minutes",
     "directors": ["Peter Jackson"],
     "tagline": "The eye of the enemy is moving.",
     "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
     "image": "movies/2000s/2003.jpg"
   },
   "2004": {
-    "awards": "movie_awards/2004-awards-f.svg",
+    "awards": [
+      {
+        "tooltip": "2 Nominations, 77th Academy Awards",
+        "url": "movie_awards/2004-awards-f.svg"
+      }
+    ],
     "title": "Shrek 2",
     "studio": [
-      "studios/pdi_2000-f.svg",
-      "studios/dreamworks-animation_2004-f.svg",
-      "studios/dreamworks_1994-f.svg"
+      {
+        "tooltip": "Pacific Data Images",
+        "url": "studios/pdi_2000-f.svg"
+      },
+      {
+        "tooltip": "DreamWorks Animation SKG",
+        "url": "studios/dreamworks-animation_2004-f.svg"
+      },
+      {
+        "tooltip": "Dreamworks SKG",
+        "url": "studios/dreamworks_1994-f.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-rating_1972-f.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG by the MPAA",
+        "url": "mpaa_ratings/pg-rating_1972-f.svg"
+      }
+    ],
     "runtime": "92 minutes",
     "directors": ["Andrew Adamson", "Kelly Asbury", "Conrad Vernon"],
     "tagline": "Once upon another time...",
@@ -1417,10 +1455,29 @@
     "image": "movies/2000s/2004.jpg"
   },
   "2005": {
-    "awards": "movie_awards/2005-awards-f.svg",
+    "awards": [
+      {
+        "tooltip": "1 Nomination, 78th Academy Awards",
+        "url": "movie_awards/2005-awards-f.svg"
+      }
+    ],
     "title": "Harry Potter and the Goblet of Fire",
-    "studio": ["studios/wb_1993-f.svg", "studios/heyday_2005-f.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_1984-f.svg",
+    "studio": [
+      {
+        "tooltip": "Warner Bros. Pictures",
+        "url": "studios/wb_1993-f.svg"
+      },
+      {
+        "tooltip": "Heyday Films Limited",
+        "url": "studios/heyday_2005-f.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+      }
+    ],
     "runtime": "157 minutes",
     "directors": ["Mike Newell"],
     "tagline": "Everything is about to change.",
