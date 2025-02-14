@@ -9,11 +9,11 @@ import { config } from "../../config";
 import games from "../../assets/games.json";
 
 type Game = {
-  awards: string[];
+  awards: { url: string; tooltip: string }[] | null;
   title: string;
-  esrb: string;
+  esrb: { url: string; tooltip: string } | null;
   creator: string;
-  companies: string[];
+  companies: { url: string; tooltip: string }[];
   image: string;
   landscape?: boolean;
 };
@@ -34,18 +34,18 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
   }, [date]);
 
   function getAwards(game: Game, landscape = false) {
-    if (landscape || !game.awards.length) {
+    if (landscape || !game.awards) {
       return <></>;
     } else {
       return (
         <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
-          {game.awards.map((awardUrl, index) => (
+          {game.awards.map((award, index) => (
             <img
               key={game.title + "award" + index}
               className="max-h-[8dvh]"
-              src={config.assetsRoot + awardUrl}
-              alt="game award image"
-              title={awardUrl.split("/").pop()?.slice(0, -6)}
+              src={config.assetsRoot + award.url}
+              alt={award.tooltip}
+              title={award.tooltip}
             />
           ))}
         </div>
@@ -57,13 +57,13 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
     if (landscape) {
       return (
         <div className="flex justify-center h-full">
-          {game.companies.map((companyUrl, index) => (
+          {game.companies.map((company, index) => (
             <img
               className="max-h-[10dvh] m-[3%]"
               key={game.title + index}
-              src={config.assetsRoot + companyUrl}
-              alt="game company icon"
-              title={companyUrl.split("/").pop()?.split("_")[0]}
+              src={config.assetsRoot + company.url}
+              alt={company.tooltip}
+              title={company.tooltip}
             />
           ))}
         </div>
@@ -71,13 +71,13 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
     } else {
       return (
         <div className="flex flex-wrap justify-center mt-[2dvh]">
-          {game.companies.map((companyUrl, index) => (
+          {game.companies.map((company, index) => (
             <img
               className="max-w-[35%] max-h-[10dvh] m-[3%]"
               key={game.title + index}
-              src={config.assetsRoot + companyUrl}
-              alt="game company icon"
-              title={companyUrl.split("/").pop()?.split("_")[0]}
+              src={config.assetsRoot + company.url}
+              alt={company.tooltip}
+              title={company.tooltip}
             />
           ))}
         </div>
@@ -93,9 +93,9 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
         <div className="flex flex-wrap justify-center mt-[2dvh]">
           <img
             className="max-w-[40%] max-h-[4dvh] m-[3%]"
-            src={config.assetsRoot + game.esrb}
-            alt="esrb rating"
-            title={game.esrb.split("/").pop()?.split("_")[0]}
+            src={config.assetsRoot + game.esrb.url}
+            alt={game.esrb.tooltip}
+            title={game.esrb.tooltip}
           />
         </div>
       );
