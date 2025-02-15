@@ -72,6 +72,16 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
               />
             ))}
           </div>
+          {album.advisory && (
+            <div className="flex flex-wrap justify-center mt-[4dvh]">
+              <img
+                className="max-w-[40%] max-h-[7dvh]"
+                src={config.assetsRoot + album.advisory.url}
+                alt={album.advisory.tooltip}
+                title={album.advisory.tooltip}
+              />
+            </div>
+          )}
         </Card>
         <Card decade={decade} className="poster">
           <img
