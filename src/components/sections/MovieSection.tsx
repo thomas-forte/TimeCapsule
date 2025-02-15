@@ -39,6 +39,20 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
     }
   }, [date]);
 
+  const remainingDirectors = (directors: string[]): JSX.Element => {
+    if (directors.length > 3) {
+      return (
+        <>
+          {directors.slice(0, 3).join(", ")}
+          <br />
+          {remainingDirectors(directors.slice(3))}
+        </>
+      );
+    } else {
+      return <>{directors.join(", ")}</>;
+    }
+  };
+
   return (
     movie && (
       <Section name="movies">
@@ -60,6 +74,12 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
           >
             {movie.title}
           </div>
+          <p className="subtitle-text">
+            Directed by: {movie.directors.slice(0, 2).join(", ")}
+            <br />
+            {remainingDirectors(movie.directors.slice(2))}
+          </p>
+          <p className="subtitle-text">Runtime: {movie.runtime}</p>
           <p className="subtitle-text">{movie.tagline}</p>
           <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
             {movie.studio.map((studio, index) => (
