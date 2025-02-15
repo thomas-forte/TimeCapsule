@@ -131,7 +131,7 @@
       }
 
       .info-text {
-        @apply text-center text-[2.5dvh] mb-[2dvh] italic;
+        @apply text-center text-[2.5dvh] mb-[2dvh];
       }
 
       .body-text {
