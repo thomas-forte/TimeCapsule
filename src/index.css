@@ -159,6 +159,7 @@
 .header-font-1970s {
   @apply font-bungeeShade text-h1970s;
   @apply text-[6dvh] leading-none;
+  -webkit-text-stroke: 1px;
 }
 .header-font-1980s {
   @apply font-monoton text-h1980s;
