@@ -79,7 +79,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             <br />
             {remainingDirectors(movie.directors.slice(2))}
           </p>
-          <p className="subtitle-text">Runtime: {movie.runtime}</p>
+          <p className="info-text">Runtime: {movie.runtime}</p>
           <p className="subtitle-text">{movie.tagline}</p>
           <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
             {movie.studio.map((studio, index) => (

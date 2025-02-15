@@ -130,6 +130,10 @@
         @apply text-center text-[2.5dvh] mb-[2dvh] italic;
       }
 
+      .info-text {
+        @apply text-center text-[2.5dvh] mb-[2dvh] italic;
+      }
+
       .body-text {
         @apply text-center text-[2.5dvh] text-pretty;
       }
