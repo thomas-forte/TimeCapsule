@@ -10,6 +10,7 @@ import movies from "../../assets/movies.json";
 type Movie = {
   awards: { url: string; tooltip: string } | null;
   title: string;
+  title_inline?: Record<string, string>;
   studio: { url: string; tooltip: string }[];
   mpaa: { url: string; tooltip: string } | null;
   runtime: string;
@@ -49,7 +50,10 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
               />
             </div>
           )}
-          <div className={`title-text header-font-${decade}`}>
+          <div
+            className={`title-text header-font-${decade}`}
+            style={movie.title_inline}
+          >
             {movie.title}
           </div>
           <p className="subtitle-text">{movie.tagline}</p>

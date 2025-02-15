@@ -125,6 +125,7 @@
       "url": "movie_awards/1956-awards-a.svg"
     },
     "title": "The Ten Commandments",
+    "title_inline": { "font-size": "6dvh" },
     "studio": [
       {
         "tooltip": "Paramount Pictures Corporation",
