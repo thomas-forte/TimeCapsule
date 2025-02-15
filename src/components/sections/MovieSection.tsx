@@ -11,7 +11,11 @@ type Movie = {
   awards: { url: string; tooltip: string } | null;
   title: string;
   title_inline?: Record<string, string>;
-  studio: { url: string; tooltip: string }[];
+  studio: {
+    url: string;
+    tooltip: string;
+    inline_styles?: Record<string, string>;
+  }[];
   mpaa: { url: string; tooltip: string } | null;
   runtime: string;
   directors: string[];
@@ -61,6 +65,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             {movie.studio.map((studio, index) => (
               <img
                 className="max-w-[40%] max-h-[10dvh]"
+                style={studio.inline_styles}
                 key={movie.title + index}
                 src={config.assetsRoot + studio.url}
                 alt={studio.tooltip}

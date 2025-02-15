@@ -148,7 +148,8 @@
     "studio": [
       {
         "tooltip": "Columbia Pictures Corporation",
-        "url": "studios/columbia_1945-a.svg"
+        "url": "studios/columbia_1945-a.svg",
+        "inline_styles": { "max-height": "12dvh" }
       }
     ],
     "mpaa": null,
