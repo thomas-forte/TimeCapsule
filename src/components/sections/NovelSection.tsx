@@ -8,7 +8,7 @@ import { config } from "../../config";
 import novels from "../../assets/novels.json";
 
 type Novel = {
-  awards: string[];
+  awards: { url: string; tooltip: string }[];
   author: string;
   image: string;
   title: string;
@@ -35,13 +35,13 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Novel of {date.getFullYear()}:</div>
           <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
-            {novel.awards.map((awardUrl, index) => (
+            {novel.awards.map((award, index) => (
               <img
                 key={novel.title + "award" + index}
                 className="max-h-[8dvh]"
-                src={config.assetsRoot + awardUrl}
-                alt="novel award image"
-                title={awardUrl.split("/").pop()?.slice(0, -6)}
+                src={config.assetsRoot + award.url}
+                alt={award.tooltip}
+                title={award.tooltip}
               />
             ))}
           </div>
