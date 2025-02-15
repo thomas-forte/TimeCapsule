@@ -14,6 +14,7 @@ type Album = {
   genre: string;
   labels: { url: string; tooltip: string }[];
   certification: { url: string; tooltip: string } | null;
+  advisory: { url: string; tooltip: string } | null;
   image: string;
 };
 

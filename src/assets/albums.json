@@ -11,7 +11,7 @@
       }
     ],
     "certification": null,
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1950.jpg"
   },
   "1951": {
@@ -26,7 +26,7 @@
       }
     ],
     "certification": null,
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1951.jpg"
   },
   "1952": {
@@ -41,7 +41,7 @@
       }
     ],
     "certification": null,
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1952.jpg"
   },
   "1953": {
@@ -56,7 +56,7 @@
       }
     ],
     "certification": null,
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1953.jpg"
   },
   "1954": {
@@ -74,7 +74,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-a.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1954.jpg"
   },
   "1955": {
@@ -92,7 +92,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-a.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1955.jpg"
   },
   "1956": {
@@ -110,7 +110,7 @@
       "tooltip": "RIAA Certified Platinum Record",
       "url": "riaa_certifications/riaa-platinum-a.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1956.jpg"
   },
   "1957": {
@@ -128,7 +128,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-a.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1957.jpg"
   },
   "1958": {
@@ -146,7 +146,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-a.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1958.jpg"
   },
   "1959": {
@@ -164,7 +164,7 @@
       }
     ],
     "certification": null,
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1950s/1959.jpg"
   },
   "1960": {
@@ -182,7 +182,7 @@
       "tooltip": "RIAA Certified Platinum Record",
       "url": "riaa_certifications/riaa-platinum-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1960.jpg"
   },
   "1961": {
@@ -203,7 +203,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1961.jpg"
   },
   "1962": {
@@ -224,7 +224,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1962.jpg"
   },
   "1963": {
@@ -242,7 +242,7 @@
       }
     ],
     "certification": null,
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1963.jpg"
   },
   "1964": {
@@ -260,7 +260,7 @@
       "tooltip": "RIAA Certified 4x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-4x-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1964.jpg"
   },
   "1965": {
@@ -278,7 +278,7 @@
       "tooltip": "RIAA Certified Platinum Record",
       "url": "riaa_certifications/riaa-platinum-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1965.jpg"
   },
   "1966": {
@@ -296,7 +296,7 @@
       "tooltip": "RIAA Certified Platinum Record",
       "url": "riaa_certifications/riaa-platinum-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1966.jpg"
   },
   "1967": {
@@ -321,7 +321,7 @@
       "tooltip": "RIAA Certified 11x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-11x-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1967.jpg"
   },
   "1968": {
@@ -339,7 +339,7 @@
       "tooltip": "RIAA Certified 2x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-2x-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1968.jpg"
   },
   "1969": {
@@ -360,7 +360,7 @@
       "tooltip": "RIAA Certified 12x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-12x-b.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1960s/1969.jpg"
   },
   "1970": {
@@ -381,7 +381,7 @@
       "tooltip": "RIAA Certified 8x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-8x-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1970.jpg"
   },
   "1971": {
@@ -399,7 +399,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1971.jpg"
   },
   "1972": {
@@ -417,7 +417,7 @@
       "tooltip": "RIAA Certified Gold Record",
       "url": "riaa_certifications/riaa-gold-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1972.jpg"
   },
   "1973": {
@@ -439,7 +439,7 @@
       "tooltip": "RIAA Certified 15x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-15x-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1973.jpg"
   },
   "1974": {
@@ -457,7 +457,7 @@
       "tooltip": "RIAA Certified 8x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-8x-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1974.jpg"
   },
   "1975": {
@@ -475,7 +475,7 @@
       "tooltip": "RIAA Certified 16x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-16x-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1975.jpg"
   },
   "1976": {
@@ -496,7 +496,7 @@
       "tooltip": "RIAA Certified Diamond Record",
       "url": "riaa_certifications/riaa-diamond-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1976.jpg"
   },
   "1977": {
@@ -517,7 +517,7 @@
       "tooltip": "RIAA Certified 21x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-21x-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1977.jpg"
   },
   "1978": {
@@ -538,7 +538,7 @@
       "tooltip": "RIAA Certified 16x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-16x-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1978.jpg"
   },
   "1979": {
@@ -559,7 +559,7 @@
       "tooltip": "RIAA Certified 7x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-7x-c.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1970s/1979.jpg"
   },
   "1980": {
@@ -580,7 +580,7 @@
       "tooltip": "RIAA Certified 23x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-23x-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1980.jpg"
   },
   "1981": {
@@ -598,7 +598,7 @@
       "tooltip": "RIAA Certified Diamond Record",
       "url": "riaa_certifications/riaa-diamond-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1981.jpg"
   },
   "1982": {
@@ -616,7 +616,7 @@
       "tooltip": "RIAA Certified 4x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-4x-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1982.jpg"
   },
   "1983": {
@@ -637,7 +637,7 @@
       "tooltip": "RIAA Certified 34x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-34x-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1983.jpg"
   },
   "1984": {
@@ -658,7 +658,7 @@
       "tooltip": "RIAA Certified 13x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-13x-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1984.jpg"
   },
   "1985": {
@@ -679,7 +679,7 @@
       "tooltip": "RIAA Certified 17x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-17x-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1985.jpg"
   },
   "1986": {
@@ -700,7 +700,7 @@
       "tooltip": "RIAA Certified 14x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-14x-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1986.jpg"
   },
   "1987": {
@@ -721,7 +721,7 @@
       "tooltip": "RIAA Certified Diamond Record",
       "url": "riaa_certifications/riaa-diamond-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1987.jpg"
   },
   "1988": {
@@ -746,7 +746,7 @@
       "tooltip": "RIAA Certified Diamond Record",
       "url": "riaa_certifications/riaa-diamond-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1988.jpg"
   },
   "1989": {
@@ -768,7 +768,7 @@
       "tooltip": "RIAA Certified 4x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-4x-d.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1980s/1989.jpg"
   },
   "1990": {
@@ -793,7 +793,7 @@
       "tooltip": "RIAA Certified Diamond Record",
       "url": "riaa_certifications/riaa-diamond-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1990.jpg"
   },
   "1991": {
@@ -811,7 +811,7 @@
       "tooltip": "RIAA Certified 13x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-13x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1991.jpg"
   },
   "1992": {
@@ -829,7 +829,7 @@
       "tooltip": "RIAA Certified 14x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-14x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1992.jpg"
   },
   "1993": {
@@ -850,7 +850,7 @@
       "tooltip": "RIAA Certified 18x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-18x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1993.jpg"
   },
   "1994": {
@@ -868,7 +868,7 @@
       "tooltip": "RIAA Certified Platinum Record",
       "url": "riaa_certifications/riaa-platinum-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1994.jpg"
   },
   "1995": {
@@ -886,7 +886,7 @@
       "tooltip": "RIAA Certified 22x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-22x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1995.jpg"
   },
   "1996": {
@@ -911,7 +911,7 @@
       "tooltip": "RIAA Certified 17x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-17x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1996.jpg"
   },
   "1997": {
@@ -929,7 +929,7 @@
       "tooltip": "RIAA Certified 7x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-7x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1997.jpg"
   },
   "1998": {
@@ -947,7 +947,7 @@
       "tooltip": "RIAA Certified 11x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-11x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1998.jpg"
   },
   "1999": {
@@ -968,7 +968,7 @@
       "tooltip": "RIAA Certified 13x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-13x-e.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/1990s/1999.jpg"
   },
   "2000": {
@@ -986,7 +986,7 @@
       "tooltip": "RIAA Certified 11x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-11x-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2000.jpg"
   },
   "2001": {
@@ -1008,7 +1008,7 @@
       "tooltip": "RIAA Certified 6x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-6x-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2001.jpg"
   },
   "2002": {
@@ -1041,12 +1041,10 @@
       "tooltip": "RIAA Certified 12x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-12x-f.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-f.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-f.svg"
+    },
     "image": "albums/2000s/2002.jpg"
   },
   "2003": {
@@ -1076,12 +1074,10 @@
       "tooltip": "RIAA Certified 9x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-9x-f.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-f.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-f.svg"
+    },
     "image": "albums/2000s/2003.jpg"
   },
   "2004": {
@@ -1102,7 +1098,7 @@
       "tooltip": "RIAA Certified 14x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-14x-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2004.jpg"
   },
   "2005": {
@@ -1124,7 +1120,7 @@
       "tooltip": "RIAA Certified 3x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-3x-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2005.jpg"
   },
   "2006": {
@@ -1146,7 +1142,7 @@
       "tooltip": "RIAA Certified 9x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-9x-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2006.jpg"
   },
   "2007": {
@@ -1168,7 +1164,7 @@
       "tooltip": "RIAA Certified 6x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-6x-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2007.jpg"
   },
   "2008": {
@@ -1186,7 +1182,7 @@
       "tooltip": "RIAA Certified 4x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-4x-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2008.jpg"
   },
   "2009": {
@@ -1207,7 +1203,7 @@
       "tooltip": "RIAA Certified Diamond Record",
       "url": "riaa_certifications/riaa-diamond-f.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2000s/2009.jpg"
   },
   "2010": {
@@ -1240,12 +1236,10 @@
       "tooltip": "RIAA Certified 8x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-8x-g.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-g.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-g.svg"
+    },
     "image": "albums/2010s/2010.jpg"
   },
   "2011": {
@@ -1270,7 +1264,7 @@
       "tooltip": "RIAA Certified 14x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-14x-g.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2010s/2011.jpg"
   },
   "2012": {
@@ -1292,7 +1286,7 @@
       "tooltip": "RIAA Certified 8x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-8x-g.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2010s/2012.jpg"
   },
   "2013": {
@@ -1310,7 +1304,7 @@
       "tooltip": "RIAA Certified 2x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-2x-g.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2010s/2013.jpg"
   },
   "2014": {
@@ -1335,7 +1329,7 @@
       "tooltip": "RIAA Certified 6x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-6x-g.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2010s/2014.jpg"
   },
   "2015": {
@@ -1356,7 +1350,7 @@
       "tooltip": "RIAA Certified 9x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-9x-g.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2010s/2015.jpg"
   },
   "2016": {
@@ -1385,12 +1379,10 @@
       "tooltip": "RIAA Certified 8x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-8x-g.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-g.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-g.svg"
+    },
     "image": "albums/2010s/2016.jpg"
   },
   "2017": {
@@ -1419,12 +1411,10 @@
       "tooltip": "RIAA Certified 3x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-3x-g.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-g.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-g.svg"
+    },
     "image": "albums/2010s/2017.jpg"
   },
   "2018": {
@@ -1445,6 +1435,7 @@
       "tooltip": "RIAA Certified 5x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-5x-g.svg"
     },
+    "advisory": null,
     "image": "albums/2010s/2018.jpg"
   },
   "2019": {
@@ -1465,7 +1456,7 @@
       "tooltip": "RIAA Certified 4x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-4x-g.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2010s/2019.jpg"
   },
   "2020": {
@@ -1487,12 +1478,10 @@
       "tooltip": "RIAA Certified 3x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-3x-h.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-h.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-h.svg"
+    },
     "image": "albums/2020s/2020.jpg"
   },
   "2021": {
@@ -1514,12 +1503,10 @@
       "tooltip": "RIAA Certified 6x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-6x-h.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-h.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-h.svg"
+    },
     "image": "albums/2020s/2021.jpg"
   },
   "2022": {
@@ -1544,7 +1531,7 @@
       "tooltip": "RIAA Certified 2x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-2x-h.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2020s/2022.jpg"
   },
   "2023": {
@@ -1570,12 +1557,10 @@
       "tooltip": "RIAA Certified 7x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-7x-h.svg"
     },
-    "advisory": [
-      {
-        "tooltip": "Parental Advisory",
-        "url": "parental_advisory/pa-h.svg"
-      }
-    ],
+    "advisory": {
+      "tooltip": "Parental Advisory",
+      "url": "parental_advisory/pa-h.svg"
+    },
     "image": "albums/2020s/2023.jpg"
   },
   "2024": {
@@ -1596,7 +1581,7 @@
       "tooltip": "RIAA Certified 6x Platinum Record",
       "url": "riaa_certifications/riaa-platinum-6x-h.svg"
     },
-    "advisory": "",
+    "advisory": null,
     "image": "albums/2020s/2024.jpg"
   }
 }
