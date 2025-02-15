@@ -92,7 +92,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
       return (
         <div className="flex flex-wrap justify-center mt-[2dvh]">
           <img
-            className="max-w-[40%] max-h-[7dvh]"
+            className="max-w-[40%] max-h-[9dvh]"
             src={config.assetsRoot + game.esrb.url}
             alt={game.esrb.tooltip}
             title={game.esrb.tooltip}
