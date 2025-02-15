@@ -12,7 +12,12 @@
     "image": "novels/1950s/1951.jpg"
   },
   "1952": {
-    "awards": ["novel_awards/newbery_honor-a.svg"],
+    "awards": [
+      {
+        "tooltip": "Newbery Honor Award",
+        "url": "novel_awards/newbery_honor-a.svg"
+      }
+    ],
     "title": "Charlotte's Web",
     "author": "E. B. White",
     "image": "novels/1950s/1952.jpg"
@@ -30,13 +35,23 @@
     "image": "novels/1950s/1954.jpg"
   },
   "1955": {
-    "awards": ["novel_awards/nyt-a.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-a.svg"
+      }
+    ],
     "title": "Lolita",
     "author": "Vladimir Nabokov",
     "image": "novels/1950s/1955.jpg"
   },
   "1956": {
-    "awards": ["novel_awards/nyt-a.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-a.svg"
+      }
+    ],
     "title": "Peyton Place",
     "author": "Grace Metalious",
     "image": "novels/1950s/1956.jpg"
@@ -54,13 +69,27 @@
     "image": "novels/1950s/1958.jpg"
   },
   "1959": {
-    "awards": ["novel_awards/nyt-a.svg", "novel_awards/pulitzer-a.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-a.svg"
+      },
+      {
+        "tooltip": "Pulitzer Prize Winner",
+        "url": "novel_awards/pulitzer-a.svg"
+      }
+    ],
     "title": "Advise and Consent",
     "author": "Allen Drury",
     "image": "novels/1950s/1959.jpg"
   },
   "1960": {
-    "awards": ["novel_awards/pulitzer-b.svg"],
+    "awards": [
+      {
+        "tooltip": "Pulitzer Prize Winner",
+        "url": "novel_awards/pulitzer-b.svg"
+      }
+    ],
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "image": "novels/1960s/1960.jpg"
@@ -96,7 +125,12 @@
     "image": "novels/1960s/1965.jpg"
   },
   "1966": {
-    "awards": ["novel_awards/nyt-b.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-b.svg"
+      }
+    ],
     "title": "Valley of the Dolls",
     "author": "Jacqueline Susann",
     "image": "novels/1960s/1966.jpg"
@@ -114,13 +148,23 @@
     "image": "novels/1960s/1968.jpg"
   },
   "1969": {
-    "awards": ["novel_awards/nyt-b.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-b.svg"
+      }
+    ],
     "title": "I Know Why the Caged Bird Sings",
     "author": "Maya Angelou",
     "image": "novels/1960s/1969.jpg"
   },
   "1970": {
-    "awards": ["novel_awards/nyt-c.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-c.svg"
+      }
+    ],
     "title": "Love Story",
     "author": "Erich Segal",
     "image": "novels/1970s/1970.jpg"
@@ -144,31 +188,56 @@
     "image": "novels/1970s/1973.jpg"
   },
   "1974": {
-    "awards": ["novel_awards/nyt-c.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-c.svg"
+      }
+    ],
     "title": "All the President's Men",
     "author": "Bob Woodward & Carl Bernstein",
     "image": "novels/1970s/1974.jpg"
   },
   "1975": {
-    "awards": ["novel_awards/nyt-c.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-c.svg"
+      }
+    ],
     "title": "Centennial",
     "author": "James A. Michener",
     "image": "novels/1970s/1975.jpg"
   },
   "1976": {
-    "awards": ["novel_awards/nyt-c.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-c.svg"
+      }
+    ],
     "title": "Roots",
     "author": "Alex Haley",
     "image": "novels/1970s/1976.jpg"
   },
   "1977": {
-    "awards": ["novel_awards/nyt-c.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-c.svg"
+      }
+    ],
     "title": "The Silmarillion",
     "author": "J. R. R. Tolkien",
     "image": "novels/1970s/1977.jpg"
   },
   "1978": {
-    "awards": ["novel_awards/newbery_medal-c.svg"],
+    "awards": [
+      {
+        "tooltip": "Newbery Medal Winner",
+        "url": "novel_awards/newbery_medal-c.svg"
+      }
+    ],
     "title": "The Westing Game",
     "author": "Ellen Raskin",
     "image": "novels/1970s/1978.jpg"
@@ -180,7 +249,12 @@
     "image": "novels/1970s/1979.jpg"
   },
   "1980": {
-    "awards": ["novel_awards/nyt-d.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-d.svg"
+      }
+    ],
     "title": "The Bourne Identity",
     "author": "Robert Ludlum",
     "image": "novels/1980s/1980.jpg"
@@ -192,7 +266,12 @@
     "image": "novels/1980s/1981.jpg"
   },
   "1982": {
-    "awards": ["novel_awards/pulitzer-d.svg"],
+    "awards": [
+      {
+        "tooltip": "Pulitzer Prize Winner",
+        "url": "novel_awards/pulitzer-d.svg"
+      }
+    ],
     "title": "The Color Purple",
     "author": "Alice Walker",
     "image": "novels/1980s/1982.jpg"
@@ -216,19 +295,34 @@
     "image": "novels/1980s/1985.jpg"
   },
   "1986": {
-    "awards": ["novel_awards/nyt-d.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-d.svg"
+      }
+    ],
     "title": "It",
     "author": "Stephen King",
     "image": "novels/1980s/1986.jpg"
   },
   "1987": {
-    "awards": ["novel_awards/newbery_honor-d.svg"],
+    "awards": [
+      {
+        "tooltip": "Newbery Honor Award",
+        "url": "novel_awards/newbery_honor-d.svg"
+      }
+    ],
     "title": "Hatchet",
     "author": "Gary Paulsen",
     "image": "novels/1980s/1987.jpg"
   },
   "1988": {
-    "awards": ["novel_awards/nyt-d.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-d.svg"
+      }
+    ],
     "title": "A Brief History of Time",
     "author": "Stephen W. Hawking",
     "image": "novels/1980s/1988.jpg"
@@ -264,7 +358,12 @@
     "image": "novels/1990s/1993.jpg"
   },
   "1994": {
-    "awards": ["novel_awards/nyt-e.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-e.svg"
+      }
+    ],
     "title": "Midnight in the Garden of Good and Evil",
     "author": "John Berendt",
     "image": "novels/1990s/1994.jpg"
@@ -282,13 +381,23 @@
     "image": "novels/1990s/1996.jpg"
   },
   "1997": {
-    "awards": ["novel_awards/nyt-e.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-e.svg"
+      }
+    ],
     "title": "Harry Potter and the Sorcerer's Stone",
     "author": "J. K. Rowling",
     "image": "novels/1990s/1997.jpg"
   },
   "1998": {
-    "awards": ["novel_awards/newbery_medal-e.svg"],
+    "awards": [
+      {
+        "tooltip": "Newbery Medal Winner",
+        "url": "novel_awards/newbery_medal-e.svg"
+      }
+    ],
     "title": "Holes",
     "author": "Louis Sachar",
     "image": "novels/1990s/1998.jpg"
@@ -312,13 +421,23 @@
     "image": "novels/2000s/2001.jpg"
   },
   "2002": {
-    "awards": ["novel_awards/nyt-f.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-f.svg"
+      }
+    ],
     "title": "The Lovely Bones",
     "author": "Alice Sebold",
     "image": "novels/2000s/2002.jpg"
   },
   "2003": {
-    "awards": ["novel_awards/nyt-f.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-f.svg"
+      }
+    ],
     "title": "The Five People You Meet in Heaven",
     "author": "Mitch Albom",
     "image": "novels/2000s/2003.jpg"
@@ -342,7 +461,12 @@
     "image": "novels/2000s/2006.jpg"
   },
   "2007": {
-    "awards": ["novel_awards/nyt-f.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-f.svg"
+      }
+    ],
     "title": "A Thousand Splendid Suns",
     "author": "Khaled Hosseini",
     "image": "novels/2000s/2007.jpg"
@@ -354,13 +478,23 @@
     "image": "novels/2000s/2008.jpg"
   },
   "2009": {
-    "awards": ["novel_awards/nyt-f.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-f.svg"
+      }
+    ],
     "title": "The Help",
     "author": "Kathryn Stockett",
     "image": "novels/2000s/2009.jpg"
   },
   "2010": {
-    "awards": ["novel_awards/nyt-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      }
+    ],
     "title": "Unbroken",
     "author": "Laura Hillenbrand",
     "image": "novels/2010s/2010.jpg"
@@ -378,49 +512,93 @@
     "image": "novels/2010s/2012.jpg"
   },
   "2013": {
-    "awards": ["novel_awards/nyt-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      }
+    ],
     "title": "The Cuckoo's Calling",
     "author": "Robert Galbraith (J. K. Rowling)",
     "image": "novels/2010s/2013.jpg"
   },
   "2014": {
-    "awards": ["novel_awards/nyt-g.svg", "novel_awards/pulitzer-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      },
+      {
+        "tooltip": "Pulitzer Prize Winner",
+        "url": "novel_awards/pulitzer-g.svg"
+      }
+    ],
     "title": "The Goldfinch",
     "author": "Donna Tart",
     "image": "novels/2010s/2014.jpg"
   },
   "2015": {
-    "awards": ["novel_awards/nyt-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      }
+    ],
     "title": "The Girl on the Train",
     "author": "Paula Hawkins",
     "image": "novels/2010s/2015.jpg"
   },
   "2016": {
-    "awards": ["novel_awards/nyt-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      }
+    ],
     "title": "It Ends With Us",
     "author": "Colleen Hoover",
     "image": "novels/2010s/2016.jpg"
   },
   "2017": {
-    "awards": ["novel_awards/nyt-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      }
+    ],
     "title": "Killers of the Flower Moon",
     "author": "David Grann",
     "image": "novels/2010s/2017.jpg"
   },
   "2018": {
-    "awards": ["novel_awards/nyt-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      }
+    ],
     "title": "Where the Crawdads Sing",
     "author": "Delia Owens",
     "image": "novels/2010s/2018.jpg"
   },
   "2019": {
-    "awards": ["novel_awards/nyt-g.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-g.svg"
+      }
+    ],
     "title": "Daisy Jones & the Six",
     "author": "Taylor Jenkins Reid",
     "image": "novels/2010s/2019.jpg"
   },
   "2020": {
-    "awards": ["novel_awards/nyt-h.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-h.svg"
+      }
+    ],
     "title": "The Vanishing Half",
     "author": "Brit Bennett",
     "image": "novels/2020s/2020.jpg"
@@ -438,13 +616,23 @@
     "image": "novels/2020s/2022.jpg"
   },
   "2023": {
-    "awards": ["novel_awards/nyt-h.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-h.svg"
+      }
+    ],
     "title": "Fourth Wing",
     "author": "Rebecca Yarros",
     "image": "novels/2020s/2023.jpg"
   },
   "2024": {
-    "awards": ["novel_awards/nyt-h.svg"],
+    "awards": [
+      {
+        "tooltip": "New York Times Best Seller",
+        "url": "novel_awards/nyt-h.svg"
+      }
+    ],
     "title": "The Women",
     "author": "Kristin Hannah",
     "image": "novels/2020s/2024.jpg"
