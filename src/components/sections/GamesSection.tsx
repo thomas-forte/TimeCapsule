@@ -56,7 +56,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
   function getGameCompanies(game: Game, landscape = false) {
     if (landscape) {
       return (
-        <div className="flex justify-center h-full">
+        <div className="flex justify-center h-full w-[7dvw]">
           {game.companies.map((company, index) => (
             <img
               className="max-h-[10dvh] max-w-[6dvw]"
@@ -109,7 +109,9 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
           decade={decade}
           className={classNames(!game.landscape && "w-2/5")}
         >
-          <div className="top-text">Game of {date.getFullYear()}:</div>
+          <div className="top-text min-w-[7dvw]">
+            Game of {date.getFullYear()}:
+          </div>
           {getAwards(game, game.landscape)}
           <div className={`title-text header-font-${decade}`}>{game.title}</div>
           {getGameCompanies(game, game.landscape)}
