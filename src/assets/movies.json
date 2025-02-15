@@ -1,11 +1,9 @@
 {
   "1950": {
-    "awards": [
-      {
-        "tooltip": "3 Nominations, 23rd Academy Awards",
-        "url": "movie_awards/1950-awards-a.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Nominations, 23rd Academy Awards",
+      "url": "movie_awards/1950-awards-a.svg"
+    },
     "title": "Cinderella",
     "studio": [
       {
@@ -17,7 +15,7 @@
         "url": "studios/rko_1937-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "75 minutes",
     "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "Greatest since Snow White",
@@ -25,12 +23,10 @@
     "image": "movies/1950s/1950.jpg"
   },
   "1951": {
-    "awards": [
-      {
-        "tooltip": "8 Nominations, 24th Academy Awards",
-        "url": "movie_awards/1951-awards-a.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "8 Nominations, 24th Academy Awards",
+      "url": "movie_awards/1951-awards-a.svg"
+    },
     "title": "Quo Vadis",
     "studio": [
       {
@@ -38,7 +34,7 @@
         "url": "studios/mgm_1924-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "171 minutes",
     "directors": ["Mervyn LeRoy"],
     "tagline": "The greatest spectacle ever filmed...three triumphant hours of unforgettable thrills!",
@@ -46,12 +42,10 @@
     "image": "movies/1950s/1951.jpg"
   },
   "1952": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 5 Nominations, 25th Academy Awards",
-        "url": "movie_awards/1952-awards-a.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 5 Nominations, 25th Academy Awards",
+      "url": "movie_awards/1952-awards-a.svg"
+    },
     "title": "The Greatest Show on Earth",
     "studio": [
       {
@@ -59,7 +53,7 @@
         "url": "studios/paramount_1917-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "152 minutes",
     "directors": ["Cecil B. DeMille"],
     "tagline": "The heartbeat story of circus people, filmed with the cooperation of Ringling Bros. - Barnum and Bailey Circus!",
@@ -67,7 +61,7 @@
     "image": "movies/1950s/1952.jpg"
   },
   "1953": {
-    "awards": "",
+    "awards": null,
     "title": "Peter Pan",
     "studio": [
       {
@@ -79,7 +73,7 @@
         "url": "studios/rko_1937-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "77 minutes",
     "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "It will live in your heart forever!",
@@ -87,12 +81,10 @@
     "image": "movies/1950s/1953.jpg"
   },
   "1954": {
-    "awards": [
-      {
-        "tooltip": "1 Nominations, 27th Academy Awards",
-        "url": "movie_awards/1954-awards-a.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Nominations, 27th Academy Awards",
+      "url": "movie_awards/1954-awards-a.svg"
+    },
     "title": "White Christmas",
     "studio": [
       {
@@ -100,7 +92,7 @@
         "url": "studios/paramount_1917-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "120 minutes",
     "directors": ["Michael Curtiz"],
     "tagline": "The most fabulous music-and-mirth show in motion picture history!",
@@ -108,7 +100,7 @@
     "image": "movies/1950s/1954.jpg"
   },
   "1955": {
-    "awards": "",
+    "awards": null,
     "title": "Lady and the Tramp",
     "studio": [
       {
@@ -120,7 +112,7 @@
         "url": "studios/buena-vista_1953-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "76 minutes",
     "directors": ["Clyde Geronimi", "Wilfred Jackson", "Hamilton Luske"],
     "tagline": "The most delightful characters in a dog's age!",
@@ -128,12 +120,10 @@
     "image": "movies/1950s/1955.jpg"
   },
   "1956": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 7 Nominations, 29th Academy Awards",
-        "url": "movie_awards/1956-awards-a.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 7 Nominations, 29th Academy Awards",
+      "url": "movie_awards/1956-awards-a.svg"
+    },
     "title": "The Ten Commandments",
     "studio": [
       {
@@ -141,7 +131,7 @@
         "url": "studios/paramount_1917-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "220 minutes",
     "directors": ["Cecil B. DeMille"],
     "tagline": "It would take more than a man to lead the slaves from bondage. It would take a God.",
@@ -149,12 +139,10 @@
     "image": "movies/1950s/1956.jpg"
   },
   "1957": {
-    "awards": [
-      {
-        "tooltip": "7 Wins, 8 Nominations, 30th Academy Awards",
-        "url": "movie_awards/1957-awards-a.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "7 Wins, 8 Nominations, 30th Academy Awards",
+      "url": "movie_awards/1957-awards-a.svg"
+    },
     "title": "The Bridge on the River Kwai",
     "studio": [
       {
@@ -162,7 +150,7 @@
         "url": "studios/columbia_1945-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "161 minutes",
     "directors": ["David Lean"],
     "tagline": "The towering triumph of adventure from the makers of \"Lawrence of Arabia.\"",
@@ -170,7 +158,7 @@
     "image": "movies/1950s/1957.jpg"
   },
   "1958": {
-    "awards": "",
+    "awards": null,
     "title": "South Pacific",
     "studio": [
       {
@@ -178,7 +166,7 @@
         "url": "studios/fox_1945-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "157 minutes",
     "directors": ["Joshua Logan"],
     "tagline": "In the thrilling tradition of \"Around The World In 80 Days\"",
@@ -186,12 +174,10 @@
     "image": "movies/1950s/1958.jpg"
   },
   "1959": {
-    "awards": [
-      {
-        "tooltip": "11 Wins, 12 Nominations, 32nd Academy Awards",
-        "url": "movie_awards/1959-awards-a.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "11 Wins, 12 Nominations, 32nd Academy Awards",
+      "url": "movie_awards/1959-awards-a.svg"
+    },
     "title": "Ben-Hur",
     "studio": [
       {
@@ -199,7 +185,7 @@
         "url": "studios/mgm_1924-a.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "212 minutes",
     "directors": ["William Wyler"],
     "tagline": "A tale of the Christ",
@@ -207,12 +193,10 @@
     "image": "movies/1950s/1959.jpg"
   },
   "1960": {
-    "awards": [
-      {
-        "tooltip": "4 Wins, 6 Nominations, 33rd Academy Awards",
-        "url": "movie_awards/1960-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Wins, 6 Nominations, 33rd Academy Awards",
+      "url": "movie_awards/1960-awards-b.svg"
+    },
     "title": "Spartacus",
     "studio": [
       {
@@ -220,7 +204,7 @@
         "url": "studios/universal_1960-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "197 minutes",
     "directors": ["Stanley Kubrick"],
     "tagline": "It roars with fierce excitement!",
@@ -228,7 +212,7 @@
     "image": "movies/1960s/1960.jpg"
   },
   "1961": {
-    "awards": "",
+    "awards": null,
     "title": "One Hundred and One Dalmatians",
     "studio": [
       {
@@ -240,7 +224,7 @@
         "url": "studios/buena-vista_1960-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "79 minutes",
     "directors": ["Clyde Geronimi", "Hamilton Luske", "Wolfgang Reitherman"],
     "tagline": "One great big ONEderful motion picture",
@@ -248,12 +232,10 @@
     "image": "movies/1960s/1961.jpg"
   },
   "1962": {
-    "awards": [
-      {
-        "tooltip": "7 Wins, 10 Nominations, 35th Academy Awards",
-        "url": "movie_awards/1962-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "7 Wins, 10 Nominations, 35th Academy Awards",
+      "url": "movie_awards/1962-awards-b.svg"
+    },
     "title": "Lawrence of Arabia",
     "studio": [
       {
@@ -261,7 +243,7 @@
         "url": "studios/columbia_1945-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "210 minutes",
     "directors": ["David Lean"],
     "tagline": "A mighty motion picture of action and adventure!",
@@ -269,12 +251,10 @@
     "image": "movies/1960s/1962.jpg"
   },
   "1963": {
-    "awards": [
-      {
-        "tooltip": "4 Wins, 9 Nominations, 36th Academy Awards",
-        "url": "movie_awards/1963-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Wins, 9 Nominations, 36th Academy Awards",
+      "url": "movie_awards/1963-awards-b.svg"
+    },
     "title": "Cleopatra",
     "studio": [
       {
@@ -282,7 +262,7 @@
         "url": "studios/fox_1945-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "251 minutes",
     "directors": ["Joseph L. Mankiewicz"],
     "tagline": "The motion picture the world has been waiting for!",
@@ -290,12 +270,10 @@
     "image": "movies/1960s/1963.jpg"
   },
   "1964": {
-    "awards": [
-      {
-        "tooltip": "5 Wins, 13 Nominations, 37th Academy Awards",
-        "url": "movie_awards/1964-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "5 Wins, 13 Nominations, 37th Academy Awards",
+      "url": "movie_awards/1964-awards-b.svg"
+    },
     "title": "Mary Poppins",
     "studio": [
       {
@@ -307,7 +285,7 @@
         "url": "studios/buena-vista_1960-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "139 minutes",
     "directors": ["Robert Stevenson"],
     "tagline": "It's supercalifragilisticexpialidocious!",
@@ -315,12 +293,10 @@
     "image": "movies/1960s/1964.jpg"
   },
   "1965": {
-    "awards": [
-      {
-        "tooltip": "5 Wins, 10 Nominations, 38th Academy Awards",
-        "url": "movie_awards/1965-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "5 Wins, 10 Nominations, 38th Academy Awards",
+      "url": "movie_awards/1965-awards-b.svg"
+    },
     "title": "The Sound of Music",
     "studio": [
       {
@@ -328,7 +304,7 @@
         "url": "studios/fox_1945-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "174 minutes",
     "directors": ["Robert Wise"],
     "tagline": "The happiest sound in all the world!",
@@ -336,12 +312,10 @@
     "image": "movies/1960s/1965.jpg"
   },
   "1966": {
-    "awards": [
-      {
-        "tooltip": "7 Nominations, 39th Academy Awards",
-        "url": "movie_awards/1966-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "7 Nominations, 39th Academy Awards",
+      "url": "movie_awards/1966-awards-b.svg"
+    },
     "title": "Hawaii",
     "studio": [
       {
@@ -353,7 +327,7 @@
         "url": "studios/ua_1929-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "161 minutes",
     "directors": ["George Roy Hill"],
     "tagline": "James Michener's novel reaches the screen.",
@@ -361,12 +335,10 @@
     "image": "movies/1960s/1966.jpg"
   },
   "1967": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 7 Nominations, 40th Academy Awards",
-        "url": "movie_awards/1967-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 7 Nominations, 40th Academy Awards",
+      "url": "movie_awards/1967-awards-b.svg"
+    },
     "title": "The Graduate",
     "studio": [
       {
@@ -378,7 +350,7 @@
         "url": "studios/ua_1967-b.svg"
       }
     ],
-    "mpaa": "",
+    "mpaa": null,
     "runtime": "106 minutes",
     "directors": ["Mike Nichols"],
     "tagline": "This is Benjamin. He's a little worried about his future.",
@@ -386,12 +358,10 @@
     "image": "movies/1960s/1967.jpg"
   },
   "1968": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 8 Nominations, 41st Academy Awards",
-        "url": "movie_awards/1968-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 8 Nominations, 41st Academy Awards",
+      "url": "movie_awards/1968-awards-b.svg"
+    },
     "title": "Funny Girl",
     "studio": [
       {
@@ -403,12 +373,10 @@
         "url": "studios/columbia_1966-b.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated G for General Audiences by the MPAA",
-        "url": "mpaa_ratings/g-rating_1968-b.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated G for General Audiences by the MPAA",
+      "url": "mpaa_ratings/g-rating_1968-b.svg"
+    },
     "runtime": "149 minutes",
     "directors": ["William Wyler"],
     "tagline": "People who see FUNNY GIRL are the luckiest people in the world!",
@@ -416,12 +384,10 @@
     "image": "movies/1960s/1968.jpg"
   },
   "1969": {
-    "awards": [
-      {
-        "tooltip": "4 Wins, 7 Nominations, 42nd Academy Awards",
-        "url": "movie_awards/1969-awards-b.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Wins, 7 Nominations, 42nd Academy Awards",
+      "url": "movie_awards/1969-awards-b.svg"
+    },
     "title": "Butch Cassidy and the Sundance Kid",
     "studio": [
       {
@@ -429,12 +395,10 @@
         "url": "studios/fox_1945-b.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated M for Mature Audiences by the MPAA",
-        "url": "mpaa_ratings/m-rating_1968-b.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated M for Mature Audiences by the MPAA",
+      "url": "mpaa_ratings/m-rating_1968-b.svg"
+    },
     "runtime": "110 minutes",
     "directors": ["George Roy Hill"],
     "tagline": "You never met a pair like Butch and The Kid.",
@@ -442,12 +406,10 @@
     "image": "movies/1960s/1969.jpg"
   },
   "1970": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 7 Nominations, 43rd Academy Awards",
-        "url": "movie_awards/1970-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 7 Nominations, 43rd Academy Awards",
+      "url": "movie_awards/1970-awards-c.svg"
+    },
     "title": "Love Story",
     "studio": [
       {
@@ -455,12 +417,10 @@
         "url": "studios/paramount_1967-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated GP: Parental Guidance Suggested by the MPAA",
-        "url": "mpaa_ratings/gp-rating_1970-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated GP: Parental Guidance Suggested by the MPAA",
+      "url": "mpaa_ratings/gp-rating_1970-c.svg"
+    },
     "runtime": "101 minutes",
     "directors": ["Arthur Hiller"],
     "tagline": "Love means never having to say you're sorry",
@@ -468,12 +428,10 @@
     "image": "movies/1970s/1970.jpg"
   },
   "1971": {
-    "awards": [
-      {
-        "tooltip": "3 Wins, 8 Nominations, 44th Academy Awards",
-        "url": "movie_awards/1971-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Wins, 8 Nominations, 44th Academy Awards",
+      "url": "movie_awards/1971-awards-c.svg"
+    },
     "title": "Fiddler on the Roof",
     "studio": [
       {
@@ -485,12 +443,10 @@
         "url": "studios/ua_1968-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated G for General Audiences by the MPAA",
-        "url": "mpaa_ratings/g-rating_1970-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated G for General Audiences by the MPAA",
+      "url": "mpaa_ratings/g-rating_1970-c.svg"
+    },
     "runtime": "181 minutes",
     "directors": ["Norman Jewison"],
     "tagline": "Shout it from the rooftops!",
@@ -498,12 +454,10 @@
     "image": "movies/1970s/1971.jpg"
   },
   "1972": {
-    "awards": [
-      {
-        "tooltip": "3 Wins, 11 Nominations, 45th Academy Awards",
-        "url": "movie_awards/1972-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Wins, 11 Nominations, 45th Academy Awards",
+      "url": "movie_awards/1972-awards-c.svg"
+    },
     "title": "The Godfather",
     "studio": [
       {
@@ -511,12 +465,10 @@
         "url": "studios/paramount_1967-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_1972-c.svg"
+    },
     "runtime": "175 minutes",
     "directors": ["Francis Ford Coppola"],
     "tagline": "An offer you can't refuse.",
@@ -524,12 +476,10 @@
     "image": "movies/1970s/1972.jpg"
   },
   "1973": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 10 Nominations, 46th Academy Awards",
-        "url": "movie_awards/1973-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 10 Nominations, 46th Academy Awards",
+      "url": "movie_awards/1973-awards-c.svg"
+    },
     "title": "The Exorcist",
     "studio": [
       {
@@ -537,12 +487,10 @@
         "url": "studios/wb_1972-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_1972-c.svg"
+    },
     "runtime": "122 minutes",
     "directors": ["Willliam Friedkin"],
     "tagline": "Something almost beyond comprehension is happening to a girl on this street, in this house ...and a man has been sent for as a last resort. This man is The Exorcist.",
@@ -550,12 +498,10 @@
     "image": "movies/1970s/1973.jpg"
   },
   "1974": {
-    "awards": [
-      {
-        "tooltip": "3 Wins, 8 Nominations, 47th Academy Awards",
-        "url": "movie_awards/1974-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Wins, 8 Nominations, 47th Academy Awards",
+      "url": "movie_awards/1974-awards-c.svg"
+    },
     "title": "The Towering Inferno",
     "studio": [
       {
@@ -567,12 +513,10 @@
         "url": "studios/fox_1972-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-c.svg"
+    },
     "runtime": "165 minutes",
     "directors": ["John Guillermin"],
     "tagline": "One tiny spark becomes a night of blazing suspense.",
@@ -580,12 +524,10 @@
     "image": "movies/1970s/1974.jpg"
   },
   "1975": {
-    "awards": [
-      {
-        "tooltip": "3 Wins, 4 Nominations, 48th Academy Awards",
-        "url": "movie_awards/1975-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Wins, 4 Nominations, 48th Academy Awards",
+      "url": "movie_awards/1975-awards-c.svg"
+    },
     "title": "Jaws",
     "studio": [
       {
@@ -593,12 +535,10 @@
         "url": "studios/universal_1963-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-c.svg"
+    },
     "runtime": "124 minutes",
     "directors": ["Steven Spielberg"],
     "tagline": "Amity Island had everything. Clear skies. Gentle surf. Warm water. People flocked there every summer. It was the perfect feeding ground.",
@@ -606,12 +546,10 @@
     "image": "movies/1970s/1975.jpg"
   },
   "1976": {
-    "awards": [
-      {
-        "tooltip": "3 Wins, 10 Nominations, 49th Academy Awards",
-        "url": "movie_awards/1976-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Wins, 10 Nominations, 49th Academy Awards",
+      "url": "movie_awards/1976-awards-c.svg"
+    },
     "title": "Rocky",
     "studio": [
       {
@@ -619,12 +557,10 @@
         "url": "studios/ua_1976-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-c.svg"
+    },
     "runtime": "119 minutes",
     "directors": ["John G. Avildsen"],
     "tagline": "His whole life was a million-to-one shot.",
@@ -632,12 +568,10 @@
     "image": "movies/1970s/1976.jpg"
   },
   "1977": {
-    "awards": [
-      {
-        "tooltip": "7 Wins, 11 Nominations, 50th Academy Awards",
-        "url": "movie_awards/1977-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "7 Wins, 11 Nominations, 50th Academy Awards",
+      "url": "movie_awards/1977-awards-c.svg"
+    },
     "title": "Star Wars",
     "studio": [
       {
@@ -649,12 +583,10 @@
         "url": "studios/fox_1972-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-c.svg"
+    },
     "runtime": "121 minutes",
     "directors": ["George Lucas"],
     "tagline": "A long time ago in a galaxy far, far away...",
@@ -662,12 +594,10 @@
     "image": "movies/1970s/1977.jpg"
   },
   "1978": {
-    "awards": [
-      {
-        "tooltip": "1 Nomination, 51st Academy Awards",
-        "url": "movie_awards/1978-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Nomination, 51st Academy Awards",
+      "url": "movie_awards/1978-awards-c.svg"
+    },
     "title": "Grease",
     "studio": [
       {
@@ -675,12 +605,10 @@
         "url": "studios/paramount_1967-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-c.svg"
+    },
     "runtime": "110 minutes",
     "directors": ["Randal Kleiser"],
     "tagline": "GREASE is the word.",
@@ -688,12 +616,10 @@
     "image": "movies/1970s/1978.jpg"
   },
   "1979": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 2 Nominations, 52nd Academy Awards",
-        "url": "movie_awards/1979-awards-c.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 2 Nominations, 52nd Academy Awards",
+      "url": "movie_awards/1979-awards-c.svg"
+    },
     "title": "Alien",
     "studio": [
       {
@@ -701,12 +627,10 @@
         "url": "studios/fox_1972-c.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_1972-c.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_1972-c.svg"
+    },
     "runtime": "116 minutes",
     "directors": ["Ridley Scott"],
     "tagline": "In space no one can hear you scream.",
@@ -714,12 +638,10 @@
     "image": "movies/1970s/1979.jpg"
   },
   "1980": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 4 Nominations, 53rd Academy Awards",
-        "url": "movie_awards/1980-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 4 Nominations, 53rd Academy Awards",
+      "url": "movie_awards/1980-awards-d.svg"
+    },
     "title": "Star Wars: The Empire Strikes Back",
     "studio": [
       {
@@ -731,12 +653,10 @@
         "url": "studios/fox_1972-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-d.svg"
+    },
     "runtime": "124 minutes",
     "directors": ["Irvin Kershner"],
     "tagline": "The Star Wars saga continues",
@@ -744,12 +664,10 @@
     "image": "movies/1980s/1980.jpg"
   },
   "1981": {
-    "awards": [
-      {
-        "tooltip": "5 Wins, 9 Nominations, 54th Academy Awards",
-        "url": "movie_awards/1981-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "5 Wins, 9 Nominations, 54th Academy Awards",
+      "url": "movie_awards/1981-awards-d.svg"
+    },
     "title": "Raiders of the Lost Ark",
     "studio": [
       {
@@ -761,12 +679,10 @@
         "url": "studios/paramount_1967-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-d.svg"
+    },
     "runtime": "115 minutes",
     "directors": ["Steven Spielberg"],
     "tagline": "Indiana Jones - the new hero from the creators of JAWS and STAR WARS.",
@@ -774,12 +690,10 @@
     "image": "movies/1980s/1981.jpg"
   },
   "1982": {
-    "awards": [
-      {
-        "tooltip": "4 Wins, 9 Nominations, 55th Academy Awards",
-        "url": "movie_awards/1982-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Wins, 9 Nominations, 55th Academy Awards",
+      "url": "movie_awards/1982-awards-d.svg"
+    },
     "title": "E.T. the Extra-Terrestrial",
     "studio": [
       {
@@ -791,12 +705,10 @@
         "url": "studios/universal_1963-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-d.svg"
+    },
     "runtime": "114 minutes",
     "directors": ["Steven Spielberg"],
     "tagline": "He is afraid. He is totally alone. He is 3 million light years from home.",
@@ -804,12 +716,10 @@
     "image": "movies/1980s/1982.jpg"
   },
   "1983": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 5 Nominations, 56th Academy Awards",
-        "url": "movie_awards/1983-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 5 Nominations, 56th Academy Awards",
+      "url": "movie_awards/1983-awards-d.svg"
+    },
     "title": "Star Wars: Return of the Jedi",
     "studio": [
       {
@@ -821,12 +731,10 @@
         "url": "studios/fox_1982-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-d.svg"
+    },
     "runtime": "132 minutes",
     "directors": ["Richard Marquand"],
     "tagline": "The Empire Falls....",
@@ -834,12 +742,10 @@
     "image": "movies/1980s/1983.jpg"
   },
   "1984": {
-    "awards": [
-      {
-        "tooltip": "2 Nominations, 57th Academy Awards",
-        "url": "movie_awards/1984-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Nominations, 57th Academy Awards",
+      "url": "movie_awards/1984-awards-d.svg"
+    },
     "title": "Ghostbusters",
     "studio": [
       {
@@ -847,12 +753,10 @@
         "url": "studios/columbia_1981-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-d.svg"
+    },
     "runtime": "105 minutes",
     "directors": ["Ivan Reitman"],
     "tagline": "They're here to save the world.",
@@ -860,12 +764,10 @@
     "image": "movies/1980s/1984.jpg"
   },
   "1985": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 4 Nominations, 58th Academy Awards",
-        "url": "movie_awards/1985-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 4 Nominations, 58th Academy Awards",
+      "url": "movie_awards/1985-awards-d.svg"
+    },
     "title": "Back to the Future",
     "studio": [
       {
@@ -877,12 +779,10 @@
         "url": "studios/universal_1963-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-d.svg"
+    },
     "runtime": "116 minutes",
     "directors": ["Robert Zemeckis"],
     "tagline": "He was never in time for his classes... He wasn't in time for his dinner... Then one day... he wasn't in his time at all.",
@@ -890,12 +790,10 @@
     "image": "movies/1980s/1985.jpg"
   },
   "1986": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 4 Nominations, 59th Academy Awards",
-        "url": "movie_awards/1986-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 4 Nominations, 59th Academy Awards",
+      "url": "movie_awards/1986-awards-d.svg"
+    },
     "title": "Top Gun",
     "studio": [
       {
@@ -903,12 +801,10 @@
         "url": "studios/paramount_1967-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-d.svg"
+    },
     "runtime": "109 minutes",
     "directors": ["Tony Scott"],
     "tagline": "Up there with the best of the best.",
@@ -916,12 +812,10 @@
     "image": "movies/1980s/1986.jpg"
   },
   "1987": {
-    "awards": [
-      {
-        "tooltip": "6 Nominations, 60th Academy Awards",
-        "url": "movie_awards/1987-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "6 Nominations, 60th Academy Awards",
+      "url": "movie_awards/1987-awards-d.svg"
+    },
     "title": "Fatal Attraction",
     "studio": [
       {
@@ -929,12 +823,10 @@
         "url": "studios/paramount_1967-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_1972-d.svg"
+    },
     "runtime": "119 minutes",
     "directors": ["Adrian Lyne"],
     "tagline": "On the other side of drinks, dinner and a one night stand, lies a terrifying love story.",
@@ -942,12 +834,10 @@
     "image": "movies/1980s/1987.jpg"
   },
   "1988": {
-    "awards": [
-      {
-        "tooltip": "4 Wins, 8 Nominations, 61st Academy Awards",
-        "url": "movie_awards/1988-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Wins, 8 Nominations, 61st Academy Awards",
+      "url": "movie_awards/1988-awards-d.svg"
+    },
     "title": "Rain Man",
     "studio": [
       {
@@ -959,12 +849,10 @@
         "url": "studios/mgm_1986-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_1972-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_1972-d.svg"
+    },
     "runtime": "134 minutes",
     "directors": ["Barry Levinson"],
     "tagline": "A journey through understanding and fellowship.",
@@ -972,12 +860,10 @@
     "image": "movies/1980s/1988.jpg"
   },
   "1989": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 1 Nomination, 62nd Academy Awards",
-        "url": "movie_awards/1989-awards-d.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 1 Nomination, 62nd Academy Awards",
+      "url": "movie_awards/1989-awards-d.svg"
+    },
     "title": "Batman",
     "studio": [
       {
@@ -985,12 +871,10 @@
         "url": "studios/wb_1985-d.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-d.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-d.svg"
+    },
     "runtime": "126 minutes",
     "directors": ["Tim Burton"],
     "tagline": "Only one will claim the night.",
@@ -998,12 +882,10 @@
     "image": "movies/1980s/1989.jpg"
   },
   "1990": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 5 Nominations, 63rd Academy Awards",
-        "url": "movie_awards/1990-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 5 Nominations, 63rd Academy Awards",
+      "url": "movie_awards/1990-awards-e.svg"
+    },
     "title": "Ghost",
     "studio": [
       {
@@ -1011,12 +893,10 @@
         "url": "studios/paramount_1967-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+    },
     "runtime": "127 minutes",
     "directors": ["Jerry Zucker"],
     "tagline": "A love that will last forever.",
@@ -1024,12 +904,10 @@
     "image": "movies/1990s/1990.jpg"
   },
   "1991": {
-    "awards": [
-      {
-        "tooltip": "4 Wins, 6 Nominations, 64th Academy Awards",
-        "url": "movie_awards/1991-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Wins, 6 Nominations, 64th Academy Awards",
+      "url": "movie_awards/1991-awards-e.svg"
+    },
     "title": "Terminator 2: Judgement Day",
     "studio": [
       {
@@ -1049,12 +927,10 @@
         "url": "studios/tristar_1991-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_1972-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_1972-e.svg"
+    },
     "runtime": "137 minutes",
     "directors": ["James Cameron"],
     "tagline": "It's nothing personal.",
@@ -1062,12 +938,10 @@
     "image": "movies/1990s/1991.jpg"
   },
   "1992": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 5 Nominations, 65th Academy Awards",
-        "url": "movie_awards/1992-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 5 Nominations, 65th Academy Awards",
+      "url": "movie_awards/1992-awards-e.svg"
+    },
     "title": "Aladdin",
     "studio": [
       {
@@ -1079,12 +953,10 @@
         "url": "studios/buena-vista_1987-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated G by the MPAA",
-        "url": "mpaa_ratings/g-rating_1990-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated G by the MPAA",
+      "url": "mpaa_ratings/g-rating_1990-e.svg"
+    },
     "runtime": "90 minutes",
     "directors": ["John Musker", "Ron Clements"],
     "tagline": "Imagine if you had three wishes, three hopes, three dreams, and they all could come true.",
@@ -1092,12 +964,10 @@
     "image": "movies/1990s/1992.jpg"
   },
   "1993": {
-    "awards": [
-      {
-        "tooltip": "3 Wins, 3 Nominations, 66th Academy Awards",
-        "url": "movie_awards/1993-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Wins, 3 Nominations, 66th Academy Awards",
+      "url": "movie_awards/1993-awards-e.svg"
+    },
     "title": "Jurassic Park",
     "studio": [
       {
@@ -1109,12 +979,10 @@
         "url": "studios/universal_1990-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+    },
     "runtime": "127 minutes",
     "directors": ["Steven Spielberg"],
     "tagline": "An adventure 65 million years in the making.",
@@ -1122,12 +990,10 @@
     "image": "movies/1990s/1993.jpg"
   },
   "1994": {
-    "awards": [
-      {
-        "tooltip": "6 Wins, 13 Nominations, 67th Academy Awards",
-        "url": "movie_awards/1994-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "6 Wins, 13 Nominations, 67th Academy Awards",
+      "url": "movie_awards/1994-awards-e.svg"
+    },
     "title": "Forrest Gump",
     "studio": [
       {
@@ -1135,12 +1001,10 @@
         "url": "studios/paramount_1967-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+    },
     "runtime": "142 minutes",
     "directors": ["Robert Zemeckis"],
     "tagline": "The world will never be the same once you've seen it through the eyes of Forrest Gump.",
@@ -1148,12 +1012,10 @@
     "image": "movies/1990s/1994.jpg"
   },
   "1995": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 4 Nominations, 68th Academy Awards",
-        "url": "movie_awards/1995-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 4 Nominations, 68th Academy Awards",
+      "url": "movie_awards/1995-awards-e.svg"
+    },
     "title": "Toy Story",
     "studio": [
       {
@@ -1165,12 +1027,10 @@
         "url": "studios/buena-vista_1987-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated G by the MPAA",
-        "url": "mpaa_ratings/g-rating_1990-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated G by the MPAA",
+      "url": "mpaa_ratings/g-rating_1990-e.svg"
+    },
     "runtime": "81 minutes",
     "directors": ["John Lasseter"],
     "tagline": "Take off on an adventure beyond the imagination.",
@@ -1178,12 +1038,10 @@
     "image": "movies/1990s/1995.jpg"
   },
   "1996": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 2 Nominations, 69th Academy Awards",
-        "url": "movie_awards/1996-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 2 Nominations, 69th Academy Awards",
+      "url": "movie_awards/1996-awards-e.svg"
+    },
     "title": "Independence Day",
     "studio": [
       {
@@ -1195,12 +1053,10 @@
         "url": "studios/fox_1986-e.svg"
       }
     ],
-    "mpaa":[
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+    },
     "runtime": "145 minutes",
     "directors": ["Roland Emmerich"],
     "tagline": "The question of whether or not we are alone in the universe has been answered.",
@@ -1208,12 +1064,10 @@
     "image": "movies/1990s/1996.jpg"
   },
   "1997": {
-    "awards": [
-      {
-        "tooltip": "11 Wins, 14 Nominations, 70th Academy Awards",
-        "url": "movie_awards/1997-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "11 Wins, 14 Nominations, 70th Academy Awards",
+      "url": "movie_awards/1997-awards-e.svg"
+    },
     "title": "Titanic",
     "studio": [
       {
@@ -1229,12 +1083,10 @@
         "url": "studios/lightstorm_1994-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-e.svg"
+    },
     "runtime": "195 minutes",
     "directors": ["James Cameron"],
     "tagline": "Nothing on Earth could come between them.",
@@ -1242,12 +1094,10 @@
     "image": "movies/1990s/1997.jpg"
   },
   "1998": {
-    "awards": [
-      {
-        "tooltip": "5 Wins, 11 Nominations, 71st Academy Awards",
-        "url": "movie_awards/1998-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "5 Wins, 11 Nominations, 71st Academy Awards",
+      "url": "movie_awards/1998-awards-e.svg"
+    },
     "title": "Saving Private Ryan",
     "studio": [
       {
@@ -1263,12 +1113,10 @@
         "url": "studios/paramount_1967-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_1972-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_1972-e.svg"
+    },
     "runtime": "170 minutes",
     "directors": ["Steven Spielberg"],
     "tagline": "The mission is a man.",
@@ -1276,12 +1124,10 @@
     "image": "movies/1990s/1998.jpg"
   },
   "1999": {
-    "awards": [
-      {
-        "tooltip": "3 Nominations, 72nd Academy Awards",
-        "url": "movie_awards/1999-awards-e.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Nominations, 72nd Academy Awards",
+      "url": "movie_awards/1999-awards-e.svg"
+    },
     "title": "Star Wars: Episode I - The Phantom Menace",
     "studio": [
       {
@@ -1293,12 +1139,10 @@
         "url": "studios/fox_1986-e.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-e.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-e.svg"
+    },
     "runtime": "134 minutes",
     "directors": ["George Lucas"],
     "tagline": "Every saga has a beginning.",
@@ -1306,7 +1150,7 @@
     "image": "movies/1990s/1999.jpg"
   },
   "2000": {
-    "awards": "",
+    "awards": null,
     "title": "Mission: Impossible 2",
     "studio": [
       {
@@ -1318,12 +1162,10 @@
         "url": "studios/paramount_1967-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "124 minutes",
     "directors": ["John Woo"],
     "tagline": "Expect the impossible again",
@@ -1331,12 +1173,10 @@
     "image": "movies/2000s/2000.jpg"
   },
   "2001": {
-    "awards": [
-      {
-        "tooltip": "3 Nominations, 74th Academy Awards",
-        "url": "movie_awards/2001-awards-f.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Nominations, 74th Academy Awards",
+      "url": "movie_awards/2001-awards-f.svg"
+    },
     "title": "Harry Potter and the Sorcerer's Stone",
     "studio": [
       {
@@ -1348,12 +1188,10 @@
         "url": "studios/1492_1995-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-f.svg"
+    },
     "runtime": "152 minutes",
     "directors": ["Chris Columbus"],
     "tagline": "Let The Magic Begin.",
@@ -1361,12 +1199,10 @@
     "image": "movies/2000s/2001.jpg"
   },
   "2002": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 6 Nominations, 75th Academy Awards",
-        "url": "movie_awards/2002-awards-f.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 6 Nominations, 75th Academy Awards",
+      "url": "movie_awards/2002-awards-f.svg"
+    },
     "title": "The Lord of the Rings: The Two Towers",
     "studio": [
       {
@@ -1378,12 +1214,10 @@
         "url": "studios/new-line_2001-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "179 minutes",
     "directors": ["Peter Jackson"],
     "tagline": "The battle for Middle-Earth begins!",
@@ -1391,12 +1225,10 @@
     "image": "movies/2000s/2002.jpg"
   },
   "2003": {
-    "awards": [
-      {
-        "tooltip": "11 Wins, 11 Nominations, 76th Academy Awards",
-        "url": "movie_awards/2003-awards-f.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "11 Wins, 11 Nominations, 76th Academy Awards",
+      "url": "movie_awards/2003-awards-f.svg"
+    },
     "title": "The Lord of the Rings: The Return of the King",
     "studio": [
       {
@@ -1408,12 +1240,10 @@
         "url": "studios/new-line_2001-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "201 minutes",
     "directors": ["Peter Jackson"],
     "tagline": "The eye of the enemy is moving.",
@@ -1421,12 +1251,10 @@
     "image": "movies/2000s/2003.jpg"
   },
   "2004": {
-    "awards": [
-      {
-        "tooltip": "2 Nominations, 77th Academy Awards",
-        "url": "movie_awards/2004-awards-f.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Nominations, 77th Academy Awards",
+      "url": "movie_awards/2004-awards-f.svg"
+    },
     "title": "Shrek 2",
     "studio": [
       {
@@ -1442,12 +1270,10 @@
         "url": "studios/dreamworks_1994-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_1972-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_1972-f.svg"
+    },
     "runtime": "92 minutes",
     "directors": ["Andrew Adamson", "Kelly Asbury", "Conrad Vernon"],
     "tagline": "Once upon another time...",
@@ -1455,12 +1281,10 @@
     "image": "movies/2000s/2004.jpg"
   },
   "2005": {
-    "awards": [
-      {
-        "tooltip": "1 Nomination, 78th Academy Awards",
-        "url": "movie_awards/2005-awards-f.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Nomination, 78th Academy Awards",
+      "url": "movie_awards/2005-awards-f.svg"
+    },
     "title": "Harry Potter and the Goblet of Fire",
     "studio": [
       {
@@ -1472,12 +1296,10 @@
         "url": "studios/heyday_2005-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "157 minutes",
     "directors": ["Mike Newell"],
     "tagline": "Everything is about to change.",
@@ -1485,7 +1307,7 @@
     "image": "movies/2000s/2005.jpg"
   },
   "2006": {
-    "awards": "",
+    "awards": null,
     "title": "Casino Royale",
     "studio": [
       {
@@ -1505,12 +1327,10 @@
         "url": "studios/sony-releasing_2005-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "144 minutes",
     "directors": ["Martin Campbell"],
     "tagline": "The new Bond. Living for Love. Dying for Thrills.",
@@ -1518,7 +1338,7 @@
     "image": "movies/2000s/2006.jpg"
   },
   "2007": {
-    "awards": "",
+    "awards": null,
     "title": "Spider-Man 3",
     "studio": [
       {
@@ -1534,12 +1354,10 @@
         "url": "studios/sony-releasing_2005-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "139 minutes",
     "directors": ["Sam Raimi"],
     "tagline": "The battle within.",
@@ -1547,12 +1365,10 @@
     "image": "movies/2000s/2007.jpg"
   },
   "2008": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 8 Nominations, 81st Academy Awards",
-        "url": "movie_awards/2008-awards-f.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 8 Nominations, 81st Academy Awards",
+      "url": "movie_awards/2008-awards-f.svg"
+    },
     "title": "The Dark Knight",
     "studio": [
       {
@@ -1568,12 +1384,10 @@
         "url": "studios/syncopy_2008-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "152 minutes",
     "directors": ["Christopher Nolan"],
     "tagline": "Why So Serious?",
@@ -1581,12 +1395,10 @@
     "image": "movies/2000s/2008.jpg"
   },
   "2009": {
-    "awards": [
-      {
-        "tooltip": "3 Wins, 9 Nominations, 82nd Academy Awards",
-        "url": "movie_awards/2009-awards-f.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Wins, 9 Nominations, 82nd Academy Awards",
+      "url": "movie_awards/2009-awards-f.svg"
+    },
     "title": "Avatar",
     "studio": [
       {
@@ -1606,12 +1418,10 @@
         "url": "studios/lightstorm_1994-f.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-f.svg"
+    },
     "runtime": "162 minutes",
     "directors": ["James Cameron"],
     "tagline": "Discover a new world.",
@@ -1619,12 +1429,10 @@
     "image": "movies/2000s/2009.jpg"
   },
   "2010": {
-    "awards": [
-      {
-        "tooltip": "4 Wins, 8 Nominations, 83rd Academy Awards",
-        "url": "movie_awards/2010-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Wins, 8 Nominations, 83rd Academy Awards",
+      "url": "movie_awards/2010-awards-g.svg"
+    },
     "title": "Inception",
     "studio": [
       {
@@ -1640,12 +1448,10 @@
         "url": "studios/syncopy_2008-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
+    },
     "runtime": "148 minutes",
     "directors": ["Christopher Nolan"],
     "tagline": "Your mind is the scene of the crime.",
@@ -1653,12 +1459,10 @@
     "image": "movies/2010s/2010.jpg"
   },
   "2011": {
-    "awards": [
-      {
-        "tooltip": "3 Nominations, 84th Academy Awards",
-        "url": "movie_awards/2011-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Nominations, 84th Academy Awards",
+      "url": "movie_awards/2011-awards-g.svg"
+    },
     "title": "Harry Potter and the Deathly Hallows - Part 2",
     "studio": [
       {
@@ -1670,12 +1474,10 @@
         "url": "studios/heyday_2008-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
+    },
     "runtime": "130 minutes",
     "directors": ["David Yates"],
     "tagline": "The last enemy is death",
@@ -1683,12 +1485,10 @@
     "image": "movies/2010s/2011.jpg"
   },
   "2012": {
-    "awards": [
-      {
-        "tooltip": "1 Nomination, 85th Academy Awards",
-        "url": "movie_awards/2012-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Nomination, 85th Academy Awards",
+      "url": "movie_awards/2012-awards-g.svg"
+    },
     "title": "The Avengers",
     "studio": [
       {
@@ -1700,12 +1500,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_1984-g.svg"
+    },
     "runtime": "143 minutes",
     "directors": ["Joss Whedon"],
     "tagline": "Avengers assemble!",
@@ -1713,12 +1511,10 @@
     "image": "movies/2010s/2012.jpg"
   },
   "2013": {
-    "awards": [
-      {
-        "tooltip": "2 Wins, 2 Nominations, 86th Academy Awards",
-        "url": "movie_awards/2013-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Wins, 2 Nominations, 86th Academy Awards",
+      "url": "movie_awards/2013-awards-g.svg"
+    },
     "title": "Frozen",
     "studio": [
       {
@@ -1730,12 +1526,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_2013-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_2013-g.svg"
+    },
     "runtime": "102 minutes",
     "directors": ["Chris Buck", "Jennifer Lee"],
     "tagline": "Some people are worth melting for",
@@ -1743,7 +1537,7 @@
     "image": "movies/2010s/2013.jpg"
   },
   "2014": {
-    "awards": "",
+    "awards": null,
     "title": "Marvel's Guardians of the Galaxy",
     "studio": [
       {
@@ -1755,12 +1549,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+    },
     "runtime": "122 minutes",
     "directors": ["James Gunn"],
     "tagline": "All heroes start somewhere.",
@@ -1768,12 +1560,10 @@
     "image": "movies/2010s/2014.jpg"
   },
   "2015": {
-    "awards": [
-      {
-        "tooltip": "5 Nominations, 88th Academy Awards",
-        "url": "movie_awards/2015-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "5 Nominations, 88th Academy Awards",
+      "url": "movie_awards/2015-awards-g.svg"
+    },
     "title": "Star Wars: The Force Awakens",
     "studio": [
       {
@@ -1789,12 +1579,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+    },
     "runtime": "138 minutes",
     "directors": ["J. J. Abrams"],
     "tagline": "Every generation has a story.",
@@ -1802,12 +1590,10 @@
     "image": "movies/2010s/2015.jpg"
   },
   "2016": {
-    "awards": [
-      {
-        "tooltip": "2 Nominations, 89th Academy Awards",
-        "url": "movie_awards/2016-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Nominations, 89th Academy Awards",
+      "url": "movie_awards/2016-awards-g.svg"
+    },
     "title": "Rogue One: A Star Wars Story",
     "studio": [
       {
@@ -1819,12 +1605,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+    },
     "runtime": "134 minutes",
     "directors": ["Gareth Edwards"],
     "tagline": "A rebellion built on hope.",
@@ -1832,12 +1616,10 @@
     "image": "movies/2010s/2016.jpg"
   },
   "2017": {
-    "awards": [
-      {
-        "tooltip": "4 Nominations, 90th Academy Awards",
-        "url": "movie_awards/2017-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "4 Nominations, 90th Academy Awards",
+      "url": "movie_awards/2017-awards-g.svg"
+    },
     "title": "Star Wars: The Last Jedi",
     "studio": [
       {
@@ -1849,12 +1631,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+    },
     "runtime": "152 minutes",
     "directors": ["Rian Johnson"],
     "tagline": "Let the Past Die",
@@ -1862,12 +1642,10 @@
     "image": "movies/2010s/2017.jpg"
   },
   "2018": {
-    "awards": [
-      {
-        "tooltip": "1 Nomination, 91st Academy Awards",
-        "url": "movie_awards/2018-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Nomination, 91st Academy Awards",
+      "url": "movie_awards/2018-awards-g.svg"
+    },
     "title": "Incredibles 2",
     "studio": [
       {
@@ -1879,12 +1657,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_2013-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_2013-g.svg"
+    },
     "runtime": "118 minutes",
     "directors": ["Brad Bird"],
     "tagline": "It's been too long, dahlings.",
@@ -1892,12 +1668,10 @@
     "image": "movies/2010s/2018.jpg"
   },
   "2019": {
-    "awards": [
-      {
-        "tooltip": "2 Nominations, 92nd Academy Awards",
-        "url": "movie_awards/2019-awards-g.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "2 Nominations, 92nd Academy Awards",
+      "url": "movie_awards/2019-awards-g.svg"
+    },
     "title": "Avengers: Endgame",
     "studio": [
       {
@@ -1909,12 +1683,10 @@
         "url": "studios/disney_2007-g.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+    },
     "runtime": "181 minutes",
     "directors": ["Anthony Russo", "Joe Russo"],
     "tagline": "Avenge the fallen.",
@@ -1922,7 +1694,7 @@
     "image": "movies/2010s/2019.jpg"
   },
   "2020": {
-    "awards": "",
+    "awards": null,
     "title": "Bad Boys for Life",
     "studio": [
       {
@@ -1942,12 +1714,10 @@
         "url": "studios/sony-releasing_2005-h.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated R by the MPAA",
-        "url": "mpaa_ratings/r-rating_2013-h.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated R by the MPAA",
+      "url": "mpaa_ratings/r-rating_2013-h.svg"
+    },
     "runtime": "124 minutes",
     "directors": ["Adil El Arbi", "Bilall Fallah"],
     "tagline": "Ride Together. Die Together.",
@@ -1955,12 +1725,10 @@
     "image": "movies/2020s/2020.jpg"
   },
   "2021": {
-    "awards": [
-      {
-        "tooltip": "3 Nominations, 94th Academy Awards",
-        "url": "movie_awards/2021-awards-h.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "3 Nominations, 94th Academy Awards",
+      "url": "movie_awards/2021-awards-h.svg"
+    },
     "title": "Spider-Man: No Way Home",
     "studio": [
       {
@@ -1980,12 +1748,10 @@
         "url": "studios/sony-releasing_2005-h.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_2013-h.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_2013-h.svg"
+    },
     "runtime": "148 minutes",
     "directors": ["Jon Watts"],
     "tagline": "The Multiverse Unleashed.",
@@ -1993,12 +1759,10 @@
     "image": "movies/2020s/2021.jpg"
   },
   "2022": {
-    "awards": [
-      {
-        "tooltip": "1 Win, 4 Nominations, 95th Academy Awards",
-        "url": "movie_awards/2022-awards-h.svg"
-      }
-    ],
+    "awards": {
+      "tooltip": "1 Win, 4 Nominations, 95th Academy Awards",
+      "url": "movie_awards/2022-awards-h.svg"
+    },
     "title": "Avatar: The Way of Water",
     "studio": [
       {
@@ -2014,12 +1778,10 @@
         "url": "studios/fox_2020-h.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG-13 by the MPAA",
-        "url": "mpaa_ratings/pg-13-rating_2013-h.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG-13 by the MPAA",
+      "url": "mpaa_ratings/pg-13-rating_2013-h.svg"
+    },
     "runtime": "192 minutes",
     "directors": ["James Cameron"],
     "tagline": "Where the ocean becomes your home",
@@ -2027,7 +1789,7 @@
     "image": "movies/2020s/2022.jpg"
   },
   "2023": {
-    "awards": "",
+    "awards": null,
     "title": "The Super Mario Bros. Movie",
     "studio": [
       {
@@ -2043,12 +1805,10 @@
         "url": "studios/nintendo_2016-h.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_2013-h.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_2013-h.svg"
+    },
     "runtime": "92 minutes",
     "directors": ["Aaron Horvath", "Michael Jelenic"],
     "tagline": "Let's-a go!",
@@ -2056,7 +1816,7 @@
     "image": "movies/2020s/2023.jpg"
   },
   "2024": {
-    "awards": "",
+    "awards": null,
     "title": "Inside Out 2",
     "studio": [
       {
@@ -2068,12 +1828,10 @@
         "url": "studios/disney_2019-h.svg"
       }
     ],
-    "mpaa": [
-      {
-        "tooltip": "Rated PG by the MPAA",
-        "url": "mpaa_ratings/pg-rating_2013-h.svg"
-      }
-    ],
+    "mpaa": {
+      "tooltip": "Rated PG by the MPAA",
+      "url": "mpaa_ratings/pg-rating_2013-h.svg"
+    },
     "runtime": "96 minutes",
     "directors": ["Kelsey Mann"],
     "tagline": "Make room for new emotions.",

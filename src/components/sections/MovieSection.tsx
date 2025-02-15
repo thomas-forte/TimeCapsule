@@ -8,10 +8,10 @@ import { config } from "../../config";
 import movies from "../../assets/movies.json";
 
 type Movie = {
-  awards: string;
+  awards: { url: string; tooltip: string } | null;
   title: string;
-  studio: string[];
-  mpaa: string;
+  studio: { url: string; tooltip: string }[];
+  mpaa: { url: string; tooltip: string } | null;
   runtime: string;
   directors: string[];
   tagline: string;
@@ -43,9 +43,9 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             <div className="flex flex-wrap justify-center mt-[2dvh] mx-[2dvw]">
               <img
                 className="max-h-[8dvh]"
-                src={config.assetsRoot + movie.awards}
-                alt="movie award image"
-                title="Movie Award"
+                src={config.assetsRoot + movie.awards.url}
+                alt={movie.awards.tooltip}
+                title={movie.awards.tooltip}
               />
             </div>
           )}
@@ -54,13 +54,13 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
           </div>
           <p className="subtitle-text">{movie.tagline}</p>
           <div className="flex flex-wrap justify-center mt-[2dvh]">
-            {movie.studio.map((studioUrl, index) => (
+            {movie.studio.map((studio, index) => (
               <img
                 className="max-w-[40%] max-h-[8dvh] m-[3%]"
                 key={movie.title + index}
-                src={config.assetsRoot + studioUrl}
-                alt="movie studio icon"
-                title={studioUrl.split("_")[0].split("/").pop()}
+                src={config.assetsRoot + studio.url}
+                alt={studio.tooltip}
+                title={studio.tooltip}
               />
             ))}
           </div>
@@ -68,9 +68,9 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             <div className="flex flex-wrap justify-center mt-[2dvh]">
               <img
                 className="max-w-[40%] max-h-[4dvh] m-[3%]"
-                src={config.assetsRoot + movie.mpaa}
-                alt="mpaa rating"
-                title={movie.mpaa.split("/").pop()?.split("_")[0]}
+                src={config.assetsRoot + movie.mpaa.url}
+                alt={movie.mpaa.tooltip}
+                title={movie.mpaa.tooltip}
               />
             </div>
           )}
