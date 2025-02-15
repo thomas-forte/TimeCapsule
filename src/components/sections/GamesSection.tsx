@@ -59,7 +59,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
         <div className="flex justify-center h-full">
           {game.companies.map((company, index) => (
             <img
-              className="max-h-[10dvh] m-[3%]"
+              className="max-h-[10dvh] max-w-[6dvw]"
               key={game.title + index}
               src={config.assetsRoot + company.url}
               alt={company.tooltip}
@@ -70,10 +70,10 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
       );
     } else {
       return (
-        <div className="flex flex-wrap justify-center mt-[2dvh]">
+        <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
           {game.companies.map((company, index) => (
             <img
-              className="max-w-[35%] max-h-[10dvh] m-[3%]"
+              className="max-w-[35%] max-h-[10dvh]"
               key={game.title + index}
               src={config.assetsRoot + company.url}
               alt={company.tooltip}
@@ -92,7 +92,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
       return (
         <div className="flex flex-wrap justify-center mt-[2dvh]">
           <img
-            className="max-w-[40%] max-h-[4dvh] m-[3%]"
+            className="max-w-[40%] max-h-[7dvh]"
             src={config.assetsRoot + game.esrb.url}
             alt={game.esrb.tooltip}
             title={game.esrb.tooltip}

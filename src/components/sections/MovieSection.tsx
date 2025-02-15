@@ -57,10 +57,10 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             {movie.title}
           </div>
           <p className="subtitle-text">{movie.tagline}</p>
-          <div className="flex flex-wrap justify-center mt-[2dvh]">
+          <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
             {movie.studio.map((studio, index) => (
               <img
-                className="max-w-[40%] max-h-[8dvh] m-[3%]"
+                className="max-w-[40%] max-h-[10dvh]"
                 key={movie.title + index}
                 src={config.assetsRoot + studio.url}
                 alt={studio.tooltip}
@@ -71,7 +71,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
           {movie.mpaa && (
             <div className="flex flex-wrap justify-center mt-[2dvh]">
               <img
-                className="max-w-[40%] max-h-[4dvh] m-[3%]"
+                className="max-w-[40%] max-h-[4dvh]"
                 src={config.assetsRoot + movie.mpaa.url}
                 alt={movie.mpaa.tooltip}
                 title={movie.mpaa.tooltip}

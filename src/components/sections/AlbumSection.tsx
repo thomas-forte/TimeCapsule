@@ -37,7 +37,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
       <Section name="albums">
         <Card decade={decade} className="w-2/5">
           <div className="top-text">Album of {date.getFullYear()}:</div>
-          <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw] ">
+          <div className="flex flex-wrap justify-center mt-[2dvh] mx-[2dvw] gap-[2dvw]">
             {album.awards && (
               <img
                 className="max-h-[8dvh]"
@@ -60,10 +60,10 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
           </div>
           <p className="subtitle-text">By {album.artist}</p>
           <p className="body-text">Genre: {album.genre}</p>
-          <div className="flex flex-wrap justify-center mt-[2dvh]">
+          <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
             {album.labels.map((label, index) => (
               <img
-                className="max-w-[40%] max-h-[15dvh] m-[3%]"
+                className="max-w-[40%] max-h-[10dvh]"
                 key={album.title + index}
                 src={config.assetsRoot + label.url}
                 alt={label.tooltip}
