@@ -14,6 +14,7 @@ type Game = {
   esrb: { url: string; tooltip: string } | null;
   creator: string;
   companies: { url: string; tooltip: string }[];
+  company_inline?: Record<string, string>;
   image: string;
   landscape?: boolean;
 };
@@ -56,10 +57,13 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
   function getGameCompanies(game: Game, landscape = false) {
     if (landscape) {
       return (
-        <div className="flex justify-center h-full w-[7dvw]">
+        <div
+          className="flex justify-center h-full w-[7dvw]"
+          style={game.company_inline}
+        >
           {game.companies.map((company, index) => (
             <img
-              className="max-h-[10dvh] max-w-[6dvw]"
+              className="max-h-[10dvh] max-w-full"
               key={game.title + index}
               src={config.assetsRoot + company.url}
               alt={company.tooltip}

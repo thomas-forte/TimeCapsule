@@ -80,6 +80,7 @@
         "url": "game_companies/pb_1930-a.svg"
       }
     ],
+    "company_inline": { "width": "9dvw" },
     "image": "games/1950s/1955.jpg",
     "landscape": true
   },
