@@ -163,6 +163,7 @@
 .header-font-1980s {
   @apply font-monoton text-h1980s;
   @apply text-[6dvh] leading-none;
+  word-spacing: 0.4ch;
 }
 .header-font-1990s {
   @apply font-gluten text-h1990s;
