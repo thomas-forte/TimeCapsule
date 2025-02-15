@@ -1869,8 +1869,22 @@
       }
     ],
     "title": "Incredibles 2",
-    "studio": ["studios/pixar_1994-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "mpaa_ratings/pg-rating_2013-g.svg",
+    "studio": [
+      {
+        "tooltip": "Pixar Animation Studios",
+        "url": "studios/pixar_1994-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG by the MPAA",
+        "url": "mpaa_ratings/pg-rating_2013-g.svg"
+      }
+    ],
     "runtime": "118 minutes",
     "directors": ["Brad Bird"],
     "tagline": "It's been too long, dahlings.",
@@ -1885,8 +1899,22 @@
       }
     ],
     "title": "Avengers: Endgame",
-    "studio": ["studios/marvel_2016-g.svg", "studios/disney_2007-g.svg"],
-    "mpaa": "mpaa_ratings/pg-13-rating_2013-g.svg",
+    "studio": [
+      {
+        "tooltip": "Marvel Studios",
+        "url": "studios/marvel_2016-g.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2007-g.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_2013-g.svg"
+      }
+    ],
     "runtime": "181 minutes",
     "directors": ["Anthony Russo", "Joe Russo"],
     "tagline": "Avenge the fallen.",
@@ -1897,12 +1925,29 @@
     "awards": "",
     "title": "Bad Boys for Life",
     "studio": [
-      "studios/columbia_1993-h.svg",
-      "studios/jerry-bruckheimer_2001-h.svg",
-      "studios/overbrook_2003-h.svg",
-      "studios/sony-releasing_2005-h.svg"
+      {
+        "tooltip": "Columbia Pictures Industries",
+        "url": "studios/columbia_1993-h.svg"
+      },
+      {
+        "tooltip": "Jerry Bruckheimer Films",
+        "url": "studios/jerry-bruckheimer_2001-h.svg"
+      },
+      {
+        "tooltip": "Overbrook Entertainment",
+        "url": "studios/overbrook_2003-h.svg"
+      },
+      {
+        "tooltip": "Sony Pictures Releasing",
+        "url": "studios/sony-releasing_2005-h.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/r-rating_2013-h.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated R by the MPAA",
+        "url": "mpaa_ratings/r-rating_2013-h.svg"
+      }
+    ],
     "runtime": "124 minutes",
     "directors": ["Adil El Arbi", "Bilall Fallah"],
     "tagline": "Ride Together. Die Together.",
@@ -1918,12 +1963,29 @@
     ],
     "title": "Spider-Man: No Way Home",
     "studio": [
-      "studios/columbia_1993-h.svg",
-      "studios/marvel_2016-h.svg",
-      "studios/pascal_2018-h.svg",
-      "studios/sony-releasing_2005-h.svg"
+      {
+        "tooltip": "Columbia Pictures Industries",
+        "url": "studios/columbia_1993-h.svg"
+      },
+      {
+        "tooltip": "Marvel Studios",
+        "url": "studios/marvel_2016-h.svg"
+      },
+      {
+        "tooltip": "Pascal Pictures",
+        "url": "studios/pascal_2018-h.svg"
+      },
+      {
+        "tooltip": "Sony Pictures Releasing",
+        "url": "studios/sony-releasing_2005-h.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_2013-h.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_2013-h.svg"
+      }
+    ],
     "runtime": "148 minutes",
     "directors": ["Jon Watts"],
     "tagline": "The Multiverse Unleashed.",
@@ -1939,11 +2001,25 @@
     ],
     "title": "Avatar: The Way of Water",
     "studio": [
-      "studios/tsg_2012-h.svg",
-      "studios/lightstorm_1994-h.svg",
-      "studios/fox_2020-h.svg"
+      {
+        "tooltip": "TSG Entertainment",
+        "url": "studios/tsg_2012-h.svg"
+      },
+      {
+        "tooltip": "Lightstorm Entertainment",
+        "url": "studios/lightstorm_1994-h.svg"
+      },
+      {
+        "tooltip": "20th Century Studios",
+        "url": "studios/fox_2020-h.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-13-rating_2013-h.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG-13 by the MPAA",
+        "url": "mpaa_ratings/pg-13-rating_2013-h.svg"
+      }
+    ],
     "runtime": "192 minutes",
     "directors": ["James Cameron"],
     "tagline": "Where the ocean becomes your home",
@@ -1954,11 +2030,25 @@
     "awards": "",
     "title": "The Super Mario Bros. Movie",
     "studio": [
-      "studios/universal_2021-h.svg",
-      "studios/illumination_2017-h.svg",
-      "studios/nintendo_2016-h.svg"
+      {
+        "tooltip": "Universal City Studios",
+        "url": "studios/universal_2021-h.svg"
+      },
+      {
+        "tooltip": "Illumination",
+        "url": "studios/illumination_2017-h.svg"
+      },
+      {
+        "tooltip": "Nintendo",
+        "url": "studios/nintendo_2016-h.svg"
+      }
     ],
-    "mpaa": "mpaa_ratings/pg-rating_2013-h.svg",
+    "mpaa": [
+      {
+        "tooltip": "Rated PG by the MPAA",
+        "url": "mpaa_ratings/pg-rating_2013-h.svg"
+      }
+    ],
     "runtime": "92 minutes",
     "directors": ["Aaron Horvath", "Michael Jelenic"],
     "tagline": "Let's-a go!",
@@ -1968,8 +2058,22 @@
   "2024": {
     "awards": "",
     "title": "Inside Out 2",
-    "studio": ["studios/pixar_1994-h.svg", "studios/disney_2019-h.svg"],
-    "mpaa": "mpaa_ratings/pg-rating_2013-h.svg",
+    "studio": [
+      {
+        "tooltip": "Pixar Animation Studios",
+        "url": "studios/pixar_1994-h.svg"
+      },
+      {
+        "tooltip": "Walt Disney Pictures",
+        "url": "studios/disney_2019-h.svg"
+      }
+    ],
+    "mpaa": [
+      {
+        "tooltip": "Rated PG by the MPAA",
+        "url": "mpaa_ratings/pg-rating_2013-h.svg"
+      }
+    ],
     "runtime": "96 minutes",
     "directors": ["Kelsey Mann"],
     "tagline": "Make room for new emotions.",
