@@ -13,11 +13,12 @@ const buttonClick = new Audio("/click.wav");
 buttonClick.volume = 0.5;
 
 interface ButtonPanelProps {
+  date: Date;
   filters: string[];
   onChange: (filters: string[]) => void;
 }
 
-export const ButtonPanel = ({ filters, onChange }: ButtonPanelProps) => {
+export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
   const addFilterSelection = (filter: string) => {
     onChange([...filters, filter]);
   };
@@ -62,6 +63,7 @@ export const ButtonPanel = ({ filters, onChange }: ButtonPanelProps) => {
       </div>
       <div>
         <NewsButton
+          disabled={date.getFullYear() > 2009}
           onClick={() => toggleFilterSelection("news")}
           active={filters.includes("news")}
         />

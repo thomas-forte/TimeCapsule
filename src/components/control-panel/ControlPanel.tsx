@@ -77,6 +77,7 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
         {/* filter buttons */}
         <div className="control-panel-buttons-container">
           <ButtonPanel
+            date={date}
             filters={filterSelection}
             onChange={setFilterSelection}
           />

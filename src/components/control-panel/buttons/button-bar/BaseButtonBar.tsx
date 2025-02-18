@@ -3,17 +3,20 @@ import classNames from "classnames";
 
 interface BaseButtonBarProps extends PropsWithChildren {
   name: string;
+  disabled?: boolean;
   active: boolean;
   onClick?: () => void;
 }
 
 export interface BaseButtonBarChildProps {
   onClick?: () => void;
+  disabled?: boolean;
   active: boolean;
 }
 
 export const BaseButtonBar = ({
   name,
+  disabled,
   active,
   onClick,
   children,
@@ -31,7 +34,7 @@ export const BaseButtonBar = ({
     strokeLinejoin="round"
     strokeMiterlimit="2"
     onClick={onClick}
-    className={classNames("button-panel-base-button-svg", { active })}
+    className={classNames("button-panel-base-button-svg", { active, disabled })}
   >
     <path
       d="M62,15.5L62,46.5C62,55.055 55.055,62 46.5,62L15.5,62C6.945,62 -0,55.055 -0,46.5L-0,15.5C-0,6.945 6.945,0 15.5,0L46.5,0C55.055,0 62,6.945 62,15.5Z"

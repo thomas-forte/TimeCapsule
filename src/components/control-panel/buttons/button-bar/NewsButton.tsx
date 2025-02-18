@@ -1,7 +1,16 @@
 import { BaseButtonBar, BaseButtonBarChildProps } from "./BaseButtonBar";
 
-export const NewsButton = ({ active, onClick }: BaseButtonBarChildProps) => (
-  <BaseButtonBar name="news" onClick={onClick} active={active}>
+export const NewsButton = ({
+  disabled,
+  active,
+  onClick,
+}: BaseButtonBarChildProps) => (
+  <BaseButtonBar
+    name="news"
+    onClick={onClick}
+    active={active}
+    disabled={disabled}
+  >
     <path
       d="M45.603,46.4L16.397,46.4C16.397,46.4 15.359,46.48 14.641,45.762C13.923,45.043 14.003,44.006 14.003,44.006L14.003,19.747L16.556,19.747L16.556,42.25L17.195,42.25L17.195,15.597L47.997,15.597L47.997,44.006C47.997,44.006 48.077,45.043 47.359,45.762C46.641,46.48 45.603,46.4 45.603,46.4ZM43.848,40.974L21.504,40.974L21.504,42.25L43.848,42.25L43.848,40.974ZM43.848,29.482L43.848,28.206L25.334,28.206L25.334,29.482L43.848,29.482ZM43.848,32.515L21.504,32.515L21.504,33.792L43.848,33.792L43.848,32.515ZM43.848,36.664L21.504,36.664L21.504,37.941L43.848,37.941L43.848,36.664ZM43.848,19.747L21.504,19.747L21.504,25.333L43.848,25.333L43.848,19.747Z"
       // Original values
