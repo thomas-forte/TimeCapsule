@@ -25,11 +25,9 @@ export const ZoomDialog = ({
           transition
           className="rounded-xl bg-white/5 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0"
         >
-          <img
-            className="max-w-[80dvw] max-h-[90dvh]"
-            src={imgSrc}
-            alt={imgAlt}
-          />
+          <div className="max-h-[90dvh] overflow-y-scroll">
+            <img className="max-w-[90dvw]" src={imgSrc} alt={imgAlt} />
+          </div>
         </DialogPanel>
       </div>
     </div>
