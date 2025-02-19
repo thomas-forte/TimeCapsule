@@ -283,11 +283,10 @@
 
 /* animations */
 @keyframes goButtonPulse {
-  0%,
-  100% {
+  0%, 40%, 100% {
     fill: #1e1e1e;
   }
-  20%, 40% {
+  20% {
     fill: #a6a6a6;
   }
 }
