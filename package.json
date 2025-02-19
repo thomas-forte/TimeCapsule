@@ -28,6 +28,7 @@
     "@fontsource/spicy-rice": "^5.1.0",
     "@fontsource/truculenta": "^5.1.0",
     "@headlessui/react": "^2.1.1",
+    "@heroicons/react": "^2.2.0",
     "axios": "^1.7.2",
     "classnames": "^2.5.1",
     "react": "^18.3.1",
