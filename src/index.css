@@ -50,7 +50,7 @@
   .control-panel-go-button-svg {
     @apply fill-[#1e1e1e] hover:fill-[#8bf8ff];
     @apply cursor-pointer;
-    animation: goButtonPulse 5s ease-in-out infinite;
+    animation: goButtonPulse 10s ease-in-out infinite;
     @apply hover:animate-none;
   }
 
