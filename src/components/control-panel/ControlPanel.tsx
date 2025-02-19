@@ -63,13 +63,25 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
           <div className="control-panel-name-plate">
             <NamePlate onClick={() => /*navigate("/")*/ 1} />
           </div>
-          <div className="control-panel-go-button">
+          <div
+            className="control-panel-go-button"
+            data-tooltip-id="tooltip-root"
+            data-tooltip-content="Go!"
+            data-tooltip-place="right"
+            data-tooltip-delay-show={1500}
+          >
             <GoButton onClick={() => goToDate(date, filterSelection)} />
           </div>
           <div className="control-panel-date-picker">
             <DatePicker date={date} updateDate={setDate} />
           </div>
-          <div className="control-panel-random-button">
+          <div
+            className="control-panel-random-button"
+            data-tooltip-id="tooltip-root"
+            data-tooltip-content="Pick a random date"
+            data-tooltip-place="right"
+            data-tooltip-delay-show={1500}
+          >
             <RandomButton onClick={() => pickRandomDate()} />
           </div>
         </div>

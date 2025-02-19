@@ -2,6 +2,7 @@ import classNames from "classnames";
 
 // config
 import { config } from "../../config";
+import { useEffect, useState } from "react";
 
 interface DatePickerProps {
   date: Date;
@@ -14,6 +15,16 @@ buttonClick.volume = 0.5;
 let isAltPressed = false;
 
 export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
+  const [kbdCode, setKbdCode] = useState("Alt");
+
+  useEffect(() => {
+    if (navigator.userAgent.includes("Mac")) {
+      setKbdCode("Option ⌥");
+    } else {
+      setKbdCode("Alt");
+    }
+  }, []);
+
   document.addEventListener("keydown", (e) => {
     if (e.altKey) {
       isAltPressed = true;
@@ -107,6 +118,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
             className={classNames("arrows", {
               disabled: date.getFullYear() <= config.minimumDate.getFullYear(),
             })}
+            data-tooltip-id="tooltip-root"
+            data-tooltip-html={`Previous Year<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-place="right"
+            data-tooltip-offset={15}
+            data-tooltip-delay-show={1500}
             onClick={() =>
               date.getFullYear() > config.minimumDate.getFullYear() &&
               updateDate(
@@ -127,6 +143,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
             className={classNames("arrows", {
               disabled: date.getFullYear() >= config.maximumDate.getFullYear(),
             })}
+            data-tooltip-id="tooltip-root"
+            data-tooltip-html={`Next Year<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-place="right"
+            data-tooltip-offset={15}
+            data-tooltip-delay-show={1500}
             onClick={() =>
               date.getFullYear() < config.maximumDate.getFullYear() &&
               updateDate(
@@ -147,6 +168,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
             className={classNames("arrows", {
               disabled: date <= config.minimumDate,
             })}
+            data-tooltip-id="tooltip-root"
+            data-tooltip-html={`Previous Day<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-place="right"
+            data-tooltip-offset={15}
+            data-tooltip-delay-show={1500}
             onClick={() =>
               date > config.minimumDate &&
               updateDate(
@@ -161,6 +187,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           <path
             d="M99.976,222L131.976,237L67.976,237L99.976,222Z"
             className="arrows"
+            data-tooltip-id="tooltip-root"
+            data-tooltip-html={`Next Day<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-place="right"
+            data-tooltip-offset={15}
+            data-tooltip-delay-show={1500}
             onClick={() =>
               updateDate(
                 new Date(
@@ -176,6 +207,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
             className={classNames("arrows", {
               disabled: date.getMonth() === 0,
             })}
+            data-tooltip-id="tooltip-root"
+            data-tooltip-html="Previous Month"
+            data-tooltip-place="right"
+            data-tooltip-offset={15}
+            data-tooltip-delay-show={1500}
             onClick={() =>
               date.getMonth() !== 0 &&
               updateDate(
@@ -192,6 +228,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
             className={classNames("arrows", {
               disabled: date.getMonth() === 11,
             })}
+            data-tooltip-id="tooltip-root"
+            data-tooltip-html="Next Month"
+            data-tooltip-place="right"
+            data-tooltip-offset={15}
+            data-tooltip-delay-show={1500}
             onClick={() =>
               date.getMonth() !== 11 &&
               updateDate(

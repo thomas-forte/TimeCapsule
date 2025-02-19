@@ -43,38 +43,74 @@ export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
 
   return (
     <div className="button-panel">
-      <div>
+      <div
+        data-tooltip-id="tooltip-root"
+        data-tooltip-content="Show All"
+        data-tooltip-place="right"
+        data-tooltip-offset={15}
+        data-tooltip-delay-show={500}
+      >
         <AllButton
           onClick={() => toggleFilterNone()}
           active={!filters.length}
         />
       </div>
-      <div>
+      <div
+        data-tooltip-id="tooltip-root"
+        data-tooltip-content="Show Movies"
+        data-tooltip-place="right"
+        data-tooltip-offset={15}
+        data-tooltip-delay-show={500}
+      >
         <MoviesButton
           onClick={() => toggleFilterSelection("movies")}
           active={filters.includes("movies")}
         />
       </div>
-      <div>
+      <div
+        data-tooltip-id="tooltip-root"
+        data-tooltip-content="Show Movies"
+        data-tooltip-place="right"
+        data-tooltip-offset={15}
+        data-tooltip-delay-show={500}
+      >
         <BooksButton
           onClick={() => toggleFilterSelection("novels")}
           active={filters.includes("novels")}
         />
       </div>
-      <div>
+      <div
+        data-tooltip-id="tooltip-root"
+        data-tooltip-content="Show News"
+        data-tooltip-place="right"
+        data-tooltip-offset={15}
+        data-tooltip-delay-show={500}
+      >
         <NewsButton
           disabled={date.getFullYear() > 2009}
           onClick={() => toggleFilterSelection("news")}
           active={filters.includes("news")}
         />
       </div>
-      <div>
+      <div
+        data-tooltip-id="tooltip-root"
+        data-tooltip-content="Show Games"
+        data-tooltip-place="right"
+        data-tooltip-offset={15}
+        data-tooltip-delay-show={500}
+      >
         <GamesButton
           onClick={() => toggleFilterSelection("games")}
           active={filters.includes("games")}
         />
       </div>
-      <div>
+      <div
+        data-tooltip-id="tooltip-root"
+        data-tooltip-content="Show Albums"
+        data-tooltip-place="right"
+        data-tooltip-offset={15}
+        data-tooltip-delay-show={500}
+      >
         <MusicButton
           onClick={() => toggleFilterSelection("music")}
           active={filters.includes("music")}

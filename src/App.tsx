@@ -13,6 +13,7 @@ import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 import { Door } from "./components/Door";
 import { HelpScreen } from "./components/HelpDialog";
 import { RotateDialog } from "./components/RotateDialog";
+import { Tooltip } from "react-tooltip";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
@@ -85,6 +86,8 @@ export const App = () => {
 
       {/* help menu */}
       <HelpScreen />
+
+      <Tooltip id="tooltip-root" style={{ zIndex: 1000 }} />
     </div>
   );
 };
