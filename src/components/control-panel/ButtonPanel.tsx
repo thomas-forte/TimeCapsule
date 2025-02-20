@@ -45,7 +45,7 @@ export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
     <div className="button-panel">
       <div
         data-tooltip-id="tooltip-root"
-        data-tooltip-content="Show All"
+        data-tooltip-html="<b>Show All</b>"
         data-tooltip-place="right"
         data-tooltip-offset={15}
         data-tooltip-delay-show={500}
@@ -57,7 +57,7 @@ export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
       </div>
       <div
         data-tooltip-id="tooltip-root"
-        data-tooltip-content="Show Movies"
+        data-tooltip-html="<b>Show Movies</b>"
         data-tooltip-place="right"
         data-tooltip-offset={15}
         data-tooltip-delay-show={500}
@@ -69,7 +69,7 @@ export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
       </div>
       <div
         data-tooltip-id="tooltip-root"
-        data-tooltip-content="Show Movies"
+        data-tooltip-html="<b>Show Movies</b>"
         data-tooltip-place="right"
         data-tooltip-offset={15}
         data-tooltip-delay-show={500}
@@ -81,7 +81,7 @@ export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
       </div>
       <div
         data-tooltip-id="tooltip-root"
-        data-tooltip-content="Show News"
+        data-tooltip-html="<b>Show News</b>"
         data-tooltip-place="right"
         data-tooltip-offset={15}
         data-tooltip-delay-show={500}
@@ -94,7 +94,7 @@ export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
       </div>
       <div
         data-tooltip-id="tooltip-root"
-        data-tooltip-content="Show Games"
+        data-tooltip-html="<b>Show Games</b>"
         data-tooltip-place="right"
         data-tooltip-offset={15}
         data-tooltip-delay-show={500}
@@ -106,7 +106,7 @@ export const ButtonPanel = ({ date, filters, onChange }: ButtonPanelProps) => {
       </div>
       <div
         data-tooltip-id="tooltip-root"
-        data-tooltip-content="Show Albums"
+        data-tooltip-html="<b>Show Albums</b>"
         data-tooltip-place="right"
         data-tooltip-offset={15}
         data-tooltip-delay-show={500}

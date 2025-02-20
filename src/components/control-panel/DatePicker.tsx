@@ -119,7 +119,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
               disabled: date.getFullYear() <= config.minimumDate.getFullYear(),
             })}
             data-tooltip-id="tooltip-root"
-            data-tooltip-html={`Previous Year<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-html={`<b>Previous Year</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
             data-tooltip-offset={15}
             data-tooltip-delay-show={1500}
@@ -144,7 +144,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
               disabled: date.getFullYear() >= config.maximumDate.getFullYear(),
             })}
             data-tooltip-id="tooltip-root"
-            data-tooltip-html={`Next Year<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-html={`<b>Next Year</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
             data-tooltip-offset={15}
             data-tooltip-delay-show={1500}
@@ -169,7 +169,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
               disabled: date <= config.minimumDate,
             })}
             data-tooltip-id="tooltip-root"
-            data-tooltip-html={`Previous Day<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-html={`<b>Previous Day</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
             data-tooltip-offset={15}
             data-tooltip-delay-show={1500}
@@ -188,7 +188,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
             d="M99.976,222L131.976,237L67.976,237L99.976,222Z"
             className="arrows"
             data-tooltip-id="tooltip-root"
-            data-tooltip-html={`Next Day<br /><kbd>${kbdCode}</kbd> + click to skip 10)`}
+            data-tooltip-html={`<b>Next Day</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
             data-tooltip-offset={15}
             data-tooltip-delay-show={1500}
@@ -208,7 +208,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
               disabled: date.getMonth() === 0,
             })}
             data-tooltip-id="tooltip-root"
-            data-tooltip-html="Previous Month"
+            data-tooltip-html="<b>Previous Month</b>"
             data-tooltip-place="right"
             data-tooltip-offset={15}
             data-tooltip-delay-show={1500}
@@ -229,7 +229,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
               disabled: date.getMonth() === 11,
             })}
             data-tooltip-id="tooltip-root"
-            data-tooltip-html="Next Month"
+            data-tooltip-html="<b>Next Month</b>"
             data-tooltip-place="right"
             data-tooltip-offset={15}
             data-tooltip-delay-show={1500}

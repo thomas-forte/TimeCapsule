@@ -66,7 +66,7 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
           <div
             className="control-panel-go-button"
             data-tooltip-id="tooltip-root"
-            data-tooltip-content="Go!"
+            data-tooltip-html="<b>Go!</b>"
             data-tooltip-place="right"
             data-tooltip-delay-show={1500}
           >
@@ -78,7 +78,7 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
           <div
             className="control-panel-random-button"
             data-tooltip-id="tooltip-root"
-            data-tooltip-content="Pick a random date"
+            data-tooltip-html="<b>Pick a random date</b>"
             data-tooltip-place="right"
             data-tooltip-delay-show={1500}
           >
