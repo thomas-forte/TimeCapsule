@@ -12,7 +12,6 @@ import { ControlPanel } from "./components/control-panel/ControlPanel";
 import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 import { Door } from "./components/Door";
 import { HelpScreen } from "./components/HelpDialog";
-import { RotateDialog } from "./components/RotateDialog";
 import { Tooltip } from "react-tooltip";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
@@ -80,9 +79,6 @@ export const App = () => {
           filters={filters}
         />
       </div>
-
-      {/* turn yo screen */}
-      <RotateDialog />
 
       {/* help menu */}
       <HelpScreen />
