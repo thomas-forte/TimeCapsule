@@ -1,10 +1,8 @@
 import { useState } from "react";
+import classNames from "classnames";
 
 // config
 import { config } from "../../config";
-
-// styles
-import styles from "./ControlPanel.module.css";
 
 // components
 import { NamePlate } from "./NamePlate";
@@ -12,13 +10,6 @@ import { GoButton } from "./buttons/GoButton";
 import { DatePicker } from "./DatePicker";
 import { RandomButton } from "./buttons/RandomButton";
 import { ButtonPanel } from "./ButtonPanel";
-import { ControlPanelBackground } from "./ControlPanelBackground";
-
-// screws
-import { TopLeftScrew } from "./screws/TopLeftScrew";
-import { TopRightScrew } from "./screws/TopRightScrew";
-import { BottomRightScrew } from "./screws/BottomRightScrew";
-import { BottomLeftScrew } from "./screws/BottomLeftScrew";
 
 interface ControlPanelProps {
   goToDate: (date: Date, filters: string[]) => void;
@@ -37,6 +28,8 @@ const initialDates = [
 ];
 
 export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   // filter selection state
   const [filterSelection, setFilterSelection] = useState<string[]>([]);
 
@@ -58,8 +51,11 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
   return (
     <>
       <div className="flex">
-        {/* controls */}
-        <div className="control-panel-controls-container">
+        <div
+          className={classNames("control-panel-controls-container", {
+            hidden: sidebarOpen,
+          })}
+        >
           <div className="control-panel-name-plate">
             <NamePlate onClick={() => /*navigate("/")*/ 1} />
           </div>
@@ -86,36 +82,27 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
           </div>
         </div>
 
-        {/* filter buttons */}
         <div className="control-panel-buttons-container">
           <ButtonPanel
             date={date}
             filters={filterSelection}
             onChange={setFilterSelection}
+            sidebarOpen={sidebarOpen}
+            toggleSidebar={(value?: boolean) =>
+              value !== undefined
+                ? setSidebarOpen(value)
+                : setSidebarOpen(!sidebarOpen)
+            }
           />
         </div>
-
-        {/* absolute overlays */}
-        <div className={styles.screws}>
-          <div className={styles.topLeftScrew}>
-            <div className={styles.topLeftGradient}></div>
-            <TopLeftScrew />
-          </div>
-          <div className={styles.topRightScrew}>
-            <div className={styles.topRightGradient}></div>
-            <TopRightScrew />
-          </div>
-          <div className={styles.bottomLeftScrew}>
-            <div className={styles.bottomLeftGradient}></div>
-            <BottomLeftScrew />
-          </div>
-          <div className={styles.bottomRightScrew}>
-            <div className={styles.bottomRightGradient}></div>
-            <BottomRightScrew />
-          </div>
-        </div>
       </div>
-      <ControlPanelBackground />
     </>
   );
+
+  // return (
+  //   <div className="flex">
+  //     {/* controls */}
+
+  //   </div>
+  // );
 };

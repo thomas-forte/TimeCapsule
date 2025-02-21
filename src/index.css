@@ -9,6 +9,9 @@
   .control-panel-controls-container {
     @apply flex flex-col;
     width: 78.125%; /* this is fixed and based on the svg */
+
+    background-image: url("/images/control-panel-1080.png");
+    background-size: 100% 100%;
   }
 
   .control-panel-name-plate {
@@ -26,15 +29,6 @@
 
   .control-panel-random-button {
     @apply max-w-[30%] max-h-[8dvh] mx-auto;
-  }
-
-  .control-panel-buttons-container {
-    width: 21.875%; /* this is fixed and based on the svg */
-  }
-
-  .button-panel {
-    @apply h-dvh flex flex-col items-center justify-evenly;
-    @apply py-[10dvh] pr-[1dvh] pl-[0.8dvh];
   }
 
   /* ======================== */
@@ -78,6 +72,45 @@
   .control-panel-random-button-svg {
     @apply cursor-pointer;
     @apply fill-[#1e1e1e] hover:fill-[#8bf8ff];
+  }
+
+  /* ======================== */
+  /* button panel layout      */
+  /* ======================== */
+  .control-panel-buttons-container {
+    @apply w-[4.5dvw] min-w-[60px] max-w-[75px];
+  }
+
+  .button-panel {
+    @apply h-dvh;
+    @apply flex flex-col items-center justify-evenly;
+    @apply pr-[1dvh] pl-[0.8dvh];
+
+    background-image: url("/images/button-panel-1080.png");
+    background-size: 100% 100%;
+  }
+
+  .button-panel-top,
+  .button-panel-bottom {
+    @apply min-h-[15dvh] w-full;
+
+    @apply flex flex-col items-center justify-end;
+  }
+
+  .button-panel-base-button {
+    @apply w-full relative pb-[100%];
+    background-image: url("/images/circle-button-250.png");
+    background-size: 100% 100%;
+
+    .content {
+      @apply absolute top-0 left-0 w-full h-full;
+      @apply flex items-center justify-center;
+
+      svg {
+        @apply text-[#1e2023] hover:text-[#8bf8ff];
+        @apply fill-[#1e2023] hover:fill-[#8bf8ff];
+      }
+    }
   }
 
   .button-panel-base-button-svg {

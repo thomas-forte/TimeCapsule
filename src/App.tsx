@@ -57,12 +57,12 @@ export const App = () => {
   };
 
   return (
-    <div className="h-dvh w-dvw">
-      <div className="fixed top-0 left-0 h-dvh w-1/5 overflow-hidden z-40">
+    <div className="h-dvh w-dvw flex">
+      <div className="h-dvh overflow-hidden z-40">
         <ControlPanel goToDate={goToDate} />
       </div>
 
-      <div className="fixed top-0 left-1/5 h-dvh w-4/5 overflow-hidden z-0">
+      <div className="h-dvh w-full overflow-hidden z-0">
         <div
           className={classNames(styles.doorContainer, {
             [styles.open]: doorOpen,
