@@ -77,7 +77,7 @@ export const ButtonPanel = ({
           data-tooltip-delay-show={500}
           onClick={() => toggleSidebar()}
         >
-          {sidebarOpen ? <ChevronRightIcon /> : <ChevronLeftIcon />}
+          {sidebarOpen ? <ChevronLeftIcon /> : <ChevronRightIcon />}
         </div>
       </div>
       <div

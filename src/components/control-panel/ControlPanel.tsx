@@ -59,7 +59,7 @@ export const ControlPanel = ({
       <div className="flex">
         <div
           className={classNames("control-panel-controls-container", {
-            hidden: sidebarOpen,
+            hidden: !sidebarOpen,
           })}
         >
           <div className="control-panel-name-plate">

@@ -65,6 +65,7 @@ export const App = () => {
         setCompactMode(true);
       } else {
         setCompactMode(false);
+        setSidebarOpen(true);
       }
     }
     window.addEventListener("resize", updateSize);
