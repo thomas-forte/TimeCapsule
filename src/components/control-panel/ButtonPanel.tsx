@@ -12,7 +12,7 @@ import {
 } from "@heroicons/react/20/solid";
 
 // assets
-import AllIcon from "../../assets/all-icon.svg?react";
+import AllIcon from "../../assets/button-panel-icons/all-icon.svg?react";
 
 // config
 import { config } from "../../config";
