@@ -19,16 +19,8 @@
     @apply max-w-[70%] max-h-[8dvh] mx-auto;
   }
 
-  .control-panel-go-button {
-    @apply max-w-[40%] max-h-[12dvh] mx-auto mb-[1dvh];
-  }
-
   .control-panel-date-picker {
     @apply max-w-[75%] max-h-[62dvh] mx-auto mb-[1dvh];
-  }
-
-  .control-panel-random-button {
-    @apply max-w-[30%] max-h-[8dvh] mx-auto;
   }
 
   /* ======================== */
@@ -37,6 +29,7 @@
   .button {
     @apply aspect-square;
     @apply overflow-hidden;
+    @apply cursor-pointer;
 
     &.active {
       @apply text-[#8bf8ff] hover:text-[#8bf8ff];
@@ -77,13 +70,6 @@
     @apply cursor-pointer;
     @apply fill-[#84919a] hover:fill-[#a7dfe3];
     filter: drop-shadow(0 0.3dvh 0.2dvh #00000099);
-  }
-
-  .control-panel-go-button-svg {
-    @apply fill-[#1e1e1e] hover:fill-[#8bf8ff];
-    @apply cursor-pointer;
-    animation: goButtonPulse 10s ease-in-out infinite;
-    @apply hover:animate-none;
   }
 
   .control-panel-date-picker-svg {
@@ -341,6 +327,13 @@
 }
 .border-2030s {
   @apply border-b2030s;
+}
+
+.go-button-animation {
+  svg {
+    animation: goButtonPulse 10s ease-in-out infinite;
+    @apply hover:animate-none;
+  }
 }
 
 /* animations */

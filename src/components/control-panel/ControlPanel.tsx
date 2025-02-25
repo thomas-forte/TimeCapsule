@@ -1,14 +1,13 @@
 import { useState } from "react";
 import classNames from "classnames";
+import { ArrowRightIcon, SparklesIcon } from "@heroicons/react/20/solid";
 
 // config
 import { config } from "../../config";
 
 // components
 import { NamePlate } from "./NamePlate";
-import { GoButton } from "./buttons/GoButton";
 import { DatePicker } from "./DatePicker";
-import { RandomButton } from "./buttons/RandomButton";
 import { ButtonPanel } from "./ButtonPanel";
 
 interface ControlPanelProps {
@@ -66,25 +65,37 @@ export const ControlPanel = ({
             <NamePlate onClick={() => /*navigate("/")*/ 1} />
           </div>
           <div
-            className="control-panel-go-button"
+            className="w-1/3 mx-auto my-3"
             data-tooltip-id="tooltip-root"
             data-tooltip-html="<b>Go!</b>"
             data-tooltip-place="right"
             data-tooltip-delay-show={1500}
           >
-            <GoButton onClick={() => goToDate(date, filterSelection)} />
+            <div
+              className={classNames(
+                "button circle-button button-panel-button go-button-animation"
+              )}
+              onClick={() => goToDate(date, filterSelection)}
+            >
+              <ArrowRightIcon />
+            </div>
           </div>
           <div className="control-panel-date-picker">
             <DatePicker date={date} updateDate={setDate} />
           </div>
           <div
-            className="control-panel-random-button"
+            className="w-1/4 mx-auto my-3"
             data-tooltip-id="tooltip-root"
             data-tooltip-html="<b>Pick a random date</b>"
             data-tooltip-place="right"
             data-tooltip-delay-show={1500}
           >
-            <RandomButton onClick={() => pickRandomDate()} />
+            <div
+              className={classNames("button circle-button button-panel-button")}
+              onClick={() => pickRandomDate()}
+            >
+              <SparklesIcon />
+            </div>
           </div>
         </div>
 
