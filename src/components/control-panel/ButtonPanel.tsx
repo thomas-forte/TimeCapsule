@@ -66,7 +66,7 @@ export const ButtonPanel = ({
     <div className="button-panel">
       <div className="button-panel-top">
         <div
-          className={classNames("button-panel-circle-button", {
+          className={classNames("button circle-button button-panel-button", {
             active: helpOpen,
             hidden: !compactMode,
           })}
@@ -81,7 +81,7 @@ export const ButtonPanel = ({
         </div>
       </div>
       <div
-        className={classNames("button-panel-filter-button", {
+        className={classNames("button square-button button-panel-button", {
           active: !filters.length,
         })}
         data-tooltip-id="tooltip-root"
@@ -94,7 +94,7 @@ export const ButtonPanel = ({
         <AllIcon />
       </div>
       <div
-        className={classNames("button-panel-filter-button", {
+        className={classNames("button square-button button-panel-button", {
           active: filters.includes("movies"),
         })}
         data-tooltip-id="tooltip-root"
@@ -107,7 +107,7 @@ export const ButtonPanel = ({
         <FilmIcon />
       </div>
       <div
-        className={classNames("button-panel-filter-button", {
+        className={classNames("button square-button button-panel-button", {
           active: filters.includes("novels"),
         })}
         data-tooltip-id="tooltip-root"
@@ -120,7 +120,7 @@ export const ButtonPanel = ({
         <BookOpenIcon />
       </div>
       <div
-        className={classNames("button-panel-filter-button", {
+        className={classNames("button square-button button-panel-button", {
           active: filters.includes("news"),
           disabled: date.getFullYear() > 2009,
         })}
@@ -134,7 +134,7 @@ export const ButtonPanel = ({
         <NewspaperIcon />
       </div>
       <div
-        className={classNames("button-panel-filter-button", {
+        className={classNames("button square-button button-panel-button", {
           active: filters.includes("games"),
         })}
         data-tooltip-id="tooltip-root"
@@ -147,7 +147,7 @@ export const ButtonPanel = ({
         <PuzzlePieceIcon />
       </div>
       <div
-        className={classNames("button-panel-filter-button", {
+        className={classNames("button square-button button-panel-button", {
           active: filters.includes("music"),
         })}
         data-tooltip-id="tooltip-root"
@@ -161,7 +161,7 @@ export const ButtonPanel = ({
       </div>
       <div className="button-panel-bottom">
         <div
-          className={classNames("button-panel-circle-button", {
+          className={classNames("button circle-button button-panel-button", {
             active: helpOpen,
           })}
           data-tooltip-id="tooltip-root"

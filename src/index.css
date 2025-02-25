@@ -32,6 +32,44 @@
   }
 
   /* ======================== */
+  /* button styles     */
+  /* ======================== */
+  .button {
+    @apply aspect-square;
+    @apply overflow-hidden;
+
+    &.active {
+      @apply text-[#8bf8ff] hover:text-[#8bf8ff];
+      svg {
+        @apply fill-[#8bf8ff] hover:fill-[#8bf8ff];
+      }
+    }
+
+    &.disabled {
+      svg {
+        @apply fill-[#1e2023] hover:fill-[#1e2023];
+      }
+    }
+
+    @apply text-[#212121] hover:text-[#8bf8ff];
+    svg {
+      @apply fill-[#212121] hover:fill-[#8bf8ff];
+    }
+  }
+
+  .square-button {
+    @apply p-[25%];
+    background-image: url("/images/filter-button-125.png");
+    background-size: 100% 100%;
+  }
+
+  .circle-button {
+    @apply p-[15%];
+    background-image: url("/images/circle-button-250.png");
+    background-size: 100% 100%;
+  }
+
+  /* ======================== */
   /* control panel styles     */
   /* ======================== */
 
@@ -97,60 +135,8 @@
     @apply flex flex-col items-center justify-end;
   }
 
-  .button-panel-base-button {
-    @apply w-full relative pb-[100%];
-    background-image: url("/images/circle-button-250.png");
-    background-size: 100% 100%;
-
-    .content {
-      @apply absolute top-0 left-0 w-full h-full;
-      @apply flex items-center justify-center;
-
-      svg {
-        @apply text-[#1e2023] hover:text-[#8bf8ff];
-        @apply fill-[#1e2023] hover:fill-[#8bf8ff];
-      }
-    }
-  }
-
-  .button-panel-filter-button {
-    @apply min-w-full aspect-square;
-    @apply overflow-hidden;
-    @apply p-[25%];
-
-    background-image: url("/images/filter-button-125.png");
-    background-size: 100% 100%;
-
-    &.active {
-      svg {
-        @apply fill-[#8bf8ff] hover:fill-[#8bf8ff];
-      }
-    }
-
-    &.disabled {
-      svg {
-        @apply fill-[#1e2023] hover:fill-[#1e2023];
-      }
-    }
-
-    svg {
-      @apply fill-[#212121] hover:fill-[#8bf8ff];
-    }
-  }
-
-  .button-panel-circle-button {
-    @apply min-w-full aspect-square;
-    @apply overflow-hidden;
-    @apply p-[15%];
-
-    background-image: url("/images/circle-button-250.png");
-    background-size: 100% 100%;
-
-    &.active {
-      @apply text-[#8bf8ff] hover:text-[#8bf8ff];
-    }
-
-    @apply text-[#212121] hover:text-[#8bf8ff];
+  .button-panel-button {
+    @apply min-w-full;
   }
 
   /* ======================== */
