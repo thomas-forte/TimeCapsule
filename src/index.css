@@ -113,16 +113,44 @@
     }
   }
 
-  .button-panel-base-button-svg {
-    @apply cursor-pointer;
-    @apply fill-[#1e2023] hover:fill-[#8bf8ff75];
+  .button-panel-filter-button {
+    @apply min-w-full aspect-square;
+    @apply overflow-hidden;
+    @apply p-[25%];
+
+    background-image: url("/images/filter-button-125.png");
+    background-size: 100% 100%;
+
+    &.active {
+      svg {
+        @apply fill-[#8bf8ff] hover:fill-[#8bf8ff];
+      }
+    }
 
     &.disabled {
-      @apply !fill-[#1e2023];
+      svg {
+        @apply fill-[#1e2023] hover:fill-[#1e2023];
+      }
     }
+
+    svg {
+      @apply fill-[#212121] hover:fill-[#8bf8ff];
+    }
+  }
+
+  .button-panel-circle-button {
+    @apply min-w-full aspect-square;
+    @apply overflow-hidden;
+    @apply p-[15%];
+
+    background-image: url("/images/circle-button-250.png");
+    background-size: 100% 100%;
+
     &.active {
-      @apply fill-[#8bf8ff];
+      @apply text-[#8bf8ff] hover:text-[#8bf8ff];
     }
+
+    @apply text-[#212121] hover:text-[#8bf8ff];
   }
 
   /* ======================== */
