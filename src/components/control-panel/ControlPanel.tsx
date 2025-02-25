@@ -92,7 +92,7 @@ export const ControlPanel = ({
           <ButtonPanel
             date={date}
             filters={filterSelection}
-            onChange={setFilterSelection}
+            setFilters={setFilterSelection}
             sidebarOpen={sidebarOpen}
             toggleSidebar={toggleSidebar}
             compactMode={compactMode}

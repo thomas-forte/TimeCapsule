@@ -23,7 +23,7 @@ buttonClick.volume = 0.5;
 interface ButtonPanelProps {
   date: Date;
   filters: string[];
-  onChange: (filters: string[]) => void;
+  setFilters: (filters: string[]) => void;
   sidebarOpen: boolean;
   toggleSidebar: (value?: boolean) => void;
   compactMode: boolean;
@@ -32,7 +32,7 @@ interface ButtonPanelProps {
 export const ButtonPanel = ({
   date,
   filters,
-  onChange,
+  setFilters,
   sidebarOpen,
   toggleSidebar,
   compactMode,
@@ -41,16 +41,16 @@ export const ButtonPanel = ({
 
   // filter functions
   const addFilterSelection = (filter: string) => {
-    onChange([...filters, filter]);
+    setFilters([...filters, filter]);
   };
 
   const removeFilterSelection = (filter: string) => {
-    onChange(filters.filter((item) => item !== filter));
+    setFilters(filters.filter((item) => item !== filter));
   };
 
   const toggleFilterNone = () => {
     config.enableAudio && buttonClick.play();
-    onChange([]);
+    setFilters([]);
   };
 
   const toggleFilterSelection = (filter: string) => {
