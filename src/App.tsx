@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import classNames from "classnames";
 
 // config
@@ -19,6 +19,9 @@ const doorCloseAudio = new Audio("/door.wav");
 
 export const App = () => {
   const dateDetailsRef = useRef<DateDetailsRef | null>(null);
+
+  const [compactMode, setCompactMode] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const [initialLoad, setInitialLoad] = useState(true);
   const [doorOpen, setDoorOpen] = useState(false);
@@ -56,10 +59,35 @@ export const App = () => {
     }, initialTimeout + config.doorOpeningDuration);
   };
 
+  useLayoutEffect(() => {
+    function updateSize() {
+      if (window.innerWidth < config.sidebarWidth) {
+        setCompactMode(true);
+      } else {
+        setCompactMode(false);
+      }
+    }
+    window.addEventListener("resize", updateSize);
+    updateSize();
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
+
+  const toggleSidebar = (value?: boolean) =>
+    value !== undefined ? setSidebarOpen(value) : setSidebarOpen(!sidebarOpen);
+
   return (
     <div className="h-dvh w-dvw flex">
-      <div className="h-dvh overflow-hidden z-40">
-        <ControlPanel goToDate={goToDate} />
+      <div
+        className={classNames("h-dvh overflow-hidden z-40", {
+          absolute: compactMode,
+        })}
+      >
+        <ControlPanel
+          goToDate={goToDate}
+          compactMode={compactMode}
+          sidebarOpen={sidebarOpen}
+          toggleSidebar={toggleSidebar}
+        />
       </div>
 
       <div className="h-dvh w-full overflow-hidden z-0">

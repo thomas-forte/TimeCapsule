@@ -13,6 +13,9 @@ import { ButtonPanel } from "./ButtonPanel";
 
 interface ControlPanelProps {
   goToDate: (date: Date, filters: string[]) => void;
+  compactMode: boolean;
+  sidebarOpen: boolean;
+  toggleSidebar: (value?: boolean) => void;
 }
 
 const initialDates = [
@@ -27,9 +30,12 @@ const initialDates = [
   new Date(2001, 7, 24), // 8/24/2001 - The release date of Windows XP.
 ];
 
-export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-
+export const ControlPanel = ({
+  goToDate,
+  compactMode,
+  sidebarOpen,
+  toggleSidebar,
+}: ControlPanelProps) => {
   // filter selection state
   const [filterSelection, setFilterSelection] = useState<string[]>([]);
 
@@ -88,21 +94,11 @@ export const ControlPanel = ({ goToDate }: ControlPanelProps) => {
             filters={filterSelection}
             onChange={setFilterSelection}
             sidebarOpen={sidebarOpen}
-            toggleSidebar={(value?: boolean) =>
-              value !== undefined
-                ? setSidebarOpen(value)
-                : setSidebarOpen(!sidebarOpen)
-            }
+            toggleSidebar={toggleSidebar}
+            compactMode={compactMode}
           />
         </div>
       </div>
     </>
   );
-
-  // return (
-  //   <div className="flex">
-  //     {/* controls */}
-
-  //   </div>
-  // );
 };

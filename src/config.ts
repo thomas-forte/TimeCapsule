@@ -11,4 +11,6 @@ export const config = {
   assetsRoot: "https://timecapsule.brendantrepal.com/images/",
 
   enableHelp: false,
+
+  sidebarWidth: 1024,
 };

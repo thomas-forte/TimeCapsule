@@ -26,6 +26,7 @@ interface ButtonPanelProps {
   onChange: (filters: string[]) => void;
   sidebarOpen: boolean;
   toggleSidebar: (value?: boolean) => void;
+  compactMode: boolean;
 }
 
 export const ButtonPanel = ({
@@ -34,9 +35,11 @@ export const ButtonPanel = ({
   onChange,
   sidebarOpen,
   toggleSidebar,
+  compactMode,
 }: ButtonPanelProps) => {
   const [helpOpen, setHelpOpen] = useState(false);
 
+  // filter functions
   const addFilterSelection = (filter: string) => {
     onChange([...filters, filter]);
   };
@@ -59,25 +62,13 @@ export const ButtonPanel = ({
     }
   };
 
-  useLayoutEffect(() => {
-    function updateSize() {
-      if (window.innerWidth < 1024) {
-        toggleSidebar(true);
-      } else {
-        toggleSidebar(false);
-      }
-    }
-    window.addEventListener("resize", updateSize);
-    updateSize();
-    return () => window.removeEventListener("resize", updateSize);
-  }, []);
-
   return (
     <div className="button-panel">
       <div className="button-panel-top">
         <div
           className={classNames("button-panel-circle-button", {
             active: helpOpen,
+            hidden: !compactMode,
           })}
           data-tooltip-id="tooltip-root"
           data-tooltip-html="<b>Toggle Sidebar</b>"
