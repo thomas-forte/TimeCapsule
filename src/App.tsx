@@ -90,8 +90,11 @@ export const App = () => {
           toggleSidebar={toggleSidebar}
         />
       </div>
+      {compactMode ? (
+        <div className="control-panel-buttons-container"></div>
+      ) : null}
 
-      <div className="h-dvh w-full overflow-hidden z-0">
+      <div className="h-dvh overflow-hidden z-0">
         <div
           className={classNames(styles.doorContainer, {
             [styles.open]: doorOpen,

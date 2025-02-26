@@ -65,7 +65,7 @@ export const ControlPanel = ({
           })}
         >
           <div className="control-panel-name-plate">
-            <NamePlate onClick={() => /*navigate("/")*/ 1} />
+            <NamePlate />
           </div>
           <div
             className="w-1/3 mx-auto my-3"

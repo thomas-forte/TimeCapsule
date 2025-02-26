@@ -66,6 +66,11 @@
   /* control panel styles     */
   /* ======================== */
 
+  .name-plate {
+    background-image: url("/images/name-plate-125.png");
+    background-size: 100% 100%;
+  }
+
   .control-panel-name-plate-svg {
     @apply cursor-pointer;
     @apply fill-[#84919a] hover:fill-[#a7dfe3];
