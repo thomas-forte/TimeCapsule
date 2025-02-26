@@ -79,9 +79,12 @@ export const App = () => {
   return (
     <div className="h-dvh w-dvw flex">
       <div
-        className={classNames("h-dvh overflow-hidden z-40", {
-          absolute: compactMode,
-        })}
+        className={classNames(
+          "h-dvh w-1/5 min-w-[250px] max-w-[300px] overflow-hidden z-40",
+          {
+            absolute: compactMode,
+          }
+        )}
       >
         <ControlPanel
           goToDate={goToDate}
@@ -94,7 +97,7 @@ export const App = () => {
         <div className="control-panel-buttons-container"></div>
       ) : null}
 
-      <div className="h-dvh overflow-hidden z-0">
+      <div className="h-dvh flex-grow overflow-hidden z-0">
         <div
           className={classNames(styles.doorContainer, {
             [styles.open]: doorOpen,
