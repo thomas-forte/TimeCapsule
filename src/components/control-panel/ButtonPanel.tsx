@@ -1,18 +1,18 @@
 import { useState } from "react";
 import classNames from "classnames";
 import {
-  BookOpenIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
-  FilmIcon,
-  MusicalNoteIcon,
-  NewspaperIcon,
-  PuzzlePieceIcon,
   QuestionMarkCircleIcon,
 } from "@heroicons/react/20/solid";
 
 // assets
 import AllIcon from "../../assets/button-panel-icons/all-icon.svg?react";
+import MovieIcon from "../../assets/button-panel-icons/movie-icon.svg?react";
+import NovelIcon from "../../assets/button-panel-icons/novel-icon.svg?react";
+import NewsIcon from "../../assets/button-panel-icons/news-icon.svg?react";
+import GamesIcon from "../../assets/button-panel-icons/games-icon.svg?react";
+import AlbumIcon from "../../assets/button-panel-icons/albums-icon.svg?react";
 
 // config
 import { config } from "../../config";
@@ -104,7 +104,7 @@ export const ButtonPanel = ({
         data-tooltip-delay-show={500}
         onClick={() => toggleFilterSelection("movies")}
       >
-        <FilmIcon />
+        <MovieIcon />
       </div>
       <div
         className={classNames("button square-button button-panel-button", {
@@ -117,7 +117,7 @@ export const ButtonPanel = ({
         data-tooltip-delay-show={500}
         onClick={() => toggleFilterSelection("novels")}
       >
-        <BookOpenIcon />
+        <NovelIcon />
       </div>
       <div
         className={classNames("button square-button button-panel-button", {
@@ -131,7 +131,7 @@ export const ButtonPanel = ({
         data-tooltip-delay-show={500}
         onClick={() => toggleFilterSelection("news")}
       >
-        <NewspaperIcon />
+        <NewsIcon />
       </div>
       <div
         className={classNames("button square-button button-panel-button", {
@@ -144,7 +144,7 @@ export const ButtonPanel = ({
         data-tooltip-delay-show={500}
         onClick={() => toggleFilterSelection("games")}
       >
-        <PuzzlePieceIcon />
+        <GamesIcon />
       </div>
       <div
         className={classNames("button square-button button-panel-button", {
@@ -157,7 +157,7 @@ export const ButtonPanel = ({
         data-tooltip-delay-show={500}
         onClick={() => toggleFilterSelection("music")}
       >
-        <MusicalNoteIcon />
+        <AlbumIcon />
       </div>
       <div className="button-panel-bottom">
         <div

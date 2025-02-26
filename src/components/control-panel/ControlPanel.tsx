@@ -1,6 +1,9 @@
 import { useState } from "react";
 import classNames from "classnames";
-import { ArrowRightIcon, SparklesIcon } from "@heroicons/react/20/solid";
+
+// assets
+import ArrowIcon from "../../assets/control-panel-icons/arrow-icon.svg?react";
+import DieIcon from "../../assets/control-panel-icons/die-icon.svg?react";
 
 // config
 import { config } from "../../config";
@@ -72,12 +75,10 @@ export const ControlPanel = ({
             data-tooltip-delay-show={1500}
           >
             <div
-              className={classNames(
-                "button circle-button button-panel-button go-button-animation"
-              )}
+              className="button circle-button go-button-animation p-[25%]"
               onClick={() => goToDate(date, filterSelection)}
             >
-              <ArrowRightIcon />
+              <ArrowIcon />
             </div>
           </div>
           <div className="control-panel-date-picker">
@@ -91,10 +92,10 @@ export const ControlPanel = ({
             data-tooltip-delay-show={1500}
           >
             <div
-              className={classNames("button circle-button button-panel-button")}
+              className="button square-button"
               onClick={() => pickRandomDate()}
             >
-              <SparklesIcon />
+              <DieIcon />
             </div>
           </div>
         </div>
