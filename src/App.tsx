@@ -10,7 +10,7 @@ import styles from "./App.module.css";
 // components
 import { ControlPanel } from "./components/control-panel/ControlPanel";
 import { DateDetails, DateDetailsRef } from "./components/DateDetails";
-import { Door } from "./components/Door";
+import Door from "./assets/door.svg?react";
 import { HelpScreen } from "./components/HelpDialog";
 import { Tooltip } from "react-tooltip";
 
