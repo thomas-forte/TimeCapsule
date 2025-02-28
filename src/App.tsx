@@ -98,6 +98,13 @@ export const App = () => {
       ) : null}
 
       <div className="h-dvh flex-grow overflow-hidden z-0">
+        <DateDetails
+          ref={dateDetailsRef}
+          date={date}
+          decade={decade}
+          filters={filters}
+        />
+
         <div
           className={classNames(styles.doorContainer, {
             [styles.open]: doorOpen,
@@ -106,13 +113,6 @@ export const App = () => {
         >
           <Door />
         </div>
-
-        <DateDetails
-          ref={dateDetailsRef}
-          date={date}
-          decade={decade}
-          filters={filters}
-        />
       </div>
 
       {/* help menu */}
