@@ -86,6 +86,7 @@ export const ButtonPanel = ({
             {sidebarOpen ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </div>
         </div>
+
         <div
           className={classNames("button square-button button-panel-button", {
             active: !filters.length,
@@ -99,6 +100,7 @@ export const ButtonPanel = ({
         >
           <AllIcon />
         </div>
+
         <div
           className={classNames("button square-button button-panel-button", {
             active: filters.includes("movies"),
@@ -112,6 +114,7 @@ export const ButtonPanel = ({
         >
           <MovieIcon />
         </div>
+
         <div
           className={classNames("button square-button button-panel-button", {
             active: filters.includes("novels"),
@@ -125,6 +128,7 @@ export const ButtonPanel = ({
         >
           <NovelIcon />
         </div>
+
         <div
           className={classNames("button square-button button-panel-button", {
             active: filters.includes("news"),
@@ -139,6 +143,7 @@ export const ButtonPanel = ({
         >
           <NewsIcon />
         </div>
+
         <div
           className={classNames("button square-button button-panel-button", {
             active: filters.includes("games"),
@@ -152,6 +157,7 @@ export const ButtonPanel = ({
         >
           <GamesIcon />
         </div>
+
         <div
           className={classNames("button square-button button-panel-button", {
             active: filters.includes("music"),
@@ -165,6 +171,7 @@ export const ButtonPanel = ({
         >
           <AlbumIcon />
         </div>
+
         <div className="min-h-[15dvh] w-full flex flex-col items-center justify-end">
           <div
             className={classNames("button circle-button min-w-full", {
