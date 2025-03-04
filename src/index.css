@@ -4,23 +4,21 @@
 
 @layer components {
   /* ======================== */
-  /* control panel layout     */
+  /* control panel bgs        */
   /* ======================== */
-  .control-panel-controls-container {
-    @apply flex flex-col;
-    width: 78.125%; /* this is fixed and based on the svg */
-
+  .control-panel-background {
     background-image: url("/images/control-panel-1080.png");
     background-size: 100% 100%;
   }
 
-  .control-panel-name-plate {
-    @apply mt-[2dvh];
-    @apply max-w-[70%] max-h-[8dvh] mx-auto;
+  .name-plate-background {
+    background-image: url("/images/name-plate-125.png");
+    background-size: 100% 100%;
   }
 
-  .control-panel-date-picker {
-    @apply max-w-[75%] max-h-[62dvh] mx-auto mb-[1dvh];
+  .button-panel-background {
+    background-image: url("/images/button-panel-1080.png");
+    background-size: 100% 100%;
   }
 
   /* ======================== */
@@ -65,18 +63,6 @@
   /* ======================== */
   /* control panel styles     */
   /* ======================== */
-
-  .name-plate {
-    background-image: url("/images/name-plate-125.png");
-    background-size: 100% 100%;
-  }
-
-  .control-panel-name-plate-svg {
-    @apply cursor-pointer;
-    @apply fill-[#84919a] hover:fill-[#a7dfe3];
-    filter: drop-shadow(0 0.3dvh 0.2dvh #00000099);
-  }
-
   .control-panel-date-picker-svg {
     .dateText {
       @apply font-normal text-right font-oxanium;
@@ -96,38 +82,6 @@
       @apply fill-[#8bf8ff];
       animation: linePulse 3s ease-in-out infinite;
     }
-  }
-
-  .control-panel-random-button-svg {
-    @apply cursor-pointer;
-    @apply fill-[#1e1e1e] hover:fill-[#8bf8ff];
-  }
-
-  /* ======================== */
-  /* button panel layout      */
-  /* ======================== */
-  .control-panel-buttons-container {
-    @apply w-[4.5dvw] min-w-[60px] max-w-[75px];
-  }
-
-  .button-panel {
-    @apply h-dvh;
-    @apply flex flex-col items-center justify-evenly;
-    @apply pr-[1dvh] pl-[0.8dvh];
-
-    background-image: url("/images/button-panel-1080.png");
-    background-size: 100% 100%;
-  }
-
-  .button-panel-top,
-  .button-panel-bottom {
-    @apply min-h-[15dvh] w-full;
-
-    @apply flex flex-col items-center justify-end;
-  }
-
-  .button-panel-button {
-    @apply min-w-full;
   }
 
   /* ======================== */

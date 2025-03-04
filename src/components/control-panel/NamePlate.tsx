@@ -25,7 +25,7 @@ export const NamePlate = () => {
   });
 
   return (
-    <div className="name-plate">
+    <div className="name-plate-background">
       <svg
         width="100%"
         height="100%"

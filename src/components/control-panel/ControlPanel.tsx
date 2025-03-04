@@ -60,15 +60,19 @@ export const ControlPanel = ({
     <>
       <div className="flex">
         <div
-          className={classNames("control-panel-controls-container", {
-            hidden: !sidebarOpen,
-          })}
+          className={classNames(
+            "flex flex-col p-[5%] control-panel-background",
+            {
+              hidden: !sidebarOpen,
+            }
+          )}
         >
-          <div className="control-panel-name-plate">
+          <div className="mt-[4dvh] max-w-[70%] mx-auto">
             <NamePlate />
           </div>
+
           <div
-            className="w-1/3 mx-auto my-3"
+            className="mt-[2dvh] max-w-[50%] mx-auto"
             data-tooltip-id="tooltip-root"
             data-tooltip-html="<b>Go!</b>"
             data-tooltip-place="right"
@@ -81,11 +85,13 @@ export const ControlPanel = ({
               <ArrowIcon />
             </div>
           </div>
-          <div className="control-panel-date-picker">
+
+          <div className="mt-[2dvh] max-w-[75%] mx-auto">
             <DatePicker date={date} updateDate={setDate} />
           </div>
+
           <div
-            className="w-1/4 mx-auto my-3"
+            className="mt-[2dvh] max-w-[30%] mx-auto"
             data-tooltip-id="tooltip-root"
             data-tooltip-html="<b>Pick a random date</b>"
             data-tooltip-place="right"
@@ -100,7 +106,7 @@ export const ControlPanel = ({
           </div>
         </div>
 
-        <div className="control-panel-buttons-container">
+        <div className="w-[4.5dvw] min-w-[60px] max-w-[75px]">
           <ButtonPanel
             date={date}
             filters={filterSelection}
