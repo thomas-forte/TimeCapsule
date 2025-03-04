@@ -133,6 +133,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
             onClose={() => setIsOpen(false)}
             imgSrc={config.assetsRoot + game.image}
             imgAlt={`${game.title} cover`}
+            title={`${game.title} (${date.getFullYear()})`}
           />
         </Card>
       </Section>

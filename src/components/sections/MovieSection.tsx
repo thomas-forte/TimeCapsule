@@ -116,6 +116,7 @@ export const MovieSection = ({ date, decade }: SectionProps) => {
             onClose={() => setIsOpen(false)}
             imgSrc={config.assetsRoot + movie.image}
             imgAlt={`${movie.title} poster`}
+            title={`${movie.title} (${date.getFullYear()})`}
           />
         </Card>
       </Section>

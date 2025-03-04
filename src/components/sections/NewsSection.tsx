@@ -38,6 +38,7 @@ export const NewsSection = ({ date, decade }: SectionProps) => {
             onClose={() => setIsOpen(false)}
             imgSrc={newspaper}
             imgAlt={`new paper of ${date}`}
+            title={`Newspaper of ${date.toLocaleDateString()}`}
           />
         </Card>
       </Section>

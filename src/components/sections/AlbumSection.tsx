@@ -95,6 +95,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
             onClose={() => setIsOpen(false)}
             imgSrc={config.assetsRoot + album.image}
             imgAlt={`${album.title} cover`}
+            title={`${album.title} (${date.getFullYear()})`}
           />
         </Card>
       </Section>

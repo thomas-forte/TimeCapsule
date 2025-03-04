@@ -62,6 +62,7 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
             onClose={() => setIsOpen(false)}
             imgSrc={config.assetsRoot + novel.image}
             imgAlt={`${novel.title} cover`}
+            title={`${novel.title} (${date.getFullYear()})`}
           />
         </Card>
       </Section>
