@@ -1,8 +1,12 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import classNames from "classnames";
+import { Tooltip } from "react-tooltip";
 
 // config
 import { config } from "./config";
+
+// assets
+import Door from "./assets/door.svg?react";
 
 // styles
 import styles from "./App.module.css";
@@ -10,9 +14,6 @@ import styles from "./App.module.css";
 // components
 import { ControlPanel } from "./components/control-panel/ControlPanel";
 import { DateDetails, DateDetailsRef } from "./components/DateDetails";
-import Door from "./assets/door.svg?react";
-import { HelpScreen } from "./components/HelpDialog";
-import { Tooltip } from "react-tooltip";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
@@ -98,13 +99,14 @@ export const App = () => {
           toggleSidebar={toggleSidebar}
         />
       </div>
-      {compactMode ? (
-        <div className="control-panel-buttons-container"></div>
-      ) : null}
+
+      {/* hidden container to shift page in compact mode */}
+      {compactMode ? <div className="button-panel-container"></div> : null}
 
       <div className="h-dvh flex-grow overflow-hidden z-0">
         <DateDetails
           ref={dateDetailsRef}
+          compactMode={compactMode}
           date={date}
           decade={decade}
           filters={filters}
@@ -119,9 +121,6 @@ export const App = () => {
           <Door />
         </div>
       </div>
-
-      {/* help menu */}
-      <HelpScreen />
 
       <Tooltip id="tooltip-root" style={{ zIndex: 1000 }} />
     </div>

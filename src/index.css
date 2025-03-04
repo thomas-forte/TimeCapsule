@@ -65,6 +65,10 @@
     }
   }
 
+  .button-panel-container {
+    @apply w-[4.5dvw] min-w-[60px] max-w-[75px];
+  }
+
   /* ======================== */
   /* section layout           */
   /* ======================== */

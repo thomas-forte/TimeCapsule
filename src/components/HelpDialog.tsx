@@ -1,17 +1,18 @@
-import { useState } from "react";
 import {
   Dialog,
   DialogBackdrop,
   DialogPanel,
   DialogTitle,
 } from "@headlessui/react";
-import { config } from "../config";
 
-export const HelpScreen = () => {
-  const [open, setOpen] = useState(config.enableHelp);
+interface HelpDialogProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
 
+export const HelpScreen = ({ isOpen, onClose }: HelpDialogProps) => {
   return (
-    <Dialog open={open} onClose={setOpen} className="relative z-50">
+    <Dialog open={isOpen} onClose={() => onClose()} className="relative z-50">
       <DialogBackdrop
         transition
         className="fixed inset-0 bg-gray-500/75 transition-opacity data-[closed]:opacity-0 data-[enter]:duration-300 data-[leave]:duration-200 data-[enter]:ease-out data-[leave]:ease-in"

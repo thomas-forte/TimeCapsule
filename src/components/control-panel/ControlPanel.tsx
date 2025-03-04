@@ -109,7 +109,7 @@ export const ControlPanel = ({
           </div>
         </div>
 
-        <div className="w-[4.5dvw] min-w-[60px] max-w-[75px]">
+        <div className="button-panel-container">
           <ButtonPanel
             date={date}
             filters={filterSelection}

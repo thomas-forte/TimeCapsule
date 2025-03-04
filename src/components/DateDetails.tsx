@@ -12,6 +12,7 @@ import { Section } from "./sections/Section";
 import { config } from "../config";
 
 interface DateDetailsProps {
+  compactMode: boolean;
   date: Date;
   decade: string;
   filters: string[];
@@ -22,10 +23,14 @@ export interface DateDetailsRef {
 }
 
 export const DateDetails = forwardRef(
-  ({ date, decade, filters }: DateDetailsProps, ref) => {
+  ({ compactMode, date, decade, filters }: DateDetailsProps, ref) => {
     useImperativeHandle<unknown, DateDetailsRef>(ref, () => ({
       scrollToBeginning: () => {
-        sectionsRef.current?.scrollTo({ left: 0 });
+        if (compactMode) {
+          sectionsRef.current?.scrollTo({ top: 0 });
+        } else {
+          sectionsRef.current?.scrollTo({ left: 0 });
+        }
       },
     }));
 
@@ -45,8 +50,12 @@ export const DateDetails = forwardRef(
     return (
       <div
         className={classNames(
-          "h-dvh max-w-full overflow-y-hidden content-container flex",
-          "snap-x snap-mandatory",
+          "h-dvh max-w-full content-container flex",
+          "snap-mandatory",
+          {
+            "flex-col snap-y overflow-x-hidden": compactMode,
+            "flex-row snap-x overflow-y-hidden": !compactMode,
+          },
           `body-font-${decade}`
         )}
         style={{ backgroundImage }}

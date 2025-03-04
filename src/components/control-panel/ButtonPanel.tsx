@@ -6,6 +6,9 @@ import {
   QuestionMarkCircleIcon,
 } from "@heroicons/react/20/solid";
 
+// components
+import { HelpScreen } from "../../components/HelpDialog";
+
 // assets
 import AllIcon from "../../assets/button-panel-icons/all-icon.svg?react";
 import MovieIcon from "../../assets/button-panel-icons/movie-icon.svg?react";
@@ -188,6 +191,9 @@ export const ButtonPanel = ({
           </div>
         </div>
       </div>
+
+      {/* help menu */}
+      <HelpScreen isOpen={helpOpen} onClose={() => setHelpOpen(false)} />
     </div>
   );
 };
