@@ -34,6 +34,11 @@ export const App = () => {
   const goToDate = (date: Date, filters: string[]) => {
     let initialTimeout = 1;
 
+    // if compact mode, close sidebar
+    if (compactMode) {
+      setSidebarOpen(false);
+    }
+
     // close door if open and not initial load
     if (!initialLoad) {
       config.enableAudio && doorCloseAudio.play();
