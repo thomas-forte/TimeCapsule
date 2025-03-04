@@ -17,6 +17,9 @@ import AlbumIcon from "../../assets/button-panel-icons/albums-icon.svg?react";
 // config
 import { config } from "../../config";
 
+// styles
+import styles from "./ButtonPanel.module.css";
+
 const buttonClick = new Audio("/click.wav");
 buttonClick.volume = 0.5;
 
@@ -63,7 +66,9 @@ export const ButtonPanel = ({
   };
 
   return (
-    <div className="h-dvh pr-[1dvh] pl-[0.8dvh] button-panel-background">
+    <div
+      className={classNames("h-dvh pr-[1dvh] pl-[0.8dvh]", styles.background)}
+    >
       <div className="h-dvh flex flex-col items-center justify-evenly">
         <div className="min-h-[15dvh] w-full flex flex-col items-center justify-end">
           <div

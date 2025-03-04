@@ -5,13 +5,16 @@ import classNames from "classnames";
 import ArrowIcon from "../../assets/control-panel-icons/arrow-icon.svg?react";
 import DieIcon from "../../assets/control-panel-icons/die-icon.svg?react";
 
-// config
-import { config } from "../../config";
-
 // components
 import { NamePlate } from "./NamePlate";
 import { DatePicker } from "./DatePicker";
 import { ButtonPanel } from "./ButtonPanel";
+
+// config
+import { config } from "../../config";
+
+// styles
+import styles from "./ControlPanel.module.css";
 
 interface ControlPanelProps {
   goToDate: (date: Date, filters: string[]) => void;
@@ -60,26 +63,26 @@ export const ControlPanel = ({
     <>
       <div className="flex">
         <div
-          className={classNames(
-            "flex flex-col p-[5%] control-panel-background",
-            {
-              hidden: !sidebarOpen,
-            }
-          )}
+          className={classNames("flex flex-col p-[5%]", styles.background, {
+            hidden: !sidebarOpen,
+          })}
         >
           <div className="mt-[4dvh] max-w-[70%] mx-auto">
             <NamePlate />
           </div>
 
           <div
-            className="mt-[2dvh] max-w-[50%] mx-auto"
+            className="mt-[2dvh] max-w-[40%] mx-auto"
             data-tooltip-id="tooltip-root"
             data-tooltip-html="<b>Go!</b>"
             data-tooltip-place="right"
             data-tooltip-delay-show={1500}
           >
             <div
-              className="button circle-button go-button-animation p-[25%]"
+              className={classNames(
+                "button circle-button p-[25%]",
+                styles.goButtonAnimation
+              )}
               onClick={() => goToDate(date, filterSelection)}
             >
               <ArrowIcon />

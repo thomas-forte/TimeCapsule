@@ -1,0 +1,21 @@
+.background {
+  background-image: url("/images/control-panel-1080.png");
+  background-size: 100% 100%;
+}
+
+.goButtonAnimation {
+  svg {
+    animation: goButtonPulse 10s ease-in-out infinite;
+  }
+}
+
+@keyframes goButtonPulse {
+  0%,
+  40%,
+  100% {
+    fill: #1e1e1e;
+  }
+  20% {
+    fill: #a6a6a6;
+  }
+}

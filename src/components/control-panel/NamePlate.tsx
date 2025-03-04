@@ -3,6 +3,9 @@ import { useEffect, useState } from "react";
 // config
 import { config } from "../../config";
 
+// styles
+import styles from "./NamePlate.module.css";
+
 const getAnglesFromTime = (time: Date) => ({
   minuteAngle: time.getMinutes() * 6,
   hourAngle: time.getHours() * 30 + time.getMinutes() * 0.5,
@@ -25,7 +28,7 @@ export const NamePlate = () => {
   });
 
   return (
-    <div className="name-plate-background">
+    <div className={styles.background}>
       <svg
         width="100%"
         height="100%"

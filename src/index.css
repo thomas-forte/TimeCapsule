@@ -4,24 +4,6 @@
 
 @layer components {
   /* ======================== */
-  /* control panel bgs        */
-  /* ======================== */
-  .control-panel-background {
-    background-image: url("/images/control-panel-1080.png");
-    background-size: 100% 100%;
-  }
-
-  .name-plate-background {
-    background-image: url("/images/name-plate-125.png");
-    background-size: 100% 100%;
-  }
-
-  .button-panel-background {
-    background-image: url("/images/button-panel-1080.png");
-    background-size: 100% 100%;
-  }
-
-  /* ======================== */
   /* button styles     */
   /* ======================== */
   .button {
@@ -63,7 +45,7 @@
   /* ======================== */
   /* control panel styles     */
   /* ======================== */
-  .control-panel-date-picker-svg {
+  .date-picker {
     .dateText {
       @apply font-normal text-right font-oxanium;
       @apply fill-[#8bf8ff] text-[34px];
@@ -80,7 +62,6 @@
 
     .vertical-lines {
       @apply fill-[#8bf8ff];
-      animation: linePulse 3s ease-in-out infinite;
     }
   }
 
@@ -286,33 +267,4 @@
 }
 .border-2030s {
   @apply border-b2030s;
-}
-
-.go-button-animation {
-  svg {
-    animation: goButtonPulse 10s ease-in-out infinite;
-    @apply hover:animate-none;
-  }
-}
-
-/* animations */
-@keyframes goButtonPulse {
-  0%,
-  40%,
-  100% {
-    fill: #1e1e1e;
-  }
-  20% {
-    fill: #a6a6a6;
-  }
-}
-
-@keyframes linePulse {
-  0%,
-  100% {
-    fill: #c0fbff;
-  }
-  50% {
-    fill: #8bf8ff;
-  }
 }

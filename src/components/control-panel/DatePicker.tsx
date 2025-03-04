@@ -1,8 +1,11 @@
+import { useEffect, useState } from "react";
 import classNames from "classnames";
 
 // config
 import { config } from "../../config";
-import { useEffect, useState } from "react";
+
+// styles
+import styles from "./DatePicker.module.css";
 
 interface DatePickerProps {
   date: Date;
@@ -50,7 +53,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
       clipRule="evenodd"
       strokeLinejoin="round"
       strokeMiterlimit="2"
-      className="control-panel-date-picker-svg"
+      className="date-picker"
     >
       <g>
         <path
@@ -246,7 +249,10 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
         </g>
       </g>
-      <g opacity="0.75" className="vertical-lines">
+      <g
+        opacity="0.75"
+        className={classNames("vertical-lines", styles.linesPulse)}
+      >
         <rect x="78" y="53" width="4" height="24" />
         <rect x="88" y="53" width="4" height="24" />
         <rect x="98" y="53" width="4" height="24" />

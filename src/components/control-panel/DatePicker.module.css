@@ -1,0 +1,13 @@
+.linesPulse {
+  animation: linePulse 3s ease-in-out infinite;
+}
+
+@keyframes linePulse {
+  0%,
+  100% {
+    fill: #c0fbff;
+  }
+  50% {
+    fill: #8bf8ff;
+  }
+}
