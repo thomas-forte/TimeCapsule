@@ -18,17 +18,21 @@ import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
 
+import type { Decade } from "./types/decade.type";
+
 export const App = () => {
   const dateDetailsRef = useRef<DateDetailsRef | null>(null);
 
+  // layout state
   const [compactMode, setCompactMode] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const [initialLoad, setInitialLoad] = useState(true);
   const [doorOpen, setDoorOpen] = useState(false);
 
+  // date options state
   const [date, setDate] = useState<Date>(new Date());
-  const [decade, setDecade] = useState("");
+  const [decade, setDecade] = useState<Decade | null>(null);
   const [filters, setFilters] = useState<string[]>([]);
 
   // callback to change the app state to a new date
@@ -50,7 +54,7 @@ export const App = () => {
     // wait for door to fully close then set date details
     setTimeout(() => {
       setDate(date);
-      setDecade(`${Math.trunc(date.getFullYear() / 10) * 10}s`);
+      setDecade(`${Math.trunc(date.getFullYear() / 10) * 10}s` as Decade);
       setFilters(filters);
       dateDetailsRef.current?.scrollToBeginning();
     }, initialTimeout);

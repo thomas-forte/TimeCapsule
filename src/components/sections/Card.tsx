@@ -1,8 +1,11 @@
 import classNames from "classnames";
 import { PropsWithChildren } from "react";
 
+// types
+import type { Decade } from "../../types/decade.type";
+
 export interface CardProps extends PropsWithChildren {
-  decade: string;
+  decade: Decade | null;
   className?: string;
 }
 

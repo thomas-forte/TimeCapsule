@@ -1,20 +1,26 @@
 import { forwardRef, useImperativeHandle, useRef } from "react";
 import classNames from "classnames";
 
+// section components
 import { NovelSection } from "./sections/NovelSection";
 import { MovieSection } from "./sections/MovieSection";
 import { NewsSection } from "./sections/NewsSection";
 import { GamesSection } from "./sections/GamesSection";
 import { AlbumSection } from "./sections/AlbumSection";
 
+// components
 import { Card } from "./sections/Card";
 import { Section } from "./sections/Section";
+
+// types
+import type { Decade } from "../types/decade.type";
+
 import { config } from "../config";
 
 interface DateDetailsProps {
   compactMode: boolean;
   date: Date;
-  decade: string;
+  decade: Decade | null;
   filters: string[];
 }
 

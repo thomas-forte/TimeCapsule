@@ -1,9 +1,12 @@
 import classNames from "classnames";
 import { PropsWithChildren } from "react";
 
+// types
+import { Decade } from "../../types/decade.type";
+
 export interface SectionProps extends PropsWithChildren {
   date: Date;
-  decade: string;
+  decade: Decade | null;
 }
 
 interface BaseSectionProps extends PropsWithChildren {
