@@ -15,10 +15,11 @@ import styles from "./App.module.css";
 import { ControlPanel } from "./components/control-panel/ControlPanel";
 import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 
+// types
+import type { Decade } from "./types/decade.type";
+
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
-
-import type { Decade } from "./types/decade.type";
 
 export const App = () => {
   const dateDetailsRef = useRef<DateDetailsRef | null>(null);
@@ -34,6 +35,30 @@ export const App = () => {
   const [date, setDate] = useState<Date>(new Date());
   const [decade, setDecade] = useState<Decade | null>(null);
   const [filters, setFilters] = useState<string[]>([]);
+
+  // check for compact mode on window resize
+  useLayoutEffect(() => {
+    function updateSize() {
+      if (window.innerWidth < config.sidebarWidth) {
+        setCompactMode(true);
+      } else {
+        setCompactMode(false);
+        setSidebarOpen(true);
+      }
+    }
+    window.addEventListener("resize", updateSize);
+    updateSize();
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
+
+  // toggle sidebar open/close
+  const toggleSidebar = (value?: boolean) => {
+    if (value === undefined) {
+      setSidebarOpen(!sidebarOpen);
+    } else {
+      setSidebarOpen(value);
+    }
+  };
 
   // callback to change the app state to a new date
   const goToDate = (date: Date, filters: string[]) => {
@@ -69,23 +94,6 @@ export const App = () => {
     }, initialTimeout + config.doorOpeningDuration);
   };
 
-  useLayoutEffect(() => {
-    function updateSize() {
-      if (window.innerWidth < config.sidebarWidth) {
-        setCompactMode(true);
-      } else {
-        setCompactMode(false);
-        setSidebarOpen(true);
-      }
-    }
-    window.addEventListener("resize", updateSize);
-    updateSize();
-    return () => window.removeEventListener("resize", updateSize);
-  }, []);
-
-  const toggleSidebar = (value?: boolean) =>
-    value !== undefined ? setSidebarOpen(value) : setSidebarOpen(!sidebarOpen);
-
   return (
     <div className="h-dvh w-dvw flex">
       <div
@@ -105,7 +113,7 @@ export const App = () => {
       </div>
 
       {/* hidden container to shift page in compact mode */}
-      {compactMode ? <div className="button-panel-container"></div> : null}
+      {compactMode ? <div className="button-panel-container" /> : null}
 
       <div className="h-dvh flex-grow overflow-hidden z-0">
         <DateDetails
@@ -117,10 +125,14 @@ export const App = () => {
         />
 
         <div
-          className={classNames(styles.doorContainer, {
-            [styles.open]: doorOpen,
-            [styles.close]: !doorOpen && !initialLoad,
-          })}
+          className={classNames(
+            "relative left-0 -top-[100dvh] h-full w-full z-10 overflow-hidden",
+            styles.doorContainer,
+            {
+              [styles.open]: doorOpen,
+              [styles.close]: !doorOpen && !initialLoad,
+            }
+          )}
         >
           <Door />
         </div>

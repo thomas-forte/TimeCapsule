@@ -1,6 +1,4 @@
-div.doorContainer {
-  @apply absolute left-0 top-0 h-full w-full z-10 overflow-hidden;
-
+.doorContainer {
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 
