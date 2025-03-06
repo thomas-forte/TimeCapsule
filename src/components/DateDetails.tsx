@@ -14,6 +14,7 @@ import { Section } from "./sections/Section";
 
 // types
 import type { Decade } from "../types/decade.type";
+import { Filters } from "../types/filters.type";
 
 import { config } from "../config";
 
@@ -21,7 +22,7 @@ interface DateDetailsProps {
   compactMode: boolean;
   date: Date;
   decade: Decade | null;
-  filters: string[];
+  filters: Filters[];
 }
 
 export interface DateDetailsRef {
@@ -30,6 +31,7 @@ export interface DateDetailsRef {
 
 export const DateDetails = forwardRef(
   ({ compactMode, date, decade, filters }: DateDetailsProps, ref) => {
+    // expose a method to scroll to the beginning of the section
     useImperativeHandle<unknown, DateDetailsRef>(ref, () => ({
       scrollToBeginning: () => {
         if (compactMode) {
@@ -56,13 +58,15 @@ export const DateDetails = forwardRef(
     return (
       <div
         className={classNames(
-          "h-dvh max-w-full content-container flex",
+          "h-dvh min-w-full",
+          "flex gap-[3dvh] px-[3dvh] py-[6dvh]",
+          "bg-top bg-repeat-y bg-[length:100%_auto]",
           "snap-mandatory",
+          `body-font-${decade}`,
           {
             "flex-col snap-y overflow-x-hidden": compactMode,
             "flex-row snap-x overflow-y-hidden": !compactMode,
-          },
-          `body-font-${decade}`
+          }
         )}
         style={{ backgroundImage }}
         ref={sectionsRef}
@@ -79,19 +83,19 @@ export const DateDetails = forwardRef(
           </Section>
         )}
 
-        {(!filters.length || filters.includes("movies")) && (
+        {(!filters.length || filters.includes(Filters.MOVIES)) && (
           <MovieSection date={date} decade={decade} />
         )}
-        {(!filters.length || filters.includes("novels")) && (
+        {(!filters.length || filters.includes(Filters.NOVELS)) && (
           <NovelSection date={date} decade={decade} />
         )}
-        {(!filters.length || filters.includes("news")) && (
+        {(!filters.length || filters.includes(Filters.NEWS)) && (
           <NewsSection date={date} decade={decade} />
         )}
-        {(!filters.length || filters.includes("games")) && (
+        {(!filters.length || filters.includes(Filters.GAMES)) && (
           <GamesSection date={date} decade={decade} />
         )}
-        {(!filters.length || filters.includes("music")) && (
+        {(!filters.length || filters.includes(Filters.ALBUMS)) && (
           <AlbumSection date={date} decade={decade} />
         )}
       </div>

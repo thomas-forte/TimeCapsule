@@ -20,6 +20,9 @@ import AlbumIcon from "../../assets/button-panel-icons/albums-icon.svg?react";
 // config
 import { config } from "../../config";
 
+// types
+import { Filters } from "../../types/filters.type";
+
 // styles
 import styles from "./ButtonPanel.module.css";
 
@@ -28,8 +31,8 @@ buttonClick.volume = 0.5;
 
 interface ButtonPanelProps {
   date: Date;
-  filters: string[];
-  setFilters: (filters: string[]) => void;
+  filters: Filters[];
+  setFilters: (filters: Filters[]) => void;
   sidebarOpen: boolean;
   toggleSidebar: (value?: boolean) => void;
   compactMode: boolean;
@@ -46,7 +49,7 @@ export const ButtonPanel = ({
   const [helpOpen, setHelpOpen] = useState(false);
 
   // filter functions
-  const addFilterSelection = (filter: string) => {
+  const addFilterSelection = (filter: Filters) => {
     setFilters([...filters, filter]);
   };
 
@@ -59,7 +62,7 @@ export const ButtonPanel = ({
     setFilters([]);
   };
 
-  const toggleFilterSelection = (filter: string) => {
+  const toggleFilterSelection = (filter: Filters) => {
     config.enableAudio && buttonClick.play();
     if (filters.includes(filter)) {
       removeFilterSelection(filter);
@@ -106,35 +109,35 @@ export const ButtonPanel = ({
 
         <div
           className={classNames("button square-button button-panel-button", {
-            active: filters.includes("movies"),
+            active: filters.includes(Filters.MOVIES),
           })}
           data-tooltip-id="tooltip-root"
           data-tooltip-html="<b>Show Movies</b>"
           data-tooltip-place="right"
           data-tooltip-offset={15}
           data-tooltip-delay-show={500}
-          onClick={() => toggleFilterSelection("movies")}
+          onClick={() => toggleFilterSelection(Filters.MOVIES)}
         >
           <MovieIcon />
         </div>
 
         <div
           className={classNames("button square-button button-panel-button", {
-            active: filters.includes("novels"),
+            active: filters.includes(Filters.NOVELS),
           })}
           data-tooltip-id="tooltip-root"
           data-tooltip-html="<b>Show Novels</b>"
           data-tooltip-place="right"
           data-tooltip-offset={15}
           data-tooltip-delay-show={500}
-          onClick={() => toggleFilterSelection("novels")}
+          onClick={() => toggleFilterSelection(Filters.NOVELS)}
         >
           <NovelIcon />
         </div>
 
         <div
           className={classNames("button square-button button-panel-button", {
-            active: filters.includes("news"),
+            active: filters.includes(Filters.NEWS),
             disabled: date.getFullYear() > 2009,
           })}
           data-tooltip-id="tooltip-root"
@@ -142,35 +145,35 @@ export const ButtonPanel = ({
           data-tooltip-place="right"
           data-tooltip-offset={15}
           data-tooltip-delay-show={500}
-          onClick={() => toggleFilterSelection("news")}
+          onClick={() => toggleFilterSelection(Filters.NEWS)}
         >
           <NewsIcon />
         </div>
 
         <div
           className={classNames("button square-button button-panel-button", {
-            active: filters.includes("games"),
+            active: filters.includes(Filters.GAMES),
           })}
           data-tooltip-id="tooltip-root"
           data-tooltip-html="<b>Show Games</b>"
           data-tooltip-place="right"
           data-tooltip-offset={15}
           data-tooltip-delay-show={500}
-          onClick={() => toggleFilterSelection("games")}
+          onClick={() => toggleFilterSelection(Filters.GAMES)}
         >
           <GamesIcon />
         </div>
 
         <div
           className={classNames("button square-button button-panel-button", {
-            active: filters.includes("music"),
+            active: filters.includes(Filters.ALBUMS),
           })}
           data-tooltip-id="tooltip-root"
           data-tooltip-html="<b>Show Albums</b>"
           data-tooltip-place="right"
           data-tooltip-offset={15}
           data-tooltip-delay-show={500}
-          onClick={() => toggleFilterSelection("music")}
+          onClick={() => toggleFilterSelection(Filters.ALBUMS)}
         >
           <AlbumIcon />
         </div>

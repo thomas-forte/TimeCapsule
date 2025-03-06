@@ -17,6 +17,7 @@ import { DateDetails, DateDetailsRef } from "./components/DateDetails";
 
 // types
 import type { Decade } from "./types/decade.type";
+import { Filters } from "./types/filters.type";
 
 const doorChimeAudio = new Audio("/doorbell.wav");
 const doorCloseAudio = new Audio("/door.wav");
@@ -34,7 +35,7 @@ export const App = () => {
   // date options state
   const [date, setDate] = useState<Date>(new Date());
   const [decade, setDecade] = useState<Decade | null>(null);
-  const [filters, setFilters] = useState<string[]>([]);
+  const [filters, setFilters] = useState<Filters[]>([]);
 
   // check for compact mode on window resize
   useLayoutEffect(() => {
@@ -61,7 +62,7 @@ export const App = () => {
   };
 
   // callback to change the app state to a new date
-  const goToDate = (date: Date, filters: string[]) => {
+  const goToDate = (date: Date, filters: Filters[]) => {
     let initialTimeout = 1;
 
     // if compact mode, close sidebar
