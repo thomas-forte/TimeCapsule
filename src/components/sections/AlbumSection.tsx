@@ -7,6 +7,7 @@ import {
   CardDate,
   CardInfoText,
   CardInlineImage,
+  CardInlineImages,
   CardSubtitle,
   CardTitle,
   Poster,
@@ -69,30 +70,14 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
 
         <CardInfoText>Genre: {album.genre}</CardInfoText>
 
-        <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
-          {album.labels.map((label, index) => (
-            <img
-              className="max-w-[40%] max-h-[10dvh]"
-              key={album.title + index}
-              src={config.assetsRoot + label.url}
-              alt={label.tooltip}
-              title={label.tooltip}
-            />
-          ))}
-        </div>
+        <CardInlineImages
+          imgs={album.labels}
+          className="max-w-[40%] max-h-[10dvh]"
+        />
 
         <CardInlineImage
-          img={
-            album.advisory
-              ? {
-                  className: "max-w-[40%] max-h-[7dvh]",
-
-                  src: config.assetsRoot + album.advisory.url,
-                  alt: album.advisory.tooltip,
-                  tooltip: album.advisory.tooltip,
-                }
-              : undefined
-          }
+          img={album.advisory}
+          className="max-w-[40%] max-h-[7dvh]"
         />
       </Card>
 

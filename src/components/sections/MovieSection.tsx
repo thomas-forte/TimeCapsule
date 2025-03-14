@@ -7,6 +7,7 @@ import {
   CardDate,
   CardInfoText,
   CardInlineImage,
+  CardInlineImages,
   CardSubtitle,
   CardTitle,
   Poster,
@@ -58,18 +59,7 @@ export const MovieSection = ({ date, decade, compactMode }: SectionProps) => {
       <Card decade={decade} className="w-2/5">
         <CardDate>Movie of {date.getFullYear()}:</CardDate>
 
-        <CardInlineImage
-          img={
-            movie.awards
-              ? {
-                  className: "max-h-[8dvh]",
-                  src: config.assetsRoot + movie.awards.url,
-                  alt: movie.awards.tooltip,
-                  tooltip: movie.awards.tooltip,
-                }
-              : undefined
-          }
-        />
+        <CardInlineImage img={movie.awards} className="max-h-[8dvh]" />
 
         <CardTitle className={`header-font-${decade}`}>{movie.title}</CardTitle>
 
@@ -83,30 +73,14 @@ export const MovieSection = ({ date, decade, compactMode }: SectionProps) => {
 
         <CardSubtitle>{movie.tagline}</CardSubtitle>
 
-        <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
-          {movie.studio.map((studio, index) => (
-            <img
-              className="max-w-[40%] max-h-[10dvh]"
-              style={studio.inline_styles}
-              key={movie.title + index}
-              src={config.assetsRoot + studio.url}
-              alt={studio.tooltip}
-              title={studio.tooltip}
-            />
-          ))}
-        </div>
+        <CardInlineImages
+          imgs={movie.studios}
+          className="max-w-[40%] max-h-[10dvh]"
+        />
 
         <CardInlineImage
-          img={
-            movie.mpaa
-              ? {
-                  className: "max-w-[40%] max-h-[4dvh]",
-                  src: config.assetsRoot + movie.mpaa.url,
-                  alt: movie.mpaa.tooltip,
-                  tooltip: movie.mpaa.tooltip,
-                }
-              : undefined
-          }
+          img={movie.mpaa}
+          className="max-w-[40%] max-h-[4dvh]"
         />
       </Card>
 

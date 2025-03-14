@@ -1,9 +1,13 @@
 import classNames from "classnames";
 import { PropsWithChildren, useState } from "react";
 
+// config
+import { config } from "../../config";
+
 // types
 import type { Decade } from "../../types/decade.type";
 import { ZoomDialog } from "../ZoomDialog";
+import { ImageBase } from "../../types/image-base.type";
 
 export interface BaseCardProps {
   decade: Decade | null;
@@ -49,25 +53,48 @@ export const CardInfoText = ({ children }: PropsWithChildren) => (
 );
 
 export interface CardInlineImageProps {
-  img?: {
-    src: string;
-    alt: string;
-    tooltip: string;
-    className?: string;
-  };
+  img: ImageBase | null;
+  className?: string;
 }
-export const CardInlineImage = ({ img }: CardInlineImageProps) => {
+export const CardInlineImage = ({ img, className }: CardInlineImageProps) => {
   if (!img) {
     return <></>;
   }
   return (
     <div className="flex flex-wrap justify-center mt-[2dvh] mx-[2dvw]">
       <img
-        className={img.className}
-        src={img.src}
-        alt={img.alt}
+        className={className}
+        src={config.assetsRoot + img.url}
+        alt={img.tooltip}
         title={img.tooltip}
       />
+    </div>
+  );
+};
+
+export interface CardInlineImagesProps {
+  imgs: ImageBase[];
+  className?: string;
+}
+export const CardInlineImages = ({
+  imgs,
+  className,
+}: CardInlineImagesProps) => {
+  if (!imgs.length) {
+    return <></>;
+  }
+  return (
+    <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
+      {imgs.map((img) => (
+        <img
+          className={className}
+          style={img.inline_styles}
+          key={img.url}
+          src={config.assetsRoot + img.url}
+          alt={img.tooltip}
+          title={img.tooltip}
+        />
+      ))}
     </div>
   );
 };

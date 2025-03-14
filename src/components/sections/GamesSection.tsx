@@ -22,6 +22,18 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
     }
   }, [date]);
 
+  /* ======================== */
+  /* section layout           */
+  /* ======================== */
+  // .section-container {
+  //   &.landscape {
+  //     .card {
+  //       @apply max-h-none;
+  //       @apply flex justify-around items-center gap-[2dvw];
+  //     }
+  //   }
+  // }
+
   function getAwards(game: Game, landscape = false) {
     if (landscape || !game.awards) {
       return <></>;

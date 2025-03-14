@@ -4,9 +4,7 @@ import { ImageBase } from "./image-base.type";
 export type Movie = BaseData & {
   awards: ImageBase | null;
   title_inline?: Record<string, string>;
-  studio: (ImageBase & {
-    inline_styles?: Record<string, string>;
-  })[];
+  studios: ImageBase[];
   mpaa: ImageBase | null;
   runtime: string;
   directors: string[];

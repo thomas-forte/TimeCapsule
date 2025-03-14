@@ -2,7 +2,14 @@ import { useEffect, useState } from "react";
 
 // components
 import { Section, SectionProps } from "./Section";
-import { Card, CardDate, CardSubtitle, CardTitle, Poster } from "./Card";
+import {
+  Card,
+  CardDate,
+  CardInlineImages,
+  CardSubtitle,
+  CardTitle,
+  Poster,
+} from "./Card";
 
 // config
 import { config } from "../../config";
@@ -36,17 +43,7 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
       <Card decade={decade} className="w-2/5">
         <CardDate>Novel of {date.getFullYear()}:</CardDate>
 
-        <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
-          {novel.awards.map((award, index) => (
-            <img
-              key={novel.title + "award" + index}
-              className="max-h-[8dvh]"
-              src={config.assetsRoot + award.url}
-              alt={award.tooltip}
-              title={award.tooltip}
-            />
-          ))}
-        </div>
+        <CardInlineImages imgs={novel.awards} className="max-h-[8dvh]" />
 
         <CardTitle className={`header-font-${decade}`}>{novel.title}</CardTitle>
 

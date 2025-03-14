@@ -5,7 +5,7 @@
       "url": "movie_awards/1950-awards-a.svg"
     },
     "title": "Cinderella",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Walt Disney Productions",
         "url": "studios/disney_1948-a.svg"
@@ -28,7 +28,7 @@
       "url": "movie_awards/1951-awards-a.svg"
     },
     "title": "Quo Vadis",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Metro-Goldwyn-Mayer",
         "url": "studios/mgm_1924-a.svg"
@@ -47,7 +47,7 @@
       "url": "movie_awards/1952-awards-a.svg"
     },
     "title": "The Greatest Show on Earth",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures",
         "url": "studios/paramount_1917-a.svg"
@@ -63,7 +63,7 @@
   "1953": {
     "awards": null,
     "title": "Peter Pan",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Walt Disney Productions",
         "url": "studios/disney_1948-a.svg"
@@ -86,7 +86,7 @@
       "url": "movie_awards/1954-awards-a.svg"
     },
     "title": "White Christmas",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1917-a.svg"
@@ -102,7 +102,7 @@
   "1955": {
     "awards": null,
     "title": "Lady and the Tramp",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Walt Disney Productions",
         "url": "studios/disney_1948-a.svg"
@@ -126,7 +126,7 @@
     },
     "title": "The Ten Commandments",
     "title_inline": { "font-size": "6dvh" },
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1917-a.svg"
@@ -145,7 +145,7 @@
       "url": "movie_awards/1957-awards-a.svg"
     },
     "title": "The Bridge on the River Kwai",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Columbia Pictures Corporation",
         "url": "studios/columbia_1945-a.svg",
@@ -162,7 +162,7 @@
   "1958": {
     "awards": null,
     "title": "South Pacific",
-    "studio": [
+    "studios": [
       {
         "tooltip": "20th Century-Fox Film Corporation",
         "url": "studios/fox_1945-a.svg"
@@ -181,7 +181,7 @@
       "url": "movie_awards/1959-awards-a.svg"
     },
     "title": "Ben-Hur",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Metro-Goldwyn-Mayer",
         "url": "studios/mgm_1924-a.svg"
@@ -200,7 +200,7 @@
       "url": "movie_awards/1960-awards-b.svg"
     },
     "title": "Spartacus",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Universal Pictures Company",
         "url": "studios/universal_1960-b.svg"
@@ -216,7 +216,7 @@
   "1961": {
     "awards": null,
     "title": "One Hundred and One Dalmatians",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Walt Disney Productions",
         "url": "studios/disney_1948-b.svg"
@@ -239,7 +239,7 @@
       "url": "movie_awards/1962-awards-b.svg"
     },
     "title": "Lawrence of Arabia",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Columbia Pictures Corporation",
         "url": "studios/columbia_1945-b.svg"
@@ -258,7 +258,7 @@
       "url": "movie_awards/1963-awards-b.svg"
     },
     "title": "Cleopatra",
-    "studio": [
+    "studios": [
       {
         "tooltip": "20th Century-Fox Film Corporation",
         "url": "studios/fox_1945-b.svg"
@@ -277,7 +277,7 @@
       "url": "movie_awards/1964-awards-b.svg"
     },
     "title": "Mary Poppins",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Walt Disney Productions",
         "url": "studios/disney_1948-b.svg"
@@ -300,7 +300,7 @@
       "url": "movie_awards/1965-awards-b.svg"
     },
     "title": "The Sound of Music",
-    "studio": [
+    "studios": [
       {
         "tooltip": "20th Century-Fox Film Corporation",
         "url": "studios/fox_1945-b.svg"
@@ -319,7 +319,7 @@
       "url": "movie_awards/1966-awards-b.svg"
     },
     "title": "Hawaii",
-    "studio": [
+    "studios": [
       {
         "tooltip": "The Mirisch Company",
         "url": "studios/mirisch_1960-b.svg"
@@ -342,7 +342,7 @@
       "url": "movie_awards/1967-awards-b.svg"
     },
     "title": "The Graduate",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Embassy Pictures Corporation",
         "url": "studios/embassy_1961-b.svg"
@@ -365,7 +365,7 @@
       "url": "movie_awards/1968-awards-b.svg"
     },
     "title": "Funny Girl",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Rastar Films",
         "url": "studios/rastar_1975-b.svg"
@@ -391,7 +391,7 @@
       "url": "movie_awards/1969-awards-b.svg"
     },
     "title": "Butch Cassidy and the Sundance Kid",
-    "studio": [
+    "studios": [
       {
         "tooltip": "20th Century-Fox Film Corporation",
         "url": "studios/fox_1945-b.svg"
@@ -413,7 +413,7 @@
       "url": "movie_awards/1970-awards-c.svg"
     },
     "title": "Love Story",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-c.svg"
@@ -435,7 +435,7 @@
       "url": "movie_awards/1971-awards-c.svg"
     },
     "title": "Fiddler on the Roof",
-    "studio": [
+    "studios": [
       {
         "tooltip": "The Mirisch Company",
         "url": "studios/mirisch_1960-c.svg"
@@ -461,7 +461,7 @@
       "url": "movie_awards/1972-awards-c.svg"
     },
     "title": "The Godfather",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-c.svg"
@@ -483,7 +483,7 @@
       "url": "movie_awards/1973-awards-c.svg"
     },
     "title": "The Exorcist",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros.",
         "url": "studios/wb_1972-c.svg"
@@ -505,7 +505,7 @@
       "url": "movie_awards/1974-awards-c.svg"
     },
     "title": "The Towering Inferno",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros.",
         "url": "studios/wb_1972-c.svg"
@@ -531,7 +531,7 @@
       "url": "movie_awards/1975-awards-c.svg"
     },
     "title": "Jaws",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Universal City Studios",
         "url": "studios/universal_1963-c.svg"
@@ -553,7 +553,7 @@
       "url": "movie_awards/1976-awards-c.svg"
     },
     "title": "Rocky",
-    "studio": [
+    "studios": [
       {
         "tooltip": "United Artists",
         "url": "studios/ua_1976-c.svg"
@@ -575,7 +575,7 @@
       "url": "movie_awards/1977-awards-c.svg"
     },
     "title": "Star Wars",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_1971-c.svg"
@@ -601,7 +601,7 @@
       "url": "movie_awards/1978-awards-c.svg"
     },
     "title": "Grease",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-c.svg"
@@ -623,7 +623,7 @@
       "url": "movie_awards/1979-awards-c.svg"
     },
     "title": "Alien",
-    "studio": [
+    "studios": [
       {
         "tooltip": "20th Century-Fox Film Corporation",
         "url": "studios/fox_1972-c.svg"
@@ -645,7 +645,7 @@
       "url": "movie_awards/1980-awards-d.svg"
     },
     "title": "Star Wars: The Empire Strikes Back",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_1971-d.svg"
@@ -671,7 +671,7 @@
       "url": "movie_awards/1981-awards-d.svg"
     },
     "title": "Raiders of the Lost Ark",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_1971-d.svg"
@@ -697,7 +697,7 @@
       "url": "movie_awards/1982-awards-d.svg"
     },
     "title": "E.T. the Extra-Terrestrial",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Amblin Productions",
         "url": "studios/amblin_1983-d.svg"
@@ -723,7 +723,7 @@
       "url": "movie_awards/1983-awards-d.svg"
     },
     "title": "Star Wars: Return of the Jedi",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_1971-d.svg"
@@ -749,7 +749,7 @@
       "url": "movie_awards/1984-awards-d.svg"
     },
     "title": "Ghostbusters",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Columbia Pictures Industries",
         "url": "studios/columbia_1981-d.svg"
@@ -771,7 +771,7 @@
       "url": "movie_awards/1985-awards-d.svg"
     },
     "title": "Back to the Future",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Amblin Entertainment",
         "url": "studios/amblin_1984-d.svg"
@@ -797,7 +797,7 @@
       "url": "movie_awards/1986-awards-d.svg"
     },
     "title": "Top Gun",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-d.svg"
@@ -819,7 +819,7 @@
       "url": "movie_awards/1987-awards-d.svg"
     },
     "title": "Fatal Attraction",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-d.svg"
@@ -841,7 +841,7 @@
       "url": "movie_awards/1988-awards-d.svg"
     },
     "title": "Rain Man",
-    "studio": [
+    "studios": [
       {
         "tooltip": "United Artists",
         "url": "studios/ua_1987-d.svg"
@@ -867,7 +867,7 @@
       "url": "movie_awards/1989-awards-d.svg"
     },
     "title": "Batman",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros.",
         "url": "studios/wb_1985-d.svg"
@@ -889,7 +889,7 @@
       "url": "movie_awards/1990-awards-e.svg"
     },
     "title": "Ghost",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-e.svg"
@@ -911,7 +911,7 @@
       "url": "movie_awards/1991-awards-e.svg"
     },
     "title": "Terminator 2: Judgement Day",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Carolco Pictures",
         "url": "studios/carolco_1976-e.svg"
@@ -945,7 +945,7 @@
       "url": "movie_awards/1992-awards-e.svg"
     },
     "title": "Aladdin",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Walt Disney Feature Animation",
         "url": "studios/disney-animation_1986-e.svg"
@@ -971,7 +971,7 @@
       "url": "movie_awards/1993-awards-e.svg"
     },
     "title": "Jurassic Park",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Amblin Entertainment",
         "url": "studios/amblin_1984-e.svg"
@@ -997,7 +997,7 @@
       "url": "movie_awards/1994-awards-e.svg"
     },
     "title": "Forrest Gump",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-e.svg"
@@ -1019,7 +1019,7 @@
       "url": "movie_awards/1995-awards-e.svg"
     },
     "title": "Toy Story",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Pixar Animation Studios",
         "url": "studios/pixar_1994-e.svg"
@@ -1045,7 +1045,7 @@
       "url": "movie_awards/1996-awards-e.svg"
     },
     "title": "Independence Day",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Centropolis Entertainment",
         "url": "studios/centropolis_1998-e.svg"
@@ -1071,7 +1071,7 @@
       "url": "movie_awards/1997-awards-e.svg"
     },
     "title": "Titanic",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Paramount Pictures Corporation",
         "url": "studios/paramount_1967-e.svg"
@@ -1101,7 +1101,7 @@
       "url": "movie_awards/1998-awards-e.svg"
     },
     "title": "Saving Private Ryan",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Amblin Entertainment",
         "url": "studios/amblin_1984-e.svg"
@@ -1131,7 +1131,7 @@
       "url": "movie_awards/1999-awards-e.svg"
     },
     "title": "Star Wars: Episode I - The Phantom Menace",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_1971-e.svg"
@@ -1154,7 +1154,7 @@
   "2000": {
     "awards": null,
     "title": "Mission: Impossible 2",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Cruise/Wagner Productions",
         "url": "studios/cruise-wagner_1992-f.svg"
@@ -1180,7 +1180,7 @@
       "url": "movie_awards/2001-awards-f.svg"
     },
     "title": "Harry Potter and the Sorcerer's Stone",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros.",
         "url": "studios/wb_1993-f.svg"
@@ -1206,7 +1206,7 @@
       "url": "movie_awards/2002-awards-f.svg"
     },
     "title": "The Lord of the Rings: The Two Towers",
-    "studio": [
+    "studios": [
       {
         "tooltip": "WingNut Films Productions",
         "url": "studios/wingnut_1989-f.svg"
@@ -1232,7 +1232,7 @@
       "url": "movie_awards/2003-awards-f.svg"
     },
     "title": "The Lord of the Rings: The Return of the King",
-    "studio": [
+    "studios": [
       {
         "tooltip": "WingNut Films Productions",
         "url": "studios/wingnut_1989-f.svg"
@@ -1258,7 +1258,7 @@
       "url": "movie_awards/2004-awards-f.svg"
     },
     "title": "Shrek 2",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Pacific Data Images",
         "url": "studios/pdi_2000-f.svg"
@@ -1288,7 +1288,7 @@
       "url": "movie_awards/2005-awards-f.svg"
     },
     "title": "Harry Potter and the Goblet of Fire",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros. Pictures",
         "url": "studios/wb_1993-f.svg"
@@ -1311,7 +1311,7 @@
   "2006": {
     "awards": null,
     "title": "Casino Royale",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Metro-Goldwyn-Mayer Studios",
         "url": "studios/mgm_1986-f.svg"
@@ -1342,7 +1342,7 @@
   "2007": {
     "awards": null,
     "title": "Spider-Man 3",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Columbia Pictures Industries",
         "url": "studios/columbia_1993-f.svg"
@@ -1372,7 +1372,7 @@
       "url": "movie_awards/2008-awards-f.svg"
     },
     "title": "The Dark Knight",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros. Pictures",
         "url": "studios/wb_1993-f.svg"
@@ -1402,7 +1402,7 @@
       "url": "movie_awards/2009-awards-f.svg"
     },
     "title": "Avatar",
-    "studio": [
+    "studios": [
       {
         "tooltip": "20th Century Fox Film Corporation",
         "url": "studios/fox_1986-f.svg"
@@ -1436,7 +1436,7 @@
       "url": "movie_awards/2010-awards-g.svg"
     },
     "title": "Inception",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros. Pictures",
         "url": "studios/wb_1993-g.svg"
@@ -1466,7 +1466,7 @@
       "url": "movie_awards/2011-awards-g.svg"
     },
     "title": "Harry Potter and the Deathly Hallows - Part 2",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Warner Bros. Pictures",
         "url": "studios/wb_1993-g.svg"
@@ -1492,7 +1492,7 @@
       "url": "movie_awards/2012-awards-g.svg"
     },
     "title": "The Avengers",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Marvel Studios",
         "url": "studios/marvel_2002-g.svg"
@@ -1518,7 +1518,7 @@
       "url": "movie_awards/2013-awards-g.svg"
     },
     "title": "Frozen",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Walt Disney Animation Studios",
         "url": "studios/disney-animation_2007-g.svg"
@@ -1541,7 +1541,7 @@
   "2014": {
     "awards": null,
     "title": "Marvel's Guardians of the Galaxy",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Marvel Studios",
         "url": "studios/marvel_2013-g.svg"
@@ -1567,7 +1567,7 @@
       "url": "movie_awards/2015-awards-g.svg"
     },
     "title": "Star Wars: The Force Awakens",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_2015-g.svg"
@@ -1597,7 +1597,7 @@
       "url": "movie_awards/2016-awards-g.svg"
     },
     "title": "Rogue One: A Star Wars Story",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_2015-g.svg"
@@ -1623,7 +1623,7 @@
       "url": "movie_awards/2017-awards-g.svg"
     },
     "title": "Star Wars: The Last Jedi",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Lucasfilm",
         "url": "studios/lucasfilm_2015-g.svg"
@@ -1649,7 +1649,7 @@
       "url": "movie_awards/2018-awards-g.svg"
     },
     "title": "Incredibles 2",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Pixar Animation Studios",
         "url": "studios/pixar_1994-g.svg"
@@ -1675,7 +1675,7 @@
       "url": "movie_awards/2019-awards-g.svg"
     },
     "title": "Avengers: Endgame",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Marvel Studios",
         "url": "studios/marvel_2016-g.svg"
@@ -1698,7 +1698,7 @@
   "2020": {
     "awards": null,
     "title": "Bad Boys for Life",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Columbia Pictures Industries",
         "url": "studios/columbia_1993-h.svg"
@@ -1732,7 +1732,7 @@
       "url": "movie_awards/2021-awards-h.svg"
     },
     "title": "Spider-Man: No Way Home",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Columbia Pictures Industries",
         "url": "studios/columbia_1993-h.svg"
@@ -1766,7 +1766,7 @@
       "url": "movie_awards/2022-awards-h.svg"
     },
     "title": "Avatar: The Way of Water",
-    "studio": [
+    "studios": [
       {
         "tooltip": "TSG Entertainment",
         "url": "studios/tsg_2012-h.svg"
@@ -1793,7 +1793,7 @@
   "2023": {
     "awards": null,
     "title": "The Super Mario Bros. Movie",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Universal City Studios",
         "url": "studios/universal_2021-h.svg"
@@ -1820,7 +1820,7 @@
   "2024": {
     "awards": null,
     "title": "Inside Out 2",
-    "studio": [
+    "studios": [
       {
         "tooltip": "Pixar Animation Studios",
         "url": "studios/pixar_1994-h.svg"
