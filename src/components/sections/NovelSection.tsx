@@ -1,22 +1,20 @@
 import { useEffect, useState } from "react";
 
+// components
 import { Section, SectionProps } from "./Section";
-import { Card } from "./Card";
-import { ZoomDialog } from "../ZoomDialog";
+import { Card, CardDate, CardSubtitle, CardTitle, Poster } from "./Card";
 
+// config
 import { config } from "../../config";
-import novels from "../../assets/novels.json";
 
-type Novel = {
-  awards: { url: string; tooltip: string }[];
-  author: string;
-  image: string;
-  title: string;
-};
+// types
+import { Novel } from "../../types/novel.type";
+
+// data
+import novels from "../../assets/novels.json";
 
 export const NovelSection = ({ date, decade }: SectionProps) => {
   const [novel, setNovel] = useState<Novel | null>(null);
-  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -29,43 +27,38 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
     }
   }, [date]);
 
+  if (!novel) {
+    return <></>;
+  }
+
   return (
-    novel && (
-      <Section name="novels">
-        <Card decade={decade} className="w-2/5">
-          <div className="top-text">Novel of {date.getFullYear()}:</div>
-          <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
-            {novel.awards.map((award, index) => (
-              <img
-                key={novel.title + "award" + index}
-                className="max-h-[8dvh]"
-                src={config.assetsRoot + award.url}
-                alt={award.tooltip}
-                title={award.tooltip}
-              />
-            ))}
-          </div>
-          <div className={`title-text header-font-${decade}`}>
-            {novel.title}
-          </div>
-          <p className="body-text">By {novel.author}</p>
-        </Card>
-        <Card decade={decade} className="poster">
-          <img
-            className="novel-cover cursor-zoom-in"
-            src={config.assetsRoot + novel.image}
-            alt={`${novel.title} cover`}
-            onClick={() => setIsOpen(true)}
-          />
-          <ZoomDialog
-            isOpen={isOpen}
-            onClose={() => setIsOpen(false)}
-            imgSrc={config.assetsRoot + novel.image}
-            imgAlt={`${novel.title} cover`}
-            title={`${novel.title} (${date.getFullYear()})`}
-          />
-        </Card>
-      </Section>
-    )
+    <Section>
+      <Card decade={decade} className="w-2/5">
+        <CardDate>Novel of {date.getFullYear()}:</CardDate>
+
+        <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
+          {novel.awards.map((award, index) => (
+            <img
+              key={novel.title + "award" + index}
+              className="max-h-[8dvh]"
+              src={config.assetsRoot + award.url}
+              alt={award.tooltip}
+              title={award.tooltip}
+            />
+          ))}
+        </div>
+
+        <CardTitle className={`header-font-${decade}`}>{novel.title}</CardTitle>
+
+        <CardSubtitle>By {novel.author}</CardSubtitle>
+      </Card>
+
+      <Poster
+        decade={decade}
+        src={config.assetsRoot + novel.image}
+        alt={`${novel.title} cover`}
+        zoomDialogTitle={`${novel.title} (${date.getFullYear()})`}
+      />
+    </Section>
   );
 };

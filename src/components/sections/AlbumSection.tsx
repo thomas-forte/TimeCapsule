@@ -1,26 +1,28 @@
 import { useEffect, useState } from "react";
 
+// components
 import { Section, SectionProps } from "./Section";
-import { Card } from "./Card";
-import { ZoomDialog } from "../ZoomDialog";
+import {
+  Card,
+  CardDate,
+  CardInfoText,
+  CardInlineImage,
+  CardSubtitle,
+  CardTitle,
+  Poster,
+} from "./Card";
 
+// config
 import { config } from "../../config";
-import albums from "../../assets/albums.json";
 
-type Album = {
-  awards: { url: string; tooltip: string } | null;
-  title: string;
-  artist: string;
-  genre: string;
-  labels: { url: string; tooltip: string }[];
-  certification: { url: string; tooltip: string } | null;
-  advisory: { url: string; tooltip: string } | null;
-  image: string;
-};
+// types
+import { Album } from "../../types/album.type";
+
+// data
+import albums from "../../assets/albums.json";
 
 export const AlbumSection = ({ date, decade }: SectionProps) => {
   const [album, setAlbum] = useState<Album | null>(null);
-  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -33,72 +35,73 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
     }
   }, [date]);
 
+  if (!album) {
+    return <></>;
+  }
+
   return (
-    album && (
-      <Section name="albums">
-        <Card decade={decade} className="w-2/5">
-          <div className="top-text">Album of {date.getFullYear()}:</div>
-          <div className="flex flex-wrap justify-center mt-[2dvh] mx-[2dvw] gap-[2dvw]">
-            {album.awards && (
-              <img
-                className="max-h-[8dvh]"
-                src={config.assetsRoot + album.awards.url}
-                alt={album.awards.tooltip}
-                title={album.awards.tooltip}
-              />
-            )}
-            {album.certification && (
-              <img
-                className="max-h-[8dvh]"
-                src={config.assetsRoot + album.certification.url}
-                alt={album.certification.tooltip}
-                title={album.certification.tooltip}
-              />
-            )}
-          </div>
-          <div className={`title-text header-font-${decade}`}>
-            {album.title}
-          </div>
-          <p className="subtitle-text">By {album.artist}</p>
-          <p className="body-text">Genre: {album.genre}</p>
-          <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
-            {album.labels.map((label, index) => (
-              <img
-                className="max-w-[40%] max-h-[10dvh]"
-                key={album.title + index}
-                src={config.assetsRoot + label.url}
-                alt={label.tooltip}
-                title={label.tooltip}
-              />
-            ))}
-          </div>
-          {album.advisory && (
-            <div className="flex flex-wrap justify-center mt-[4dvh]">
-              <img
-                className="max-w-[40%] max-h-[7dvh]"
-                src={config.assetsRoot + album.advisory.url}
-                alt={album.advisory.tooltip}
-                title={album.advisory.tooltip}
-              />
-            </div>
+    <Section>
+      <Card decade={decade} className="w-2/5">
+        <CardDate>Album of {date.getFullYear()}:</CardDate>
+
+        <div className="flex flex-wrap justify-center mt-[2dvh] mx-[2dvw] gap-[2dvw]">
+          {album.awards && (
+            <img
+              className="max-h-[8dvh]"
+              src={config.assetsRoot + album.awards.url}
+              alt={album.awards.tooltip}
+              title={album.awards.tooltip}
+            />
           )}
-        </Card>
-        <Card decade={decade} className="poster">
-          <img
-            className="album-cover cursor-zoom-in"
-            src={config.assetsRoot + album.image}
-            alt={`${album.title} cover`}
-            onClick={() => setIsOpen(true)}
-          />
-          <ZoomDialog
-            isOpen={isOpen}
-            onClose={() => setIsOpen(false)}
-            imgSrc={config.assetsRoot + album.image}
-            imgAlt={`${album.title} cover`}
-            title={`${album.title} (${date.getFullYear()})`}
-          />
-        </Card>
-      </Section>
-    )
+          {album.certification && (
+            <img
+              className="max-h-[8dvh]"
+              src={config.assetsRoot + album.certification.url}
+              alt={album.certification.tooltip}
+              title={album.certification.tooltip}
+            />
+          )}
+        </div>
+
+        <CardTitle className={`header-font-${decade}`}>{album.title}</CardTitle>
+
+        <CardSubtitle>By {album.artist}</CardSubtitle>
+
+        <CardInfoText>Genre: {album.genre}</CardInfoText>
+
+        <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
+          {album.labels.map((label, index) => (
+            <img
+              className="max-w-[40%] max-h-[10dvh]"
+              key={album.title + index}
+              src={config.assetsRoot + label.url}
+              alt={label.tooltip}
+              title={label.tooltip}
+            />
+          ))}
+        </div>
+
+        <CardInlineImage
+          img={
+            album.advisory
+              ? {
+                  className: "max-w-[40%] max-h-[7dvh]",
+
+                  src: config.assetsRoot + album.advisory.url,
+                  alt: album.advisory.tooltip,
+                  tooltip: album.advisory.tooltip,
+                }
+              : undefined
+          }
+        />
+      </Card>
+
+      <Poster
+        decade={decade}
+        src={config.assetsRoot + album.image}
+        alt={`${album.title} cover`}
+        zoomDialogTitle={`${album.title} (${date.getFullYear()})`}
+      />
+    </Section>
   );
 };

@@ -2,26 +2,14 @@ import { useEffect, useState } from "react";
 import classNames from "classnames";
 
 import { Section, SectionProps } from "./Section";
-import { Card } from "./Card";
-import { ZoomDialog } from "../ZoomDialog";
+import { Card, Poster } from "./Card";
 
 import { config } from "../../config";
 import games from "../../assets/games.json";
-
-type Game = {
-  awards: { url: string; tooltip: string }[] | null;
-  title: string;
-  esrb: { url: string; tooltip: string } | null;
-  creator: string;
-  companies: { url: string; tooltip: string }[];
-  company_inline?: Record<string, string>;
-  image: string;
-  landscape?: boolean;
-};
+import { Game } from "../../types/game.type";
 
 export const GamesSection = ({ date, decade }: SectionProps) => {
   const [game, setGame] = useState<Game | null>(null);
-  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -106,37 +94,27 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
     }
   }
 
+  if (!game) {
+    return <></>;
+  }
+
   return (
-    game && (
-      <Section name="games" landscape={game.landscape}>
-        <Card
-          decade={decade}
-          className={classNames(!game.landscape && "w-2/5")}
-        >
-          <div className="top-text min-w-[7dvw]">
-            Game of {date.getFullYear()}:
-          </div>
-          {getAwards(game, game.landscape)}
-          <div className={`title-text header-font-${decade}`}>{game.title}</div>
-          {getGameCompanies(game, game.landscape)}
-          {getGameRating(game, game.landscape)}
-        </Card>
-        <Card decade={decade} className="poster">
-          <img
-            className="game-cover cursor-zoom-in"
-            src={config.assetsRoot + game.image}
-            alt={`${game.title} cover`}
-            onClick={() => setIsOpen(true)}
-          />
-          <ZoomDialog
-            isOpen={isOpen}
-            onClose={() => setIsOpen(false)}
-            imgSrc={config.assetsRoot + game.image}
-            imgAlt={`${game.title} cover`}
-            title={`${game.title} (${date.getFullYear()})`}
-          />
-        </Card>
-      </Section>
-    )
+    <Section landscape={game.landscape}>
+      <Card decade={decade} className={classNames(!game.landscape && "w-2/5")}>
+        <div className="top-text min-w-[7dvw]">
+          Game of {date.getFullYear()}:
+        </div>
+        {getAwards(game, game.landscape)}
+        <div className={`title-text header-font-${decade}`}>{game.title}</div>
+        {getGameCompanies(game, game.landscape)}
+        {getGameRating(game, game.landscape)}
+      </Card>
+      <Poster
+        decade={decade}
+        src={config.assetsRoot + game.image}
+        alt={`${game.title} cover`}
+        zoomDialogTitle={`${game.title} (${date.getFullYear()})`}
+      />
+    </Section>
   );
 };

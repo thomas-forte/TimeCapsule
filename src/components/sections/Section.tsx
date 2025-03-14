@@ -7,19 +7,25 @@ import { Decade } from "../../types/decade.type";
 export interface SectionProps extends PropsWithChildren {
   date: Date;
   decade: Decade | null;
+  compactMode: boolean;
 }
 
 interface BaseSectionProps extends PropsWithChildren {
-  name: string;
+  compactMode?: boolean;
   landscape?: boolean;
 }
 
-export const Section = ({ children, name, landscape }: BaseSectionProps) => (
+export const Section = ({ children, landscape }: BaseSectionProps) => (
   <div
     className={classNames(
-      "section-container snap-center",
-      name,
-      landscape && "landscape"
+      "section",
+      "min-w-full min-h-full",
+      "flex gap-[2dvh] justify-around items-center",
+      "snap-center",
+      {
+        "flex-col": landscape,
+        "flex-row": !landscape,
+      }
     )}
   >
     {children}
