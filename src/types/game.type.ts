@@ -1,10 +1,11 @@
-export type Game = {
-  awards: { url: string; tooltip: string }[] | null;
-  title: string;
-  esrb: { url: string; tooltip: string } | null;
+import { BaseData } from "./base-data.type";
+import { ImageBase } from "./image-base.type";
+
+export type Game = BaseData & {
+  awards: ImageBase[] | null;
+  esrb: ImageBase | null;
   creator: string;
-  companies: { url: string; tooltip: string }[];
+  companies: ImageBase[];
   company_inline?: Record<string, string>;
-  image: string;
   landscape?: boolean;
 };

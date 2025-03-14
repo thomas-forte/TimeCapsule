@@ -1,16 +1,15 @@
-export type Movie = {
-  awards: { url: string; tooltip: string } | null;
-  title: string;
+import { BaseData } from "./base-data.type";
+import { ImageBase } from "./image-base.type";
+
+export type Movie = BaseData & {
+  awards: ImageBase | null;
   title_inline?: Record<string, string>;
-  studio: {
-    url: string;
-    tooltip: string;
+  studio: (ImageBase & {
     inline_styles?: Record<string, string>;
-  }[];
-  mpaa: { url: string; tooltip: string } | null;
+  })[];
+  mpaa: ImageBase | null;
   runtime: string;
   directors: string[];
   tagline: string;
   description: string;
-  image: string;
 };

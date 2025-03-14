@@ -1,6 +1,7 @@
-export type Novel = {
-  awards: { url: string; tooltip: string }[];
+import { BaseData } from "./base-data.type";
+import { ImageBase } from "./image-base.type";
+
+export type Novel = BaseData & {
+  awards: ImageBase[];
   author: string;
-  image: string;
-  title: string;
 };
