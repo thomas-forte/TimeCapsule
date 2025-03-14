@@ -59,7 +59,7 @@ export const DateDetails = forwardRef(
       <div
         className={classNames(
           "h-dvh min-w-full",
-          "flex gap-[3dvh] px-[3dvh] py-[6dvh]",
+          "flex gap-[3dvh] p-[3dvh]",
           "bg-top bg-repeat-y bg-[length:100%_auto]",
           "snap-mandatory",
           `body-font-${decade}`,
@@ -72,7 +72,7 @@ export const DateDetails = forwardRef(
         ref={sectionsRef}
       >
         {date > config.maximumDate && (
-          <Section name="future">
+          <Section>
             <Card decade={decade} className="w-2/5">
               <div className="top-text">This date:</div>
               <div className={`title-text header-font-${decade}`}>
@@ -84,19 +84,19 @@ export const DateDetails = forwardRef(
         )}
 
         {(!filters.length || filters.includes(Filters.MOVIES)) && (
-          <MovieSection date={date} decade={decade} />
+          <MovieSection date={date} decade={decade} compactMode={compactMode} />
         )}
         {(!filters.length || filters.includes(Filters.NOVELS)) && (
-          <NovelSection date={date} decade={decade} />
+          <NovelSection date={date} decade={decade} compactMode={compactMode} />
         )}
         {(!filters.length || filters.includes(Filters.NEWS)) && (
-          <NewsSection date={date} decade={decade} />
+          <NewsSection date={date} decade={decade} compactMode={compactMode} />
         )}
         {(!filters.length || filters.includes(Filters.GAMES)) && (
-          <GamesSection date={date} decade={decade} />
+          <GamesSection date={date} decade={decade} compactMode={compactMode} />
         )}
         {(!filters.length || filters.includes(Filters.ALBUMS)) && (
-          <AlbumSection date={date} decade={decade} />
+          <AlbumSection date={date} decade={decade} compactMode={compactMode} />
         )}
       </div>
     );
