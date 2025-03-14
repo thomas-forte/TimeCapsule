@@ -69,65 +69,6 @@
     @apply w-[4.5dvw] min-w-[60px] max-w-[75px];
   }
 
-  /* ======================== */
-  /* section layout           */
-  /* ======================== */
-  .content-container {
-    @apply bg-top bg-repeat-y bg-[length:100%_auto];
-    @apply px-[3dvh] py-[6dvh];
-    @apply gap-[3dvh];
-  }
-
-  .section-container {
-    @apply min-w-full h-full;
-    @apply flex gap-[2dvh] justify-around items-center;
-
-    &.landscape {
-      @apply flex-col;
-
-      .card {
-        @apply max-h-none;
-        @apply flex justify-around items-center gap-[2dvw];
-      }
-    }
-
-    .card {
-      @apply max-h-full max-w-full;
-      @apply border-solid border rounded;
-      @apply p-[1vw];
-      @apply break-words;
-      @apply overflow-hidden;
-
-      .top-text {
-        @apply text-center text-[2.5dvh];
-      }
-
-      .title-text {
-        @apply text-center my-[2dvh] text-pretty;
-      }
-
-      .subtitle-text {
-        @apply text-center text-[2.5dvh] mb-[2dvh] italic;
-      }
-
-      .info-text {
-        @apply text-center text-[2.5dvh] mb-[2dvh];
-      }
-
-      .body-text {
-        @apply text-center text-[2.5dvh] text-pretty;
-      }
-
-      &.poster {
-        @apply h-full;
-        > img {
-          @apply h-full;
-          @apply border-solid border-inherit border-thin border-black;
-        }
-      }
-    }
-  }
-
   kbd {
     background-color: #eee;
     border-radius: 3px;
