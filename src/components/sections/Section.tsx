@@ -7,7 +7,7 @@ import { Decade } from "../../types/decade.type";
 export interface SectionProps extends PropsWithChildren {
   date: Date;
   decade: Decade | null;
-  compactMode: boolean;
+  compactMode?: boolean;
 }
 
 interface BaseSectionProps extends PropsWithChildren {

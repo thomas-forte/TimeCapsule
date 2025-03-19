@@ -13,16 +13,11 @@ import { MovieSection } from "./sections/MovieSection";
 import { NewsSection } from "./sections/NewsSection";
 import { GamesSection } from "./sections/GamesSection";
 import { AlbumSection } from "./sections/AlbumSection";
-
-// components
-import { Card } from "./cards/Card";
-import { Section } from "./sections/Section";
+import { DateNotFoundSection } from "./sections/DateNotFoundSection";
 
 // types
 import type { Decade } from "../types/decade.type";
 import { Filters } from "../types/filters.type";
-
-import { config } from "../config";
 
 interface DateDetailsProps {
   compactMode: boolean;
@@ -90,17 +85,7 @@ export const DateDetails = forwardRef(
         ref={sectionsRef}
         onScroll={onScroll}
       >
-        {date > config.maximumDate && (
-          <Section>
-            <Card decade={decade} className="w-2/5">
-              <div className="top-text">This date:</div>
-              <div className={`title-text header-font-${decade}`}>
-                {date.toLocaleDateString()}
-              </div>
-              <p className="body-text">Is not currently ready.</p>
-            </Card>
-          </Section>
-        )}
+        <DateNotFoundSection date={date} decade={decade} />
 
         {(!filters.length || filters.includes(Filters.MOVIES)) && (
           <MovieSection date={date} decade={decade} compactMode={compactMode} />

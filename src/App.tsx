@@ -33,7 +33,7 @@ export const App = () => {
   const [doorOpen, setDoorOpen] = useState(false);
 
   // date options state
-  const [date, setDate] = useState<Date>(new Date());
+  const [date, setDate] = useState<Date>(config.initialDates[0]);
   const [decade, setDecade] = useState<Decade | null>(null);
   const [filters, setFilters] = useState<Filters[]>([]);
 
