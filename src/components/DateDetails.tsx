@@ -1,4 +1,10 @@
-import { forwardRef, useImperativeHandle, useRef } from "react";
+import {
+  forwardRef,
+  useEffect,
+  useImperativeHandle,
+  useRef,
+  useState,
+} from "react";
 import classNames from "classnames";
 
 // section components
@@ -43,24 +49,37 @@ export const DateDetails = forwardRef(
     }));
 
     const sectionsRef = useRef<HTMLDivElement>(null);
+    const [backgroundImage, setBackgroundImage] = useState("");
+    const [backgroundPositionX, setBackgroundPositionX] = useState("50%");
+    const [backgroundPositionY, setBackgroundPositionY] = useState("50%");
 
-    let backgroundImage = "";
-    if (date.getFullYear() < 2010) {
-      backgroundImage = `url(/images/${decade}bg.svg)`;
-    } else if (date.getFullYear() < 2020) {
-      backgroundImage = "radial-gradient(#DBD2CB 40%, #CCBDB6 60%)";
-    } else if (date.getFullYear() < 2030) {
-      backgroundImage = "linear-gradient(#665533, #665533)";
-    } else {
-      backgroundImage = "radial-gradient(#FFF 0, #F0F0F0 100%)";
-    }
+    useEffect(() => {
+      if (date.getFullYear() < 2010) {
+        setBackgroundImage(`url(/images/${decade}bg.svg)`);
+      } else if (date.getFullYear() < 2020) {
+        setBackgroundImage("radial-gradient(#DBD2CB 40%, #CCBDB6 60%)");
+      } else if (date.getFullYear() < 2030) {
+        setBackgroundImage("linear-gradient(#665533, #665533)");
+      } else {
+        setBackgroundImage("radial-gradient(#FFF 0, #F0F0F0 100%)");
+      }
+    }, [date, decade]);
+
+    const onScroll = (e: React.UIEvent<HTMLDivElement>) => {
+      const { scrollLeft, scrollWidth, scrollTop, scrollHeight } =
+        e.currentTarget;
+      if (compactMode) {
+        setBackgroundPositionY(`${50 - 25 * (scrollTop / scrollHeight)}%`);
+      } else {
+        setBackgroundPositionX(`${50 - 25 * (scrollLeft / scrollWidth)}%`);
+      }
+    };
 
     return (
       <div
         className={classNames(
           "h-dvh min-w-full",
           "flex gap-[3dvh] p-[3dvh]",
-          "bg-top bg-repeat-y bg-[length:100%_auto]",
           "snap-mandatory",
           `body-font-${decade}`,
           {
@@ -68,8 +87,8 @@ export const DateDetails = forwardRef(
             "flex-row snap-x overflow-y-hidden": !compactMode,
           }
         )}
-        style={{ backgroundImage }}
         ref={sectionsRef}
+        onScroll={onScroll}
       >
         {date > config.maximumDate && (
           <Section>
@@ -98,6 +117,18 @@ export const DateDetails = forwardRef(
         {(!filters.length || filters.includes(Filters.ALBUMS)) && (
           <AlbumSection date={date} decade={decade} compactMode={compactMode} />
         )}
+
+        <img
+          className={classNames(
+            "absolute left-0 top-0 h-dvh w-full -z-50",
+            "bg-top bg-repeat-y",
+            {
+              "bg-[length:auto_100%]": !compactMode,
+              "bg-[length:100%_auto]": compactMode,
+            }
+          )}
+          style={{ backgroundImage, backgroundPositionX, backgroundPositionY }}
+        />
       </div>
     );
   }
