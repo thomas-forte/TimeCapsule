@@ -45,26 +45,6 @@
   /* ======================== */
   /* control panel styles     */
   /* ======================== */
-  .date-picker {
-    .dateText {
-      @apply font-normal text-right font-oxanium;
-      @apply fill-[#8bf8ff] text-[34px];
-    }
-
-    .arrows {
-      @apply cursor-pointer;
-      @apply fill-[#8bf8ff] hover:fill-[#00cddb];
-
-      &.disabled {
-        @apply fill-[#8bf8ff55];
-      }
-    }
-
-    .vertical-lines {
-      @apply fill-[#8bf8ff];
-    }
-  }
-
   .button-panel-container {
     @apply w-[4.5dvw] min-w-[60px] max-w-[75px];
   }

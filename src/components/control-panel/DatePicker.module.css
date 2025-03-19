@@ -11,3 +11,17 @@
     fill: #8bf8ff;
   }
 }
+
+.buttonPulse {
+  animation: buttonPulse 3s ease-in-out infinite;
+}
+
+@keyframes buttonPulse {
+  0%,
+  100% {
+    fill: #8bf8ff;
+  }
+  50% {
+    fill: #e7fdff;
+  }
+}

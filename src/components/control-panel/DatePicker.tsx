@@ -88,7 +88,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
         dy={2}
         dominantBaseline="middle"
         textAnchor="middle"
-        className="dateText"
+        className={classNames(
+          "font-normal text-right font-oxanium",
+          "fill-[#8bf8ff] text-[34px]",
+          styles.buttonPulse
+        )}
       >
         {date.getFullYear()}
       </text>
@@ -99,7 +103,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
         dy={2}
         dominantBaseline="middle"
         textAnchor="middle"
-        className="dateText"
+        className={classNames(
+          "font-normal text-right font-oxanium",
+          "fill-[#8bf8ff] text-[34px]",
+          styles.buttonPulse
+        )}
       >
         {date.getDate().toString().padStart(2, "0")}
       </text>
@@ -110,7 +118,11 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
         dy={2}
         dominantBaseline="middle"
         textAnchor="middle"
-        className="dateText"
+        className={classNames(
+          "font-normal text-right font-oxanium",
+          "fill-[#8bf8ff] text-[34px]",
+          styles.buttonPulse
+        )}
       >
         {date.toLocaleDateString("en-US", { month: "short" }).toUpperCase()}
       </text>
@@ -118,9 +130,14 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
         <g onClick={() => config.enableAudio && buttonClick.play()}>
           <path
             d="M99.976,451L67.976,436L131.976,436L99.976,451Z"
-            className={classNames("arrows", {
-              disabled: date.getFullYear() <= config.minimumDate.getFullYear(),
-            })}
+            className={classNames(
+              "cursor-pointer fill-[#8bf8ff] hover:fill-[#00cddb]",
+              styles.buttonPulse,
+              {
+                "fill-[#8bf8ff55]":
+                  date.getFullYear() <= config.minimumDate.getFullYear(),
+              }
+            )}
             data-tooltip-id="tooltip-root"
             data-tooltip-html={`<b>Previous Year</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
@@ -143,9 +160,14 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,358L131.976,373L67.976,373L99.976,358Z"
-            className={classNames("arrows", {
-              disabled: date.getFullYear() >= config.maximumDate.getFullYear(),
-            })}
+            className={classNames(
+              "cursor-pointer fill-[#8bf8ff] hover:fill-[#00cddb]",
+              styles.buttonPulse,
+              {
+                "fill-[#8bf8ff55]":
+                  date.getFullYear() >= config.maximumDate.getFullYear(),
+              }
+            )}
             data-tooltip-id="tooltip-root"
             data-tooltip-html={`<b>Next Year</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
@@ -168,9 +190,13 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,316L67.976,301L131.976,301L99.976,316Z"
-            className={classNames("arrows", {
-              disabled: date <= config.minimumDate,
-            })}
+            className={classNames(
+              "cursor-pointer fill-[#8bf8ff] hover:fill-[#00cddb]",
+              styles.buttonPulse,
+              {
+                "fill-[#8bf8ff55]": date <= config.minimumDate,
+              }
+            )}
             data-tooltip-id="tooltip-root"
             data-tooltip-html={`<b>Previous Day</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
@@ -189,7 +215,10 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,222L131.976,237L67.976,237L99.976,222Z"
-            className="arrows"
+            className={classNames(
+              "cursor-pointer fill-[#8bf8ff] hover:fill-[#00cddb]",
+              styles.buttonPulse
+            )}
             data-tooltip-id="tooltip-root"
             data-tooltip-html={`<b>Next Day</b><br /><kbd>${kbdCode}</kbd> + click to skip 10`}
             data-tooltip-place="right"
@@ -207,9 +236,13 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,190L67.976,175L131.976,175L99.976,190Z"
-            className={classNames("arrows", {
-              disabled: date.getMonth() === 0,
-            })}
+            className={classNames(
+              "cursor-pointer fill-[#8bf8ff] hover:fill-[#00cddb]",
+              styles.buttonPulse,
+              {
+                "fill-[#8bf8ff55]": date.getMonth() === 0,
+              }
+            )}
             data-tooltip-id="tooltip-root"
             data-tooltip-html="<b>Previous Month</b>"
             data-tooltip-place="right"
@@ -228,9 +261,13 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
           />
           <path
             d="M99.976,97L131.976,112L67.976,112L99.976,97Z"
-            className={classNames("arrows", {
-              disabled: date.getMonth() === 11,
-            })}
+            className={classNames(
+              "cursor-pointer fill-[#8bf8ff] hover:fill-[#00cddb]",
+              styles.buttonPulse,
+              {
+                "fill-[#8bf8ff55]": date.getMonth() === 11,
+              }
+            )}
             data-tooltip-id="tooltip-root"
             data-tooltip-html="<b>Next Month</b>"
             data-tooltip-place="right"
@@ -251,7 +288,7 @@ export const DatePicker = ({ date, updateDate }: DatePickerProps) => {
       </g>
       <g
         opacity="0.75"
-        className={classNames("vertical-lines", styles.linesPulse)}
+        className={classNames("fill-[#8bf8ff]", styles.linesPulse)}
       >
         <rect x="78" y="53" width="4" height="24" />
         <rect x="88" y="53" width="4" height="24" />
