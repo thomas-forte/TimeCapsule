@@ -13,7 +13,7 @@ export const CardInlineImage = ({ img, className }: CardInlineImageProps) => {
     return <></>;
   }
   return (
-    <div className="flex flex-wrap justify-center mt-[2dvh] mx-[2dvw]">
+    <div className="flex justify-center mt-[2dvh] mx-[2dvw]">
       <img
         className={className}
         src={config.assetsRoot + img.url}

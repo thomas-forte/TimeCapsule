@@ -1,13 +1,23 @@
 import { useEffect, useState } from "react";
 import classNames from "classnames";
 
+// components
 import { Section, SectionProps } from "./Section";
 import { Card } from "../cards/Card";
-
-import { config } from "../../config";
-import games from "../../assets/games.json";
-import { Game } from "../../types/game.type";
 import { PosterCard } from "../cards/PosterCard";
+import { CardTitle } from "../cards/CardTitle";
+import { CardDate } from "../cards/CardDate";
+import { CardInlineImage } from "../cards/CardInlineImage";
+import { CardInlineImages } from "../cards/CardInlineImages";
+
+// config
+import { config } from "../../config";
+
+// types
+import { Game } from "../../types/game.type";
+
+// data
+import games from "../../assets/games.json";
 
 export const GamesSection = ({ date, decade }: SectionProps) => {
   const [game, setGame] = useState<Game | null>(null);
@@ -23,69 +33,30 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
     }
   }, [date]);
 
-  /* ======================== */
-  /* section layout           */
-  /* ======================== */
-  // .section-container {
-  //   &.landscape {
-  //     .card {
-  //       @apply max-h-none;
-  //       @apply flex justify-around items-center gap-[2dvw];
-  //     }
-  //   }
-  // }
-
   function getAwards(game: Game, landscape = false) {
     if (landscape || !game.awards) {
       return <></>;
     } else {
-      return (
-        <div className="flex flex-wrap justify-center gap-[2dvw] mt-[2dvh] mx-[2dvw]">
-          {game.awards.map((award, index) => (
-            <img
-              key={game.title + "award" + index}
-              className="max-h-[8dvh]"
-              src={config.assetsRoot + award.url}
-              alt={award.tooltip}
-              title={award.tooltip}
-            />
-          ))}
-        </div>
-      );
+      return <CardInlineImages imgs={game.awards} className="max-h-[8dvh]" />;
     }
   }
 
   function getGameCompanies(game: Game, landscape = false) {
     if (landscape) {
       return (
-        <div
-          className="flex justify-center h-full w-[7dvw]"
-          style={game.company_inline}
-        >
-          {game.companies.map((company, index) => (
-            <img
-              className="max-h-[10dvh] max-w-full"
-              key={game.title + index}
-              src={config.assetsRoot + company.url}
-              alt={company.tooltip}
-              title={company.tooltip}
-            />
-          ))}
-        </div>
+        <img
+          className="max-h-[10dvh] max-w-full flex-[.5]"
+          src={config.assetsRoot + game.companies[0].url}
+          alt={game.companies[0].tooltip}
+          title={game.companies[0].tooltip}
+        />
       );
     } else {
       return (
-        <div className="flex flex-wrap justify-center mt-[2dvh] gap-[2dvw]">
-          {game.companies.map((company, index) => (
-            <img
-              className="max-w-[35%] max-h-[10dvh]"
-              key={game.title + index}
-              src={config.assetsRoot + company.url}
-              alt={company.tooltip}
-              title={company.tooltip}
-            />
-          ))}
-        </div>
+        <CardInlineImages
+          imgs={game.companies}
+          className="max-w-[35%] max-h-[10dvh]"
+        />
       );
     }
   }
@@ -95,14 +66,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
       return <></>;
     } else {
       return (
-        <div className="flex flex-wrap justify-center mt-[2dvh]">
-          <img
-            className="max-w-[40%] max-h-[9dvh]"
-            src={config.assetsRoot + game.esrb.url}
-            alt={game.esrb.tooltip}
-            title={game.esrb.tooltip}
-          />
-        </div>
+        <CardInlineImage img={game.esrb} className="max-w-[40%] max-h-[9dvh]" />
       );
     }
   }
@@ -113,12 +77,18 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
 
   return (
     <Section landscape={game.landscape}>
-      <Card decade={decade} className={classNames(!game.landscape && "w-2/5")}>
-        <div className="top-text min-w-[7dvw]">
-          Game of {date.getFullYear()}:
-        </div>
+      <Card
+        decade={decade}
+        className={classNames({
+          "flex justify-around items-center gap-[2dvw] min-w-[75%]":
+            game.landscape,
+        })}
+      >
+        <CardDate>Game of {date.getFullYear()}:</CardDate>
         {getAwards(game, game.landscape)}
-        <div className={`title-text header-font-${decade}`}>{game.title}</div>
+        <CardTitle className={`title-text header-font-${decade}`}>
+          {game.title}
+        </CardTitle>
         {getGameCompanies(game, game.landscape)}
         {getGameRating(game, game.landscape)}
       </Card>
