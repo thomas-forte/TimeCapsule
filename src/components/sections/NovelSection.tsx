@@ -2,14 +2,12 @@ import { useEffect, useState } from "react";
 
 // components
 import { Section, SectionProps } from "./Section";
-import {
-  Card,
-  CardDate,
-  CardInlineImages,
-  CardSubtitle,
-  CardTitle,
-  Poster,
-} from "./Card";
+import { Card } from "../cards/Card";
+import { CardDate } from "../cards/CardDate";
+import { CardTitle } from "../cards/CardTitle";
+import { CardSubtitle } from "../cards/CardSubtitle";
+import { CardInlineImages } from "../cards/CardInlineImages";
+import { PosterCard } from "../cards/PosterCard";
 
 // config
 import { config } from "../../config";
@@ -50,7 +48,7 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
         <CardSubtitle>By {novel.author}</CardSubtitle>
       </Card>
 
-      <Poster
+      <PosterCard
         decade={decade}
         src={config.assetsRoot + novel.image}
         alt={`${novel.title} cover`}

@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import classNames from "classnames";
 
 import { Section, SectionProps } from "./Section";
-import { Card, Poster } from "./Card";
+import { Card } from "../cards/Card";
 
 import { config } from "../../config";
 import games from "../../assets/games.json";
 import { Game } from "../../types/game.type";
+import { PosterCard } from "../cards/PosterCard";
 
 export const GamesSection = ({ date, decade }: SectionProps) => {
   const [game, setGame] = useState<Game | null>(null);
@@ -121,7 +122,7 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
         {getGameCompanies(game, game.landscape)}
         {getGameRating(game, game.landscape)}
       </Card>
-      <Poster
+      <PosterCard
         decade={decade}
         src={config.assetsRoot + game.image}
         alt={`${game.title} cover`}

@@ -9,7 +9,7 @@ import { GamesSection } from "./sections/GamesSection";
 import { AlbumSection } from "./sections/AlbumSection";
 
 // components
-import { Card } from "./sections/Card";
+import { Card } from "./cards/Card";
 import { Section } from "./sections/Section";
 
 // types

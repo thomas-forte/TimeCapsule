@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 // components
 import { Section, SectionProps } from "./Section";
-import { Poster } from "./Card";
+import { PosterCard } from "../cards/PosterCard";
 
 // service
 import { checkForNewspaper } from "../../newspaper.service";
@@ -28,7 +28,7 @@ export const NewsSection = ({ date, decade }: SectionProps) => {
 
   return (
     <Section>
-      <Poster
+      <PosterCard
         decade={decade}
         src={newspaper}
         alt={`new paper of ${date}`}

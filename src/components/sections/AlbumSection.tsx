@@ -2,16 +2,14 @@ import { useEffect, useState } from "react";
 
 // components
 import { Section, SectionProps } from "./Section";
-import {
-  Card,
-  CardDate,
-  CardInfoText,
-  CardInlineImage,
-  CardInlineImages,
-  CardSubtitle,
-  CardTitle,
-  Poster,
-} from "./Card";
+import { Card } from "../cards/Card";
+import { CardDate } from "../cards/CardDate";
+import { CardTitle } from "../cards/CardTitle";
+import { CardSubtitle } from "../cards/CardSubtitle";
+import { CardInfoText } from "../cards/CardInfoText";
+import { PosterCard } from "../cards/PosterCard";
+import { CardInlineImages } from "../cards/CardInlineImages";
+import { CardInlineImage } from "../cards/CardInlineImage";
 
 // config
 import { config } from "../../config";
@@ -81,7 +79,7 @@ export const AlbumSection = ({ date, decade }: SectionProps) => {
         />
       </Card>
 
-      <Poster
+      <PosterCard
         decade={decade}
         src={config.assetsRoot + album.image}
         alt={`${album.title} cover`}
