@@ -59,7 +59,7 @@ export const DateDetails = forwardRef(
       } else {
         setBackgroundImage("radial-gradient(#FFF 0, #F0F0F0 100%)");
       }
-    }, [date, decade]);
+    }, [date, decade, compactMode]);
 
     const onScroll = (e: React.UIEvent<HTMLDivElement>) => {
       const { scrollLeft, scrollWidth, scrollTop, scrollHeight } =
