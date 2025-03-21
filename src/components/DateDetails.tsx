@@ -49,8 +49,9 @@ export const DateDetails = forwardRef(
     const [backgroundPositionY, setBackgroundPositionY] = useState("50%");
 
     useEffect(() => {
+      const suffix = compactMode ? "bg" : "bgh";
       if (date.getFullYear() < 2010) {
-        setBackgroundImage(`url(/images/${decade}bg.svg)`);
+        setBackgroundImage(`url(/images/${decade}${suffix}.svg)`);
       } else if (date.getFullYear() < 2020) {
         setBackgroundImage("radial-gradient(#DBD2CB 40%, #CCBDB6 60%)");
       } else if (date.getFullYear() < 2030) {
