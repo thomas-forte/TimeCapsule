@@ -94,6 +94,7 @@ export const MovieSection = ({ date, decade, compactMode }: SectionProps) => {
           decade={decade}
           src={config.assetsRoot + movie.image}
           alt={`${movie.title} poster`}
+          compactMode={compactMode}
           zoomDialogTitle={`${movie.title} (${date.getFullYear()})`}
         />
       }

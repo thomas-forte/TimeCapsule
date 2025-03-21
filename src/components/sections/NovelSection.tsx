@@ -60,6 +60,7 @@ export const NovelSection = ({ date, decade, compactMode }: SectionProps) => {
           decade={decade}
           src={config.assetsRoot + novel.image}
           alt={`${novel.title} cover`}
+          compactMode={compactMode}
           zoomDialogTitle={`${novel.title} (${date.getFullYear()})`}
         />
       }

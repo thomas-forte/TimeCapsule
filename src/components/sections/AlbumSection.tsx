@@ -91,6 +91,7 @@ export const AlbumSection = ({ date, decade, compactMode }: SectionProps) => {
           decade={decade}
           src={config.assetsRoot + album.image}
           alt={`${album.title} cover`}
+          compactMode={compactMode}
           zoomDialogTitle={`${album.title} (${date.getFullYear()})`}
         />
       }

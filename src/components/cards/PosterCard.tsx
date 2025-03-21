@@ -8,6 +8,7 @@ import { ZoomDialog } from "../ZoomDialog";
 export interface PosterProps extends BaseCardProps {
   src: string;
   alt: string;
+  compactMode?: boolean;
   zoomDialogTitle?: string;
 }
 
@@ -16,6 +17,7 @@ export const PosterCard = ({
   className,
   src,
   alt,
+  compactMode,
   zoomDialogTitle,
 }: PosterProps) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,10 +32,15 @@ export const PosterCard = ({
       )}
     >
       <img
-        className="max-h-full border-solid border-inherit border-thin border-black cursor-zoom-in"
+        className={classNames(
+          "max-h-full border-solid border-inherit border-thin border-black",
+          {
+            "cursor-zoom-in": !compactMode,
+          }
+        )}
         src={src}
         alt={alt}
-        onClick={() => setIsOpen(true)}
+        onClick={() => (compactMode ? null : setIsOpen(true))}
       />
       <ZoomDialog
         isOpen={isOpen}
