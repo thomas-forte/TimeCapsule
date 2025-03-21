@@ -19,8 +19,9 @@ import { Game } from "../../types/game.type";
 // data
 import games from "../../assets/games.json";
 
-export const GamesSection = ({ date, decade }: SectionProps) => {
+export const GamesSection = ({ date, decade, compactMode }: SectionProps) => {
   const [game, setGame] = useState<Game | null>(null);
+  const [flip, setFlip] = useState(false);
 
   useEffect(() => {
     try {
@@ -75,29 +76,39 @@ export const GamesSection = ({ date, decade }: SectionProps) => {
     return <></>;
   }
 
+  const isLandscape = !compactMode && game.landscape;
+
   return (
-    <Section landscape={game.landscape}>
-      <Card
-        decade={decade}
-        className={classNames({
-          "flex justify-around items-center gap-[2dvw] min-w-[75%]":
-            game.landscape,
-        })}
-      >
-        <CardDate>Game of {date.getFullYear()}:</CardDate>
-        {getAwards(game, game.landscape)}
-        <CardTitle className={`title-text header-font-${decade}`}>
-          {game.title}
-        </CardTitle>
-        {getGameCompanies(game, game.landscape)}
-        {getGameRating(game, game.landscape)}
-      </Card>
-      <PosterCard
-        decade={decade}
-        src={config.assetsRoot + game.image}
-        alt={`${game.title} cover`}
-        zoomDialogTitle={`${game.title} (${date.getFullYear()})`}
-      />
-    </Section>
+    <Section
+      compactMode={compactMode}
+      flip={flip}
+      onClick={() => setFlip(!flip)}
+      landscape={isLandscape}
+      frontCard={
+        <Card
+          decade={decade}
+          compactMode={compactMode}
+          className={classNames({
+            "flex justify-around items-center gap-[2dvw]": isLandscape,
+          })}
+        >
+          <CardDate>Game of {date.getFullYear()}:</CardDate>
+          {getAwards(game, isLandscape)}
+          <CardTitle className={`title-text header-font-${decade}`}>
+            {game.title}
+          </CardTitle>
+          {getGameCompanies(game, isLandscape)}
+          {getGameRating(game, isLandscape)}
+        </Card>
+      }
+      backCard={
+        <PosterCard
+          decade={decade}
+          src={config.assetsRoot + game.image}
+          alt={`${game.title} cover`}
+          zoomDialogTitle={`${game.title} (${date.getFullYear()})`}
+        />
+      }
+    />
   );
 };

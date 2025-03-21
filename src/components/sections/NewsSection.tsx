@@ -7,7 +7,7 @@ import { PosterCard } from "../cards/PosterCard";
 // service
 import { checkForNewspaper } from "../../newspaper.service";
 
-export const NewsSection = ({ date, decade }: SectionProps) => {
+export const NewsSection = ({ date, decade, compactMode }: SectionProps) => {
   const [newspaper, setNewspaper] = useState<string | null>(null);
 
   useEffect(() => {
@@ -27,13 +27,18 @@ export const NewsSection = ({ date, decade }: SectionProps) => {
   }
 
   return (
-    <Section>
-      <PosterCard
-        decade={decade}
-        src={newspaper}
-        alt={`new paper of ${date}`}
-        zoomDialogTitle={`Newspaper of ${date.toLocaleDateString()}`}
-      />
-    </Section>
+    <Section
+      compactMode={compactMode}
+      flip={false}
+      frontCard={
+        <PosterCard
+          decade={decade}
+          src={newspaper}
+          alt={`new paper of ${date}`}
+          zoomDialogTitle={`Newspaper of ${date.toLocaleDateString()}`}
+        />
+      }
+      backCard={<></>}
+    />
   );
 };

@@ -1,5 +1,5 @@
+import { PropsWithChildren, ReactNode } from "react";
 import classNames from "classnames";
-import { PropsWithChildren } from "react";
 
 // types
 import { Decade } from "../../types/decade.type";
@@ -10,12 +10,41 @@ export interface SectionProps extends PropsWithChildren {
   compactMode?: boolean;
 }
 
-interface BaseSectionProps extends PropsWithChildren {
+interface BaseSectionProps {
   compactMode?: boolean;
   landscape?: boolean;
+  frontCard: ReactNode;
+  backCard: ReactNode;
+  flip: boolean;
+  onClick?: () => void;
 }
 
-export const Section = ({ children, landscape }: BaseSectionProps) => (
+const renderSection = (
+  frontCard: ReactNode,
+  backCard: ReactNode,
+  compactMode: boolean,
+  flip: boolean
+) => {
+  if (compactMode) {
+    return flip ? backCard : frontCard;
+  } else {
+    return (
+      <>
+        {frontCard}
+        {backCard}
+      </>
+    );
+  }
+};
+
+export const Section = ({
+  compactMode,
+  landscape,
+  frontCard,
+  backCard,
+  onClick,
+  flip,
+}: BaseSectionProps) => (
   <div
     className={classNames(
       "section",
@@ -27,7 +56,8 @@ export const Section = ({ children, landscape }: BaseSectionProps) => (
         "flex-row": !landscape,
       }
     )}
+    onClick={compactMode ? onClick : undefined}
   >
-    {children}
+    {renderSection(frontCard, backCard, compactMode || false, flip)}
   </div>
 );

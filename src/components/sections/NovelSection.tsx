@@ -18,8 +18,9 @@ import { Novel } from "../../types/novel.type";
 // data
 import novels from "../../assets/novels.json";
 
-export const NovelSection = ({ date, decade }: SectionProps) => {
+export const NovelSection = ({ date, decade, compactMode }: SectionProps) => {
   const [novel, setNovel] = useState<Novel | null>(null);
+  const [flip, setFlip] = useState(false);
 
   useEffect(() => {
     try {
@@ -37,23 +38,31 @@ export const NovelSection = ({ date, decade }: SectionProps) => {
   }
 
   return (
-    <Section>
-      <Card decade={decade} className="w-2/5">
-        <CardDate>Novel of {date.getFullYear()}:</CardDate>
+    <Section
+      compactMode={compactMode}
+      flip={flip}
+      onClick={() => setFlip(!flip)}
+      frontCard={
+        <Card decade={decade} compactMode={compactMode}>
+          <CardDate>Novel of {date.getFullYear()}:</CardDate>
 
-        <CardInlineImages imgs={novel.awards} className="max-h-[8dvh]" />
+          <CardInlineImages imgs={novel.awards} className="max-h-[8dvh]" />
 
-        <CardTitle className={`header-font-${decade}`}>{novel.title}</CardTitle>
+          <CardTitle className={`header-font-${decade}`}>
+            {novel.title}
+          </CardTitle>
 
-        <CardSubtitle>By {novel.author}</CardSubtitle>
-      </Card>
-
-      <PosterCard
-        decade={decade}
-        src={config.assetsRoot + novel.image}
-        alt={`${novel.title} cover`}
-        zoomDialogTitle={`${novel.title} (${date.getFullYear()})`}
-      />
-    </Section>
+          <CardSubtitle>By {novel.author}</CardSubtitle>
+        </Card>
+      }
+      backCard={
+        <PosterCard
+          decade={decade}
+          src={config.assetsRoot + novel.image}
+          alt={`${novel.title} cover`}
+          zoomDialogTitle={`${novel.title} (${date.getFullYear()})`}
+        />
+      }
+    />
   );
 };
