@@ -12,14 +12,17 @@ export const DateNotFoundSection = ({ date, decade }: SectionProps) => {
   }
 
   return (
-    <Section>
-      <Card decade={decade}>
-        <CardDate>This date:</CardDate>
-        <CardTitle className={`header-font-${decade}`}>
-          {date.toLocaleDateString()}
-        </CardTitle>
-        <CardInfoText>Is not currently ready.</CardInfoText>
-      </Card>
-    </Section>
+    <Section
+      flip={false}
+      frontCard={
+        <Card decade={decade}>
+          <CardDate>This date:</CardDate>
+          <CardTitle className={`header-font-${decade}`}>
+            {date.toLocaleDateString()}
+          </CardTitle>
+          <CardInfoText>Is not currently ready.</CardInfoText>
+        </Card>
+      }
+    ></Section>
   );
 };

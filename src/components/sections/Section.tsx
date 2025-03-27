@@ -14,7 +14,7 @@ interface BaseSectionProps {
   compactMode?: boolean;
   landscape?: boolean;
   frontCard: ReactNode;
-  backCard: ReactNode;
+  backCard?: ReactNode;
   flip: boolean;
   onClick?: () => void;
 }
