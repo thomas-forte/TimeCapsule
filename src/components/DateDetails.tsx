@@ -67,7 +67,7 @@ export const DateDetails = forwardRef(
       if (compactMode) {
         setBackgroundPositionY(`${50 - 25 * (scrollTop / scrollHeight)}%`);
       } else {
-        setBackgroundPositionX(`${50 - 25 * (scrollLeft / scrollWidth)}%`);
+        setBackgroundPositionX(`${50 + 25 * (scrollLeft / scrollWidth)}%`);
       }
     };
 
