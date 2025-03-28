@@ -1,19 +1,28 @@
 export const config = {
-  enableAudio: false,
+  // Enables/disables the audio on the site
+  enableAudio: false, // true/false
+
+  // Clock update interval in milliseconds
   clockUpdateInterval: 1000, // time in ms
 
-  doorClosingDuration: 3000, // time in ms (match with value in App.module.css)
+  // Door speed, must match the values in App.module.css
+  doorClosingDuration: 3000, // time in ms
   doorOpeningDuration: 2000, // "
 
+  // Date range for the time capsule
   minimumDate: new Date(1950, 0, 1), // January 1, 1950
   maximumDate: new Date(2024, 11, 31), // December 31, 2024
 
+  // Base url for the time capsule assets
   assetsRoot: "https://timecapsule.brendantrepal.com/images/",
 
-  enableHelp: false,
+  // Enables/disables the help menu
+  enableHelp: false, // true/false
 
-  compactModeWidth: 1024,
+  // Breakpoint for the width at which the site switches to compact mode
+  compactModeWidth: 1024, // number of pixels
 
+  // List of initial dates, these are chosen at random when the site loads.
   initialDates: [
     new Date(1955, 10, 5), // 11/5/1955 - The date Marty McFly travels back to in "Back to the Future".
     new Date(1985, 8, 13), // 9/13/1985 - The release date of the original Super Mario Bros. game.
