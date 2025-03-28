@@ -17,6 +17,7 @@ export const PosterCard = ({
   className,
   src,
   alt,
+  landscape,
   compactMode,
   zoomDialogTitle,
 }: PosterProps) => {
@@ -24,7 +25,8 @@ export const PosterCard = ({
   return (
     <div
       className={classNames(
-        "h-full p-[1vw]",
+        landscape ? "max-w-full" : "h-full",
+        "p-[1vw]",
         "break-words overflow-hidden",
         `border border-solid rounded border-${decade}`,
         `background-${decade}`,

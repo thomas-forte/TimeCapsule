@@ -52,8 +52,8 @@ export const Section = ({
       "flex gap-[2dvh] justify-around items-center",
       "snap-center",
       {
-        "flex-col": landscape,
-        "flex-row": !landscape,
+        "flex-col": landscape && !compactMode,
+        "flex-row": !landscape || compactMode,
       }
     )}
     onClick={compactMode ? onClick : undefined}

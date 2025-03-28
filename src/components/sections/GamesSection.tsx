@@ -106,6 +106,7 @@ export const GamesSection = ({ date, decade, compactMode }: SectionProps) => {
           decade={decade}
           src={config.assetsRoot + game.image}
           alt={`${game.title} cover`}
+          landscape={game.landscape}
           compactMode={compactMode}
           zoomDialogTitle={`${game.title} (${date.getFullYear()})`}
         />
