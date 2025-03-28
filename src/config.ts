@@ -12,7 +12,7 @@ export const config = {
 
   enableHelp: false,
 
-  sidebarWidth: 1024,
+  compactModeWidth: 1024,
 
   initialDates: [
     new Date(1955, 10, 5), // 11/5/1955 - The date Marty McFly travels back to in "Back to the Future".

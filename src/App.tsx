@@ -40,7 +40,7 @@ export const App = () => {
   // check for compact mode on window resize
   useLayoutEffect(() => {
     function updateSize() {
-      if (window.innerWidth < config.sidebarWidth) {
+      if (window.innerWidth < config.compactModeWidth) {
         setCompactMode(true);
       } else {
         setCompactMode(false);
