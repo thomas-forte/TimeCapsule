@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactNode } from "react";
+import { cloneElement, PropsWithChildren, useState } from "react";
 import classNames from "classnames";
 
 // types
@@ -13,20 +13,21 @@ export interface SectionProps extends PropsWithChildren {
 interface BaseSectionProps {
   compactMode?: boolean;
   landscape?: boolean;
-  frontCard: ReactNode;
-  backCard?: ReactNode;
-  flip: boolean;
-  onClick?: () => void;
+  frontCard: JSX.Element;
+  backCard?: JSX.Element;
 }
 
 const renderSection = (
-  frontCard: ReactNode,
-  backCard: ReactNode,
+  frontCard: JSX.Element,
+  backCard: JSX.Element | undefined,
   compactMode: boolean,
-  flip: boolean
+  flip: boolean,
+  flipping: boolean
 ) => {
   if (compactMode) {
-    return flip ? backCard : frontCard;
+    return flip
+      ? cloneElement(backCard ?? <></>, { flipping })
+      : cloneElement(frontCard, { flipping });
   } else {
     return (
       <>
@@ -42,22 +43,35 @@ export const Section = ({
   landscape,
   frontCard,
   backCard,
-  onClick,
-  flip,
-}: BaseSectionProps) => (
-  <div
-    className={classNames(
-      "section",
-      "min-w-full min-h-full",
-      "flex gap-[2dvh] justify-around items-center",
-      "snap-center",
-      {
-        "flex-col": landscape && !compactMode,
-        "flex-row": !landscape || compactMode,
-      }
-    )}
-    onClick={compactMode ? onClick : undefined}
-  >
-    {renderSection(frontCard, backCard, compactMode || false, flip)}
-  </div>
-);
+}: BaseSectionProps) => {
+  const [flip, setFlip] = useState(false);
+  const [flipping, setFlipping] = useState(false);
+
+  const onClick = () => {
+    if (flipping) return;
+
+    setFlipping(true);
+    setTimeout(() => {
+      setFlip(!flip);
+      setFlipping(false);
+    }, 2000);
+  };
+
+  return (
+    <div
+      className={classNames(
+        "section",
+        "min-w-full min-h-full",
+        "flex gap-[2dvh] justify-around items-center",
+        "snap-center",
+        {
+          "flex-col": landscape && !compactMode,
+          "flex-row": !landscape || compactMode,
+        }
+      )}
+      onClick={compactMode ? onClick : undefined}
+    >
+      {renderSection(frontCard, backCard, compactMode || false, flip, flipping)}
+    </div>
+  );
+};

@@ -29,7 +29,6 @@ export const NewsSection = ({ date, decade, compactMode }: SectionProps) => {
   return (
     <Section
       compactMode={compactMode}
-      flip={false}
       frontCard={
         <PosterCard
           decade={decade}

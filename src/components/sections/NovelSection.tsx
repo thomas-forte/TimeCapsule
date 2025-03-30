@@ -20,7 +20,6 @@ import novels from "../../assets/novels.json";
 
 export const NovelSection = ({ date, decade, compactMode }: SectionProps) => {
   const [novel, setNovel] = useState<Novel | null>(null);
-  const [flip, setFlip] = useState(false);
 
   useEffect(() => {
     try {
@@ -40,8 +39,6 @@ export const NovelSection = ({ date, decade, compactMode }: SectionProps) => {
   return (
     <Section
       compactMode={compactMode}
-      flip={flip}
-      onClick={() => setFlip(!flip)}
       frontCard={
         <Card decade={decade} compactMode={compactMode}>
           <CardDate>Novel of {date.getFullYear()}:</CardDate>

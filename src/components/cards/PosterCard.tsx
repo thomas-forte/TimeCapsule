@@ -5,6 +5,9 @@ import classNames from "classnames";
 import { BaseCardProps } from "./Card";
 import { ZoomDialog } from "../ZoomDialog";
 
+// styles
+import styles from "./Card.module.css";
+
 export interface PosterProps extends BaseCardProps {
   src: string;
   alt: string;
@@ -20,6 +23,7 @@ export const PosterCard = ({
   landscape,
   compactMode,
   zoomDialogTitle,
+  flipping,
 }: PosterProps) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -30,6 +34,8 @@ export const PosterCard = ({
         "break-words overflow-hidden",
         `border border-solid rounded border-${decade}`,
         `background-${decade}`,
+        styles.cardAnimation,
+        flipping && styles.out,
         className
       )}
     >

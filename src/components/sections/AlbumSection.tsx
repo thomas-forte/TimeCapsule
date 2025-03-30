@@ -22,7 +22,6 @@ import albums from "../../assets/albums.json";
 
 export const AlbumSection = ({ date, decade, compactMode }: SectionProps) => {
   const [album, setAlbum] = useState<Album | null>(null);
-  const [flip, setFlip] = useState(false);
 
   useEffect(() => {
     try {
@@ -42,8 +41,6 @@ export const AlbumSection = ({ date, decade, compactMode }: SectionProps) => {
   return (
     <Section
       compactMode={compactMode}
-      flip={flip}
-      onClick={() => setFlip(!flip)}
       frontCard={
         <Card decade={decade} compactMode={compactMode}>
           <CardDate>Album of {date.getFullYear()}:</CardDate>

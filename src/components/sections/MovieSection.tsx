@@ -22,7 +22,6 @@ import movies from "../../assets/movies.json";
 
 export const MovieSection = ({ date, decade, compactMode }: SectionProps) => {
   const [movie, setMovie] = useState<Movie | null>(null);
-  const [flip, setFlip] = useState(false);
 
   useEffect(() => {
     try {
@@ -56,8 +55,6 @@ export const MovieSection = ({ date, decade, compactMode }: SectionProps) => {
   return (
     <Section
       compactMode={compactMode}
-      flip={flip}
-      onClick={() => setFlip(!flip)}
       frontCard={
         <Card decade={decade} compactMode={compactMode}>
           <CardDate>Movie of {date.getFullYear()}:</CardDate>

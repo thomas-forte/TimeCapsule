@@ -21,7 +21,6 @@ import games from "../../assets/games.json";
 
 export const GamesSection = ({ date, decade, compactMode }: SectionProps) => {
   const [game, setGame] = useState<Game | null>(null);
-  const [flip, setFlip] = useState(false);
 
   useEffect(() => {
     try {
@@ -81,8 +80,6 @@ export const GamesSection = ({ date, decade, compactMode }: SectionProps) => {
   return (
     <Section
       compactMode={compactMode}
-      flip={flip}
-      onClick={() => setFlip(!flip)}
       landscape={isLandscape}
       frontCard={
         <Card
