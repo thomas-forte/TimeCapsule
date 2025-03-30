@@ -37,7 +37,6 @@ export const NewsSection = ({ date, decade, compactMode }: SectionProps) => {
           zoomDialogTitle={`Newspaper of ${date.toLocaleDateString()}`}
         />
       }
-      backCard={<></>}
     />
   );
 };

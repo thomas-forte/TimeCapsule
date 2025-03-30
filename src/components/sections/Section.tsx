@@ -48,6 +48,8 @@ export const Section = ({
   const [flipping, setFlipping] = useState(false);
 
   const onClick = () => {
+    if (!compactMode) return;
+    if (backCard === undefined) return;
     if (flipping) return;
 
     setFlipping(true);
@@ -69,7 +71,7 @@ export const Section = ({
           "flex-row": !landscape || compactMode,
         }
       )}
-      onClick={compactMode ? onClick : undefined}
+      onClick={onClick}
     >
       {renderSection(frontCard, backCard, compactMode || false, flip, flipping)}
     </div>
